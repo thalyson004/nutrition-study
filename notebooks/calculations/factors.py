@@ -1,13 +1,15 @@
 def calc_bmi(height:float, weight:float) -> float:
-    '''
+    """
         Calculate the BMI (Body Mass Index)
         
-        Input: 
-            height: cms
-            weight: kilograms
-        Output:
-            bmi: float
-    '''
+        Args:
+            height (int): height in cms
+            weight (int): weight in kilograms
+            
+        Returns:
+            bmi (float): The BMI factor
+    """
+    
     height /= 100
     return weight/(height*height)
 
@@ -25,10 +27,10 @@ def calc_eer(
     '''
     
     Input:
-        gender: male or female,
-        age: year,
-        height: cm,
-        weight: kilogram,
+        gender: male or female
+        age: year
+        height: cm
+        weight: kilogram
         activity: 
             sedentary   (Daily PAL range: 1.0 - 1.39)
             low_active  (Daily PAL range: 1.4 - 1.59)

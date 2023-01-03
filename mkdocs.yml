@@ -1,0 +1,11 @@
+site_name: Nutrition
+site_url: http://example.com
+nav:
+  - Get Started: index.md
+  - Dictonaries: dictionaries.md
+
+theme: readthedocs
+
+plugins:
+  - search
+  - mkdocstrings

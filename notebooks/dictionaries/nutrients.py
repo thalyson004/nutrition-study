@@ -30,7 +30,8 @@ nutrients = {
     # Fruit and vegetables (g) ≥400 ≥400
     # Fish (g) ≥43b ≥43b
 }
-
+'''Nutrients dictionary
+'''
 def get_right_nutrition(eer: float) -> dict:
     # TODO: Define the right quantities
     # FROM Eliseu 2020
