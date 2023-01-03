@@ -24,18 +24,21 @@ def calc_eer(
     activity:str,
     
     ) -> float:
-    '''
-    
-    Input:
-        gender: male or female
-        age: year
-        height: cm
-        weight: kilogram
-        activity: 
-            sedentary   (Daily PAL range: 1.0 - 1.39)
-            low_active  (Daily PAL range: 1.4 - 1.59)
-            active      (Daily PAL range: 1.6 - 1.89)
-            very_active (Daily PAL range: 1.9 - 2.50)
+    '''Function to calculate the ESTIMATED ENERGY REQUIREMENT (EER)
+        
+        Args:
+            gender (str): male or female
+            age (float): year
+            height (float): cm
+            weight (float): kilogram
+            activity (str): 
+                sedentary   (Daily PAL range: 1.0 - 1.39)\n
+                low_active  (Daily PAL range: 1.4 - 1.59)\n
+                active      (Daily PAL range: 1.6 - 1.89)\n
+                very_active (Daily PAL range: 1.9 - 2.50)\n
+        
+        Returns:
+            eer (float): The EER factor
     '''
     bmi = calc_bmi(weight=weight, height=height)
     eer = 0.0

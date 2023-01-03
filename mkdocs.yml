@@ -2,6 +2,8 @@ site_name: Nutrition
 site_url: http://example.com
 nav:
   - Get Started: index.md
+  - Calculations: calculations.md
+  - Dataframes: dataframes.md
   - Dictonaries: dictionaries.md
 
 theme: readthedocs
