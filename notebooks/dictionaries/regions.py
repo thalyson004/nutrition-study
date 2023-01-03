@@ -1,11 +1,37 @@
-def UFtoNameRegion(uf:int) -> dict:
-    return UF_code.get(uf, dict())
-
 def UFtoName(uf:int) -> str:
+    '''Given a UF code, the name of the state
+    
+        Args:
+            uf (int): UF Code
+            
+        Returns:
+            state (str): Name of the state
+    '''
     return UF_code.get(uf, dict()).get('name', '')
 
 def UFtoRegion(uf:int) -> str:
+    '''Given a UF code, retuns the name of the region
+    
+        Args:
+            uf (int): UF Code
+            
+        Returns:
+            region name (dict): Name of the region
+    '''
     return UF_code.get(uf, dict()).get('region', '')
+
+
+def UFtoNameRegion(uf:int) -> dict:
+    '''Given a UF code, retuns the dictionary of the region
+    
+        Args:
+            uf (int): UF Code
+            
+        Returns:
+            region dictonary (dict): Dictionary of the region
+    '''
+    return UF_code.get(uf, dict())
+
 
 UF_code = {
     # Norte

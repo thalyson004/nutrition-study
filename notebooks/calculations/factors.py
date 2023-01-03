@@ -1,3 +1,6 @@
+'''Functions to calculate nutrition factors.
+'''
+
 def calc_bmi(height:float, weight:float) -> float:
     """
         Calculate the BMI (Body Mass Index)
