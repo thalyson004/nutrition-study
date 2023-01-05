@@ -1,2 +1,2 @@
 # DataFrames
-::: notebooks.dataframes.get_nutrition
+::: notebooks.extract_data.dataframes.get_nutrition

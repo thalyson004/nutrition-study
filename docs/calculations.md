@@ -1,4 +1,4 @@
 # Calculations
 
 ## Factors
-::: notebooks.calculations.factors
+::: notebooks.extract_data.calculations.factors

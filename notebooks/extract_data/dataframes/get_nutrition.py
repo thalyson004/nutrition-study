@@ -2,9 +2,9 @@
 the people.
 '''
 from pandas import DataFrame
-from dictionaries.nutrients import nutrients
+from .dictionaries.nutrients import nutrients
 from copy import deepcopy
-from dictionaries.nutrients import get_right_nutrition
+from .dictionaries.nutrients import get_right_nutrition
  
 def get_nutrients(df: DataFrame) -> DataFrame:
     '''Extract dataframe with the sum of each nutrient by person

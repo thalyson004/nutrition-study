@@ -1,9 +1,11 @@
 import pandas as pd
 import numpy as np
-from dictionaries.nutrients import nutrients
-from calculations.factors import calc_eer
+import os
 
-datasetPath = "../datasets/"
+from .dataframes.dictionaries.nutrients import nutrients
+from .dataframes.dictionaries.calculations.factors import calc_eer
+
+datasetPath = os.path.dirname(os.path.abspath(__file__)) + "/../../datasets/"
 domicilioPath = "domicilio.sas7bdat"
 moradorPath = "morador.sas7bdat"
 consumoPath = "consumo.sas7bdat"

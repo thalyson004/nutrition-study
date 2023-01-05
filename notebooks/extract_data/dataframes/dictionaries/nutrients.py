@@ -1,4 +1,4 @@
-from calculations.factors import calc_eer
+from .calculations.factors import calc_eer
 
 def get_right_nutrition(eer: float) -> dict:
     '''Given the EER factor, retuns a dictionary with the right nutrition
