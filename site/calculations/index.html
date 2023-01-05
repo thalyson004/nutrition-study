@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="http://example.com/calculations/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Calculations - Nutrition</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../assets/_mkdocstrings.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Calculations";
+        var mkdocs_page_input_path = "calculations.md";
+        var mkdocs_page_url = "/calculations/";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Nutrition
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Get Started</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Calculations</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#factors">Factors</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#notebooks.calculations.factors">notebooks.calculations.factors</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#notebooks.calculations.factors.calc_bmi">calc_bmi()</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#notebooks.calculations.factors.calc_eer">calc_eer()</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../dataframes/">Dataframes</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../dictionaries/">Dictonaries</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Nutrition</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Calculations</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="calculations">Calculations</h1>
+<h2 id="factors">Factors</h2>
+
+
+<div class="doc doc-object doc-module">
+
+
+<a id="notebooks.calculations.factors"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Functions to calculate nutrition factors.</p>
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="notebooks.calculations.factors.calc_bmi" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">calc_bmi</span><span class="p">(</span><span class="n">height</span><span class="p">,</span> <span class="n">weight</span><span class="p">)</span></code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Calculate the BMI (Body Mass Index)</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>height</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>height in cms</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>weight</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>weight in kilograms</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>bmi</code></td>          <td>
+                <code>float</code>
+          </td>
+          <td><p>The BMI factor</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>notebooks\calculations\factors.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">calc_bmi</span><span class="p">(</span><span class="n">height</span><span class="p">:</span><span class="nb">float</span><span class="p">,</span> <span class="n">weight</span><span class="p">:</span><span class="nb">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Calculate the BMI (Body Mass Index)</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            height (int): height in cms</span>
+<span class="sd">            weight (int): weight in kilograms</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            bmi (float): The BMI factor</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">height</span> <span class="o">/=</span> <span class="mi">100</span>
+    <span class="k">return</span> <span class="n">weight</span><span class="o">/</span><span class="p">(</span><span class="n">height</span><span class="o">*</span><span class="n">height</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="notebooks.calculations.factors.calc_eer" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">calc_eer</span><span class="p">(</span><span class="n">gender</span><span class="p">,</span> <span class="n">age</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span> <span class="n">weight</span><span class="p">,</span> <span class="n">activity</span><span class="p">)</span></code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Function to calculate the ESTIMATED ENERGY REQUIREMENT (EER)</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>gender</code></td>
+          <td>
+                <code>str</code>
+          </td>
+          <td><p>male or female</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>age</code></td>
+          <td>
+                <code>float</code>
+          </td>
+          <td><p>year</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>height</code></td>
+          <td>
+                <code>float</code>
+          </td>
+          <td><p>cm</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>weight</code></td>
+          <td>
+                <code>float</code>
+          </td>
+          <td><p>kilogram</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>activity</code></td>
+          <td>
+                <code>str</code>
+          </td>
+          <td><p>sedentary   (Daily PAL range: 1.0 - 1.39)</p>
+<p>low_active  (Daily PAL range: 1.4 - 1.59)</p>
+<p>active      (Daily PAL range: 1.6 - 1.89)</p>
+<p>very_active (Daily PAL range: 1.9 - 2.50)</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>eer</code></td>          <td>
+                <code>float</code>
+          </td>
+          <td><p>The EER factor</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>notebooks\calculations\factors.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span>
+<span class="normal">53</span>
+<span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span>
+<span class="normal">58</span>
+<span class="normal">59</span>
+<span class="normal">60</span>
+<span class="normal">61</span>
+<span class="normal">62</span>
+<span class="normal">63</span>
+<span class="normal">64</span>
+<span class="normal">65</span>
+<span class="normal">66</span>
+<span class="normal">67</span>
+<span class="normal">68</span>
+<span class="normal">69</span>
+<span class="normal">70</span>
+<span class="normal">71</span>
+<span class="normal">72</span>
+<span class="normal">73</span>
+<span class="normal">74</span>
+<span class="normal">75</span>
+<span class="normal">76</span>
+<span class="normal">77</span>
+<span class="normal">78</span>
+<span class="normal">79</span>
+<span class="normal">80</span>
+<span class="normal">81</span>
+<span class="normal">82</span>
+<span class="normal">83</span>
+<span class="normal">84</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">calc_eer</span><span class="p">(</span>
+    <span class="n">gender</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span>
+    <span class="n">age</span><span class="p">:</span><span class="nb">float</span><span class="p">,</span>
+    <span class="n">height</span><span class="p">:</span><span class="nb">float</span><span class="p">,</span>
+    <span class="n">weight</span><span class="p">:</span><span class="nb">float</span><span class="p">,</span>
+    <span class="n">activity</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span>
+
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Function to calculate the ESTIMATED ENERGY REQUIREMENT (EER)</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            gender (str): male or female</span>
+<span class="sd">            age (float): year</span>
+<span class="sd">            height (float): cm</span>
+<span class="sd">            weight (float): kilogram</span>
+<span class="sd">            activity (str): </span>
+<span class="sd">                sedentary   (Daily PAL range: 1.0 - 1.39)\n</span>
+<span class="sd">                low_active  (Daily PAL range: 1.4 - 1.59)\n</span>
+<span class="sd">                active      (Daily PAL range: 1.6 - 1.89)\n</span>
+<span class="sd">                very_active (Daily PAL range: 1.9 - 2.50)\n</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            eer (float): The EER factor</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">bmi</span> <span class="o">=</span> <span class="n">calc_bmi</span><span class="p">(</span><span class="n">weight</span><span class="o">=</span><span class="n">weight</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="n">height</span><span class="p">)</span>
+    <span class="n">eer</span> <span class="o">=</span> <span class="mf">0.0</span>
+
+    <span class="c1"># TODO: Calculate correctly the PAL</span>
+    <span class="n">PAL</span> <span class="o">=</span> <span class="mf">1.5</span> <span class="c1"># active_fact </span>
+
+
+    <span class="n">height</span> <span class="o">/=</span> <span class="n">height</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">gender</span> <span class="o">==</span> <span class="s1">&#39;male&#39;</span><span class="p">):</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">age</span> <span class="o">&gt;=</span> <span class="mi">9</span> <span class="ow">and</span> <span class="n">age</span> <span class="o">&lt;=</span> <span class="mi">18</span><span class="p">):</span>
+            <span class="n">eer</span> <span class="o">=</span> <span class="mf">88.5</span> <span class="o">-</span> <span class="mf">61.9</span><span class="o">*</span><span class="n">age</span> <span class="o">+</span> <span class="n">PAL</span> <span class="o">*</span> <span class="p">(</span><span class="mf">26.7</span><span class="o">*</span><span class="n">weight</span> <span class="o">+</span> <span class="mi">903</span><span class="o">*</span><span class="n">height</span><span class="p">)</span> <span class="o">+</span><span class="mi">25</span>
+        <span class="k">elif</span><span class="p">(</span><span class="n">age</span> <span class="o">&gt;</span> <span class="mi">18</span><span class="p">):</span>
+            <span class="n">eer</span> <span class="o">=</span> <span class="mi">662</span> <span class="o">-</span> <span class="p">(</span><span class="mf">9.53</span><span class="o">*</span><span class="n">age</span><span class="p">)</span> <span class="o">+</span> <span class="n">PAL</span> <span class="o">*</span> <span class="p">(</span><span class="mf">15.91</span><span class="o">*</span><span class="n">weight</span> <span class="o">+</span> <span class="mf">539.6</span><span class="o">*</span><span class="n">height</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="mf">0.0</span> <span class="c1"># TODO: Resolve year error</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">age</span> <span class="o">&gt;=</span> <span class="mi">9</span> <span class="ow">and</span> <span class="n">age</span> <span class="o">&lt;=</span> <span class="mi">18</span><span class="p">):</span>
+            <span class="n">eer</span> <span class="o">=</span> <span class="mf">135.3</span> <span class="o">-</span> <span class="p">(</span><span class="mf">30.8</span><span class="o">*</span><span class="n">age</span><span class="p">)</span> <span class="o">+</span> <span class="n">PAL</span> <span class="o">*</span> <span class="p">(</span><span class="mf">10.0</span><span class="o">*</span><span class="n">weight</span> <span class="o">+</span> <span class="mi">934</span><span class="o">*</span><span class="n">height</span><span class="p">)</span> <span class="o">+</span> <span class="mi">25</span>
+        <span class="k">elif</span><span class="p">(</span><span class="n">age</span> <span class="o">&gt;</span> <span class="mi">18</span><span class="p">):</span>
+            <span class="n">eer</span> <span class="o">=</span> <span class="mi">354</span> <span class="o">-</span> <span class="p">(</span><span class="mf">6.91</span><span class="o">*</span><span class="n">age</span><span class="p">)</span> <span class="o">+</span> <span class="n">PAL</span> <span class="o">*</span><span class="p">(</span><span class="mf">9.36</span><span class="o">*</span><span class="n">weight</span> <span class="o">+</span> <span class="mi">726</span><span class="o">*</span><span class="n">height</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="mf">0.0</span> <span class="c1"># TODO: Resolve year error</span>
+
+    <span class="c1"># Pregnancy (14-50 years old)</span>
+    <span class="c1"># 1st trimester EER = Non-pregnant EER + 0</span>
+
+    <span class="c1"># 2nd trimester EER = Non-pregnant EER + 340</span>
+
+    <span class="c1"># 3rd trimester EER = Non-pregnant EER + 452</span>
+
+    <span class="c1"># Lactation</span>
+    <span class="c1"># 0-6 months postpartum EER = Non-pregnant EER + 330</span>
+    <span class="c1"># 7-12 months postpartum EER = Non-pregnant EER + 400</span>
+
+    <span class="c1"># Overweight or obese children, 3-18 years old (maintenance)</span>
+    <span class="c1"># Male TEE = -114 -50.9 x Age [y] + PA x (19.5 x Wt [kg] + 1161.4 x Ht [m])</span>
+    <span class="c1"># Female TEE = 389 - 41.2 x Age [y] + PA x (15 x Wt [kg] + 701.6 x Ht [m])</span>
+
+    <span class="k">return</span> <span class="n">eer</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Get Started"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../dataframes/" class="btn btn-neutral float-right" title="Dataframes">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../dataframes/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

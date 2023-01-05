@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="http://example.com/dataframes/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Dataframes - Nutrition</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../assets/_mkdocstrings.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Dataframes";
+        var mkdocs_page_input_path = "dataframes.md";
+        var mkdocs_page_url = "/dataframes/";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Nutrition
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Get Started</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../calculations/">Calculations</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Dataframes</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#notebooks.dataframes.get_nutrition">notebooks.dataframes.get_nutrition</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#notebooks.dataframes.get_nutrition.get_nutrients">get_nutrients()</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#notebooks.dataframes.get_nutrition.get_nutrients_dif">get_nutrients_dif()</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../dictionaries/">Dictonaries</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Nutrition</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Dataframes</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="dataframes">DataFrames</h1>
+
+
+<div class="doc doc-object doc-module">
+
+
+<a id="notebooks.dataframes.get_nutrition"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Functions to generate some Dataframes about nutritions of
+the people.</p>
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="notebooks.dataframes.get_nutrition.get_nutrients" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_nutrients</span><span class="p">(</span><span class="n">df</span><span class="p">)</span></code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Extract dataframe with the sum of each nutrient by person</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>df</code></td>
+          <td>
+                <code><span title="pandas.DataFrame">DataFrame</span></code>
+          </td>
+          <td><p>A dataframe with nutrients in columns</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>df</code></td>          <td>
+                <code><span title="pandas.DataFrame">DataFrame</span></code>
+          </td>
+          <td><p>A dataframe with the sum of each nutrient by person</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>notebooks\dataframes\get_nutrition.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">get_nutrients</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">DataFrame</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Extract dataframe with the sum of each nutrient by person</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            df (DataFrame): A dataframe with nutrients in columns</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">             df (DataFrame): A dataframe with the sum of each nutrient by person</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="n">dfNutrition</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span> <span class="p">[</span><span class="s1">&#39;PESSOA&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="nb">list</span><span class="p">(</span><span class="n">nutrients</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span> <span class="p">]</span>
+    <span class="k">return</span> <span class="n">dfNutrition</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;PESSOA&quot;</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="notebooks.dataframes.get_nutrition.get_nutrients_dif" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_nutrients_dif</span><span class="p">(</span><span class="n">df</span><span class="p">)</span></code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Extract dataframe with the difference between the optinal nutrition and the current
+nutrition of each person.</p>
+<p>The dateframe must have the columns: 
+    GENDER:str, 
+    AGE:float, 
+    HEIGHT:float, 
+    WEIGHT:float, 
+    ACTIVITY:str, </p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>df</code></td>
+          <td>
+                <code><span title="pandas.DataFrame">DataFrame</span></code>
+          </td>
+          <td><p>A dataframe with nutrients in columns</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>df</code></td>          <td>
+                <code><span title="pandas.DataFrame">DataFrame</span></code>
+          </td>
+          <td><p>A dataframe with the sum of each nutrient by person</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>notebooks\dataframes\get_nutrition.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">get_nutrients_dif</span><span class="p">(</span><span class="n">df</span><span class="p">:</span> <span class="n">DataFrame</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">DataFrame</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Extract dataframe with the difference between the optinal nutrition and the current</span>
+<span class="sd">        nutrition of each person.</span>
+
+<span class="sd">        The dateframe must have the columns: </span>
+<span class="sd">            GENDER:str, </span>
+<span class="sd">            AGE:float, </span>
+<span class="sd">            HEIGHT:float, </span>
+<span class="sd">            WEIGHT:float, </span>
+<span class="sd">            ACTIVITY:str, </span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            df (DataFrame): A dataframe with nutrients in columns</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            df (DataFrame): A dataframe with the sum of each nutrient by person</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+    <span class="k">for</span> <span class="n">nutrient</span> <span class="ow">in</span> <span class="n">nutrients</span><span class="p">:</span>
+        <span class="n">df</span><span class="p">[</span><span class="n">nutrient</span><span class="o">+</span><span class="s1">&#39;_DIFF&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">nutrient</span><span class="p">]</span><span class="o">-</span><span class="n">get_right_nutrition</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;EER&#39;</span><span class="p">])[</span><span class="n">nutrient</span><span class="p">]</span>
+
+    <span class="k">return</span> <span class="n">df</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../calculations/" class="btn btn-neutral float-left" title="Calculations"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../dictionaries/" class="btn btn-neutral float-right" title="Dictonaries">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../calculations/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../dictionaries/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

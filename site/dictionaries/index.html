@@ -45,12 +45,32 @@
                 <li class="toctree-l1"><a class="reference internal" href="..">Get Started</a>
                 </li>
               </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../calculations/">Calculations</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../dataframes/">Dataframes</a>
+                </li>
+              </ul>
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">Dictonaries</a>
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#nutrients">Nutrients</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#regions">Regions</a>
+    <li class="toctree-l2"><a class="reference internal" href="#notebooks.dictionaries.nutrients">notebooks.dictionaries.nutrients</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#notebooks.dictionaries.nutrients.get_right_nutrition">get_right_nutrition()</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#region">Region</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#notebooks.dictionaries.regions">notebooks.dictionaries.regions</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#notebooks.dictionaries.regions.UFtoName">UFtoName()</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#notebooks.dictionaries.regions.UFtoNameRegion">UFtoNameRegion()</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#notebooks.dictionaries.regions.UFtoRegion">UFtoRegion()</a>
     </li>
     </ul>
                 </li>
@@ -80,159 +100,455 @@
               
                 <h1 id="dictionaries">Dictionaries</h1>
 <h2 id="nutrients">Nutrients</h2>
-<pre><code class="language-bash">nutrients = {
-    &quot;ENERGIA_KCAL&quot; : &quot;Energy (kcal)&quot;,
-    &quot;CHOTOT&quot;: &quot;Carbohydrates (g)&quot;,
-    &quot;PTN&quot; : &quot;Protein (g)&quot;,
-    &quot;LIP&quot;: &quot;Total fats (g)&quot;,
-    &quot;FIBRA&quot;: &quot;Total fiber (g)&quot;,
-    &quot;COLEST&quot;: &quot;Cholesterol (mg)&quot;,
-    &quot;CALCIO&quot; : &quot;Calcium (mg)&quot;,
-    &quot;SODIO&quot;: &quot;Sodium (mg)&quot;,
-    &quot;POTASSIO&quot;: &quot;Potassium (mg)&quot;,
-    &quot;FERRO&quot; : &quot;Iron (mg)&quot;,
-    &quot;MAGNESIO&quot;:&quot;Magnesium (mg)&quot;,
-    &quot;TIAMINA&quot;: &quot;Vitamin B1 (mg)&quot;,
-    &quot;RIBOFLAVINA&quot;: &quot;Vitamin B2 (mg)&quot;,
-    &quot;NIACINA&quot;: &quot;Niacin/B3 (mg)&quot;,
-    &quot;PIRIDOXAMINA&quot;: &quot;Vitamin B6 (mg)&quot;,
-    &quot;COBALAMINA&quot;: &quot;Vitamin B12&quot;,
-    &quot;VITC&quot;: &quot;Vitamin C (mg)&quot;,
-    &quot;VITA_RAE&quot;: &quot;Vitamin A (µg)&quot;,
-    &quot;COBRE&quot;: &quot;Copper (mg)&quot;,
-    &quot;FOLATO&quot;: &quot;Folate (µg)&quot;,
-    &quot;FOSFORO&quot;: &quot;Phosphorus (mg)&quot;,
-    &quot;ZINCO&quot;: &quot;Zinc (mg)&quot;,
-    # PUFA (%EER) 6–10 6–10
-    # Sat. fat (%EER) &lt;10 &lt;10
-    # Trans-fat (%EER) &lt;1 &lt;1
-    # Free sugarsa (%EER) &lt;5 &lt;5
-    # Fruit and vegetables (g) ≥400 ≥400
-    # Fish (g) ≥43b ≥43b
-}
-</code></pre>
-<h2 id="regions">Regions</h2>
-<pre><code class="language-bash">UF_code = {
-    # Norte
-    11: {
-        &quot;name&quot;: &quot;Rondônia&quot;,
-        &quot;region&quot;: &quot;Norte&quot;,
-    },
-    12: {
-        &quot;name&quot;: &quot;Acre&quot;,
-        &quot;region&quot;: &quot;Norte&quot;,
-    },
-    13: {
-        &quot;name&quot;: &quot;Amazonas&quot;,
-        &quot;region&quot;: &quot;Norte&quot;,
-    },
-    14: {
-        &quot;name&quot;: &quot;Roraima&quot;,
-        &quot;region&quot;: &quot;Norte&quot;,
-    },
-    15: {
-        &quot;name&quot;: &quot;Pará&quot;,
-        &quot;region&quot;: &quot;Norte&quot;,
-    },
-    16: {
-        &quot;name&quot;: &quot;Amapá&quot;,
-        &quot;region&quot;: &quot;Norte&quot;,
-    },
-    17: {
-        &quot;name&quot;: &quot;Tocantins&quot;,
-        &quot;region&quot;: &quot;Norte&quot;,
-    },
-    # Nordeste
-    21: {
-        &quot;name&quot;: &quot;Maranhão&quot;,
-        &quot;region&quot;: &quot;Nordeste&quot;,
-    },
-    22: {
-        &quot;name&quot;: &quot;Piauí&quot;,
-        &quot;region&quot;: &quot;Nordeste&quot;,
-    },
-    23: {
-        &quot;name&quot;: &quot;Ceará&quot;,
-        &quot;region&quot;: &quot;Nordeste&quot;,
-    },
-    24: {
-        &quot;name&quot;: &quot;Rio Grande do Norte&quot;,
-        &quot;region&quot;: &quot;Nordeste&quot;,
-    },
-    25: {
-        &quot;name&quot;: &quot;Paraíba&quot;,
-        &quot;region&quot;: &quot;Nordeste&quot;,
-    },
-    26: {
-        &quot;name&quot;: &quot;Pernambuco&quot;,
-        &quot;region&quot;: &quot;Nordeste&quot;,
-    },
-    27: {
-        &quot;name&quot;: &quot;Alagoas&quot;,
-        &quot;region&quot;: &quot;Nordeste&quot;,
-    },
-    28: {
-        &quot;name&quot;: &quot;Sergipe&quot;,
-        &quot;region&quot;: &quot;Nordeste&quot;,
-    },
-    29: {
-        &quot;name&quot;: &quot;Bahia&quot;,
-        &quot;region&quot;: &quot;Nordeste&quot;,
-    },
-    # Sudeste
-    31: {
-        &quot;name&quot;: &quot;Minas Gerais&quot;,
-        &quot;region&quot;: &quot;Sudeste&quot;,
-    },
-    32: {
-        &quot;name&quot;: &quot;Espírito Santo&quot;,
-        &quot;region&quot;: &quot;Sudeste&quot;,
-    },
-    33: {
-        &quot;name&quot;: &quot;Rio de Janeiro&quot;,
-        &quot;region&quot;: &quot;Sudeste&quot;,
-    },
-    35: {
-        &quot;name&quot;: &quot;São Paulo&quot;,
-        &quot;region&quot;: &quot;Sudeste&quot;,
-    },
-    # Sul
-    41: {
-        &quot;name&quot;: &quot;Paraná&quot;,
-        &quot;region&quot;: &quot;Sul&quot;,
-    },
-    42: {
-        &quot;name&quot;: &quot;Santa Catarina&quot;,
-        &quot;region&quot;: &quot;Sul&quot;,
-    },
-    43: {
-        &quot;name&quot;: &quot;Rio Grande do Sul&quot;,
-        &quot;region&quot;: &quot;Sul&quot;,
-    },
-    # Centro-Oeste
-    50: {
-        &quot;name&quot;: &quot;Mato Grosso do Sul&quot;,
-        &quot;region&quot;: &quot;Centro-Oeste&quot;,
-    },
-    51: {
-        &quot;name&quot;: &quot;Mato Grosso&quot;,
-        &quot;region&quot;: &quot;Centro-Oeste&quot;,
-    },
-    52: {
-        &quot;name&quot;: &quot;Goiás&quot;,
-        &quot;region&quot;: &quot;Centro-Oeste&quot;,
-    },
-    53: {
-        &quot;name&quot;: &quot;Distrito Federal&quot;,
-        &quot;region&quot;: &quot;Centro-Oeste&quot;,
-    },
-}
-</code></pre>
+
+
+<div class="doc doc-object doc-module">
+
+
+<a id="notebooks.dictionaries.nutrients"></a>
+  <div class="doc doc-contents first">
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="notebooks.dictionaries.nutrients.get_right_nutrition" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">get_right_nutrition</span><span class="p">(</span><span class="n">eer</span><span class="p">)</span></code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Given the EER factor, retuns a dictionary with the right nutrition</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>eer</code></td>
+          <td>
+                <code>float</code>
+          </td>
+          <td><p>EER factor</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+                <code>dict</code>
+          </td>
+          <td><p>nutrition dictionary (dict): Dictionary with the right nutrition of each nutrient for a specific person with EER factor</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>notebooks\dictionaries\nutrients.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">get_right_nutrition</span><span class="p">(</span><span class="n">eer</span><span class="p">:</span> <span class="nb">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Given the EER factor, retuns a dictionary with the right nutrition</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            eer (float): EER factor</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            nutrition dictionary (dict): Dictionary with the right nutrition of each nutrient for a specific person with EER factor </span>
+
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="c1"># TODO: Define the right quantities</span>
+    <span class="c1"># FROM Eliseu 2020</span>
+    <span class="c1"># Negative means lower than</span>
+    <span class="n">nutrients_quantiy</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;ENERGIA_KCAL&quot;</span> <span class="p">:</span> <span class="n">eer</span><span class="p">,</span>
+        <span class="s2">&quot;CHOTOT&quot;</span><span class="p">:</span> <span class="n">eer</span> <span class="o">*</span> <span class="p">(</span><span class="mi">55</span><span class="o">/</span><span class="mi">100</span><span class="p">),</span> <span class="c1"># 55-75 eer</span>
+        <span class="s2">&quot;PTN&quot;</span> <span class="p">:</span> <span class="n">eer</span> <span class="o">*</span> <span class="p">(</span><span class="mi">10</span><span class="o">/</span><span class="mi">100</span><span class="p">),</span> <span class="c1"># 10-15 eer</span>
+        <span class="s2">&quot;LIP&quot;</span><span class="p">:</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">eer</span> <span class="o">*</span> <span class="p">(</span><span class="mi">30</span><span class="o">/</span><span class="mi">100</span><span class="p">),</span> <span class="c1"># 15–30 eer</span>
+        <span class="s2">&quot;FIBRA&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="s2">&quot;COLEST&quot;</span><span class="p">:</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">300</span><span class="p">,</span>
+        <span class="s2">&quot;CALCIO&quot;</span> <span class="p">:</span> <span class="mi">868</span><span class="p">,</span>
+        <span class="s2">&quot;SODIO&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> 
+        <span class="s2">&quot;POTASSIO&quot;</span><span class="p">:</span> <span class="mi">3510</span><span class="p">,</span>
+        <span class="s2">&quot;FERRO&quot;</span> <span class="p">:</span> <span class="mf">6.8</span><span class="p">,</span>
+        <span class="s2">&quot;MAGNESIO&quot;</span><span class="p">:</span> <span class="mi">303</span><span class="p">,</span>
+        <span class="s2">&quot;TIAMINA&quot;</span><span class="p">:</span> <span class="mf">0.9</span><span class="p">,</span>
+        <span class="s2">&quot;RIBOFLAVINA&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="s2">&quot;NIACINA&quot;</span><span class="p">:</span> <span class="mf">11.5</span><span class="p">,</span>
+        <span class="s2">&quot;PIRIDOXAMINA&quot;</span><span class="p">:</span> <span class="mf">1.1</span><span class="p">,</span>
+        <span class="s2">&quot;COBALAMINA&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+        <span class="s2">&quot;VITC&quot;</span><span class="p">:</span> <span class="mf">66.1</span><span class="p">,</span>
+        <span class="s2">&quot;VITA_RAE&quot;</span><span class="p">:</span> <span class="mi">560</span><span class="p">,</span>
+        <span class="s2">&quot;COBRE&quot;</span><span class="p">:</span> <span class="mf">0.7</span><span class="p">,</span>
+        <span class="s2">&quot;FOLATO&quot;</span><span class="p">:</span> <span class="mi">322</span><span class="p">,</span>
+        <span class="s2">&quot;ZINCO&quot;</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span>
+        <span class="s2">&quot;FOSFORO&quot;</span><span class="p">:</span> <span class="mi">649</span><span class="p">,</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="n">nutrients_quantiy</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div><h2 id="region">Region</h2>
+
+
+<div class="doc doc-object doc-module">
+
+
+<a id="notebooks.dictionaries.regions"></a>
+  <div class="doc doc-contents first">
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="notebooks.dictionaries.regions.UFtoName" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">UFtoName</span><span class="p">(</span><span class="n">uf</span><span class="p">)</span></code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Given a UF code, the name of the state</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>uf</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>UF Code</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>state</code></td>          <td>
+                <code>str</code>
+          </td>
+          <td><p>Name of the state</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>notebooks\dictionaries\regions.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">UFtoName</span><span class="p">(</span><span class="n">uf</span><span class="p">:</span><span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Given a UF code, the name of the state</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            uf (int): UF Code</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            state (str): Name of the state</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">return</span> <span class="n">UF_code</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">uf</span><span class="p">,</span> <span class="nb">dict</span><span class="p">())</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="notebooks.dictionaries.regions.UFtoNameRegion" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">UFtoNameRegion</span><span class="p">(</span><span class="n">uf</span><span class="p">)</span></code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Given a UF code, retuns the dictionary of the region</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>uf</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>UF Code</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+                <code>dict</code>
+          </td>
+          <td><p>region dictonary (dict): Dictionary of the region</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>notebooks\dictionaries\regions.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">UFtoNameRegion</span><span class="p">(</span><span class="n">uf</span><span class="p">:</span><span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Given a UF code, retuns the dictionary of the region</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            uf (int): UF Code</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            region dictonary (dict): Dictionary of the region</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">return</span> <span class="n">UF_code</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">uf</span><span class="p">,</span> <span class="nb">dict</span><span class="p">())</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 id="notebooks.dictionaries.regions.UFtoRegion" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">UFtoRegion</span><span class="p">(</span><span class="n">uf</span><span class="p">)</span></code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Given a UF code, retuns the name of the region</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>uf</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>UF Code</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+                <code>str</code>
+          </td>
+          <td><p>region name (dict): Name of the region</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>notebooks\dictionaries\regions.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">UFtoRegion</span><span class="p">(</span><span class="n">uf</span><span class="p">:</span><span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Given a UF code, retuns the name of the region</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            uf (int): UF Code</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            region name (dict): Name of the region</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">return</span> <span class="n">UF_code</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">uf</span><span class="p">,</span> <span class="nb">dict</span><span class="p">())</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;region&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href=".." class="btn btn-neutral float-left" title="Get Started"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../dataframes/" class="btn btn-neutral float-left" title="Dataframes"><span class="icon icon-circle-arrow-left"></span> Previous</a>
     </div>
 
   <hr/>
@@ -255,7 +571,7 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../dataframes/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
   </span>
