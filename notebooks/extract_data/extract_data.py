@@ -43,6 +43,7 @@ features.append('PESSOA')
 features = features + list(nutrients.keys())
 features.append("UF")
 features.append("RENDA_TOTAL")
+features.append("ESTRATO_POF")
 
 dfPerson = dfConsumo[features].groupby('PESSOA', as_index=False).agg({
     'ENERGIA_KCAL': np.sum, 
@@ -69,6 +70,7 @@ dfPerson = dfConsumo[features].groupby('PESSOA', as_index=False).agg({
     'ZINCO' : np.sum, 
     'UF': np.mean, 
     'RENDA_TOTAL' : np.mean,
+    'ESTRATO_POF': np.mean,
     # 'GENDER' : np.mean, 
     # 'AGE' : np.mean, 
     # 'WEIGHT': np.mean, 
