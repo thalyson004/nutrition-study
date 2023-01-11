@@ -10,7 +10,7 @@ def get_nutrients(df: DataFrame) -> DataFrame:
     '''Extract dataframe with the sum of each nutrient by person
     
         Args:
-            df (DataFrame): A dataframe with nutrients in columns
+            df (DataFrame): A dataframe with meals. Specify each nutrient in the columns.
         
         Returns:
              df (DataFrame): A dataframe with the sum of each nutrient by person
@@ -19,12 +19,16 @@ def get_nutrients(df: DataFrame) -> DataFrame:
     dfNutrition = df[ ['PESSOA'] + list(nutrients.keys()) ]
     return dfNutrition.groupby("PESSOA", as_index=False).sum()
 
-# TODO: Finish this function
+# TODO: This function is incomplete. Actually use only the EER factor.
 def get_nutrients_dif(df: DataFrame) -> DataFrame:
     '''Extract dataframe with the difference between the optinal nutrition and the current
         nutrition of each person.
+
+        Actually:
+        The dataframe must have the EER column.
     
-        The dateframe must have the columns: 
+        Optimal:
+        The dataframe must have the columns: 
             GENDER:str, 
             AGE:float, 
             HEIGHT:float, 
