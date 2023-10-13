@@ -5,21 +5,20 @@ import os
 from .dataframes.dictionaries.nutrients import nutrients
 from .dataframes.dictionaries.calculations.factors import calc_eer
 
-datasetPath = os.path.dirname(os.path.abspath(__file__)) + "/../../datasets/"
+datasetPath = os.path.dirname(os.path.abspath(__file__)) + "/../../../datasets/"
 domicilioPath = "domicilio.sas7bdat"
 moradorPath = "morador.sas7bdat"
 consumoPath = "consumo.sas7bdat"
 dietaPath = "caract_dieta.sas7bdat"
 
 ## Read the dataframes
+print("Reading the datasets")
 #dfDomicilio = pd.read_sas(datasetPath+domicilioPath)
 dfMorador = pd.read_sas(datasetPath+moradorPath) # Gender, age
 dfDieta = pd.read_sas(datasetPath+dietaPath) # Height, Weight
 
 dfConsumo = pd.read_sas(datasetPath+consumoPath)
 '''Dataframe with meals registries'''
-
-
 
 ## Gerar coluna que identifica uma pessoa
 def criarPessoa(row):
@@ -31,12 +30,13 @@ def criarPessoa(row):
 
 
 dfConsumo = dfConsumo[dfConsumo.QUADRO == 72] 
-
+print("Creating person ID")
 dfConsumo['PESSOA'] = dfConsumo.apply(lambda row: criarPessoa(row), axis=1)
 dfMorador['PESSOA'] = dfMorador.apply(lambda row: criarPessoa(row), axis=1)
 dfDieta['PESSOA'] = dfDieta.apply(lambda row: criarPessoa(row), axis=1)
 
 # Remove unnecessary columns (at this time)
+print("Removing unnecessary columns")
 features = []
 '''List of useable features to calculate the nutrition of each person'''
 features.append('PESSOA')
@@ -77,6 +77,7 @@ dfPerson = dfConsumo[features].groupby('PESSOA', as_index=False).agg({
     # 'HEIGHT' : np.mean,
 })
 
+print("Convert codes into readable")
 # Salve gender
 gender = dict()
 person_list = list(zip(dfMorador.PESSOA, dfMorador.V0404))
@@ -131,6 +132,7 @@ dfPerson["EER"] = dfPerson.apply(
                     )
                     , axis=1)
 
+# print("Removing unnecessary columns")
 # dfConsumo.drop("ESTRATO_POF", axis=1, inplace=True, errors="ignore")
 # dfConsumo.drop("TIPO_SITUACAO_REG", axis=1, inplace=True, errors="ignore")
 # dfConsumo.drop("COD_UPA", axis=1, inplace=True, errors="ignore")
