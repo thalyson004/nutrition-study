@@ -1,6 +1,6 @@
-datasets/caract_dieta.sas7bdat
-datasets/consumo.sas7bdat
-datasets/domicilio.sas7bdat
-datasets/morador.sas7bdat
+datasets/caract_dieta.*
+datasets/consumo.*
+datasets/domicilio.*
+datasets/morador.*
 
 .env
