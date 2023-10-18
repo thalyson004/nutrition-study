@@ -3,4 +3,6 @@ datasets/consumo.*
 datasets/domicilio.*
 datasets/morador.*
 
+datasets/pickle/*
+
 .env
