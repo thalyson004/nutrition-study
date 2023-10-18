@@ -1,7 +1,9 @@
 import pickle
-import pandas as pd
+from pandas import DataFrame
 import numpy as np
 import os
+
+from app.components.extract_data.dataframes.get_meals import get_meals_codes_list
 
 from .dataframes.dictionaries.nutrients import nutrients
 from .dataframes.dictionaries.calculations.factors import calc_eer
@@ -162,6 +164,50 @@ def getDfPerson():
             pickle.dump(dfPerson, file)
 
         return dfPerson
+
+
+def getDfMealState() -> DataFrame:
+    """Return dataframe with initial state of each person
+
+    Returns:
+         df (DataFrame): A dataframe initial state of each person
+    """
+
+    try:
+        with open(datasetPicklePath + "/dfMealState.pickle", "rb") as file:
+            return pickle.load(file)
+    except (FileNotFoundError, EOFError, pickle.UnpicklingError) as e:
+        df = getDfConsumo()
+
+        dfMealState = DataFrame(df["PESSOA"].unique(), columns=["PESSOA"])
+
+        countQuantity = {}
+
+        mealsCodes = get_meals_codes_list(df)
+
+        for index, row in df.iterrows():
+            try:
+                countQuantity[(row["PESSOA"], row["COD_TBCA"])] += 0
+            except:
+                countQuantity[(row["PESSOA"], row["COD_TBCA"])] = 0
+
+            countQuantity[(row["PESSOA"], row["COD_TBCA"])] += row["QTD"]
+
+        def get_QTD(pessoa: str, tbca: str) -> int:
+            try:
+                return countQuantity[(pessoa, tbca)]
+            except:
+                return 0
+
+        for code in mealsCodes:
+            dfMealState[code] = dfMealState["PESSOA"].apply(
+                lambda pessoa: get_QTD(pessoa, code)
+            )
+
+        with open(datasetPicklePath + "/dfMealState.pickle", "wb") as file:
+            pickle.dump(dfMealState, file)
+
+        return dfMealState
 
 
 # Remove unnecessary columns (at this time)
