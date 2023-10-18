@@ -6,22 +6,42 @@ from copy import deepcopy
 from .dictionaries.nutrients import get_right_nutrition
 
 
-# TODO: implement
 def get_meal_state(df: DataFrame) -> DataFrame:
     """Extract dataframe with the sum of each nutrient by person
 
     Args:
-        df (DataFrame): A dataframe with meals. Specify each nutrient in the columns.
+        df (DataFrame): A dfConsumo dataframe
 
     Returns:
-         df (DataFrame): A dataframe with the sum of each nutrient by person
+         df (DataFrame): A dataframe initial state of each person
     """
 
-    dfNutrition = df[["PESSOA"] + list(nutrients.keys())]
-    return dfNutrition.groupby("PESSOA", as_index=False).sum()
+    dfState = DataFrame(df["PESSOA"].unique(), columns=["PESSOA"])
+
+    countQuantity = {}
+
+    mealsCodes = get_meals_codes_list(df)
+
+    for index, row in df.iterrows():
+        try:
+            countQuantity[(row["PESSOA"], row["COD_TBCA"])] += 0
+        except:
+            countQuantity[(row["PESSOA"], row["COD_TBCA"])] = 0
+
+        countQuantity[(row["PESSOA"], row["COD_TBCA"])] += row["QTD"]
+
+    def get_QTD(pessoa: str, tbca: str) -> int:
+        try:
+            return countQuantity[(pessoa, tbca)]
+        except:
+            return 0
+
+    for code in mealsCodes:
+        dfState[code] = dfState["PESSOA"].apply(lambda pessoa: get_QTD(pessoa, code))
+
+    return dfState
 
 
-# Implement
 def get_meals_codes(df: DataFrame) -> DataFrame:
     """Extract dataframe all meals
 
@@ -33,3 +53,18 @@ def get_meals_codes(df: DataFrame) -> DataFrame:
     """
 
     return DataFrame(df["COD_TBCA"].unique(), columns=["COD_TBCA"])
+
+
+def get_meals_codes_list(df: DataFrame) -> list:
+    """Extract dataframe all meals
+
+    Args:
+        df (DataFrame): A dataframe with COD_TBCA columns
+
+    Returns:
+        l (list): A array list with all uniques COD_TBCA codes
+    """
+
+    return DataFrame(df["COD_TBCA"].unique(), columns=["COD_TBCA"])[
+        "COD_TBCA"
+    ].to_list()
