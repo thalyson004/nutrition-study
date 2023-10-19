@@ -1,6 +1,7 @@
 from pandas import DataFrame
 from app.components.extract_data.extract_data import (
     get_meals_codes,
+    get_meals_codes_list,
     getDfConsumo,
     getDfDieta,
     getDfMorador,
@@ -24,5 +25,8 @@ dfMealCode: DataFrame = get_meals_codes()  # Meals codes
 ## Dictionaries
 dictNutritionByMeal: dict[str, dict] = getDictNutritionByMeal()  # Nutrition by meal
 
+
+## Lists
+mealCodeList: list = get_meals_codes_list()
 
 print("Finish!")

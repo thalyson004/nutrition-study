@@ -42,7 +42,7 @@ def get_right_nutrition(eer: float) -> dict:
     return nutrients_quantiy
 
 
-nutrients = {
+nutrients: dict = {
     "ENERGIA_KCAL": "Energy (kcal)",
     "CHOTOT": "Carbohydrates (g)",
     "PTN": "Protein (g)",
