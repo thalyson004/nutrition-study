@@ -236,9 +236,12 @@ def get_meals_codes_list() -> list:
         l (list): A array list with all uniques COD_TBCA codes
     """
 
-    return DataFrame(getDfConsumo()["COD_TBCA"].unique(), columns=["COD_TBCA"])[
-        "COD_TBCA"
-    ].to_list()
+    return [
+        code.decode("utf-8")
+        for code in DataFrame(
+            getDfConsumo()["COD_TBCA"].unique(), columns=["COD_TBCA"]
+        )["COD_TBCA"].to_list()
+    ]
 
 
 # Dictonary
@@ -263,11 +266,11 @@ def getDictNutritionByMeal() -> dict[str:dict]:
 
         dfConsumo = getDfConsumo()
         for index, row in dfConsumo.iterrows():
-            if dictNutritionByMeal[row["COD_TBCA"]] != dict():
+            if dictNutritionByMeal[row["COD_TBCA"].decode("utf-8")] != dict():
                 continue
 
             for nutrient in nutrients.keys():
-                dictNutritionByMeal[row["COD_TBCA"]][nutrient] = float(
+                dictNutritionByMeal[row["COD_TBCA"].decode("utf-8")][nutrient] = float(
                     row[nutrient]
                 ) / float(row["QTD"])
 
