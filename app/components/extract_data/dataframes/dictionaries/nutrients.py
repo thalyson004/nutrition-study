@@ -1,29 +1,30 @@
 from .calculations.factors import calc_eer
 
+
 def get_right_nutrition(eer: float) -> dict:
-    '''Given the EER factor, retuns a dictionary with the right nutrition
-    
-        Args:
-            eer (float): EER factor
-            
-        Returns:
-            nutrition dictionary (dict): Dictionary with the right nutrition of each nutrient for a specific person with EER factor 
-    
-    '''
+    """Given the EER factor, retuns a dictionary with the right nutrition
+
+    Args:
+        eer (float): EER factor
+
+    Returns:
+        nutrition dictionary (dict): Dictionary with the right nutrition of each nutrient for a specific person with EER factor
+
+    """
     # TODO: Define the right quantities
     # FROM Eliseu 2020
     # Negative means lower than
     nutrients_quantiy = {
-        "ENERGIA_KCAL" : eer,
-        "CHOTOT": eer * (55/100), # 55-75 eer
-        "PTN" : eer * (10/100), # 10-15 eer
-        "LIP": (-1) * eer * (30/100), # 15–30 eer
+        "ENERGIA_KCAL": eer,
+        "CHOTOT": eer * (55 / 100),  # 55-75 eer
+        "PTN": eer * (10 / 100),  # 10-15 eer
+        "LIP": (-1) * eer * (30 / 100),  # 15–30 eer
         "FIBRA": 0,
         "COLEST": (-1) * 300,
-        "CALCIO" : 868,
-        "SODIO": 0, 
+        "CALCIO": 868,
+        "SODIO": 0,
         "POTASSIO": 3510,
-        "FERRO" : 6.8,
+        "FERRO": 6.8,
         "MAGNESIO": 303,
         "TIAMINA": 0.9,
         "RIBOFLAVINA": 1,
@@ -37,21 +38,22 @@ def get_right_nutrition(eer: float) -> dict:
         "ZINCO": 8,
         "FOSFORO": 649,
     }
-    
+
     return nutrients_quantiy
 
+
 nutrients = {
-    "ENERGIA_KCAL" : "Energy (kcal)",
+    "ENERGIA_KCAL": "Energy (kcal)",
     "CHOTOT": "Carbohydrates (g)",
-    "PTN" : "Protein (g)",
+    "PTN": "Protein (g)",
     "LIP": "Total fats (g)",
     "FIBRA": "Total fiber (g)",
     "COLEST": "Cholesterol (mg)",
-    "CALCIO" : "Calcium (mg)",
+    "CALCIO": "Calcium (mg)",
     "SODIO": "Sodium (mg)",
     "POTASSIO": "Potassium (mg)",
-    "FERRO" : "Iron (mg)",
-    "MAGNESIO":"Magnesium (mg)",
+    "FERRO": "Iron (mg)",
+    "MAGNESIO": "Magnesium (mg)",
     "TIAMINA": "Vitamin B1 (mg)",
     "RIBOFLAVINA": "Vitamin B2 (mg)",
     "NIACINA": "Niacin/B3 (mg)",
@@ -70,3 +72,11 @@ nutrients = {
     # Fruit and vegetables (g) ≥400 ≥400
     # Fish (g) ≥43b ≥43b
 }
+
+
+def get_nutrition_by_meal(meal: str) -> dict:
+    return 80.0
+
+
+def get_nutrition_by_meal_and_nutrient(meal: str, nutrient: str):
+    return 80.0

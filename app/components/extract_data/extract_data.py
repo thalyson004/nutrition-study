@@ -1,9 +1,8 @@
 import pickle
 from pandas import DataFrame
+import pandas as pd
 import numpy as np
 import os
-
-from app.components.extract_data.dataframes.get_meals import get_meals_codes_list
 
 from .dataframes.dictionaries.nutrients import nutrients
 from .dataframes.dictionaries.calculations.factors import calc_eer
@@ -26,7 +25,10 @@ def criarPessoa(row):
     return f'{row["COD_UPA"]}#{row["NUM_UC"]}#{row["NUM_DOM"]}#{row["COD_INFORMANTE"]}'
 
 
-def getDfMorador():
+# Dataframes
+
+
+def getDfMorador() -> DataFrame:
     """Get dfMorador with columns:
     TODO:
     x:..
@@ -46,7 +48,7 @@ def getDfMorador():
         return dfMorador
 
 
-def getDfDieta():
+def getDfDieta() -> DataFrame:
     """Get dfDieta with columns:
     TODO:
     x:..
@@ -67,7 +69,7 @@ def getDfDieta():
         return dfDieta
 
 
-def getDfConsumo():
+def getDfConsumo() -> DataFrame:
     """Dataframe with meals registries
     Get dfConsumo with columns:
     TODO:
@@ -90,7 +92,7 @@ def getDfConsumo():
         return dfConsumo
 
 
-def getDfPerson():
+def getDfPerson() -> DataFrame:
     """Dataframe with nutrition of each person
     Get dfPerson with columns:
     TODO:
@@ -183,7 +185,7 @@ def getDfMealState() -> DataFrame:
 
         countQuantity = {}
 
-        mealsCodes = get_meals_codes_list(df)
+        mealsCodes = get_meals_codes_list()
 
         for index, row in df.iterrows():
             try:
@@ -208,6 +210,71 @@ def getDfMealState() -> DataFrame:
             pickle.dump(dfMealState, file)
 
         return dfMealState
+
+
+def get_meals_codes() -> DataFrame:
+    """Extract dataframe with all meals code
+
+    Args:
+
+    Returns:
+        df (DataFrame): A dataframe with all uniques COD_TBCA codes
+    """
+
+    return DataFrame(getDfConsumo()["COD_TBCA"].unique(), columns=["COD_TBCA"])
+
+
+# List
+
+
+def get_meals_codes_list() -> list:
+    """Extract a list of unique COD_TBCA
+
+    Args:
+
+    Returns:
+        l (list): A array list with all uniques COD_TBCA codes
+    """
+
+    return DataFrame(getDfConsumo()["COD_TBCA"].unique(), columns=["COD_TBCA"])[
+        "COD_TBCA"
+    ].to_list()
+
+
+# Dictonary
+def getDictNutritionByMeal() -> dict[str:dict]:
+    """Dictionary with nutrition of one gram of each meal
+
+    TODO:
+    x:..
+    y:..
+    z:..
+    """
+
+    try:
+        with open(datasetPicklePath + "/dictNutritionByMeal.pickle", "rb") as file:
+            return pickle.load(file)
+    except (FileNotFoundError, EOFError, pickle.UnpicklingError) as e:
+        dictNutritionByMeal: dict[str, dict] = {}  # CODEA : {ZINCO:4, PTN:4... etc}
+        mealsCodesList = get_meals_codes_list()
+
+        for code in mealsCodesList:
+            dictNutritionByMeal[code] = dict()
+
+        dfConsumo = getDfConsumo()
+        for index, row in dfConsumo.iterrows():
+            if dictNutritionByMeal[row["COD_TBCA"]] != dict():
+                continue
+
+            for nutrient in nutrients.keys():
+                dictNutritionByMeal[row["COD_TBCA"]][nutrient] = float(
+                    row[nutrient]
+                ) / float(row["QTD"])
+
+        with open(datasetPicklePath + "/dictNutritionByMeal.pickle", "wb") as file:
+            pickle.dump(dictNutritionByMeal, file)
+
+        return dictNutritionByMeal
 
 
 # Remove unnecessary columns (at this time)
