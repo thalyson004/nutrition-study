@@ -1,3 +1,6 @@
 {
-  "python.analysis.extraPaths": ["./app/components"]
+  "python.analysis.extraPaths": [
+    "./app/components",
+    "./packages/PapaGraph/PapaGraph/src"
+  ]
 }
