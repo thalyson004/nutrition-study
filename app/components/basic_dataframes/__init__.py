@@ -9,6 +9,7 @@ from app.components.extract_data.extract_data import (
     getDfMealState,
     getDictNutritionByMeal,
     getDictMealState,
+    getDictPersonEer,
 )
 
 
@@ -30,6 +31,8 @@ dictNutritionByMeal: dict[str, dict] = getDictNutritionByMeal()  # Nutrition by 
 dictMealState: dict[
     str, dict[str, int]
 ] = getDictMealState()  # Person and all meals in grams
+dictPersonEer: dict[str, float] = getDictPersonEer()
+
 
 ## Lists
 mealCodeList: list = get_meals_codes_list()

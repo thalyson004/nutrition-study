@@ -321,6 +321,34 @@ def getDictMealState() -> dict[str : dict[str, int]]:
         return dictMealState
 
 
+def getDictPersonEer() -> dict[str:dict]:
+    """Dictionary with eer by person id
+
+    TODO:
+    x:..
+    y:..
+    z:..
+    """
+
+    fileName = "dictPersonEer"
+
+    try:
+        with open(datasetPicklePath + f"/{fileName}.pickle", "rb") as file:
+            return pickle.load(file)
+
+    except (FileNotFoundError, EOFError, pickle.UnpicklingError) as e:
+        dictPersonEer: dict[str, float] = {}  # CODEA : {ZINCO:4, PTN:4... etc}
+
+        dfPerson = getDfPerson()
+        for index, row in dfPerson.iterrows():
+            dictPersonEer[row["PESSOA"]] = row["EER"]
+
+        with open(datasetPicklePath + f"/{fileName}.pickle", "wb") as file:
+            pickle.dump(dictPersonEer, file)
+
+        return dictPersonEer
+
+
 # Remove unnecessary columns (at this time)
 
 
