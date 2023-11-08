@@ -8,6 +8,7 @@ from app.components.extract_data.extract_data import (
     getDfPerson,
     getDfMealState,
     getDictNutritionByMeal,
+    getDictMealState,
 )
 
 
@@ -22,9 +23,13 @@ dfPerson: DataFrame = getDfPerson()  # Nutrition
 dfMealState: DataFrame = getDfMealState()  # Person and all meals in grams
 dfMealCode: DataFrame = get_meals_codes()  # Meals codes
 
+
+print("Loading basic dictionary")
 ## Dictionaries
 dictNutritionByMeal: dict[str, dict] = getDictNutritionByMeal()  # Nutrition by meal
-
+dictMealState: dict[
+    str, dict[str, int]
+] = getDictMealState()  # Person and all meals in grams
 
 ## Lists
 mealCodeList: list = get_meals_codes_list()

@@ -254,8 +254,10 @@ def getDictNutritionByMeal() -> dict[str:dict]:
     z:..
     """
 
+    fileName = "dictNutritionByMeal"
+
     try:
-        with open(datasetPicklePath + "/dictNutritionByMeal.pickle", "rb") as file:
+        with open(datasetPicklePath + f"/{fileName}.pickle", "rb") as file:
             return pickle.load(file)
     except (FileNotFoundError, EOFError, pickle.UnpicklingError) as e:
         dictNutritionByMeal: dict[str, dict] = {}  # CODEA : {ZINCO:4, PTN:4... etc}
@@ -274,10 +276,49 @@ def getDictNutritionByMeal() -> dict[str:dict]:
                     row[nutrient]
                 ) / float(row["QTD"])
 
-        with open(datasetPicklePath + "/dictNutritionByMeal.pickle", "wb") as file:
+        with open(datasetPicklePath + f"/{fileName}.pickle", "wb") as file:
             pickle.dump(dictNutritionByMeal, file)
 
         return dictNutritionByMeal
+
+
+def getDictMealState() -> dict[str : dict[str, int]]:
+    """Dictionary with person ID as key and a dict with key/value equal to (foodID, grams)
+
+    Example:
+    TODO:
+    ....
+    """
+
+    fileName = "dictMealState"
+
+    try:
+        with open(datasetPicklePath + f"/{fileName}.pickle", "rb") as file:
+            return pickle.load(file)
+
+    except (FileNotFoundError, EOFError, pickle.UnpicklingError) as e:
+        dictMealState: dict[str, dict] = {}  # (PERSONID, dict[FOODID, GRAMS])
+        dfMealState = getDfMealState()
+
+        for index, row in dfMealState.iterrows():
+            pessoaID = row["PESSOA"]
+            dictMealState[pessoaID] = dict()
+
+            for mealCode, grams in row.items():
+                if mealCode == "PESSOA":
+                    continue
+
+                if isinstance(mealCode, bytes):
+                    mealCode = mealCode.decode(
+                        "utf-8"
+                    )  # Assuming 'b' is a bytes object
+
+                dictMealState[pessoaID][mealCode] = grams
+
+        with open(datasetPicklePath + f"/{fileName}.pickle", "wb") as file:
+            pickle.dump(dictMealState, file)
+
+        return dictMealState
 
 
 # Remove unnecessary columns (at this time)
