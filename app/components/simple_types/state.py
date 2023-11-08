@@ -10,8 +10,11 @@ class State:
     def __getitem__(self, index):
         return self.data[index]
 
-    def __init__(self):
-        self.data = {key: 0 for key in mealCodeList}
+    def __init__(self, data=None):
+        if data == None:
+            self.data = {key: 0 for key in mealCodeList}
+        else:
+            self.data = data
 
     def __setitem__(self, index, value):
         self.data[index] = value
@@ -23,3 +26,9 @@ class State:
         from .nutrition import Nutrition
 
         return Nutrition(self)
+
+    @staticmethod
+    def getStateByPersonId(personId: str):
+        from app.components.basic_dataframes import dictMealState
+
+        return State(dictMealState[personId])

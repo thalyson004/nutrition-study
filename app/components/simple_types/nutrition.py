@@ -39,7 +39,7 @@ class Nutrition:
         return Nutrition(state).data
 
     @staticmethod
-    def idealNutritionByEer(eer: float = None) -> dict:
+    def idealNutritionByEer(eer: float = None):
         """Given the EER factor, retuns a dictionary with the right nutrition
 
         Args:
