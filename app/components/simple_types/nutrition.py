@@ -16,7 +16,7 @@ class Nutrition:
     def keys(self):
         return self.data.keys()
 
-    def __init__(self, state: Union[State, any]):
+    def __init__(self, state: Union[State, any] = None):
         from .state import State
         from app.components.basic_dataframes import dictNutritionByMeal
 
@@ -28,14 +28,18 @@ class Nutrition:
                     self.data[nutrient] += (
                         dictNutritionByMeal[code][nutrient] * state[code]
                     )
+        elif type(state) is dict:
+            self.data = state
         else:
             self.data = {key: 0 for key in nutrients.keys()}
 
     @staticmethod
     def getDictNutrition(state: State) -> dict:
+        """TODO: Describe the function"""
         return Nutrition(state).data
 
-    def idealNutrition(eer: float = None) -> dict:
+    @staticmethod
+    def idealNutritionByEer(eer: float = None) -> dict:
         """Given the EER factor, retuns a dictionary with the right nutrition
 
         Args:
@@ -73,7 +77,13 @@ class Nutrition:
             "FOSFORO": 649,
         }
 
-        return nutrients_quantiy
+        return Nutrition(nutrients_quantiy)
+
+    @staticmethod
+    def idealNutritionByPersonId(personId: str = None):
+        from app.components.basic_dataframes import dictPersonEer
+
+        return Nutrition.idealNutritionByEer(dictPersonEer[personId])
 
     def distance() -> dict:
         return 0
