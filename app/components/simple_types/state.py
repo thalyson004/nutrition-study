@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-
+from copy import deepcopy
 from app.components.basic_dataframes import mealCodeList
 
 
@@ -26,6 +26,11 @@ class State:
         from .nutrition import Nutrition
 
         return Nutrition(self)
+
+    def change(self, mealCode: str, quantity: float):
+        newState = deepcopy(self)
+        newState[mealCode] += quantity
+        return newState
 
     @staticmethod
     def getStateByPersonId(personId: str):
