@@ -56,9 +56,9 @@ class Nutrition:
             "ENERGIA_KCAL": eer if eer != None else 50,
             "CHOTOT": eer * (55 / 100) if eer != None else 50,  # 55-75 eer
             "PTN": eer * (15 / 100) if eer != None else 50,  # 10-15 eer
-            "LIP": (-1) * (eer * (30 / 100) if eer != None else 50),  # 15–30 eer
+            "LIP": (-1) * (-1) * (eer * (30 / 100) if eer != None else 50),  # 15–30 eer
             "FIBRA": 0,
-            "COLEST": (-1) * 300,
+            "COLEST": (-1) * (-1) * 300,
             "CALCIO": 868,
             "SODIO": 0,
             "POTASSIO": 3510,
@@ -84,6 +84,17 @@ class Nutrition:
         from app.components.basic_dataframes import dictPersonEer
 
         return Nutrition.idealNutritionByEer(dictPersonEer[personId])
+
+    @staticmethod
+    def directionDifference(initNutrition, targetNutrition):
+        initNutrition: Nutrition = initNutrition
+        targetNutrition: Nutrition = targetNutrition
+
+        data = {
+            key: initNutrition[key] - targetNutrition[key]
+            for key in initNutrition.keys()
+        }
+        return Nutrition(data)
 
     def distance() -> dict:
         return 0
