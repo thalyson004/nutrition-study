@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from copy import deepcopy
 from typing import Union
 
 from app.components.extract_data.dataframes.dictionaries.nutrients import nutrients
@@ -14,7 +15,15 @@ class Nutrition:
         return self.data[index]
 
     def keys(self):
-        return self.data.keys()
+        return list(self.data.keys())
+
+    def values(self):
+        return list(self.data.values())
+
+    def change(self, nutritionCode: str, quantity: float):
+        newState = deepcopy(self)
+        newState[nutritionCode] += quantity
+        return newState
 
     def __init__(self, state: Union[State, any] = None):
         from .state import State
@@ -32,6 +41,10 @@ class Nutrition:
             self.data = state
         else:
             self.data = {key: 0 for key in nutrients.keys()}
+
+    @staticmethod
+    def keys() -> list:
+        return list(nutrients.keys())
 
     @staticmethod
     def getDictNutrition(state: State) -> dict:
@@ -91,10 +104,22 @@ class Nutrition:
         targetNutrition: Nutrition = targetNutrition
 
         data = {
-            key: initNutrition[key] - targetNutrition[key]
+            key: targetNutrition[key] - initNutrition[key]
             for key in initNutrition.keys()
         }
         return Nutrition(data)
+
+    @staticmethod
+    def absDifference(initNutrition, targetNutrition, factor=1) -> float:
+        initNutrition: Nutrition = initNutrition
+        targetNutrition: Nutrition = targetNutrition
+
+        return sum(
+            [
+                abs(initNutrition[key] * factor - targetNutrition[key])
+                for key in initNutrition.keys()
+            ]
+        )
 
     def distance() -> dict:
         return 0

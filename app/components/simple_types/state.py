@@ -37,3 +37,9 @@ class State:
         from app.components.basic_dataframes import dictMealState
 
         return State(dictMealState[personId])
+
+    def __lt__(self, other):
+        if isinstance(other, State):
+            return False
+
+        return NotImplemented
