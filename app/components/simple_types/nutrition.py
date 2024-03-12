@@ -116,7 +116,7 @@ class Nutrition:
 
         return sum(
             [
-                abs(initNutrition[key] * factor - targetNutrition[key])
+                abs((initNutrition[key] * factor - targetNutrition[key]))
                 for key in initNutrition.keys()
             ]
         )
