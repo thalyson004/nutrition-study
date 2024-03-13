@@ -6,9 +6,12 @@ from app.components.basic_dataframes import (
 from app.components.simple_types import Nutrition, State
 import random
 from IPython.display import clear_output
+from pandas import DataFrame
+import numpy as np
+import df2img
 
 
-class searchResult:
+class SearchResult:
     def __init__(
         self,
         initialMeal=None,
@@ -25,8 +28,55 @@ class searchResult:
         if finalMeal:
             self.finalNutrition = Nutrition(finalMeal)
 
+    def get_df(self, personID=""):
 
-import numpy as np
+        data = {}
+        data["Initial Value"] = [round(x, 2) for x in self.initialNutrition.values()]
+        data["Final Value"] = [round(x, 2) for x in self.initialNutrition.values()]
+
+        # TODO: Use correct personID
+        data["Target Value"] = Nutrition.idealNutritionByPersonId(
+            "110000016.0#1.0#2.0#1.0"
+        ).values()
+
+        return DataFrame(
+            data=data,
+            index=self.initialNutrition.keys(),
+        )
+
+    def save_as_xls(self, path: str):
+        df = self.get_df()
+        df.to_excel(f"{path}.xlsx", engine="xlsxwriter")
+        return df
+
+    def save_as_png(self, path: str, title="Search Result"):
+        fig = df2img.plot_dataframe(
+            self.get_df(),
+            title=dict(
+                font_color="black",
+                font_family="Times New Roman",
+                font_size=16,
+                text=title,
+            ),
+            tbl_header=dict(
+                align="center",
+                fill_color="blue",
+                font_color="white",
+                font_size=14,
+                line_color="darkslategray",
+                font_family="Times New Roman",
+            ),
+            tbl_cells=dict(
+                align="center",
+                font_size=14,
+                line_color="darkslategray",
+                font_family="Times New Roman",
+            ),
+            row_fill_color=("#ffffff", "#d7d8d6"),
+            fig_size=(800, 550),
+        )
+
+        df2img.save_dataframe(fig=fig, filename=f"{path}.png")
 
 
 def cosine_similarity(array1, array2):
@@ -49,7 +99,7 @@ def papaSingleSeach(
     expansion_select=3,
     max_steps=100,
     verbose=False,
-) -> searchResult:
+) -> SearchResult:
 
     # Config
     UNIT = unit  # Quantity of grams using in an step
@@ -171,4 +221,4 @@ def papaSingleSeach(
                     population[0][meal],
                 )
 
-    return searchResult(initialState, population[0])
+    return SearchResult(initialState, population[0])
