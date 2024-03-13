@@ -6,9 +6,15 @@ from app.components.basic_dataframes import (
 from app.components.simple_types import Nutrition, State
 import random
 from IPython.display import clear_output
+from pandas import DataFrame
+import numpy as np
 
 
-class searchResult:
+def save_df_as_xls(df: DataFrame, path: str):
+    df.to_excel(f"{path}.xlsx", engine="xlsxwriter")
+
+
+class SearchResult:
     def __init__(
         self,
         initialMeal=None,
@@ -25,8 +31,26 @@ class searchResult:
         if finalMeal:
             self.finalNutrition = Nutrition(finalMeal)
 
+    def get_df(self, personID=""):
 
-import numpy as np
+        data = {}
+        data["Initial Value"] = [round(x, 2) for x in self.initialNutrition.values()]
+        data["Final Value"] = [round(x, 2) for x in self.initialNutrition.values()]
+
+        # TODO: Use correct personID
+        data["Target Value"] = Nutrition.idealNutritionByPersonId(
+            "110000016.0#1.0#2.0#1.0"
+        ).values()
+
+        return DataFrame(
+            data=data,
+            index=self.initialNutrition.keys(),
+        )
+
+    def save_as_xls(self, path: str):
+        df = self.get_df()
+        df.to_excel(f"{path}.xlsx", engine="xlsxwriter")
+        return df
 
 
 def cosine_similarity(array1, array2):
@@ -49,7 +73,7 @@ def papaSingleSeach(
     expansion_select=3,
     max_steps=100,
     verbose=False,
-) -> searchResult:
+) -> SearchResult:
 
     # Config
     UNIT = unit  # Quantity of grams using in an step
@@ -171,4 +195,4 @@ def papaSingleSeach(
                     population[0][meal],
                 )
 
-    return searchResult(initialState, population[0])
+    return SearchResult(initialState, population[0])
