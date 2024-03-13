@@ -8,10 +8,7 @@ import random
 from IPython.display import clear_output
 from pandas import DataFrame
 import numpy as np
-
-
-def save_df_as_xls(df: DataFrame, path: str):
-    df.to_excel(f"{path}.xlsx", engine="xlsxwriter")
+import df2img
 
 
 class SearchResult:
@@ -51,6 +48,35 @@ class SearchResult:
         df = self.get_df()
         df.to_excel(f"{path}.xlsx", engine="xlsxwriter")
         return df
+
+    def save_as_png(self, path: str, title="Search Result"):
+        fig = df2img.plot_dataframe(
+            self.get_df(),
+            title=dict(
+                font_color="black",
+                font_family="Times New Roman",
+                font_size=16,
+                text=title,
+            ),
+            tbl_header=dict(
+                align="center",
+                fill_color="blue",
+                font_color="white",
+                font_size=14,
+                line_color="darkslategray",
+                font_family="Times New Roman",
+            ),
+            tbl_cells=dict(
+                align="center",
+                font_size=14,
+                line_color="darkslategray",
+                font_family="Times New Roman",
+            ),
+            row_fill_color=("#ffffff", "#d7d8d6"),
+            fig_size=(800, 550),
+        )
+
+        df2img.save_dataframe(fig=fig, filename=f"{path}.png")
 
 
 def cosine_similarity(array1, array2):
