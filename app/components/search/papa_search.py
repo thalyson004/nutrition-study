@@ -78,6 +78,9 @@ class SearchResult:
 
         df2img.save_dataframe(fig=fig, filename=f"{path}.png")
 
+    def show_comparison_graph(self, path: str, title="Search Result"):
+        pass
+
 
 def cosine_similarity(array1, array2):
     dot_product = np.dot(array1, array2)
