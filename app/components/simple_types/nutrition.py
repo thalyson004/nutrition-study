@@ -70,9 +70,10 @@ class Nutrition:
             "CHOTOT": eer * (55 / 100) if eer != None else 50,  # 55-75 eer
             "PTN": eer * (15 / 100) if eer != None else 50,  # 10-15 eer
             "LIP": (-1) * (-1) * (eer * (30 / 100) if eer != None else 50),  # 15–30 eer
-            "FIBRA": 0,
+            "FIBRA": 31,
             "COLEST": (-1) * (-1) * 300,
             "CALCIO": 868,
+            # TODO: Use sodio as observed
             "SODIO": 0,
             "POTASSIO": 3510,
             "FERRO": 6.8,
@@ -123,6 +124,9 @@ class Nutrition:
 
     def distance() -> dict:
         return 0
+
+    def __iter__(self):
+        return iter(self.data)
 
     # def __setitem__(self, index, value):
     #     self.data[index] = value
