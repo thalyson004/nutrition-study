@@ -31,18 +31,23 @@ class SearchResult:
     def get_df(self, personID=""):
 
         data = {}
+        data["Nutrient"] = [nutrient for nutrient in self.initialNutrition.keys()]
         data["Initial Value"] = [round(x, 2) for x in self.initialNutrition.values()]
-        data["Final Value"] = [round(x, 2) for x in self.initialNutrition.values()]
+        data["Final Value"] = [round(x, 2) for x in self.finalNutrition.values()]
 
         # TODO: Use correct personID
         data["Target Value"] = Nutrition.idealNutritionByPersonId(
             "110000016.0#1.0#2.0#1.0"
         ).values()
 
-        return DataFrame(
+        df = DataFrame(
             data=data,
-            index=self.initialNutrition.keys(),
+            # index=self.initialNutrition.keys(),
         )
+
+        # df.set_index("Nutrients")
+
+        return df
 
     def save_as_xls(self, path: str):
         df = self.get_df()
