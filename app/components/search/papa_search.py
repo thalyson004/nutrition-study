@@ -9,6 +9,8 @@ from IPython.display import clear_output
 from pandas import DataFrame
 import numpy as np
 import df2img
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 
 class SearchResult:
@@ -49,6 +51,58 @@ class SearchResult:
 
         return df
 
+    def get_df_grouping(self, personID=""):
+
+        nutrient = []
+        status = []
+        value = []
+
+        # TODO: Use correct personID
+        target = Nutrition.idealNutritionByPersonId("110000016.0#1.0#2.0#1.0")
+
+        for state, nutrition in [
+            ("initial", self.initialNutrition),
+            ("final", self.finalNutrition),
+        ]:
+
+            for temp in self.initialNutrition.keys():
+                # TODO: Add SODIO
+                if temp == "SODIO":
+                    continue
+
+                nutrient.append(temp)
+                status.append(state)
+                value.append(min(3.0, nutrition[temp] / target[temp]))
+
+        data = {}
+        data["nutrient"] = nutrient
+        data["status"] = status
+        data["value"] = value
+
+        df = DataFrame(
+            data=data,
+        )
+
+        return df
+
+    def show_comparison_graph(self, path="", title="Search Result") -> sns.FacetGrid:
+        df = self.get_df_grouping()
+        g = sns.catplot(
+            data=df,
+            x="value",
+            y="nutrient",
+            hue="status",
+            kind="bar",
+            palette="pastel",
+            edgecolor=".6",
+        )
+
+        plt.axvline(x=1)
+
+        plt.show()
+
+        return g
+
     def save_as_xls(self, path: str):
         df = self.get_df()
         df.to_excel(f"{path}.xlsx", engine="xlsxwriter")
@@ -82,9 +136,6 @@ class SearchResult:
         )
 
         df2img.save_dataframe(fig=fig, filename=f"{path}.png")
-
-    def show_comparison_graph(self, path: str, title="Search Result"):
-        pass
 
 
 def cosine_similarity(array1, array2):
