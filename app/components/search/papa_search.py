@@ -1,3 +1,5 @@
+from dataclasses import dataclass
+from typing import List
 from app.components.basic_dataframes import (
     dictMealState,
     mealCodeList,
@@ -13,22 +15,33 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
+@dataclass
 class SearchResult:
+
+    # initialMeal:State=None,
+    # finalMeal:State=None,
+    # initialNutrition:Nutrition=None
+    # finalNutrition:Nutrition=None
+
     def __init__(
         self,
-        initialMeal=None,
-        finalMeal=None,
+        initialMeal: State = None,
+        finalMeal: State = None,
     ):
         self.initialMeal = initialMeal
         self.finalMeal = finalMeal
-
         self.initialNutrition = None
+        self.finalNutrition = None
+
         if initialMeal:
             self.initialNutrition = Nutrition(initialMeal)
+        else:
+            self.initialNutrition = Nutrition()
 
-        self.finalNutrition = None
         if finalMeal:
             self.finalNutrition = Nutrition(finalMeal)
+        else:
+            self.finalNutrition = Nutrition()
 
     def get_df(self, personID=""):
 
@@ -137,6 +150,36 @@ class SearchResult:
 
         df2img.save_dataframe(fig=fig, filename=f"{path}.png")
 
+    def __str__(self):
+        return f"""initialMeal {self.initialMeal}
+initialNutrition {self.initialNutrition}
+finalMeal {self.finalMeal}
+finalNutrition {self.finalNutrition}
+        """
+
+    def __add__(self, temp):
+        resultSum = SearchResult()
+
+        resultSum.initialMeal = self.initialMeal + temp.initialMeal
+        resultSum.finalMeal = self.finalMeal + temp.finalMeal
+        resultSum.initialNutrition = self.initialNutrition + temp.initialNutrition
+        resultSum.finalNutrition = self.finalNutrition + temp.finalNutrition
+
+        return resultSum
+
+    def __truediv__(self, divValue):
+        if isinstance(divValue, int) or isinstance(divValue, float):
+            resultDiv = SearchResult()
+
+            resultDiv.initialMeal = self.initialMeal / divValue
+            resultDiv.finalMeal = self.finalMeal / divValue
+            resultDiv.initialNutrition = self.initialNutrition / divValue
+            resultDiv.finalNutrition = self.finalNutrition / divValue
+
+            return resultDiv
+        else:
+            raise TypeError("Unsupported operand type(s)")
+
 
 def cosine_similarity(array1, array2):
     dot_product = np.dot(array1, array2)
@@ -159,6 +202,10 @@ def papaSingleSeach(
     max_steps=100,
     verbose=False,
 ) -> SearchResult:
+    """Algorithm
+    K: number of moviments for each expansion
+    D: Vector difference between the ideal and actual nutrition
+    """
 
     # Config
     UNIT = unit  # Quantity of grams using in an step
@@ -188,6 +235,7 @@ def papaSingleSeach(
         if verbose:
             clear_output(wait=True)
             print(f"Step {i}: ")
+
         newPopulation = []
         # For each state
         for state in population:
@@ -281,3 +329,39 @@ def papaSingleSeach(
                 )
 
     return SearchResult(initialState, population[0])
+
+
+def papaSearch(
+    personIDs: List[str],
+    unit=10,
+    max_unit=5,
+    max_population_set=100,
+    max_population_selected=50,
+    expansion_set=10,
+    expansion_select=3,
+    max_steps=100,
+    verbose=False,
+) -> SearchResult:
+
+    result = SearchResult()
+
+    for index, personID in enumerate(personIDs):
+        if verbose:
+            print(index, "Init search from", personID)
+
+        result = (
+            papaSingleSeach(
+                personID=personID,
+                unit=unit,
+                max_unit=max_unit,
+                max_population_set=max_population_set,
+                max_population_selected=max_population_selected,
+                expansion_set=expansion_set,
+                expansion_select=expansion_select,
+                max_steps=max_steps,
+                verbose=verbose,
+            )
+            + result
+        )
+
+    return result / len(personIDs)

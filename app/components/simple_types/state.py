@@ -5,19 +5,14 @@ from app.components.basic_dataframes import mealCodeList
 
 @dataclass
 class State:
-    data: dict = None
-
-    def __getitem__(self, index):
-        return self.data[index]
 
     def __init__(self, data=None):
+        self.data: dict = None
+
         if data == None:
             self.data = {key: 0 for key in mealCodeList}
         else:
             self.data = data
-
-    def __setitem__(self, index, value):
-        self.data[index] = value
 
     def keys(self):
         return self.data.keys()
@@ -43,3 +38,34 @@ class State:
             return False
 
         return NotImplemented
+
+    def __add__(self, temp):
+        if self == None:
+            return temp
+        if temp == None:
+            return self
+
+        stateSum = State()
+        for key in mealCodeList:
+            stateSum[key] = self[key] + temp[key]
+
+        return stateSum
+
+    def __getitem__(self, index):
+        return self.data[index]
+
+    def __setitem__(self, index, value):
+        self.data[index] = value
+
+    def __truediv__(self, divValue):
+        if isinstance(divValue, int) or isinstance(divValue, float):
+            state = State()
+            for mealKey, mealValue in self.data.items():
+                state[mealKey] = mealValue / divValue
+
+            return state
+        else:
+            raise TypeError("Unsupported operand type(s)")
+
+    def __str__(self):
+        return f"State: {self.data}"
