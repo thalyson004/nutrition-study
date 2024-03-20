@@ -9,24 +9,11 @@ from app.components.extract_data.dataframes.dictionaries.nutrients import nutrie
 class Nutrition:
     from .state import State
 
-    # data: dict = None
-
-    def keys(self):
-        return list(self.data.keys())
-
-    def values(self):
-        return list(self.data.values())
-
-    def change(self, nutritionCode: str, quantity: float):
-        newState = deepcopy(self)
-        newState[nutritionCode] += quantity
-        return newState
-
     def __init__(self, state: Union[State, any] = None):
         from .state import State
         from app.components.basic_dataframes import dictNutritionByMeal
 
-        if type(state) is State:
+        if isinstance(state, State):
             self.data = {key: 0 for key in nutrients.keys()}
 
             for code in state.keys():  # Meals code
@@ -39,26 +26,16 @@ class Nutrition:
         else:
             self.data = {key: 0 for key in nutrients.keys()}
 
-    def __add__(self, temp):
-        if self == None:
-            return temp
-        if temp == None:
-            return self
+    def keys(self):
+        return list(self.data.keys())
 
-        nutrition = Nutrition()
-        for nutrient in nutrition.keys():
-            nutrition[nutrient] = self[nutrient] + temp[nutrient]
+    def values(self):
+        return list(self.data.values())
 
-        return nutrition
-
-    def __truediv__(self, divValue):
-        if isinstance(divValue, int) or isinstance(divValue, float):
-            nutrition = Nutrition()
-            for nutrientKey, nutrientValue in self.data.items():
-                nutrition[nutrientKey] = nutrientValue / divValue
-            return nutrition
-        else:
-            raise TypeError("Unsupported operand type(s)")
+    def change(self, nutritionCode: str, quantity: float):
+        newState = deepcopy(self)
+        newState[nutritionCode] += quantity
+        return newState
 
     @staticmethod
     def keys() -> list:
@@ -151,6 +128,27 @@ class Nutrition:
 
     def __getitem__(self, index):
         return self.data[index]
+
+    def __add__(self, temp):
+        if self == None:
+            return temp
+        if temp == None:
+            return self
+
+        nutrition = Nutrition()
+        for nutrient in nutrition.keys():
+            nutrition[nutrient] = self[nutrient] + temp[nutrient]
+
+        return nutrition
+
+    def __truediv__(self, divValue):
+        if isinstance(divValue, int) or isinstance(divValue, float):
+            nutrition = Nutrition()
+            for nutrientKey, nutrientValue in self.data.items():
+                nutrition[nutrientKey] = nutrientValue / divValue
+            return nutrition
+        else:
+            raise TypeError("Unsupported operand type(s)")
 
     def __str__(self):
         return f"Nutrition: {self.data}"
