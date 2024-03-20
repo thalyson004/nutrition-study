@@ -42,6 +42,13 @@ class Nutrition:
         else:
             self.data = {key: 0 for key in nutrients.keys()}
 
+    def __add__(self, temp):
+        nutrition = Nutrition()
+        for nutrient in nutrition.keys():
+            nutrition[nutrient] = self[nutrient] + temp[nutrient]
+
+        return nutrition
+
     @staticmethod
     def keys() -> list:
         return list(nutrients.keys())
@@ -128,5 +135,5 @@ class Nutrition:
     def __iter__(self):
         return iter(self.data)
 
-    # def __setitem__(self, index, value):
-    #     self.data[index] = value
+    def __setitem__(self, index, value):
+        self.data[index] = value
