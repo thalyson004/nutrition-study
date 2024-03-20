@@ -1,3 +1,4 @@
+from dataclasses import dataclass
 from typing import List
 from app.components.basic_dataframes import (
     dictMealState,
@@ -14,6 +15,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
+@dataclass
 class SearchResult:
 
     # initialMeal:State=None,
@@ -28,14 +30,14 @@ class SearchResult:
     ):
         self.initialMeal = initialMeal
         self.finalMeal = finalMeal
-
         self.initialNutrition = None
+        self.finalNutrition = None
+
         if initialMeal:
             self.initialNutrition = Nutrition(initialMeal)
         else:
             self.initialNutrition = Nutrition()
 
-        self.finalNutrition = None
         if finalMeal:
             self.finalNutrition = Nutrition(finalMeal)
         else:
@@ -164,6 +166,19 @@ finalNutrition {self.finalNutrition}
         resultSum.finalNutrition = self.finalNutrition + temp.finalNutrition
 
         return resultSum
+
+    def __truediv__(self, divValue):
+        if isinstance(divValue, int) or isinstance(divValue, float):
+            resultDiv = SearchResult()
+
+            resultDiv.initialMeal = self.initialMeal / divValue
+            resultDiv.finalMeal = self.finalMeal / divValue
+            resultDiv.initialNutrition = self.initialNutrition / divValue
+            resultDiv.finalNutrition = self.finalNutrition / divValue
+
+            return resultDiv
+        else:
+            raise TypeError("Unsupported operand type(s)")
 
 
 def cosine_similarity(array1, array2):
@@ -314,3 +329,39 @@ def papaSingleSeach(
                 )
 
     return SearchResult(initialState, population[0])
+
+
+def papaSearch(
+    personIDs: List[str],
+    unit=10,
+    max_unit=5,
+    max_population_set=100,
+    max_population_selected=50,
+    expansion_set=10,
+    expansion_select=3,
+    max_steps=100,
+    verbose=False,
+) -> SearchResult:
+
+    result = SearchResult()
+
+    for index, personID in enumerate(personIDs):
+        if verbose:
+            print(index, "Init search from", personID)
+
+        result = (
+            papaSingleSeach(
+                personID=personID,
+                unit=unit,
+                max_unit=max_unit,
+                max_population_set=max_population_set,
+                max_population_selected=max_population_selected,
+                expansion_set=expansion_set,
+                expansion_select=expansion_select,
+                max_steps=max_steps,
+                verbose=verbose,
+            )
+            + result
+        )
+
+    return result / len(personIDs)
