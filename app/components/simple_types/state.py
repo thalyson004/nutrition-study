@@ -43,3 +43,10 @@ class State:
             return False
 
         return NotImplemented
+
+    def __add__(self, temp):
+        stateSum = State()
+        for key in mealCodeList:
+            stateSum[key] = self[key] + temp[key]
+
+        return stateSum
