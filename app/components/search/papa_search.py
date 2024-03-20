@@ -155,6 +155,16 @@ finalMeal {self.finalMeal}
 finalNutrition {self.finalNutrition}
         """
 
+    def __add__(self, temp):
+        resultSum = SearchResult()
+
+        resultSum.initialMeal = self.initialMeal + temp.initialMeal
+        resultSum.finalMeal = self.finalMeal + temp.finalMeal
+        resultSum.initialNutrition = self.initialNutrition + temp.initialNutrition
+        resultSum.finalNutrition = self.finalNutrition + temp.finalNutrition
+
+        return resultSum
+
 
 def cosine_similarity(array1, array2):
     dot_product = np.dot(array1, array2)

@@ -43,6 +43,11 @@ class Nutrition:
             self.data = {key: 0 for key in nutrients.keys()}
 
     def __add__(self, temp):
+        if self == None:
+            return temp
+        if temp == None:
+            return self
+
         nutrition = Nutrition()
         for nutrient in nutrition.keys():
             nutrition[nutrient] = self[nutrient] + temp[nutrient]
