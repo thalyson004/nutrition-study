@@ -9,10 +9,7 @@ from app.components.extract_data.dataframes.dictionaries.nutrients import nutrie
 class Nutrition:
     from .state import State
 
-    data: dict = None
-
-    def __getitem__(self, index):
-        return self.data[index]
+    # data: dict = None
 
     def keys(self):
         return list(self.data.keys())
@@ -53,6 +50,15 @@ class Nutrition:
             nutrition[nutrient] = self[nutrient] + temp[nutrient]
 
         return nutrition
+
+    def __truediv__(self, divValue):
+        if isinstance(divValue, int) or isinstance(divValue, float):
+            nutrition = Nutrition()
+            for nutrientKey, nutrientValue in self.data.items():
+                nutrition[nutrientKey] = nutrientValue / divValue
+            return nutrition
+        else:
+            raise TypeError("Unsupported operand type(s)")
 
     @staticmethod
     def keys() -> list:
@@ -142,3 +148,9 @@ class Nutrition:
 
     def __setitem__(self, index, value):
         self.data[index] = value
+
+    def __getitem__(self, index):
+        return self.data[index]
+
+    def __str__(self):
+        return f"Nutrition: {self.data}"
