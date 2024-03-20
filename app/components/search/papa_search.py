@@ -1,3 +1,4 @@
+from typing import List
 from app.components.basic_dataframes import (
     dictMealState,
     mealCodeList,
@@ -14,10 +15,16 @@ import matplotlib.pyplot as plt
 
 
 class SearchResult:
+
+    # initialMeal:State=None,
+    # finalMeal:State=None,
+    # initialNutrition:Nutrition=None
+    # finalNutrition:Nutrition=None
+
     def __init__(
         self,
-        initialMeal=None,
-        finalMeal=None,
+        initialMeal: State = None,
+        finalMeal: State = None,
     ):
         self.initialMeal = initialMeal
         self.finalMeal = finalMeal
@@ -25,10 +32,14 @@ class SearchResult:
         self.initialNutrition = None
         if initialMeal:
             self.initialNutrition = Nutrition(initialMeal)
+        else:
+            self.initialNutrition = Nutrition()
 
         self.finalNutrition = None
         if finalMeal:
             self.finalNutrition = Nutrition(finalMeal)
+        else:
+            self.finalNutrition = Nutrition()
 
     def get_df(self, personID=""):
 
@@ -137,6 +148,13 @@ class SearchResult:
 
         df2img.save_dataframe(fig=fig, filename=f"{path}.png")
 
+    def __str__(self):
+        return f"""initialMeal {self.initialMeal}
+initialNutrition {self.initialNutrition}
+finalMeal {self.finalMeal}
+finalNutrition {self.finalNutrition}
+        """
+
 
 def cosine_similarity(array1, array2):
     dot_product = np.dot(array1, array2)
@@ -159,6 +177,10 @@ def papaSingleSeach(
     max_steps=100,
     verbose=False,
 ) -> SearchResult:
+    """Algorithm
+    K: number of moviments for each expansion
+    D: Vector difference between the ideal and actual nutrition
+    """
 
     # Config
     UNIT = unit  # Quantity of grams using in an step
@@ -188,6 +210,7 @@ def papaSingleSeach(
         if verbose:
             clear_output(wait=True)
             print(f"Step {i}: ")
+
         newPopulation = []
         # For each state
         for state in population:
