@@ -29,9 +29,9 @@ class State:
         # newState[mealCode] += quantity
 
         if mealCode in newState:
-            newState[mealCode] += quantity
+            newState.data[mealCode] += quantity
         else:
-            newState[mealCode] = quantity
+            newState.data[mealCode] = quantity
 
         return newState
 
@@ -60,7 +60,7 @@ class State:
         return stateSum
 
     def __getitem__(self, index):
-        return self.data[index]
+        return self.data.get(index, None)
 
     def __setitem__(self, index, value):
         self.data[index] = value
@@ -77,3 +77,6 @@ class State:
 
     def __str__(self):
         return f"State: {self.data}"
+
+    def __contains__(self, key):
+        return key in self.data.keys()

@@ -283,10 +283,10 @@ def papaSingleSeach(
             # Expand the state using the K best moviments
             selectedOptions = []
             # population.clear()
+
             for option in options:
                 newState = state.change(option[1], option[2])  # (mealCode, factor)
                 selectedOptions.append(newState)
-                # print(f"newState ({option[1]}, {option[2]}):", newState)
 
             # Rank the population using module difference SUM ((Ni - Nt)/Nt)
             newPopulation = newPopulation + [
