@@ -201,6 +201,7 @@ def papaSingleSeach(
     expansion_select=3,
     max_steps=100,
     verbose=False,
+    fitness=Nutrition.absDifference,
 ) -> SearchResult:
     """Algorithm
     K: number of moviments for each expansion
@@ -261,9 +262,8 @@ def papaSingleSeach(
 
                             # similarity = cosine_similarity(list(stepDirection.values()), direction.values())
 
-                            # Calc using absDistance
-                            similarity = 0
-                            similarity = Nutrition.absDifference(
+                            # Calc using fitness function
+                            similarity = fitness(
                                 dictNutritionByMeal[mealCode], direction, factor=factor
                             )
 
@@ -281,19 +281,20 @@ def papaSingleSeach(
             # print("Options:", options)
 
             # Expand the state using the K best moviments
-            population.clear()
+            selectedOptions = []
+            # population.clear()
             for option in options:
                 newState = state.change(option[1], option[2])  # (mealCode, factor)
-                population.append(newState)
+                selectedOptions.append(newState)
                 # print(f"newState ({option[1]}, {option[2]}):", newState)
 
             # Rank the population using module difference SUM ((Ni - Nt)/Nt)
             newPopulation = newPopulation + [
                 (
-                    Nutrition.absDifference(Nutrition(solution), targetNutrition),
+                    fitness(Nutrition(solution), targetNutrition),
                     solution,
                 )
-                for solution in population
+                for solution in selectedOptions
             ]
             # print("newPopulation:", newPopulation)
         if verbose:

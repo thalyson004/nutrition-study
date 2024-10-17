@@ -10,7 +10,8 @@ class State:
         self.data: dict = None
 
         if data == None:
-            self.data = {key: 0 for key in mealCodeList}
+            # self.data = {key: 0 for key in mealCodeList}
+            self.data = {}
         else:
             self.data = data
 
@@ -24,7 +25,14 @@ class State:
 
     def change(self, mealCode: str, quantity: float):
         newState = deepcopy(self)
-        newState[mealCode] += quantity
+
+        # newState[mealCode] += quantity
+
+        if mealCode in newState:
+            newState[mealCode] += quantity
+        else:
+            newState[mealCode] = quantity
+
         return newState
 
     @staticmethod
