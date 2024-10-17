@@ -209,12 +209,13 @@ def getDfMealState(verbose=False) -> DataFrame:
             print("mealsCodes readed:", mealsCodes)
 
         for index, row in df.iterrows():
+            cod_tbca = row["COD_TBCA"].decode("utf-8")
             try:
-                countQuantity[(row["PESSOA"], row["COD_TBCA"])] += 0
+                countQuantity[(row["PESSOA"], cod_tbca)] += 0
             except:
-                countQuantity[(row["PESSOA"], row["COD_TBCA"])] = 0
+                countQuantity[(row["PESSOA"], cod_tbca)] = 0
 
-            countQuantity[(row["PESSOA"], row["COD_TBCA"])] += row["QTD"]
+            countQuantity[(row["PESSOA"], cod_tbca)] += row["QTD"]
 
         if verbose:
             print("countQuantity:", countQuantity)
