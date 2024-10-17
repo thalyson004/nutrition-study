@@ -10,7 +10,8 @@ class State:
         self.data: dict = None
 
         if data == None:
-            self.data = {key: 0 for key in mealCodeList}
+            # self.data = {key: 0 for key in mealCodeList}
+            self.data = {}
         else:
             self.data = data
 
@@ -24,7 +25,14 @@ class State:
 
     def change(self, mealCode: str, quantity: float):
         newState = deepcopy(self)
-        newState[mealCode] += quantity
+
+        # newState[mealCode] += quantity
+
+        if mealCode in newState:
+            newState.data[mealCode] += quantity
+        else:
+            newState.data[mealCode] = quantity
+
         return newState
 
     @staticmethod
@@ -52,7 +60,7 @@ class State:
         return stateSum
 
     def __getitem__(self, index):
-        return self.data[index]
+        return self.data.get(index, None)
 
     def __setitem__(self, index, value):
         self.data[index] = value
@@ -69,3 +77,6 @@ class State:
 
     def __str__(self):
         return f"State: {self.data}"
+
+    def __contains__(self, key):
+        return key in self.data.keys()

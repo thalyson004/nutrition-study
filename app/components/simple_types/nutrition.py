@@ -117,6 +117,37 @@ class Nutrition:
             ]
         )
 
+    @staticmethod
+    def absDifferenceNegativePenalty(
+        initNutrition, targetNutrition, factor=1, mult=1.41
+    ) -> float:
+        initNutrition: Nutrition = initNutrition
+        targetNutrition: Nutrition = targetNutrition
+
+        return sum(
+            [
+                (
+                    (initNutrition[key] * factor - targetNutrition[key])
+                    if (initNutrition[key] * factor - targetNutrition[key]) > 0
+                    else (initNutrition[key] * factor - targetNutrition[key]) * -mult
+                )
+                for key in initNutrition.keys()
+            ]
+        )
+
+    @staticmethod
+    def distanceDifference(initNutrition, targetNutrition, factor=1) -> float:
+        initNutrition: Nutrition = initNutrition
+        targetNutrition: Nutrition = targetNutrition
+
+        return sum(
+            [
+                ((initNutrition[key] * factor - targetNutrition[key]))
+                * ((initNutrition[key] * factor - targetNutrition[key]))
+                for key in initNutrition.keys()
+            ]
+        )
+
     def distance() -> dict:
         return 0
 
