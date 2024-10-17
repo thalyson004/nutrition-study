@@ -168,7 +168,7 @@ def getDfPerson() -> DataFrame:
         return dfPerson
 
 
-def getDfMealState() -> DataFrame:
+def getDfMealState(verbose=False) -> DataFrame:
     """Return dataframe with initial state of each person
 
     Returns:
@@ -176,16 +176,37 @@ def getDfMealState() -> DataFrame:
     """
 
     try:
+        if verbose:
+            print("Try open /dfMealState.pickle")
+
         with open(datasetPicklePath + "/dfMealState.pickle", "rb") as file:
             return pickle.load(file)
+
+        if verbose:
+            print("/dfMealState.pickle opened")
+
     except (FileNotFoundError, EOFError, pickle.UnpicklingError) as e:
+        if verbose:
+            print("Error on open /dfMealState.pickle")
+            print("Try create a new one")
+            print("Reading the database Consumo")
+
         df = getDfConsumo()
 
+        if verbose:
+            print("Database Consumo readed ")
+
         dfMealState = DataFrame(df["PESSOA"].unique(), columns=["PESSOA"])
+
+        if verbose:
+            print("dfMealState initialized:", dfMealState)
 
         countQuantity = {}
 
         mealsCodes = get_meals_codes_list()
+
+        if verbose:
+            print("mealsCodes readed:", mealsCodes)
 
         for index, row in df.iterrows():
             try:
@@ -195,16 +216,36 @@ def getDfMealState() -> DataFrame:
 
             countQuantity[(row["PESSOA"], row["COD_TBCA"])] += row["QTD"]
 
-        def get_QTD(pessoa: str, tbca: str) -> int:
-            try:
-                return countQuantity[(pessoa, tbca)]
-            except:
-                return 0
+        if verbose:
+            print("countQuantity:", countQuantity)
 
-        for code in mealsCodes:
-            dfMealState[code] = dfMealState["PESSOA"].apply(
-                lambda pessoa: get_QTD(pessoa, code)
-            )
+        def get_QTD(pessoa: str, tbca: str) -> int:
+            value = 0.0
+
+            try:
+                value = countQuantity[(pessoa, tbca)]
+            except:
+                value = 0
+
+            return value
+
+        newcolumns = dfMealState["PESSOA"].apply(
+            lambda pessoa: get_QTD(pessoa, code) for code in mealsCodes
+        )
+
+        newcolumns.columns = mealsCodes
+
+        if verbose:
+            print("newcolumns", newcolumns)
+
+        dfMealState = pd.concat([dfMealState, newcolumns], axis=1)
+        # for code in mealsCodes:
+        #     print("code", code)
+        #     dfMealState[code] = dfMealState["PESSOA"].apply(
+        #         lambda pessoa: get_QTD(pessoa, code)
+        #     )
+        #     dfMealState.head()
+        #     break
 
         with open(datasetPicklePath + "/dfMealState.pickle", "wb") as file:
             pickle.dump(dfMealState, file)
@@ -305,6 +346,7 @@ def getDictMealState() -> dict[str : dict[str, int]]:
             dictMealState[pessoaID] = dict()
 
             for mealCode, grams in row.items():
+                # if mealCode == "PESSOA" or grams == 0.0:
                 if mealCode == "PESSOA":
                     continue
 
