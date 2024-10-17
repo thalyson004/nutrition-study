@@ -6,5 +6,5 @@ datasets/morador.*
 datasets/pickle/*
 
 documents/*
-
+*.pyc
 .env
