@@ -364,6 +364,68 @@ def getDictMealState() -> dict[str : dict[str, int]]:
         return dictMealState
 
 
+def getDictV9001ToTbca() -> dict[str, str]:
+    """Return a dictionary with (V9001, COD_TBCA)
+    First try read a pickle file, if doesnt exist, create, write and return
+
+    Returns:
+        dict[str, str]: (V9001, COD_TBCA)
+    """
+    fileName = "dictV9001ToTbca"
+
+    try:
+        with open(datasetPicklePath + f"/{fileName}.pickle", "rb") as file:
+            return pickle.load(file)
+
+    except:
+        dfConsumo = getDfConsumo()
+
+        lV9001 = [str(int(el)) for el in list(dfConsumo["V9001"])]
+
+        lTbca = [el.decode("utf-8") for el in list(dfConsumo["COD_TBCA"])]
+
+        dictV9001ToTbca: dict[str, str] = {}  # (V9001, COD_TBCA) []
+
+        for v9001, tbca in list(zip(lV9001, lTbca)):
+            dictV9001ToTbca[v9001] = tbca
+
+        with open(datasetPicklePath + f"/{fileName}.pickle", "wb") as file:
+            pickle.dump(dictV9001ToTbca, file)
+
+        return dictV9001ToTbca
+
+
+def getDictTbcaToV9001() -> dict[str, str]:
+    """Return a dictionary with (COD_TBCA, V9001)
+    First try read a pickle file, if doesnt exist, create, write and return
+
+    Returns:
+        dict[str, str]: (COD_TBCA, V9001)
+    """
+    fileName = "dictTbcaToV9001"
+
+    try:
+        with open(datasetPicklePath + f"/{fileName}.pickle", "rb") as file:
+            return pickle.load(file)
+
+    except:
+        dfConsumo = getDfConsumo()
+
+        lV9001 = [str(int(el)) for el in list(dfConsumo["V9001"])]
+
+        lTbca = [el.decode("utf-8") for el in list(dfConsumo["COD_TBCA"])]
+
+        dictTbcaToV9001: dict[str, str] = {}  # (COD_TBCA, V9001) []
+
+        for v9001, tbca in list(zip(lV9001, lTbca)):
+            dictTbcaToV9001[tbca] = v9001
+
+        with open(datasetPicklePath + f"/{fileName}.pickle", "wb") as file:
+            pickle.dump(dictTbcaToV9001, file)
+
+        return dictTbcaToV9001
+
+
 def getDictPersonEer() -> dict[str:dict]:
     """Dictionary with eer by person id
 
