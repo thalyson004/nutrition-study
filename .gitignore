@@ -2,8 +2,11 @@ datasets/caract_dieta.*
 datasets/consumo.*
 datasets/domicilio.*
 datasets/morador.*
-
+datasets/datasets.zip
 datasets/pickle/*
+datasets/datasets.zip
+datasets/despesa_individual.*
+datasets/despesa*
 
 documents/*
 *.pyc
