@@ -68,6 +68,11 @@ class Nutrition:
             "FIBRA": 31,
             "COLEST": (-1) * (-1) * 300,
             "CALCIO": 868,
+            "AGTRANS": (-1) * (-1) * (eer * (1 / 100) if eer != None else 50),
+            "AGSAT": (-1) * (-1) * (eer * (10 / 100) if eer != None else 50),
+            "AGPOLI": (-1)
+            * (-1)
+            * (eer * (6 / 100) if eer != None else 50),  # 6-10 err
             # TODO: Use sodio as observed
             "SODIO": 0,
             "POTASSIO": 3510,
@@ -84,6 +89,9 @@ class Nutrition:
             "FOLATO": 322,
             "ZINCO": 8,
             "FOSFORO": 649,
+            # "FRUIT": 400
+            # "FISH": 43,
+            # "SUGAR": (-1) * (-1) * (eer * (5 / 100) if eer != None else 50),  # 5 err,
         }
 
         return Nutrition(nutrients_quantiy)

@@ -4,6 +4,9 @@ nutrients: dict = {
     "PTN": "Protein (g)",
     "LIP": "Total fats (g)",
     "FIBRA": "Total fiber (g)",
+    "AGPOLI": "PUFA (g)",
+    "AGTRANS": "Trans-fat (g)",
+    "AGSAT": "Saturated fat (g)",
     "COLEST": "Cholesterol (mg)",
     "CALCIO": "Calcium (mg)",
     "SODIO": "Sodium (mg)",
@@ -14,17 +17,17 @@ nutrients: dict = {
     "RIBOFLAVINA": "Vitamin B2 (mg)",
     "NIACINA": "Niacin/B3 (mg)",
     "PIRIDOXAMINA": "Vitamin B6 (mg)",
-    "COBALAMINA": "Vitamin B12",
+    "COBALAMINA": "Vitamin B12 (mcg)",
     "VITC": "Vitamin C (mg)",
     "VITA_RAE": "Vitamin A (µg)",
     "COBRE": "Copper (mg)",
     "FOLATO": "Folate (µg)",
     "FOSFORO": "Phosphorus (mg)",
     "ZINCO": "Zinc (mg)",
-    # PUFA (%EER) 6–10 6–10
-    # Sat. fat (%EER) <10 <10
-    # Trans-fat (%EER) <1 <1
-    # Free sugarsa (%EER) <5 <5
-    # Fruit and vegetables (g) ≥400
-    # Fish (g) ≥43b
+    # TODO: Add fruit and vegetables into mealState
+    # "FRUIT": "Fruit and vegetables (g)"
+    # TODO: Add fish into mealState
+    # "FISH": "Fish (g)",
+    # TODO: Add free sugar into mealState
+    # "SUGAR": "Freesugar (g)"
 }
