@@ -10,8 +10,8 @@ class State:
         self.data: dict = None
 
         if data == None:
-            # self.data = {key: 0 for key in mealCodeList}
-            self.data = {}
+            self.data = {key: 0 for key in mealCodeList}
+            # self.data = {}
         else:
             self.data = data
 
@@ -39,7 +39,10 @@ class State:
     def getStateByPersonId(personId: str):
         from app.components.basic_dataframes import dictMealState
 
-        return State(dictMealState[personId])
+        try:
+            return State(dictMealState[personId])
+        except:
+            return State()
 
     def __lt__(self, other):
         if isinstance(other, State):

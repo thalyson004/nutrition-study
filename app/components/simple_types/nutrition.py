@@ -71,10 +71,10 @@ class Nutrition:
             "PTN": eer * (10 / 100) if eer != None else 50,  # 10-15 eer
             "LIP": (-1) * (-1) * (eer * (15 / 100) if eer != None else 50),  # 15–30 eer
             "FIBRA": 31,
-            "COLEST": (-1) * (-1) * 300,
+            "COLEST": (-1) * (-1) * 300.0,
             "CALCIO": 868,
-            "AGTRANS": (-1) * (-1) * (eer * (1 / 100) if eer != None else 50),
-            "AGSAT": (-1) * (-1) * (eer * (10 / 100) if eer != None else 50),
+            "AGTRANS": (-1) * (-1) * (eer * (1.0 / 100.0) if eer != None else 50),
+            "AGSAT": (-1) * (-1) * (eer * (10.0 / 100.0) if eer != None else 50),
             "AGPOLI": (-1)
             * (-1)
             * (eer * (6 / 100) if eer != None else 50),  # 6-10 err
@@ -105,16 +105,18 @@ class Nutrition:
     def idealNutritionByPersonId(personId: str = None):
         from app.components.basic_dataframes import dictPersonEer
 
-        return Nutrition.idealNutritionByEer(dictPersonEer[personId])
+        try:
+            return Nutrition.idealNutritionByEer(dictPersonEer[personId])
+        except:
+            return Nutrition.idealNutritionByEer(2388.8400)
 
     @staticmethod
-    def directionDifference(initNutrition, finalNutrition, targetNutrition=None):
+    def directionDifference(initNutrition, finalNutrition):
         initNutrition: Nutrition = initNutrition
         finalNutrition: Nutrition = finalNutrition
 
         data = {
             key: (finalNutrition[key] - initNutrition[key])
-            / (1 if targetNutrition == None else targetNutrition[key])
             for key in initNutrition.keys()
         }
         return Nutrition(data)
@@ -132,7 +134,7 @@ class Nutrition:
         )
 
     @staticmethod
-    def absDifferenceNegativePenalty(initNutrition, finalNutrition, mult=1.41) -> float:
+    def absDifferenceNegativePenalty(initNutrition, finalNutrition, mult=1007) -> float:
         initNutrition: Nutrition = initNutrition
         finalNutrition: Nutrition = finalNutrition
 
@@ -141,7 +143,7 @@ class Nutrition:
                 (
                     (initNutrition[key] - finalNutrition[key])
                     if (initNutrition[key] - finalNutrition[key]) > 0
-                    else (initNutrition[key] - finalNutrition[key]) * mult
+                    else (initNutrition[key] - finalNutrition[key]) * -mult
                 )
                 / finalNutrition[key]
                 for key in initNutrition.keys()

@@ -145,7 +145,7 @@ class SearchResult:
                 font_family="Times New Roman",
             ),
             row_fill_color=("#ffffff", "#d7d8d6"),
-            fig_size=(800, 550),
+            fig_size=(1200, 550),
         )
 
         df2img.save_dataframe(fig=fig, filename=f"{path}.png")
@@ -212,8 +212,12 @@ def papaSingleSeach(
     UNIT = unit  # Quantity of grams using in an step
     MAX_UNIT = max_unit  # Max units added of removed by one step
 
-    MAX_POPULATION_SET = max_population_set  # Quantity of leaves nodes
-    MAX_POPULATION_SELECT = max_population_selected  # Quantity of leaves nodes
+    MAX_POPULATION_SET = (
+        max_population_set  # Quantity of leaves nodes that will be random selected
+    )
+    MAX_POPULATION_SELECT = (
+        max_population_selected  # Quantity of leaves nodes that was random selected
+    )
 
     EXPANSION_SET = (
         expansion_set  # Quantity of good steps that have been selected to be an option
@@ -285,7 +289,7 @@ def papaSingleSeach(
                                 targetNutrition,
                             )
 
-                            # Store tuple (similarity, mealCode, signal) into options.
+                            # Store tuple (similarity, mealCode, factor) into options.
                             options.append((similarity, mealCode, factor))
 
             # Rank each possible  between
@@ -327,6 +331,8 @@ def papaSingleSeach(
         newPopulation.sort(reverse=False)
         newPopulation = newPopulation[: min(MAX_POPULATION_SET, len(newPopulation))]
         random.shuffle(newPopulation)
+
+        newPopulation.sort(reverse=False)
         newPopulation = [
             person
             for (x, person) in newPopulation[
