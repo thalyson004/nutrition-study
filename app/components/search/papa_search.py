@@ -1,10 +1,10 @@
 from dataclasses import dataclass
 from typing import List
 from app.components.basic_dataframes import (
-    dictMealState,
     mealCodeList,
     dictNutritionByMeal,
 )
+from app.components.extract_data.dataframes.dictionaries.nutrients import nutrients
 from app.components.simple_types import Nutrition, State
 import random
 from IPython.display import clear_output
@@ -145,7 +145,7 @@ class SearchResult:
                 font_family="Times New Roman",
             ),
             row_fill_color=("#ffffff", "#d7d8d6"),
-            fig_size=(800, 550),
+            fig_size=(1200, 550),
         )
 
         df2img.save_dataframe(fig=fig, filename=f"{path}.png")
@@ -212,8 +212,12 @@ def papaSingleSeach(
     UNIT = unit  # Quantity of grams using in an step
     MAX_UNIT = max_unit  # Max units added of removed by one step
 
-    MAX_POPULATION_SET = max_population_set  # Quantity of leaves nodes
-    MAX_POPULATION_SELECT = max_population_selected  # Quantity of leaves nodes
+    MAX_POPULATION_SET = (
+        max_population_set  # Quantity of leaves nodes that will be random selected
+    )
+    MAX_POPULATION_SELECT = (
+        max_population_selected  # Quantity of leaves nodes that was random selected
+    )
 
     EXPANSION_SET = (
         expansion_set  # Quantity of good steps that have been selected to be an option
@@ -242,7 +246,7 @@ def papaSingleSeach(
         for state in population:
             # Get the difference vector between ideal and actual state (D vector)
             stateNutrition = Nutrition(state)
-            direction = Nutrition.directionDifference(stateNutrition, targetNutrition)
+            # direction = Nutrition.directionDifference(stateNutrition, targetNutrition)
             # print("direction: ", direction)
 
             # Test increase and decrease each meal
@@ -253,6 +257,14 @@ def papaSingleSeach(
                     for times in range(1, MAX_UNIT + 1):
 
                         factor = times * UNIT * signal
+
+                        # zero the meal
+                        if factor <= 0:
+                            factor = max(factor, -state[mealCode])
+
+                        if factor == 0:
+                            continue
+
                         if state[mealCode] + factor >= 0.0:
 
                             # Calc similatiry between mealDirection and direction
@@ -262,12 +274,22 @@ def papaSingleSeach(
 
                             # similarity = cosine_similarity(list(stepDirection.values()), direction.values())
 
+                            # Calc stepNutrition
+
+                            stepNutrition = Nutrition(stateNutrition.data)
+
+                            for nutrient in nutrients.keys():
+                                stepNutrition[nutrient] += (
+                                    dictNutritionByMeal[mealCode][nutrient] * factor
+                                )
+
                             # Calc using fitness function
                             similarity = fitness(
-                                dictNutritionByMeal[mealCode], direction, factor=factor
+                                stepNutrition,
+                                targetNutrition,
                             )
 
-                            # Store tuple (similarity, mealCode, signal) into options.
+                            # Store tuple (similarity, mealCode, factor) into options.
                             options.append((similarity, mealCode, factor))
 
             # Rank each possible  between
@@ -291,7 +313,10 @@ def papaSingleSeach(
             # Rank the population using module difference SUM ((Ni - Nt)/Nt)
             newPopulation = newPopulation + [
                 (
-                    fitness(Nutrition(solution), targetNutrition),
+                    fitness(
+                        Nutrition(solution),
+                        targetNutrition,
+                    ),
                     solution,
                 )
                 for solution in selectedOptions
@@ -299,13 +324,15 @@ def papaSingleSeach(
             # print("newPopulation:", newPopulation)
         if verbose:
             print(
-                "Mininum absDistance: ",
+                "Best fitness: ",
                 min([distance for distance, solution in newPopulation]),
             )
 
         newPopulation.sort(reverse=False)
         newPopulation = newPopulation[: min(MAX_POPULATION_SET, len(newPopulation))]
         random.shuffle(newPopulation)
+
+        newPopulation.sort(reverse=False)
         newPopulation = [
             person
             for (x, person) in newPopulation[

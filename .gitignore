@@ -6,7 +6,9 @@ datasets/datasets.zip
 datasets/pickle/*
 datasets/datasets.zip
 datasets/despesa_individual.*
+datasets/despesa_individual.*
 datasets/despesa*
+datasets/dfDespesaColetiva.csv
 
 documents/*
 *.pyc
