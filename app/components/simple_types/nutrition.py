@@ -10,6 +10,11 @@ class Nutrition:
     from .state import State
 
     def __init__(self, state: Union[State, any] = None):
+        """
+        State: A state with quanties of food or a dictionary with the nutrition quantity
+
+        return: A nutrition
+        """
         from .state import State
         from app.components.basic_dataframes import dictNutritionByMeal
 
@@ -74,7 +79,7 @@ class Nutrition:
             * (-1)
             * (eer * (6 / 100) if eer != None else 50),  # 6-10 err
             # TODO: Use sodio as observed
-            "SODIO": 0,
+            "SODIO": 1,
             "POTASSIO": 3510,
             "FERRO": 6.8,
             "MAGNESIO": 303,
@@ -103,55 +108,61 @@ class Nutrition:
         return Nutrition.idealNutritionByEer(dictPersonEer[personId])
 
     @staticmethod
-    def directionDifference(initNutrition, targetNutrition):
+    def directionDifference(initNutrition, finalNutrition, targetNutrition=None):
         initNutrition: Nutrition = initNutrition
-        targetNutrition: Nutrition = targetNutrition
+        finalNutrition: Nutrition = finalNutrition
 
         data = {
-            key: targetNutrition[key] - initNutrition[key]
+            key: (finalNutrition[key] - initNutrition[key])
+            / (1 if targetNutrition == None else targetNutrition[key])
             for key in initNutrition.keys()
         }
         return Nutrition(data)
 
     @staticmethod
-    def absDifference(initNutrition, targetNutrition, factor=1) -> float:
+    def absDifference(initNutrition, finalNutrition) -> float:
         initNutrition: Nutrition = initNutrition
-        targetNutrition: Nutrition = targetNutrition
+        finalNutrition: Nutrition = finalNutrition
 
         return sum(
             [
-                abs((initNutrition[key] * factor - targetNutrition[key]))
+                abs((initNutrition[key] - finalNutrition[key])) / finalNutrition[key]
                 for key in initNutrition.keys()
             ]
         )
 
     @staticmethod
-    def absDifferenceNegativePenalty(
-        initNutrition, targetNutrition, factor=1, mult=1.41
-    ) -> float:
+    def absDifferenceNegativePenalty(initNutrition, finalNutrition, mult=1.41) -> float:
         initNutrition: Nutrition = initNutrition
-        targetNutrition: Nutrition = targetNutrition
+        finalNutrition: Nutrition = finalNutrition
 
         return sum(
             [
                 (
-                    (initNutrition[key] * factor - targetNutrition[key])
-                    if (initNutrition[key] * factor - targetNutrition[key]) > 0
-                    else (initNutrition[key] * factor - targetNutrition[key]) * -mult
+                    (initNutrition[key] - finalNutrition[key])
+                    if (initNutrition[key] - finalNutrition[key]) > 0
+                    else (initNutrition[key] - finalNutrition[key]) * mult
                 )
+                / finalNutrition[key]
                 for key in initNutrition.keys()
             ]
         )
 
     @staticmethod
-    def distanceDifference(initNutrition, targetNutrition, factor=1) -> float:
+    def distanceDifference(
+        initNutrition,
+        finalNutrition,
+    ) -> float:
         initNutrition: Nutrition = initNutrition
-        targetNutrition: Nutrition = targetNutrition
+        finalNutrition: Nutrition = finalNutrition
 
         return sum(
             [
-                ((initNutrition[key] * factor - targetNutrition[key]))
-                * ((initNutrition[key] * factor - targetNutrition[key]))
+                (
+                    (initNutrition[key] - finalNutrition[key])
+                    * (initNutrition[key] - finalNutrition[key])
+                )
+                / (finalNutrition[key] * finalNutrition[key])
                 for key in initNutrition.keys()
             ]
         )

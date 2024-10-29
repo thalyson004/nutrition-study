@@ -1,10 +1,10 @@
 from dataclasses import dataclass
 from typing import List
 from app.components.basic_dataframes import (
-    dictMealState,
     mealCodeList,
     dictNutritionByMeal,
 )
+from app.components.extract_data.dataframes.dictionaries.nutrients import nutrients
 from app.components.simple_types import Nutrition, State
 import random
 from IPython.display import clear_output
@@ -242,7 +242,7 @@ def papaSingleSeach(
         for state in population:
             # Get the difference vector between ideal and actual state (D vector)
             stateNutrition = Nutrition(state)
-            direction = Nutrition.directionDifference(stateNutrition, targetNutrition)
+            # direction = Nutrition.directionDifference(stateNutrition, targetNutrition)
             # print("direction: ", direction)
 
             # Test increase and decrease each meal
@@ -253,6 +253,14 @@ def papaSingleSeach(
                     for times in range(1, MAX_UNIT + 1):
 
                         factor = times * UNIT * signal
+
+                        # zero the meal
+                        if factor <= 0:
+                            factor = max(factor, -state[mealCode])
+
+                        if factor == 0:
+                            continue
+
                         if state[mealCode] + factor >= 0.0:
 
                             # Calc similatiry between mealDirection and direction
@@ -262,9 +270,19 @@ def papaSingleSeach(
 
                             # similarity = cosine_similarity(list(stepDirection.values()), direction.values())
 
+                            # Calc stepNutrition
+
+                            stepNutrition = Nutrition(stateNutrition.data)
+
+                            for nutrient in nutrients.keys():
+                                stepNutrition[nutrient] += (
+                                    dictNutritionByMeal[mealCode][nutrient] * factor
+                                )
+
                             # Calc using fitness function
                             similarity = fitness(
-                                dictNutritionByMeal[mealCode], direction, factor=factor
+                                stepNutrition,
+                                targetNutrition,
                             )
 
                             # Store tuple (similarity, mealCode, signal) into options.
@@ -291,7 +309,10 @@ def papaSingleSeach(
             # Rank the population using module difference SUM ((Ni - Nt)/Nt)
             newPopulation = newPopulation + [
                 (
-                    fitness(Nutrition(solution), targetNutrition),
+                    fitness(
+                        Nutrition(solution),
+                        targetNutrition,
+                    ),
                     solution,
                 )
                 for solution in selectedOptions
@@ -299,7 +320,7 @@ def papaSingleSeach(
             # print("newPopulation:", newPopulation)
         if verbose:
             print(
-                "Mininum absDistance: ",
+                "Best fitness: ",
                 min([distance for distance, solution in newPopulation]),
             )
 
