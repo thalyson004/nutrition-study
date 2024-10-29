@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 @dataclass
 class SearchResult:
-
+    # personIDs: list[str]=[]
     # initialMeal:State=None,
     # finalMeal:State=None,
     # initialNutrition:Nutrition=None
@@ -25,9 +25,11 @@ class SearchResult:
 
     def __init__(
         self,
+        personIDs: list[str] = [],
         initialMeal: State = None,
         finalMeal: State = None,
     ):
+        self.personIDs = personIDs
         self.initialMeal = initialMeal
         self.finalMeal = finalMeal
         self.initialNutrition = None
@@ -43,49 +45,47 @@ class SearchResult:
         else:
             self.finalNutrition = Nutrition()
 
-    def get_df(self, personID=""):
+    def get_df(self):
 
         data = {}
-        data["Nutrient"] = [nutrient for nutrient in self.initialNutrition.keys()]
+        data["Nutrient"] = [nutrient for nutrient in list(self.initialNutrition)]
         data["Initial Value"] = [round(x, 2) for x in self.initialNutrition.values()]
         data["Final Value"] = [round(x, 2) for x in self.finalNutrition.values()]
 
         # TODO: Use correct personID
         data["Target Value"] = Nutrition.idealNutritionByPersonId(
-            "110000016.0#1.0#2.0#1.0"
+            self.personIDs
         ).values()
 
         df = DataFrame(
             data=data,
-            # index=self.initialNutrition.keys(),
+            # index=list(self.initialNutrition),
         )
 
         # df.set_index("Nutrients")
 
         return df
 
-    def get_df_grouping(self, personID=""):
+    def get_df_grouping(self):
 
         nutrient = []
         status = []
         value = []
 
-        # TODO: Use correct personID
-        target = Nutrition.idealNutritionByPersonId("110000016.0#1.0#2.0#1.0")
+        target = Nutrition.idealNutritionByPersonId(self.personIDs)
 
         for state, nutrition in [
             ("initial", self.initialNutrition),
             ("final", self.finalNutrition),
         ]:
 
-            for temp in self.initialNutrition.keys():
-                # TODO: Add SODIO
+            for temp in list(self.initialNutrition):
                 if temp == "SODIO":
                     continue
 
                 nutrient.append(temp)
                 status.append(state)
-                value.append(min(3.0, nutrition[temp] / target[temp]))
+                value.append(min(1.0, nutrition[temp] / target[temp]))
 
         data = {}
         data["nutrient"] = nutrient
@@ -278,7 +278,7 @@ def papaSingleSeach(
 
                             stepNutrition = Nutrition(stateNutrition.data)
 
-                            for nutrient in nutrients.keys():
+                            for nutrient in list(nutrients):
                                 stepNutrition[nutrient] += (
                                     dictNutritionByMeal[mealCode][nutrient] * factor
                                 )
@@ -346,7 +346,7 @@ def papaSingleSeach(
         print("initialState: ", initialState)
         print("Population[0]: ", population[0])
 
-        for meal in initialState.data.keys():
+        for meal in list(initialState.data):
             if initialState[meal] != population[0][meal]:
                 print(
                     meal,
@@ -356,7 +356,7 @@ def papaSingleSeach(
                     population[0][meal],
                 )
 
-    return SearchResult(initialState, population[0])
+    return SearchResult([personID], initialState, population[0])
 
 
 def papaSearch(

@@ -19,20 +19,20 @@ class Nutrition:
         from app.components.basic_dataframes import dictNutritionByMeal
 
         if isinstance(state, State):
-            self.data = {key: 0 for key in nutrients.keys()}
+            self.data = {key: 0 for key in list(nutrients)}
 
-            for code in state.keys():  # Meals code
-                for nutrient in self.keys():  # Nutrient code
+            for code in list(state.keys()):  # Meals code
+                for nutrient in list(self):  # Nutrient code
                     self.data[nutrient] += (
                         dictNutritionByMeal[code][nutrient] * state[code]
                     )
         elif type(state) is dict:
             self.data = state
         else:
-            self.data = {key: 0 for key in nutrients.keys()}
+            self.data = {key: 0 for key in list(nutrients)}
 
     def keys(self):
-        return list(self.data.keys())
+        return list(self.data)
 
     def values(self):
         return list(self.data.values())
@@ -44,7 +44,7 @@ class Nutrition:
 
     @staticmethod
     def keys() -> list:
-        return list(nutrients.keys())
+        return list(nutrients)
 
     @staticmethod
     def getDictNutrition(state: State) -> dict:
@@ -85,15 +85,15 @@ class Nutrition:
             "MAGNESIO": 303,
             "TIAMINA": 0.9,
             "RIBOFLAVINA": 1,
-            "NIACINA": 11.5,
             "PIRIDOXAMINA": 1.1,
+            "NIACINA": 11.5,
             "COBALAMINA": 2,
             "VITC": 66.1,
             "VITA_RAE": 560,
             "COBRE": 0.7,
             "FOLATO": 322,
-            "ZINCO": 8,
             "FOSFORO": 649,
+            "ZINCO": 8,
             # "FRUIT": 400
             # "FISH": 43,
             # "SUGAR": (-1) * (-1) * (eer * (5 / 100) if eer != None else 50),  # 5 err,
@@ -101,9 +101,13 @@ class Nutrition:
 
         return Nutrition(nutrients_quantiy)
 
+    # TODO: Fix idealNutritionByPersonId to be used be a group of people
     @staticmethod
     def idealNutritionByPersonId(personId: str = None):
         from app.components.basic_dataframes import dictPersonEer
+
+        if isinstance(personId, list) and len(personId) == 1:
+            personId = personId[0]
 
         try:
             return Nutrition.idealNutritionByEer(dictPersonEer[personId])
@@ -117,7 +121,7 @@ class Nutrition:
 
         data = {
             key: (finalNutrition[key] - initNutrition[key])
-            for key in initNutrition.keys()
+            for key in list(initNutrition)
         }
         return Nutrition(data)
 
@@ -129,11 +133,12 @@ class Nutrition:
         return sum(
             [
                 abs((initNutrition[key] - finalNutrition[key])) / finalNutrition[key]
-                for key in initNutrition.keys()
+                for key in list(initNutrition)
             ]
         )
 
     @staticmethod
+    # works fine with 1007
     def absDifferenceNegativePenalty(initNutrition, finalNutrition, mult=1007) -> float:
         initNutrition: Nutrition = initNutrition
         finalNutrition: Nutrition = finalNutrition
@@ -143,10 +148,10 @@ class Nutrition:
                 (
                     (initNutrition[key] - finalNutrition[key])
                     if (initNutrition[key] - finalNutrition[key]) > 0
-                    else (initNutrition[key] - finalNutrition[key]) * -mult
+                    else (finalNutrition[key] - initNutrition[key]) * mult
                 )
                 / finalNutrition[key]
-                for key in initNutrition.keys()
+                for key in list(initNutrition)
             ]
         )
 
@@ -165,7 +170,7 @@ class Nutrition:
                     * (initNutrition[key] - finalNutrition[key])
                 )
                 / (finalNutrition[key] * finalNutrition[key])
-                for key in initNutrition.keys()
+                for key in list(initNutrition)
             ]
         )
 
@@ -188,7 +193,7 @@ class Nutrition:
             return self
 
         nutrition = Nutrition()
-        for nutrient in nutrition.keys():
+        for nutrient in list(nutrition):
             nutrition[nutrient] = self[nutrient] + temp[nutrient]
 
         return nutrition

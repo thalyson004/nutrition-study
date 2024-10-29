@@ -16,7 +16,7 @@ class State:
             self.data = data
 
     def keys(self):
-        return self.data.keys()
+        return list(self.data)
 
     def nutrition(self) -> dict:
         from .nutrition import Nutrition
@@ -82,4 +82,4 @@ class State:
         return f"State: {self.data}"
 
     def __contains__(self, key):
-        return key in self.data.keys()
+        return key in list(self.data)

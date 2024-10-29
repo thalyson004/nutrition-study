@@ -108,7 +108,7 @@ def getDfPerson() -> DataFrame:
         """List of useable features to calculate the nutrition of each person"""
         features = []
         features.append("PESSOA")
-        features = features + list(nutrients.keys())
+        features = features + list(nutrients)
         features.append("UF")
         features.append("RENDA_TOTAL")
         features.append("ESTRATO_POF")
@@ -313,7 +313,7 @@ def getDictNutritionByMeal() -> dict[str:dict]:
             if dictNutritionByMeal[row["COD_TBCA"].decode("utf-8")] != dict():
                 continue
 
-            for nutrient in nutrients.keys():
+            for nutrient in list(nutrients):
                 dictNutritionByMeal[row["COD_TBCA"].decode("utf-8")][nutrient] = float(
                     row[nutrient]
                 ) / float(row["QTD"])
