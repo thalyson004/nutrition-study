@@ -86,6 +86,11 @@ def getDfConsumo() -> DataFrame:
         dfConsumo = dfConsumo[dfConsumo.QUADRO == 72]
         dfConsumo["PESSOA"] = dfConsumo.apply(lambda row: criarPessoa(row), axis=1)
 
+        def decode(s: object):
+            return s.decode()
+
+        dfConsumo["COD_TBCA"] = dfConsumo["COD_TBCA"].apply(decode).astype(str)
+
         with open(datasetPicklePath + "/dfConsumo.pickle", "wb") as file:
             pickle.dump(dfConsumo, file)
 
@@ -209,7 +214,7 @@ def getDfMealState(verbose=False) -> DataFrame:
             print("mealsCodes readed:", mealsCodes)
 
         for index, row in df.iterrows():
-            cod_tbca = row["COD_TBCA"].decode("utf-8")
+            cod_tbca = row["COD_TBCA"]
             try:
                 countQuantity[(row["PESSOA"], cod_tbca)] += 0
             except:
@@ -279,7 +284,7 @@ def get_meals_codes_list() -> list:
     """
 
     return [
-        code.decode("utf-8")
+        code
         for code in DataFrame(
             getDfConsumo()["COD_TBCA"].unique(), columns=["COD_TBCA"]
         )["COD_TBCA"].to_list()
@@ -310,11 +315,11 @@ def getDictNutritionByMeal() -> dict[str:dict]:
 
         dfConsumo = getDfConsumo()
         for index, row in dfConsumo.iterrows():
-            if dictNutritionByMeal[row["COD_TBCA"].decode("utf-8")] != dict():
+            if dictNutritionByMeal[row["COD_TBCA"]] != dict():
                 continue
 
             for nutrient in list(nutrients):
-                dictNutritionByMeal[row["COD_TBCA"].decode("utf-8")][nutrient] = float(
+                dictNutritionByMeal[row["COD_TBCA"]][nutrient] = float(
                     row[nutrient]
                 ) / float(row["QTD"])
 
@@ -382,7 +387,7 @@ def getDictV9001ToTbca() -> dict[str, str]:
 
         lV9001 = [str(int(el)) for el in list(dfConsumo["V9001"])]
 
-        lTbca = [el.decode("utf-8") for el in list(dfConsumo["COD_TBCA"])]
+        lTbca = [el for el in list(dfConsumo["COD_TBCA"])]
 
         dictV9001ToTbca: dict[str, str] = {}  # (V9001, COD_TBCA) []
 
@@ -413,7 +418,7 @@ def getDictTbcaToV9001() -> dict[str, str]:
 
         lV9001 = [str(int(el)) for el in list(dfConsumo["V9001"])]
 
-        lTbca = [el.decode("utf-8") for el in list(dfConsumo["COD_TBCA"])]
+        lTbca = [el for el in list(dfConsumo["COD_TBCA"])]
 
         dictTbcaToV9001: dict[str, str] = {}  # (COD_TBCA, V9001) []
 
