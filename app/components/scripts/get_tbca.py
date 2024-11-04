@@ -173,12 +173,12 @@ nutrients: {self.nutrients}"""
         Value: TBCA Object
         """
 
+        fileName = "dictTBCA.pickle"
         try:
             with open(datasetPicklePath + f"/{fileName}", "rb") as file:
                 return pickle.load(file)
         except:
             with open(datasetPicklePath + f"/{fileName}", "wb") as file:
-                fileName = "dictTBCA.pickle"
                 dictTBCA: dict[str, "TBCA"] = {}
                 mealsCodes = get_meals_codes_list()
 
