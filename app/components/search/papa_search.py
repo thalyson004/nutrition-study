@@ -265,32 +265,29 @@ def papaSingleSeach(
                         if factor == 0:
                             continue
 
-                        if state[mealCode] + factor >= 0.0:
+                        # Calc similatiry between mealDirection and direction
+                        # To calculate similarity, cosine similarity was employed. (-1,1).
+                        # stepDirection = {
+                        #     nutritionCode: nutritionQuantity*factor for nutritionCode, nutritionQuantity in dictNutritionByMeal[mealCode].items()}
+                        # similarity = cosine_similarity(list(stepDirection.values()), direction.values())
 
-                            # Calc similatiry between mealDirection and direction
-                            # To calculate similarity, cosine similarity was employed. (-1,1).
-                            # stepDirection = {
-                            #     nutritionCode: nutritionQuantity*factor for nutritionCode, nutritionQuantity in dictNutritionByMeal[mealCode].items()}
+                        # Calc stepNutrition
 
-                            # similarity = cosine_similarity(list(stepDirection.values()), direction.values())
+                        stepNutrition = Nutrition(stateNutrition.data)  # O(len(meals))
 
-                            # Calc stepNutrition
-
-                            stepNutrition = Nutrition(stateNutrition.data)
-
-                            for nutrient in list(nutrients):
-                                stepNutrition[nutrient] += (
-                                    dictNutritionByMeal[mealCode][nutrient] * factor
-                                )
-
-                            # Calc using fitness function
-                            similarity = fitness(
-                                stepNutrition,
-                                targetNutrition,
+                        for nutrient in list(nutrients):
+                            stepNutrition[nutrient] += (
+                                dictNutritionByMeal[mealCode][nutrient] * factor
                             )
 
-                            # Store tuple (similarity, mealCode, factor) into options.
-                            options.append((similarity, mealCode, factor))
+                        # Calc using fitness function
+                        similarity = fitness(
+                            stepNutrition,
+                            targetNutrition,
+                        )  # O(len(nutrients))
+
+                        # Store tuple (similarity: float, mealCode: str, factor:float) into options.
+                        options.append((similarity, mealCode, factor))
 
             # Rank each possible  between
             options.sort(reverse=False)
@@ -304,7 +301,7 @@ def papaSingleSeach(
 
             # Expand the state using the K best moviments
             selectedOptions = []
-            # population.clear()
+            population.clear()
 
             for option in options:
                 newState = state.change(option[1], option[2])  # (mealCode, factor)
@@ -321,7 +318,7 @@ def papaSingleSeach(
                 )
                 for solution in selectedOptions
             ]
-            # print("newPopulation:", newPopulation)
+
         if verbose:
             print(
                 "Best fitness: ",

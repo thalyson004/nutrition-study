@@ -459,6 +459,36 @@ def getDictPersonEer() -> dict[str:dict]:
         return dictPersonEer
 
 
+def getDictStrataMeals() -> dict[int, list[str]]:
+    """Returns a dictionary with TBCA meal codes, using strata as keys."""
+    fileName = "dictStrataMeals.pickle"
+
+    try:
+        with open(datasetPicklePath + f"/{fileName}", "rb") as file:
+            dictStrataMeals = pickle.load(file)
+
+    except:
+        with open(datasetPicklePath + f"/{fileName}", "wb") as file:
+            dfConsumo = getDfConsumo()
+
+            dictStrataMeals: dict[int, list[str]] = {
+                strata: [] for strata in list(dfConsumo["ESTRATO_POF"].astype(int))
+            }
+
+            for strata in dictStrataMeals.keys():
+                dictStrataMeals[strata] = list(
+                    set(
+                        dfConsumo[dfConsumo["ESTRATO_POF"] == strata][
+                            "COD_TBCA"
+                        ].to_list()
+                    )
+                )
+
+            pickle.dump(dictStrataMeals, file)
+
+    return dictStrataMeals
+
+
 # Remove unnecessary columns (at this time)
 
 

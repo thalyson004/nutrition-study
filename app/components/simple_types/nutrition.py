@@ -126,9 +126,7 @@ class Nutrition:
         return Nutrition(data)
 
     @staticmethod
-    def absDifference(initNutrition, finalNutrition) -> float:
-        initNutrition: Nutrition = initNutrition
-        finalNutrition: Nutrition = finalNutrition
+    def absDifference(initNutrition: "Nutrition", finalNutrition: "Nutrition") -> float:
 
         return sum(
             [
