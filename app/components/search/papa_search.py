@@ -14,6 +14,11 @@ import df2img
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+from app.components.extract_data.extract_data import (
+    getDictPersonIdStrata,
+    getDictStrataMeals,
+)
+
 
 @dataclass
 class SearchResult:
@@ -80,6 +85,7 @@ class SearchResult:
         ]:
 
             for temp in list(self.initialNutrition):
+                # TODO: Use sodio
                 if temp == "SODIO":
                     continue
 
@@ -202,6 +208,7 @@ def papaSingleSeach(
     max_steps=100,
     verbose=False,
     fitness=Nutrition.absDifference,
+    preselect: list[str] = ["Strata"],
 ) -> SearchResult:
     """Algorithm
     K: number of moviments for each expansion
@@ -235,6 +242,14 @@ def papaSingleSeach(
     # Define target nutrition
     targetNutrition = Nutrition.idealNutritionByPersonId(personID)
 
+    mealList = []
+
+    if len(preselect) == 0:
+        mealList = mealCodeList
+
+    if preselect.count("Strata"):
+        mealList = getDictStrataMeals()[getDictPersonIdStrata()[personID]]
+
     # Start search
     for i in range(1, MAX_STEPS + 1):
         if verbose:
@@ -252,15 +267,25 @@ def papaSingleSeach(
             # Test increase and decrease each meal
             options = []  # Init the options of steps as an empty array
 
-            for mealCode in mealCodeList:
+            for mealCode in mealList:
                 for signal in [-1, 1]:  # Try remove and add
+
+                    # TODO: GAMBI
+                    if mealCode == "C0007K" and signal == 1:
+                        continue
+
                     for times in range(1, MAX_UNIT + 1):
 
-                        factor = times * UNIT * signal
+                        factor: float = float(times) * UNIT * float(signal)
 
                         # zero the meal
                         if factor <= 0:
                             factor = max(factor, -state[mealCode])
+
+                        # Set a maximum quantity for one meal
+                        maximum = 400.0
+                        if state[mealCode] + factor >= maximum:
+                            factor = min(factor, state[mealCode] - maximum)
 
                         if factor == 0:
                             continue
