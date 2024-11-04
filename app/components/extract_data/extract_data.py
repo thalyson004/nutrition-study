@@ -459,6 +459,28 @@ def getDictPersonEer() -> dict[str:dict]:
         return dictPersonEer
 
 
+def getDictPersonIdStrata() -> dict[int, int]:
+    """Returns a dictionary with stratas, using personID as keys."""
+
+    fileName = "dictStrataByPersonId.pickle"
+    dictStrataByPersonId = {}
+    try:
+        with open(datasetPicklePath + f"/{fileName}", "rb") as file:
+            dictStrataByPersonId = pickle.load(file)
+
+    except:
+        with open(datasetPicklePath + f"/{fileName}", "wb") as file:
+            dfConsumo = getDfConsumo()
+
+            dictStrataByPersonId = (
+                dfConsumo.groupby("PESSOA")["ESTRATO_POF"].first().to_dict()
+            )
+
+            pickle.dump(dictStrataByPersonId, file)
+
+    return dictStrataByPersonId
+
+
 def getDictStrataMeals() -> dict[int, list[str]]:
     """Returns a dictionary with TBCA meal codes, using strata as keys."""
     fileName = "dictStrataMeals.pickle"
@@ -553,7 +575,6 @@ def get_height(person: str) -> int:
 
 
 # print("Removing unnecessary columns")
-# dfConsumo.drop("ESTRATO_POF", axis=1, inplace=True, errors="ignore")
 # dfConsumo.drop("TIPO_SITUACAO_REG", axis=1, inplace=True, errors="ignore")
 # dfConsumo.drop("COD_UPA", axis=1, inplace=True, errors="ignore")
 # dfConsumo.drop("NUM_DOM", axis=1, inplace=True, errors="ignore")
