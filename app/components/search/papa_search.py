@@ -14,10 +14,15 @@ import df2img
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+from app.components.extract_data.extract_data import (
+    getDictPersonIdStrata,
+    getDictStrataMeals,
+)
+
 
 @dataclass
 class SearchResult:
-
+    # personIDs: list[str]=[]
     # initialMeal:State=None,
     # finalMeal:State=None,
     # initialNutrition:Nutrition=None
@@ -25,9 +30,11 @@ class SearchResult:
 
     def __init__(
         self,
+        personIDs: list[str] = [],
         initialMeal: State = None,
         finalMeal: State = None,
     ):
+        self.personIDs = personIDs
         self.initialMeal = initialMeal
         self.finalMeal = finalMeal
         self.initialNutrition = None
@@ -43,49 +50,48 @@ class SearchResult:
         else:
             self.finalNutrition = Nutrition()
 
-    def get_df(self, personID=""):
+    def get_df(self):
 
         data = {}
-        data["Nutrient"] = [nutrient for nutrient in self.initialNutrition.keys()]
+        data["Nutrient"] = [nutrient for nutrient in list(self.initialNutrition)]
         data["Initial Value"] = [round(x, 2) for x in self.initialNutrition.values()]
         data["Final Value"] = [round(x, 2) for x in self.finalNutrition.values()]
 
         # TODO: Use correct personID
         data["Target Value"] = Nutrition.idealNutritionByPersonId(
-            "110000016.0#1.0#2.0#1.0"
+            self.personIDs
         ).values()
 
         df = DataFrame(
             data=data,
-            # index=self.initialNutrition.keys(),
+            # index=list(self.initialNutrition),
         )
 
         # df.set_index("Nutrients")
 
         return df
 
-    def get_df_grouping(self, personID=""):
+    def get_df_grouping(self):
 
         nutrient = []
         status = []
         value = []
 
-        # TODO: Use correct personID
-        target = Nutrition.idealNutritionByPersonId("110000016.0#1.0#2.0#1.0")
+        target = Nutrition.idealNutritionByPersonId(self.personIDs)
 
         for state, nutrition in [
             ("initial", self.initialNutrition),
             ("final", self.finalNutrition),
         ]:
 
-            for temp in self.initialNutrition.keys():
-                # TODO: Add SODIO
+            for temp in list(self.initialNutrition):
+                # TODO: Use sodio
                 if temp == "SODIO":
                     continue
 
                 nutrient.append(temp)
                 status.append(state)
-                value.append(min(3.0, nutrition[temp] / target[temp]))
+                value.append(min(1.0, nutrition[temp] / target[temp]))
 
         data = {}
         data["nutrient"] = nutrient
@@ -202,6 +208,7 @@ def papaSingleSeach(
     max_steps=100,
     verbose=False,
     fitness=Nutrition.absDifference,
+    preselect: list[str] = ["Strata"],
 ) -> SearchResult:
     """Algorithm
     K: number of moviments for each expansion
@@ -235,6 +242,14 @@ def papaSingleSeach(
     # Define target nutrition
     targetNutrition = Nutrition.idealNutritionByPersonId(personID)
 
+    mealList = []
+
+    if len(preselect) == 0:
+        mealList = mealCodeList
+
+    if preselect.count("Strata"):
+        mealList = getDictStrataMeals()[getDictPersonIdStrata()[personID]]
+
     # Start search
     for i in range(1, MAX_STEPS + 1):
         if verbose:
@@ -252,45 +267,52 @@ def papaSingleSeach(
             # Test increase and decrease each meal
             options = []  # Init the options of steps as an empty array
 
-            for mealCode in mealCodeList:
+            for mealCode in mealList:
                 for signal in [-1, 1]:  # Try remove and add
+
+                    # TODO: GAMBI
+                    if mealCode == "C0007K" and signal == 1:
+                        continue
+
                     for times in range(1, MAX_UNIT + 1):
 
-                        factor = times * UNIT * signal
+                        factor: float = float(times) * UNIT * float(signal)
 
                         # zero the meal
                         if factor <= 0:
                             factor = max(factor, -state[mealCode])
 
+                        # Set a maximum quantity for one meal
+                        maximum = 400.0
+                        if state[mealCode] + factor >= maximum:
+                            factor = min(factor, state[mealCode] - maximum)
+
                         if factor == 0:
                             continue
 
-                        if state[mealCode] + factor >= 0.0:
+                        # Calc similatiry between mealDirection and direction
+                        # To calculate similarity, cosine similarity was employed. (-1,1).
+                        # stepDirection = {
+                        #     nutritionCode: nutritionQuantity*factor for nutritionCode, nutritionQuantity in dictNutritionByMeal[mealCode].items()}
+                        # similarity = cosine_similarity(list(stepDirection.values()), direction.values())
 
-                            # Calc similatiry between mealDirection and direction
-                            # To calculate similarity, cosine similarity was employed. (-1,1).
-                            # stepDirection = {
-                            #     nutritionCode: nutritionQuantity*factor for nutritionCode, nutritionQuantity in dictNutritionByMeal[mealCode].items()}
+                        # Calc stepNutrition
 
-                            # similarity = cosine_similarity(list(stepDirection.values()), direction.values())
+                        stepNutrition = Nutrition(stateNutrition.data)  # O(len(meals))
 
-                            # Calc stepNutrition
-
-                            stepNutrition = Nutrition(stateNutrition.data)
-
-                            for nutrient in nutrients.keys():
-                                stepNutrition[nutrient] += (
-                                    dictNutritionByMeal[mealCode][nutrient] * factor
-                                )
-
-                            # Calc using fitness function
-                            similarity = fitness(
-                                stepNutrition,
-                                targetNutrition,
+                        for nutrient in list(nutrients):
+                            stepNutrition[nutrient] += (
+                                dictNutritionByMeal[mealCode][nutrient] * factor
                             )
 
-                            # Store tuple (similarity, mealCode, factor) into options.
-                            options.append((similarity, mealCode, factor))
+                        # Calc using fitness function
+                        similarity = fitness(
+                            stepNutrition,
+                            targetNutrition,
+                        )  # O(len(nutrients))
+
+                        # Store tuple (similarity: float, mealCode: str, factor:float) into options.
+                        options.append((similarity, mealCode, factor))
 
             # Rank each possible  between
             options.sort(reverse=False)
@@ -304,7 +326,7 @@ def papaSingleSeach(
 
             # Expand the state using the K best moviments
             selectedOptions = []
-            # population.clear()
+            population.clear()
 
             for option in options:
                 newState = state.change(option[1], option[2])  # (mealCode, factor)
@@ -321,7 +343,7 @@ def papaSingleSeach(
                 )
                 for solution in selectedOptions
             ]
-            # print("newPopulation:", newPopulation)
+
         if verbose:
             print(
                 "Best fitness: ",
@@ -346,7 +368,7 @@ def papaSingleSeach(
         print("initialState: ", initialState)
         print("Population[0]: ", population[0])
 
-        for meal in initialState.data.keys():
+        for meal in list(initialState.data):
             if initialState[meal] != population[0][meal]:
                 print(
                     meal,
@@ -356,7 +378,7 @@ def papaSingleSeach(
                     population[0][meal],
                 )
 
-    return SearchResult(initialState, population[0])
+    return SearchResult([personID], initialState, population[0])
 
 
 def papaSearch(

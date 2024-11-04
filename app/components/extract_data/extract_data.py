@@ -86,6 +86,11 @@ def getDfConsumo() -> DataFrame:
         dfConsumo = dfConsumo[dfConsumo.QUADRO == 72]
         dfConsumo["PESSOA"] = dfConsumo.apply(lambda row: criarPessoa(row), axis=1)
 
+        def decode(s: object):
+            return s.decode()
+
+        dfConsumo["COD_TBCA"] = dfConsumo["COD_TBCA"].apply(decode).astype(str)
+
         with open(datasetPicklePath + "/dfConsumo.pickle", "wb") as file:
             pickle.dump(dfConsumo, file)
 
@@ -108,7 +113,7 @@ def getDfPerson() -> DataFrame:
         """List of useable features to calculate the nutrition of each person"""
         features = []
         features.append("PESSOA")
-        features = features + list(nutrients.keys())
+        features = features + list(nutrients)
         features.append("UF")
         features.append("RENDA_TOTAL")
         features.append("ESTRATO_POF")
@@ -209,7 +214,7 @@ def getDfMealState(verbose=False) -> DataFrame:
             print("mealsCodes readed:", mealsCodes)
 
         for index, row in df.iterrows():
-            cod_tbca = row["COD_TBCA"].decode("utf-8")
+            cod_tbca = row["COD_TBCA"]
             try:
                 countQuantity[(row["PESSOA"], cod_tbca)] += 0
             except:
@@ -279,7 +284,7 @@ def get_meals_codes_list() -> list:
     """
 
     return [
-        code.decode("utf-8")
+        code
         for code in DataFrame(
             getDfConsumo()["COD_TBCA"].unique(), columns=["COD_TBCA"]
         )["COD_TBCA"].to_list()
@@ -310,11 +315,11 @@ def getDictNutritionByMeal() -> dict[str:dict]:
 
         dfConsumo = getDfConsumo()
         for index, row in dfConsumo.iterrows():
-            if dictNutritionByMeal[row["COD_TBCA"].decode("utf-8")] != dict():
+            if dictNutritionByMeal[row["COD_TBCA"]] != dict():
                 continue
 
-            for nutrient in nutrients.keys():
-                dictNutritionByMeal[row["COD_TBCA"].decode("utf-8")][nutrient] = float(
+            for nutrient in list(nutrients):
+                dictNutritionByMeal[row["COD_TBCA"]][nutrient] = float(
                     row[nutrient]
                 ) / float(row["QTD"])
 
@@ -382,7 +387,7 @@ def getDictV9001ToTbca() -> dict[str, str]:
 
         lV9001 = [str(int(el)) for el in list(dfConsumo["V9001"])]
 
-        lTbca = [el.decode("utf-8") for el in list(dfConsumo["COD_TBCA"])]
+        lTbca = [el for el in list(dfConsumo["COD_TBCA"])]
 
         dictV9001ToTbca: dict[str, str] = {}  # (V9001, COD_TBCA) []
 
@@ -413,7 +418,7 @@ def getDictTbcaToV9001() -> dict[str, str]:
 
         lV9001 = [str(int(el)) for el in list(dfConsumo["V9001"])]
 
-        lTbca = [el.decode("utf-8") for el in list(dfConsumo["COD_TBCA"])]
+        lTbca = [el for el in list(dfConsumo["COD_TBCA"])]
 
         dictTbcaToV9001: dict[str, str] = {}  # (COD_TBCA, V9001) []
 
@@ -452,6 +457,58 @@ def getDictPersonEer() -> dict[str:dict]:
             pickle.dump(dictPersonEer, file)
 
         return dictPersonEer
+
+
+def getDictPersonIdStrata() -> dict[int, int]:
+    """Returns a dictionary with stratas, using personID as keys."""
+
+    fileName = "dictStrataByPersonId.pickle"
+    dictStrataByPersonId = {}
+    try:
+        with open(datasetPicklePath + f"/{fileName}", "rb") as file:
+            dictStrataByPersonId = pickle.load(file)
+
+    except:
+        with open(datasetPicklePath + f"/{fileName}", "wb") as file:
+            dfConsumo = getDfConsumo()
+
+            dictStrataByPersonId = (
+                dfConsumo.groupby("PESSOA")["ESTRATO_POF"].first().to_dict()
+            )
+
+            pickle.dump(dictStrataByPersonId, file)
+
+    return dictStrataByPersonId
+
+
+def getDictStrataMeals() -> dict[int, list[str]]:
+    """Returns a dictionary with TBCA meal codes, using strata as keys."""
+    fileName = "dictStrataMeals.pickle"
+
+    try:
+        with open(datasetPicklePath + f"/{fileName}", "rb") as file:
+            dictStrataMeals = pickle.load(file)
+
+    except:
+        with open(datasetPicklePath + f"/{fileName}", "wb") as file:
+            dfConsumo = getDfConsumo()
+
+            dictStrataMeals: dict[int, list[str]] = {
+                strata: [] for strata in list(dfConsumo["ESTRATO_POF"].astype(int))
+            }
+
+            for strata in dictStrataMeals.keys():
+                dictStrataMeals[strata] = list(
+                    set(
+                        dfConsumo[dfConsumo["ESTRATO_POF"] == strata][
+                            "COD_TBCA"
+                        ].to_list()
+                    )
+                )
+
+            pickle.dump(dictStrataMeals, file)
+
+    return dictStrataMeals
 
 
 # Remove unnecessary columns (at this time)
@@ -518,7 +575,6 @@ def get_height(person: str) -> int:
 
 
 # print("Removing unnecessary columns")
-# dfConsumo.drop("ESTRATO_POF", axis=1, inplace=True, errors="ignore")
 # dfConsumo.drop("TIPO_SITUACAO_REG", axis=1, inplace=True, errors="ignore")
 # dfConsumo.drop("COD_UPA", axis=1, inplace=True, errors="ignore")
 # dfConsumo.drop("NUM_DOM", axis=1, inplace=True, errors="ignore")
