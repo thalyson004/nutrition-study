@@ -31,3 +31,37 @@ nutrients: dict = {
     # TODO: Add free sugar into mealState
     # "SUGAR": "Freesugar (g)"
 }
+
+nutrients_signal: dict = {
+    "ENERGIA_KCAL": ">",
+    "CHOTOT": ">",
+    "PTN": ">",
+    "LIP": "<",
+    "FIBRA": ">",
+    "COLEST": "<",
+    "CALCIO": ">",
+    "AGTRANS": "<",
+    "AGSAT": "<",
+    "AGPOLI": "<",
+    "SODIO": "<",
+    "POTASSIO": ">",
+    "FERRO": ">",
+    "MAGNESIO": ">",
+    "TIAMINA": ">",
+    "RIBOFLAVINA": ">",
+    "PIRIDOXAMINA": ">",
+    "NIACINA": ">",
+    "COBALAMINA": ">",
+    "VITC": ">",
+    "VITA_RAE": ">",
+    "COBRE": ">",
+    "FOLATO": ">",
+    "FOSFORO": ">",
+    "ZINCO": ">",
+    # TODO: Add fruit and vegetables into mealState
+    # "FRUIT": ">",
+    # TODO: Add fish into mealState
+    # "FISH": ">",
+    # TODO: Add free sugar into mealState
+    # "SUGAR": ">"
+}
