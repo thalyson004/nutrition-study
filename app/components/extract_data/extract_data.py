@@ -20,9 +20,9 @@ dietaPath = "caract_dieta.sas7bdat"
 def criarPessoa(row):
     """
     Create the person id given a row
-    COD_UPA + NUM_UC + NUM_DOM + COD_INFORMANTE
+    COD_UPA + NUM_DOM + NUM_UC  + COD_INFORMANTE
     """
-    return f'{row["COD_UPA"]}#{row["NUM_UC"]}#{row["NUM_DOM"]}#{row["COD_INFORMANTE"]}'
+    return f'{row["COD_UPA"]}#{row["NUM_DOM"]}#{row["NUM_UC"]}#{row["COD_INFORMANTE"]}'
 
 
 # Dataframes
