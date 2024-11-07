@@ -2,7 +2,10 @@ from dataclasses import dataclass
 from copy import deepcopy
 from typing import Union
 
-from app.components.extract_data.dataframes.dictionaries.nutrients import nutrients
+from app.components.extract_data.dataframes.dictionaries.nutrients import (
+    nutrients,
+    nutrients_signal,
+)
 
 
 @dataclass
@@ -126,6 +129,7 @@ class Nutrition:
         return Nutrition(data)
 
     @staticmethod
+    # TODO: Use signal
     def absDifference(initNutrition: "Nutrition", finalNutrition: "Nutrition") -> float:
 
         return sum(
@@ -141,19 +145,36 @@ class Nutrition:
         initNutrition: Nutrition = initNutrition
         finalNutrition: Nutrition = finalNutrition
 
+        def calc(init: float, final: float, signal: str):
+            if signal == ">":
+                if init <= final:
+                    return abs(init - final) * mult
+                else:
+                    # TODO: Try fix the energy
+                    if init / final > 2.0:
+                        # return abs(init - final) * mult
+                        return abs(init - final)
+                    else:
+                        return abs(init - final)
+            else:
+                if init <= final:
+                    return 0.0
+                else:
+                    return abs(init - final) * mult
+
         return sum(
             [
                 (
-                    (initNutrition[key] - finalNutrition[key])
-                    if (initNutrition[key] - finalNutrition[key]) > 0
-                    else (finalNutrition[key] - initNutrition[key]) * mult
+                    calc(initNutrition[key], finalNutrition[key], nutrients_signal[key])
+                    if key != "SODIO"
+                    else 0 / finalNutrition[key]
                 )
-                / finalNutrition[key]
                 for key in list(initNutrition)
             ]
         )
 
     @staticmethod
+    # TODO: Use signal
     def distanceDifference(
         initNutrition,
         finalNutrition,
