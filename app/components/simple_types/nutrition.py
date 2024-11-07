@@ -151,7 +151,7 @@ class Nutrition:
                     return abs(init - final) * mult
                 else:
                     # TODO: Try fix the energy
-                    if init / final > 2.0:
+                    if init / final > 1.5:
                         # return abs(init - final) * mult
                         return abs(init - final)
                     else:
