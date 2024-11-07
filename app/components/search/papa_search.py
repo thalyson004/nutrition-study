@@ -91,7 +91,7 @@ class SearchResult:
 
                 nutrient.append(temp)
                 status.append(state)
-                value.append(min(1.0, nutrition[temp] / target[temp]))
+                value.append(min(2.0, nutrition[temp] / target[temp]))
 
         data = {}
         data["nutrient"] = nutrient
@@ -248,7 +248,12 @@ def papaSingleSeach(
         mealList = mealCodeList
 
     if preselect.count("Strata"):
-        mealList = getDictStrataMeals()[getDictPersonIdStrata()[personID]]
+        strata = getDictPersonIdStrata().get(personID, None)
+
+        if strata == None:
+            strata = random.choice(list(set(getDictPersonIdStrata().values())))
+
+        mealList = getDictStrataMeals()[strata]
 
     # Start search
     for i in range(1, MAX_STEPS + 1):
