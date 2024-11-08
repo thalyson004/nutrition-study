@@ -57,15 +57,21 @@ class SearchResult:
         data["Initial Value"] = [round(x, 2) for x in self.initialNutrition.values()]
         data["Final Value"] = [round(x, 2) for x in self.finalNutrition.values()]
 
+        targetNutrition = Nutrition.idealNutritionByPersonId(self.personIDs)
+
         # TODO: Use correct personID
-        data["Target Value"] = Nutrition.idealNutritionByPersonId(
-            self.personIDs
-        ).values()
+        data["Target Value"] = targetNutrition.values()
 
         df = DataFrame(
             data=data,
             # index=list(self.initialNutrition),
         )
+
+        for label in ["Initial Value", "Final Value", "Target Value"]:
+            for nutrient in ["CHOTOT", "PTN", "LIP", "AGTRANS", "AGSAT", "AGPOLI"]:
+                df.loc[df["Nutrient"] == nutrient, label] = 100 * (
+                    self.initialNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"]
+                )
 
         # df.set_index("Nutrients")
 
