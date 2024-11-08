@@ -33,7 +33,7 @@ nutrients: dict = {
 }
 
 nutrients_signal: dict = {
-    "ENERGIA_KCAL": ">",
+    "ENERGIA_KCAL": "<",
     "CHOTOT": ">",
     "PTN": ">",
     "LIP": "<",

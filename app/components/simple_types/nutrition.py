@@ -67,22 +67,18 @@ class Nutrition:
         """
         # TODO: Define the right quantities
         # FROM Eliseu 2020
-        # Negative means lower than
         nutrients_quantiy = {
             "ENERGIA_KCAL": eer if eer != None else 50,
             "CHOTOT": eer * (55 / 100) if eer != None else 50,  # 55-75 eer
             "PTN": eer * (10 / 100) if eer != None else 50,  # 10-15 eer
             "LIP": (-1) * (-1) * (eer * (15 / 100) if eer != None else 50),  # 15–30 eer
             "FIBRA": 31,
-            "COLEST": (-1) * (-1) * 300.0,
+            "COLEST": 300.0,
             "CALCIO": 868,
-            "AGTRANS": (-1) * (-1) * (eer * (1.0 / 100.0) if eer != None else 50),
-            "AGSAT": (-1) * (-1) * (eer * (10.0 / 100.0) if eer != None else 50),
-            "AGPOLI": (-1)
-            * (-1)
-            * (eer * (6 / 100) if eer != None else 50),  # 6-10 err
-            # TODO: Use sodio as observed
-            "SODIO": 1,
+            "AGTRANS": (eer * (1.0 / 100.0) if eer != None else 50),
+            "AGSAT": (eer * (10.0 / 100.0) if eer != None else 50),
+            "AGPOLI": (eer * (6 / 100) if eer != None else 50),  # 6-10 err
+            "SODIO": 2000,  # World Health Organization (WHO) recommendation
             "POTASSIO": 3510,
             "FERRO": 6.8,
             "MAGNESIO": 303,
@@ -151,7 +147,7 @@ class Nutrition:
                     return abs(init - final) * mult
                 else:
                     # TODO: Try fix the energy
-                    if init / final > 2.0:
+                    if init / final > 1.5:
                         # return abs(init - final) * mult
                         return abs(init - final)
                     else:
@@ -166,8 +162,7 @@ class Nutrition:
             [
                 (
                     calc(initNutrition[key], finalNutrition[key], nutrients_signal[key])
-                    if key != "SODIO"
-                    else 0 / finalNutrition[key]
+                    / finalNutrition[key]
                 )
                 for key in list(initNutrition)
             ]
