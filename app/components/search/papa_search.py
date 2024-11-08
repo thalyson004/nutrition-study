@@ -85,10 +85,6 @@ class SearchResult:
         ]:
 
             for temp in list(self.initialNutrition):
-                # TODO: Use sodio
-                if temp == "SODIO":
-                    continue
-
                 nutrient.append(temp)
                 status.append(state)
                 value.append(min(2.0, nutrition[temp] / target[temp]))
@@ -275,9 +271,9 @@ def papaSingleSeach(
             for mealCode in mealList:
                 for signal in [-1, 1]:  # Try remove and add
 
-                    # TODO: GAMBI
-                    if mealCode == "C0007K" and signal == 1:
-                        continue
+                    # # TODO: GAMBI
+                    # if mealCode == "C0007K" and signal == 1:
+                    #     continue
 
                     for times in range(1, MAX_UNIT + 1):
 
