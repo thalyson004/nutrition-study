@@ -167,10 +167,40 @@ def getDfPerson() -> DataFrame:
             axis=1,
         )
 
+        dfPerson["AGE"] = dfPerson.apply(lambda row: get_age(row["PESSOA"]), axis=1)
+
+        dfPerson["HEIGHT"] = dfPerson.apply(
+            lambda row: get_height(row["PESSOA"]), axis=1
+        )
+
+        dfPerson["WEIGHT"] = dfPerson.apply(
+            lambda row: get_weight(row["PESSOA"]), axis=1
+        )
+
+        dfPerson["GENDER"] = dfPerson.apply(
+            lambda row: get_gender(row["PESSOA"]), axis=1
+        )
+
         with open(datasetPicklePath + "/dfPerson.pickle", "wb") as file:
             pickle.dump(dfPerson, file)
 
         return dfPerson
+
+
+def getDfPersonAdults() -> DataFrame:
+    dfPerson = getDfPerson()
+
+    return dfPerson[(dfPerson["AGE"] >= 25) & (dfPerson["AGE"] <= 65)]
+
+
+def getDfPersonAdultsFemale() -> DataFrame:
+    dfPerson = getDfPersonAdults()
+    return dfPerson[dfPerson["GENDER"] == "female"]
+
+
+def getDfPersonAdultsMale() -> DataFrame:
+    dfPerson = getDfPersonAdults()
+    return dfPerson[dfPerson["GENDER"] == "male"]
 
 
 def getDfMealState(verbose=False) -> DataFrame:
