@@ -71,7 +71,7 @@ class Nutrition:
             "ENERGIA_KCAL": eer if eer != None else 50,
             "CHOTOT": eer * (55 / 100) if eer != None else 50,  # 55-75 eer
             "PTN": eer * (10 / 100) if eer != None else 50,  # 10-15 eer
-            "LIP": (-1) * (-1) * (eer * (15 / 100) if eer != None else 50),  # 15–30 eer
+            "LIP": (eer * (15 / 100) if eer != None else 50),  # 15–30 eer
             "FIBRA": 31,
             "COLEST": 300.0,
             "CALCIO": 868,

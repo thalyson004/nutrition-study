@@ -67,11 +67,20 @@ class SearchResult:
             # index=list(self.initialNutrition),
         )
 
-        for label in ["Initial Value", "Final Value", "Target Value"]:
-            for nutrient in ["CHOTOT", "PTN", "LIP", "AGTRANS", "AGSAT", "AGPOLI"]:
-                df.loc[df["Nutrient"] == nutrient, label] = 100 * (
-                    self.initialNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"]
-                )
+        for nutrient in ["CHOTOT", "PTN", "LIP", "AGTRANS", "AGSAT", "AGPOLI"]:
+            df.loc[df["Nutrient"] == nutrient, "Initial Value"] = 100 * (
+                self.initialNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"]
+            )
+
+        for nutrient in ["CHOTOT", "PTN", "LIP", "AGTRANS", "AGSAT", "AGPOLI"]:
+            df.loc[df["Nutrient"] == nutrient, "Final Value"] = 100 * (
+                self.finalNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"]
+            )
+
+        for nutrient in ["CHOTOT", "PTN", "LIP", "AGTRANS", "AGSAT", "AGPOLI"]:
+            df.loc[df["Nutrient"] == nutrient, "Target Value"] = 100 * (
+                targetNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"]
+            )
 
         # df.set_index("Nutrients")
 

@@ -90,6 +90,7 @@ def getDfConsumo() -> DataFrame:
             return s.decode()
 
         dfConsumo["COD_TBCA"] = dfConsumo["COD_TBCA"].apply(decode).astype(str)
+        dfConsumo["V9001"] = dfConsumo["V9001"].apply(int).astype(int)
 
         with open(datasetPicklePath + "/dfConsumo.pickle", "wb") as file:
             pickle.dump(dfConsumo, file)
@@ -244,22 +245,22 @@ def getDfMealState(verbose=False) -> DataFrame:
             print("mealsCodes readed:", mealsCodes)
 
         for index, row in df.iterrows():
-            cod_tbca = row["COD_TBCA"]
+            v9001 = row["V9001"]
             try:
-                countQuantity[(row["PESSOA"], cod_tbca)] += 0
+                countQuantity[(row["PESSOA"], v9001)] += 0
             except:
-                countQuantity[(row["PESSOA"], cod_tbca)] = 0
+                countQuantity[(row["PESSOA"], v9001)] = 0
 
-            countQuantity[(row["PESSOA"], cod_tbca)] += row["QTD"]
+            countQuantity[(row["PESSOA"], v9001)] += row["QTD"]
 
         if verbose:
             print("countQuantity:", countQuantity)
 
-        def get_QTD(pessoa: str, tbca: str) -> int:
+        def get_QTD(pessoa: str, v9001: str) -> int:
             value = 0.0
 
             try:
-                value = countQuantity[(pessoa, tbca)]
+                value = countQuantity[(pessoa, v9001)]
             except:
                 value = 0
 
@@ -295,22 +296,39 @@ def get_meals_codes() -> DataFrame:
     Args:
 
     Returns:
-        df (DataFrame): A dataframe with all uniques COD_TBCA codes
+        df (DataFrame): A dataframe with all uniques V9001 codes
     """
 
-    return DataFrame(getDfConsumo()["COD_TBCA"].unique(), columns=["COD_TBCA"])
+    return DataFrame(getDfConsumo()["V9001"].unique(), columns=["V9001"])
 
 
 # List
 
 
 def get_meals_codes_list() -> list:
-    """Extract a list of unique COD_TBCA
+    """Extract a list of unique V9001
 
     Args:
 
     Returns:
-        l (list): A array list with all uniques COD_TBCA codes
+        l (list): A array list with all uniques V9001 codes
+    """
+
+    return [
+        code
+        for code in DataFrame(getDfConsumo()["V9001"].unique(), columns=["V9001"])[
+            "V9001"
+        ].to_list()
+    ]
+
+
+def get_tbca_codes_list() -> list:
+    """Extract a list of unique V9001
+
+    Args:
+
+    Returns:
+        l (list): A array list with all uniques V9001 codes
     """
 
     return [
@@ -345,13 +363,14 @@ def getDictNutritionByMeal() -> dict[str:dict]:
 
         dfConsumo = getDfConsumo()
         for index, row in dfConsumo.iterrows():
-            if dictNutritionByMeal[row["COD_TBCA"]] != dict():
+            mealCode = row["V9001"]
+            if dictNutritionByMeal[mealCode] != dict():
                 continue
 
             for nutrient in list(nutrients):
-                dictNutritionByMeal[row["COD_TBCA"]][nutrient] = float(
-                    row[nutrient]
-                ) / float(row["QTD"])
+                dictNutritionByMeal[mealCode][nutrient] = float(row[nutrient]) / float(
+                    row["QTD"]
+                )
 
         with open(datasetPicklePath + f"/{fileName}.pickle", "wb") as file:
             pickle.dump(dictNutritionByMeal, file)
@@ -530,9 +549,7 @@ def getDictStrataMeals() -> dict[int, list[str]]:
             for strata in dictStrataMeals.keys():
                 dictStrataMeals[strata] = list(
                     set(
-                        dfConsumo[dfConsumo["ESTRATO_POF"] == strata][
-                            "COD_TBCA"
-                        ].to_list()
+                        dfConsumo[dfConsumo["ESTRATO_POF"] == strata]["V9001"].to_list()
                     )
                 )
 
