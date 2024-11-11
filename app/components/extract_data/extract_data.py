@@ -3,6 +3,7 @@ from pandas import DataFrame
 import pandas as pd
 import numpy as np
 import os
+import pyreadstat
 
 from .dataframes.dictionaries.nutrients import nutrients
 from .dataframes.dictionaries.calculations.factors import calc_eer
@@ -13,7 +14,8 @@ datasetPicklePath = (
 )
 domicilioPath = "domicilio.sas7bdat"
 moradorPath = "morador.sas7bdat"
-consumoPath = "consumo.sas7bdat"
+# consumoPath = "consumo.sas7bdat"
+consumoPath = "CONSUMO_ALIMENTAR.txt"
 dietaPath = "caract_dieta.sas7bdat"
 
 
@@ -22,7 +24,7 @@ def criarPessoa(row):
     Create the person id given a row
     COD_UPA + NUM_DOM + NUM_UC  + COD_INFORMANTE
     """
-    return f'{row["COD_UPA"]}#{row["NUM_DOM"]}#{row["NUM_UC"]}#{row["COD_INFORMANTE"]}'
+    return f'{int(row["COD_UPA"])}#{int(row["NUM_DOM"])}#{int(row["NUM_UC"])}#{int(row["COD_INFORMANTE"])}'
 
 
 # Dataframes
@@ -82,15 +84,245 @@ def getDfConsumo() -> DataFrame:
         with open(datasetPicklePath + "/dfConsumo.pickle", "rb") as file:
             return pickle.load(file)
     except (FileNotFoundError, EOFError, pickle.UnpicklingError) as e:
-        dfConsumo = pd.read_sas(datasetPath + consumoPath)
+        # dfConsumo, _ = pyreadstat.read_sas7bdat(datasetPath + consumoPath)
+        # # dfConsumo = pd.read_sas(datasetPath + consumoPath)
+        # dfConsumo = dfConsumo[dfConsumo.QUADRO == 72]
+        # dfConsumo["PESSOA"] = dfConsumo.apply(lambda row: criarPessoa(row), axis=1)
+
+        # def decode(s: object):
+        #     return s.decode()
+
+        # # dfConsumo["COD_TBCA"] = dfConsumo["COD_TBCA"].apply(decode).astype(str)
+        # dfConsumo["V9001"] = dfConsumo["V9001"].apply(int).astype(int)
+
+        labels = [
+            [
+                2,
+                4,
+                1,
+                9,
+                2,
+                1,
+                2,
+                2,
+                2,
+                4,
+                2,
+                7,
+                3,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                7,
+                9,
+                6,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                15,
+                10,
+                15,
+                1,
+            ],
+            [
+                "UF",
+                "ESTRATO_POF",
+                "TIPO_SITUACAO_REG",
+                "COD_UPA",
+                "NUM_DOM",
+                "NUM_UC",
+                "COD_INFORMANTE",
+                "QUADRO",
+                "SEQ",
+                "V9005",
+                "V9007",
+                "V9001",
+                "V9015",
+                "V9016",
+                "V9017",
+                "V9018",
+                "V9019",
+                "V9020",
+                "V9021",
+                "V9022",
+                "V9023",
+                "V9024",
+                "V9025",
+                "V9026",
+                "V9027",
+                "V9028",
+                "V9029",
+                "V9030",
+                "COD_UNIDADE_MEDIDA_FINAL",
+                "COD_PREPARACAO_FINAL",
+                "GRAMATURA1",
+                "QTD",
+                "COD_TBCA",
+                "ENERGIA_KCAL",
+                "ENERGIA_KJ",
+                "PTN",
+                "CHOTOT",
+                "FIBRA",
+                "LIP",
+                "COLEST",
+                "AGSAT",
+                "AGMONO",
+                "AGPOLI",
+                "AGTRANS",
+                "CALCIO",
+                "FERRO",
+                "SODIO",
+                "MAGNESIO",
+                "FOSFORO",
+                "POTASSIO",
+                "COBRE",
+                "ZINCO",
+                "VITA_RAE",
+                "TIAMINA",
+                "RIBOFLAVINA",
+                "NIACINA",
+                "PIRIDOXAMINA",
+                "COBALAMINA",
+                "VITD",
+                "VITE",
+                "VITC",
+                "FOLATO",
+                "PESO",
+                "PESO_FINAL",
+                "RENDA_TOTAL",
+                "DIA_SEMANA",
+                "DIA_ATIPICO",
+            ],
+        ]
+
+        converters = {
+            "UF": lambda x: str(x),
+            "ESTRATO_POF": lambda x: int(x),
+            "TIPO_SITUACAO_REG": lambda x: str(x),
+            "COD_UPA": lambda x: str(x),
+            "NUM_DOM": lambda x: str(x),
+            "NUM_UC": lambda x: str(x),
+            "COD_INFORMANTE": lambda x: str(x),
+            "QUADRO": lambda x: int(x),
+            "SEQ": lambda x: int(x),
+            "V9005": lambda x: str(x),
+            "V9007": lambda x: str(x),
+            "V9001": lambda x: int(x),
+            "V9015": lambda x: str(x),
+            "V9016": lambda x: str(x),
+            "V9017": lambda x: str(x),
+            "V9018": lambda x: str(x),
+            "V9019": lambda x: str(x),
+            "V9020": lambda x: str(x),
+            "V9021": lambda x: str(x),
+            "V9022": lambda x: str(x),
+            "V9023": lambda x: str(x),
+            "V9024": lambda x: str(x),
+            "V9025": lambda x: str(x),
+            "V9026": lambda x: str(x),
+            "V9027": lambda x: str(x),
+            "V9028": lambda x: str(x),
+            "V9029": lambda x: str(x),
+            "V9030": lambda x: str(x),
+            "COD_UNIDADE_MEDIDA_FINAL": lambda x: str(x),
+            "COD_PREPARACAO_FINAL": lambda x: int(x),
+            "GRAMATURA1": lambda x: float(x),
+            "QTD": lambda x: float(x),
+            "COD_TBCA": lambda x: str(x),
+            "ENERGIA_KCAL": lambda x: float(x),
+            "ENERGIA_KJ": lambda x: float(x),
+            "PTN": lambda x: float(x),
+            "CHOTOT": lambda x: float(x),
+            "FIBRA": lambda x: float(x),
+            "LIP": lambda x: float(x),
+            "COLEST": lambda x: float(x),
+            "AGSAT": lambda x: float(x),
+            "AGMONO": lambda x: float(x),
+            "AGPOLI": lambda x: float(x),
+            "AGTRANS": lambda x: float(x),
+            "CALCIO": lambda x: float(x),
+            "FERRO": lambda x: float(x),
+            "SODIO": lambda x: float(x),
+            "MAGNESIO": lambda x: float(x),
+            "FOSFORO": lambda x: float(x),
+            "POTASSIO": lambda x: float(x),
+            "COBRE": lambda x: float(x),
+            "ZINCO": lambda x: float(x),
+            "VITA_RAE": lambda x: float(x),
+            "TIAMINA": lambda x: float(x),
+            "RIBOFLAVINA": lambda x: float(x),
+            "NIACINA": lambda x: float(x),
+            "PIRIDOXAMINA": lambda x: float(x),
+            "COBALAMINA": lambda x: float(x),
+            "VITD": lambda x: float(x),
+            "VITE": lambda x: float(x),
+            "VITC": lambda x: float(x),
+            "FOLATO": lambda x: float(x),
+            "PESO": lambda x: float(x),
+            "PESO_FINAL": lambda x: float(x),
+            "RENDA_TOTAL": lambda x: float(x),
+            "DIA_SEMANA": lambda x: str(x),
+            "DIA_ATIPICO": lambda x: str(x),
+        }
+
+        dfConsumo = pd.read_fwf(
+            datasetPath + consumoPath,
+            widths=labels[0],
+            index=False,
+            header=None,
+            dtype=str,
+            encoding="ascii",
+        )
+        dfConsumo.columns = labels[1]
+
+        dfConsumo = dfConsumo.fillna(0)
+
+        for col in dfConsumo.columns:
+            dfConsumo[col] = dfConsumo[col].apply(converters[col])
+
         dfConsumo = dfConsumo[dfConsumo.QUADRO == 72]
         dfConsumo["PESSOA"] = dfConsumo.apply(lambda row: criarPessoa(row), axis=1)
-
-        def decode(s: object):
-            return s.decode()
-
-        dfConsumo["COD_TBCA"] = dfConsumo["COD_TBCA"].apply(decode).astype(str)
-        dfConsumo["V9001"] = dfConsumo["V9001"].apply(int).astype(int)
 
         with open(datasetPicklePath + "/dfConsumo.pickle", "wb") as file:
             pickle.dump(dfConsumo, file)
@@ -191,7 +423,7 @@ def getDfPerson() -> DataFrame:
 def getDfPersonAdults() -> DataFrame:
     dfPerson = getDfPerson()
 
-    return dfPerson[(dfPerson["AGE"] >= 25) & (dfPerson["AGE"] <= 65)]
+    return dfPerson[(dfPerson["AGE"] >= 25) & (dfPerson["AGE"] <= 60)]
 
 
 def getDfPersonAdultsFemale() -> DataFrame:
