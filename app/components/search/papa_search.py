@@ -68,18 +68,24 @@ class SearchResult:
         )
 
         for nutrient in ["CHOTOT", "PTN", "LIP", "AGTRANS", "AGSAT", "AGPOLI"]:
-            df.loc[df["Nutrient"] == nutrient, "Initial Value"] = 100 * (
-                self.initialNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"]
+            df.loc[df["Nutrient"] == nutrient, "Initial Value"] = (
+                100
+                * (self.initialNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"])
+                * 4.0
             )
 
         for nutrient in ["CHOTOT", "PTN", "LIP", "AGTRANS", "AGSAT", "AGPOLI"]:
-            df.loc[df["Nutrient"] == nutrient, "Final Value"] = 100 * (
-                self.finalNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"]
+            df.loc[df["Nutrient"] == nutrient, "Final Value"] = (
+                100
+                * (self.finalNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"])
+                * 4.0
             )
 
         for nutrient in ["CHOTOT", "PTN", "LIP", "AGTRANS", "AGSAT", "AGPOLI"]:
-            df.loc[df["Nutrient"] == nutrient, "Target Value"] = 100 * (
-                targetNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"]
+            df.loc[df["Nutrient"] == nutrient, "Target Value"] = (
+                100
+                * (targetNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"])
+                * 4.0
             )
 
         # df.set_index("Nutrients")
@@ -299,7 +305,7 @@ def papaSingleSeach(
                             factor = max(factor, -state[mealCode])
 
                         # Set a maximum quantity for one meal
-                        maximum = 400.0
+                        maximum = 4000.0
                         if state[mealCode] + factor >= maximum:
                             factor = min(factor, state[mealCode] - maximum)
 
