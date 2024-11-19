@@ -58,6 +58,7 @@ def plot_multiple_polar_charts(data_list, num_points=36, labels=None, save_path=
         ax = axs[i]
 
         # Ajustar os dados para fechar o gráfico polar
+        print(data["x_data"])
         data["x_data"] = np.append(
             data["x_data"], data["x_data"][0]
         )  # Adiciona o primeiro ponto ao final
