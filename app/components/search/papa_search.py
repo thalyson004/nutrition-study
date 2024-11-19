@@ -224,6 +224,7 @@ def papaSingleSeach(
     expansion_select=3,
     max_steps=100,
     verbose=False,
+    crossover=0.15,
     fitness=Nutrition.absDifference,
     preselect: list[str] = ["Strata"],
 ) -> SearchResult:
@@ -356,13 +357,13 @@ def papaSingleSeach(
 
             # Rank the population using module difference SUM ((Ni - Nt)/Nt)
             newPopulation = newPopulation + [
-                (
+                [
                     fitness(
                         Nutrition(solution),
                         targetNutrition,
                     ),
                     solution,
-                )
+                ]
                 for solution in selectedOptions
             ]
 
@@ -371,6 +372,19 @@ def papaSingleSeach(
                 "Best fitness: ",
                 min([distance for distance, solution in newPopulation]),
             )
+
+        for state in newPopulation:
+            if random.random() <= crossover:
+                secondState = random.choice(newPopulation)
+                State.crossover(state[1], secondState[1])
+                state[0] = fitness(
+                    Nutrition(state[1]),
+                    targetNutrition,
+                )
+                secondState[0] = fitness(
+                    Nutrition(secondState[1]),
+                    targetNutrition,
+                )
 
         newPopulation.sort(reverse=False)
         newPopulation = newPopulation[: min(MAX_POPULATION_SET, len(newPopulation))]
