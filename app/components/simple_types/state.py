@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from copy import deepcopy
 from app.components.basic_dataframes import mealCodeList
+import random
 
 
 @dataclass
@@ -23,6 +24,9 @@ class State:
 
         return Nutrition(self)
 
+    def copy(self) -> "State":
+        return deepcopy(self)
+
     def change(self, mealCode: str, quantity: float):
         newState = deepcopy(self)
 
@@ -34,6 +38,12 @@ class State:
             newState.data[mealCode] = quantity
 
         return newState
+
+    @staticmethod
+    def crossover(state1: "State", state2: "State") -> None:
+        for mealCode in state1.data:
+            if random.random() >= 0.5:
+                state1[mealCode], state2[mealCode] = state2[mealCode], state1[mealCode]
 
     @staticmethod
     def getStateByPersonId(personId: str):

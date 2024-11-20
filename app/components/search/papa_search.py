@@ -67,11 +67,26 @@ class SearchResult:
             # index=list(self.initialNutrition),
         )
 
-        for label in ["Initial Value", "Final Value", "Target Value"]:
-            for nutrient in ["CHOTOT", "PTN", "LIP", "AGTRANS", "AGSAT", "AGPOLI"]:
-                df.loc[df["Nutrient"] == nutrient, label] = 100 * (
-                    self.initialNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"]
-                )
+        for nutrient in ["CHOTOT", "PTN", "LIP", "AGTRANS", "AGSAT", "AGPOLI"]:
+            df.loc[df["Nutrient"] == nutrient, "Initial Value"] = (
+                100
+                * (self.initialNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"])
+                * 4.0
+            )
+
+        for nutrient in ["CHOTOT", "PTN", "LIP", "AGTRANS", "AGSAT", "AGPOLI"]:
+            df.loc[df["Nutrient"] == nutrient, "Final Value"] = (
+                100
+                * (self.finalNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"])
+                * 4.0
+            )
+
+        for nutrient in ["CHOTOT", "PTN", "LIP", "AGTRANS", "AGSAT", "AGPOLI"]:
+            df.loc[df["Nutrient"] == nutrient, "Target Value"] = (
+                100
+                * (targetNutrition[nutrient] / targetNutrition["ENERGIA_KCAL"])
+                * 4.0
+            )
 
         # df.set_index("Nutrients")
 
@@ -209,6 +224,7 @@ def papaSingleSeach(
     expansion_select=3,
     max_steps=100,
     verbose=False,
+    crossover=0.15,
     fitness=Nutrition.absDifference,
     preselect: list[str] = ["Strata"],
 ) -> SearchResult:
@@ -290,7 +306,7 @@ def papaSingleSeach(
                             factor = max(factor, -state[mealCode])
 
                         # Set a maximum quantity for one meal
-                        maximum = 400.0
+                        maximum = 4000.0
                         if state[mealCode] + factor >= maximum:
                             factor = min(factor, state[mealCode] - maximum)
 
@@ -341,13 +357,13 @@ def papaSingleSeach(
 
             # Rank the population using module difference SUM ((Ni - Nt)/Nt)
             newPopulation = newPopulation + [
-                (
+                [
                     fitness(
                         Nutrition(solution),
                         targetNutrition,
                     ),
                     solution,
-                )
+                ]
                 for solution in selectedOptions
             ]
 
@@ -356,6 +372,19 @@ def papaSingleSeach(
                 "Best fitness: ",
                 min([distance for distance, solution in newPopulation]),
             )
+
+        for state in newPopulation:
+            if random.random() <= crossover:
+                secondState = random.choice(newPopulation)
+                State.crossover(state[1], secondState[1])
+                state[0] = fitness(
+                    Nutrition(state[1]),
+                    targetNutrition,
+                )
+                secondState[0] = fitness(
+                    Nutrition(secondState[1]),
+                    targetNutrition,
+                )
 
         newPopulation.sort(reverse=False)
         newPopulation = newPopulation[: min(MAX_POPULATION_SET, len(newPopulation))]

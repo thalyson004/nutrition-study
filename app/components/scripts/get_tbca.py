@@ -3,7 +3,10 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import pickle
-from app.components.extract_data.extract_data import get_meals_codes_list
+from app.components.extract_data.extract_data import (
+    get_meals_codes_list,
+    get_tbca_codes_list,
+)
 import time
 
 datasetPath = os.path.dirname(os.path.abspath(__file__)) + "/../../../datasets/"
@@ -180,9 +183,9 @@ nutrients: {self.nutrients}"""
         except:
             with open(datasetPicklePath + f"/{fileName}", "wb") as file:
                 dictTBCA: dict[str, "TBCA"] = {}
-                mealsCodes = get_meals_codes_list()
+                tbcaCodes = get_tbca_codes_list()
 
-                for code in mealsCodes:
+                for code in tbcaCodes:
                     time.sleep(0.01)
                     dictTBCA[code] = TBCA.getTBCA(code, verbose=verbose)
 

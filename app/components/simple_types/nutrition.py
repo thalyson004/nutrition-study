@@ -69,15 +69,15 @@ class Nutrition:
         # FROM Eliseu 2020
         nutrients_quantiy = {
             "ENERGIA_KCAL": eer if eer != None else 50,
-            "CHOTOT": eer * (55 / 100) if eer != None else 50,  # 55-75 eer
-            "PTN": eer * (10 / 100) if eer != None else 50,  # 10-15 eer
-            "LIP": (-1) * (-1) * (eer * (15 / 100) if eer != None else 50),  # 15–30 eer
+            "CHOTOT": (eer * (55 / 100) if eer != None else 50) / 4,  # 55-75 eer
+            "PTN": (eer * (10 / 100) if eer != None else 50) / 4,  # 10-15 eer
+            "LIP": (eer * (15 / 100) if eer != None else 50) / 9.0,  # 15–30 eer
             "FIBRA": 31,
             "COLEST": 300.0,
             "CALCIO": 868,
-            "AGTRANS": (eer * (1.0 / 100.0) if eer != None else 50),
-            "AGSAT": (eer * (10.0 / 100.0) if eer != None else 50),
-            "AGPOLI": (eer * (6 / 100) if eer != None else 50),  # 6-10 err
+            "AGTRANS": (eer * (1.0 / 100.0) if eer != None else 50) / 9.0,
+            "AGSAT": (eer * (10.0 / 100.0) if eer != None else 50) / 9.0,
+            "AGPOLI": (eer * (6 / 100) if eer != None else 50) / 9.0,  # 6-10 err
             "SODIO": 2000,  # World Health Organization (WHO) recommendation
             "POTASSIO": 3510,
             "FERRO": 6.8,
