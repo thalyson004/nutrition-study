@@ -10,6 +10,7 @@ datasets/despesa_individual.*
 datasets/despesa*
 datasets/dfDespesaColetiva.csv
 datasets/CONSUMO_ALIMENTAR.txt
+datasets/grupos.xlsx
 
 documents/*
 *.pyc

@@ -790,6 +790,108 @@ def getDictStrataMeals() -> dict[int, list[str]]:
     return dictStrataMeals
 
 
+def getDictV9001ToGroupPtNames() -> dict[str, str]:
+    """_summary_
+
+    Returns:
+        A dictionary with portuguese translate to portuguese group name
+    """
+    return {
+        "Carnes e derivados": "Carnes e derivados",
+        "Sementes e Oleaginosas": "Sementes e Oleaginosas",
+        "Leguminosas e derivados": "Leguminosas e derivados",
+        "Vegetais e derivados": "Vegetais e derivados",
+        "Bebidas": "Bebidas",
+        "Leite e derivados": "Leite e derivados",
+        "Alimentos para fins especiais": "Alimentos para fins especiais",
+        "Cereais e derivados": "Cereais e derivados",
+        "Produtos açucarados": "Produtos açucarados",
+        "Produtos açúcarados": "Produtos açúcarados",
+        "Miscelânea": "Miscelânea",
+        "Peixes e Frutos do mar": "Peixes e Frutos do mar",
+        "Peixes e frutos do mar": "Peixes e Frutos do mar",
+        "Ovos e derivados": "Ovos e derivados",
+        "Frutas e derivados": "Frutas e derivados",
+        "Gorduras e azeites": "Gorduras e azeites",
+    }
+
+
+def getDictV9001ToGroupEnNames() -> dict[str, str]:
+    """_summary_
+
+    Returns:
+        A dictionary with english translate to portuguese group name
+    """
+    return {
+        "Carnes e derivados": "Meat products",
+        "Sementes e Oleaginosas": "Seeds and nuts",
+        "Leguminosas e derivados": "Legume products",
+        "Vegetais e derivados": "Vegetable products",
+        "Bebidas": "Beverages",
+        "Leite e derivados": "Milk and dairy products",
+        "Alimentos para fins especiais": "Foods for special purposes",
+        "Cereais e derivados": "Cereal products",
+        "Produtos açucarados": "Sugary products",
+        "Produtos açúcarados": "Sugary products",  # duplicado no dataset
+        "Miscelânea": "Miscellaneous",
+        "Peixes e Frutos do mar": "Fish and seafood",
+        "Peixes e frutos do mar": "Fish and seafood",  # duplicado no dataset
+        "Ovos e derivados": "Eggs and egg products",
+        "Frutas e derivados": "Fruits and fruit products",
+        "Gorduras e azeites": "Fats and oils",
+    }
+
+
+def getDictV9001toGroupPt() -> dict[str, str]:
+    """Returns a portuguese dictionary with groups of each V9001 code"""
+    fileName = "dictV9001toGroupPT.pickle"
+    dictV9001toGroupPt = None
+
+    try:
+        with open(datasetPicklePath + f"/{fileName}", "rb") as file:
+            dictV9001toGroupPt = pickle.load(file)
+
+    except:
+        with open(datasetPicklePath + f"/{fileName}", "wb") as file:
+            dfGroup = None
+            with open(datasetPath + "grupos.xlsx", "rb") as file:
+                group = file.read()
+                dfGroup = pd.read_excel(group)
+
+            ptGroups = getDictV9001ToGroupPtNames()
+            for id, row in dfGroup.iterrows():
+                dictV9001toGroupPt[row["cod_pof_18"]] = ptGroups[row["grupo_tbca"]]
+
+            pickle.dump(dictV9001toGroupPt, file)
+
+    return dictV9001toGroupPt
+
+
+def getDictV9001toGroupEn() -> dict[str, str]:
+    """Returns a english dictionary with groups of each V9001 code"""
+    fileName = "dictV9001toGroupEN.pickle"
+    dictV9001toGroupEn = None
+
+    try:
+        with open(datasetPicklePath + f"/{fileName}", "rb") as file:
+            dictV9001toGroupEn = pickle.load(file)
+
+    except:
+        with open(datasetPicklePath + f"/{fileName}", "wb") as file:
+            dfGroup = None
+            with open(datasetPath + "grupos.xlsx", "rb") as file:
+                group = file.read()
+                dfGroup = pd.read_excel(group)
+
+            enGroups = getDictV9001ToGroupEnNames()
+            for id, row in dfGroup.iterrows():
+                dictV9001toGroupEn[row["cod_pof_18"]] = enGroups[row["grupo_tbca"]]
+
+            pickle.dump(dictV9001toGroupEn, file)
+
+    return dictV9001toGroupEn
+
+
 # Remove unnecessary columns (at this time)
 
 
