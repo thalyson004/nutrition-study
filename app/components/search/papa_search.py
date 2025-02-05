@@ -178,6 +178,28 @@ class SearchResult:
         df2img.save_dataframe(fig=fig, filename=f"{path}.png")
 
     def get_food_groups(self, initial=True, language="english") -> dict[str, float]:
+        """Return a dictionary with quantities of each food group
+
+        Args:
+            initial (bool, optional): initial = True use the intialState, otherwise use finalState.
+            language (str, optional):language" = english" use english names, otherwise use portuguese.
+
+        Returns sample:
+            {'Meat products': 174.0,
+            'Seeds and nuts': 0.0,
+            'Legume products': 140.0,
+            'Vegetable products': 249.0,
+            'Beverages': 3800.0,
+            'Milk and dairy products': 0.0,
+            'Foods for special purposes': 3.0,
+            'Cereal products': 90.0,
+            'Sugary products': 110.0,
+            'Miscellaneous': 0.0,
+            'Fish and seafood': 0.0,
+            'Eggs and egg products': 0.0,
+            'Fruits and fruit products': 300.0,
+            'Fats and oils': 0.0}
+        """
         groupNames = (
             getDictV9001ToGroupEnNames()
             if language == "english"
