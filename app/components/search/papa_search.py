@@ -17,6 +17,10 @@ import matplotlib.pyplot as plt
 from app.components.extract_data.extract_data import (
     getDictPersonIdStrata,
     getDictStrataMeals,
+    getDictV9001ToGroupEnNames,
+    getDictV9001ToGroupPtNames,
+    getDictV9001toGroupEn,
+    getDictV9001toGroupPt,
 )
 
 
@@ -172,6 +176,27 @@ class SearchResult:
         )
 
         df2img.save_dataframe(fig=fig, filename=f"{path}.png")
+
+    def get_food_groups(self, initial=True, language="english") -> dict[str, float]:
+        groupNames = (
+            getDictV9001ToGroupEnNames()
+            if language == "english"
+            else getDictV9001ToGroupPtNames()
+        )
+        sumDict = {value: 0.0 for value in groupNames.values()}
+
+        v9001ToGroup = (
+            getDictV9001toGroupEn()
+            if language == "english"
+            else getDictV9001toGroupPt()
+        )
+
+        data = self.initialMeal.data if initial else self.finalMeal.data
+
+        for v9001, quantity in data.items():
+            sumDict[v9001ToGroup[v9001]] += quantity
+
+        return sumDict
 
     def __str__(self):
         return f"""initialMeal {self.initialMeal}
