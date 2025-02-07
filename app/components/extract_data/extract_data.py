@@ -892,6 +892,14 @@ def getDictV9001toGroupEn() -> dict[str, str]:
     return dictV9001toGroupEn
 
 
+def getListGroupsEn() -> list[str]:
+    return list(set(getDictV9001ToGroupEnNames().values()))
+
+
+def getListGroupsPt() -> list[str]:
+    return list(set(getDictV9001ToGroupPtNames().values()))
+
+
 # Remove unnecessary columns (at this time)
 
 
