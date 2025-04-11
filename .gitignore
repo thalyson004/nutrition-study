@@ -14,8 +14,10 @@ datasets/grupos.xlsx
 
 documents/*
 *.pyc
+**/*.pyc
 .env
 app/components/extract_data/__pycache__/extract_data.cpython-39.pyc
 app/components/simple_types/__pycache__/nutrition.cpython-39.pyc
 app/components/simple_types/__pycache__/state.cpython-39.pyc
 app/components/search/__pycache__/papa_search.cpython-39.pyc
+app/components/extract_data/__pycache__/extract_data.cpython-39.pyc
