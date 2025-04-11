@@ -17,6 +17,10 @@ import matplotlib.pyplot as plt
 from app.components.extract_data.extract_data import (
     getDictPersonIdStrata,
     getDictStrataMeals,
+    getDictV9001ToGroupEnNames,
+    getDictV9001ToGroupPtNames,
+    getDictV9001toGroupEn,
+    getDictV9001toGroupPt,
 )
 
 
@@ -172,6 +176,49 @@ class SearchResult:
         )
 
         df2img.save_dataframe(fig=fig, filename=f"{path}.png")
+
+    def get_food_groups(self, initial=True, language="english") -> dict[str, float]:
+        """Return a dictionary with quantities of each food group
+
+        Args:
+            initial (bool, optional): initial = True use the intialState, otherwise use finalState.
+            language (str, optional):language" = english" use english names, otherwise use portuguese.
+
+        Returns sample:
+            {'Meat products': 174.0,
+            'Seeds and nuts': 0.0,
+            'Legume products': 140.0,
+            'Vegetable products': 249.0,
+            'Beverages': 3800.0,
+            'Milk and dairy products': 0.0,
+            'Foods for special purposes': 3.0,
+            'Cereal products': 90.0,
+            'Sugary products': 110.0,
+            'Miscellaneous': 0.0,
+            'Fish and seafood': 0.0,
+            'Eggs and egg products': 0.0,
+            'Fruits and fruit products': 300.0,
+            'Fats and oils': 0.0}
+        """
+        groupNames = (
+            getDictV9001ToGroupEnNames()
+            if language == "english"
+            else getDictV9001ToGroupPtNames()
+        )
+        sumDict = {value: 0.0 for value in groupNames.values()}
+
+        v9001ToGroup = (
+            getDictV9001toGroupEn()
+            if language == "english"
+            else getDictV9001toGroupPt()
+        )
+
+        data = self.initialMeal.data if initial else self.finalMeal.data
+
+        for v9001, quantity in data.items():
+            sumDict[v9001ToGroup[v9001]] += quantity
+
+        return sumDict
 
     def __str__(self):
         return f"""initialMeal {self.initialMeal}
