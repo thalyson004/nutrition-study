@@ -375,6 +375,7 @@ def papaSingleSeach(
     crossover=0.15,
     fitness=Nutrition.absDifference,
     preselect: list[str] = ["Strata"],
+    preserve_best: bool = True,
 ) -> SearchResult:
     """Algorithm
     K: number of moviments for each expansion
@@ -441,9 +442,15 @@ def papaSingleSeach(
             )
 
             # Select EXPANSION_SELECT options to expand between EXPANSION_SET better options
+            best = None
+            if preserve_best:
+                best = options.pop(0)
+
             options = options[: min(EXPANSION_SET, len(options))]
             random.shuffle(options)
             options = options[: min(EXPANSION_SELECT, len(options))]
+
+            options.append(best)
 
             # print("Options:", options)
 
