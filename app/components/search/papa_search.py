@@ -13,6 +13,7 @@ import numpy as np
 import df2img
 import seaborn as sns
 import matplotlib.pyplot as plt
+from copy import deepcopy
 
 from app.components.extract_data.extract_data import (
     getDictPersonIdStrata,
@@ -22,6 +23,38 @@ from app.components.extract_data.extract_data import (
     getDictV9001toGroupEn,
     getDictV9001toGroupPt,
 )
+
+
+@dataclass
+class Option:
+    def __init__(
+        self,
+        fitness: float,
+        mealCode: str,
+        quantity: int,
+    ):
+        self.fitness = fitness
+        self.mealCode = mealCode
+        self.quantity = quantity
+
+    def __lt__(self, other):
+        if self.fitness != other.fitness:
+            return self.fitness > other.fitness
+
+        if self.quantity != other.quantity:
+            return self.quantity > other.quantity
+
+        return self.mealCode > other.mealCode
+
+    def __eq__(self, other):
+        if not isinstance(other, Option):
+            return NotImplemented
+
+        return (
+            self.fitness == other.fitness
+            and self.quantity == other.quantity
+            and self.mealCode == other.mealCode
+        )
 
 
 @dataclass
@@ -261,6 +294,74 @@ def cosine_similarity(array1, array2):
     return similarity
 
 
+def get_options_from_state(
+    state: State,
+    initialState: State,
+    targetNutrition: Nutrition,
+    mealList: list[str],
+    unit: int = 10,
+    max_unit: int = 5,
+):
+    # Config
+    UNIT = unit  # Quantity of grams using in an step
+    MAX_UNIT = max_unit
+
+    stateNutrition = Nutrition(state)
+
+    initialDistance = 0.0
+    for mealCode in mealList:
+        initialDistance += pow(initialState[mealCode] - state[mealCode], 2.0)
+
+    options = []  # Init the options of steps as an empty array
+    for mealCode in mealList:
+        for signal in [-1, 1]:  # Try remove and add
+
+            # # TODO: GAMBI
+            if mealCode == "C0007K" and signal == 1:
+                continue
+
+            for times in range(1, MAX_UNIT + 1):
+
+                factor: float = float(times) * UNIT * float(signal)
+
+                # zero the meal
+                if factor <= 0:
+                    factor = max(factor, -state[mealCode])
+
+                # Set a maximum quantity for one meal
+                maximum = 4000.0
+                if state[mealCode] + factor >= maximum:
+                    factor = min(factor, state[mealCode] - maximum)
+
+                if factor == 0:
+                    continue
+
+                stepNutrition = Nutrition(stateNutrition.data)  # O(len(meals))
+
+                for nutrient in list(nutrients):
+                    stepNutrition[nutrient] += (
+                        dictNutritionByMeal[mealCode][nutrient] * factor
+                    )
+
+                distance = initialDistance - pow(
+                    initialState[mealCode] - state[mealCode], 2.0
+                )
+                distance += pow(initialState[mealCode] - state[mealCode] - factor, 2.0)
+
+                # Calc using fitness function
+                factorSum = 1.0  # 0.8 (nutrition) + 0.2 (distance)
+                nutritionFitness = Nutrition.absDifferenceNegativePenalty(
+                    stepNutrition, targetNutrition
+                )
+                mealFitness = distance
+                fitness = 0.2 * mealFitness + 0.8 * nutritionFitness
+
+                # Store tuple (fitness: float, mealCode: str, factor:float) into options.
+                options.append((fitness, mealCode, factor))
+
+    return options
+
+
 def papaSingleSeach(
     personID: str,
     unit=10,
@@ -302,7 +403,7 @@ def papaSingleSeach(
 
     # Init a set of states
     initialState = State.getStateByPersonId(personID)
-    population: list[State] = [initialState]
+    population: list[State] = [State.getStateByPersonId(personID)]
 
     # Define target nutrition
     targetNutrition = Nutrition.idealNutritionByPersonId(personID)
@@ -335,57 +436,9 @@ def papaSingleSeach(
             # print("direction: ", direction)
 
             # Test increase and decrease each meal
-            options = []  # Init the options of steps as an empty array
-
-            for mealCode in mealList:
-                for signal in [-1, 1]:  # Try remove and add
-
-                    # # TODO: GAMBI
-                    # if mealCode == "C0007K" and signal == 1:
-                    #     continue
-
-                    for times in range(1, MAX_UNIT + 1):
-
-                        factor: float = float(times) * UNIT * float(signal)
-
-                        # zero the meal
-                        if factor <= 0:
-                            factor = max(factor, -state[mealCode])
-
-                        # Set a maximum quantity for one meal
-                        maximum = 4000.0
-                        if state[mealCode] + factor >= maximum:
-                            factor = min(factor, state[mealCode] - maximum)
-
-                        if factor == 0:
-                            continue
-
-                        # Calc similatiry between mealDirection and direction
-                        # To calculate similarity, cosine similarity was employed. (-1,1).
-                        # stepDirection = {
-                        #     nutritionCode: nutritionQuantity*factor for nutritionCode, nutritionQuantity in dictNutritionByMeal[mealCode].items()}
-                        # similarity = cosine_similarity(list(stepDirection.values()), direction.values())
-
-                        # Calc stepNutrition
-
-                        stepNutrition = Nutrition(stateNutrition.data)  # O(len(meals))
-
-                        for nutrient in list(nutrients):
-                            stepNutrition[nutrient] += (
-                                dictNutritionByMeal[mealCode][nutrient] * factor
-                            )
-
-                        # Calc using fitness function
-                        similarity = fitness(
-                            stepNutrition,
-                            targetNutrition,
-                        )  # O(len(nutrients))
-
-                        # Store tuple (similarity: float, mealCode: str, factor:float) into options.
-                        options.append((similarity, mealCode, factor))
-
-            # Rank each possible  between
-            options.sort(reverse=False)
+            options = get_options_from_state(
+                state, initialState, targetNutrition, mealList, UNIT, MAX_UNIT
+            )
 
             # Select EXPANSION_SELECT options to expand between EXPANSION_SET better options
             options = options[: min(EXPANSION_SET, len(options))]
