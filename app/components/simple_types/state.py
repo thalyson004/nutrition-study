@@ -46,6 +46,13 @@ class State:
                 state1[mealCode], state2[mealCode] = state2[mealCode], state1[mealCode]
 
     @staticmethod
+    def squareDifference(state1: "State", state2: "State") -> float:
+        result = 0.0
+        for mealCode in state1.data:
+            result += pow(state1[mealCode] - state2[mealCode], 2.0)
+        return result
+
+    @staticmethod
     def getStateByPersonId(personId: str):
         from app.components.basic_dataframes import dictMealState
 
