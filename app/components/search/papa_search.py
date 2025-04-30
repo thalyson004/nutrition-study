@@ -376,6 +376,7 @@ def papaSingleSeach(
     fitness=Nutrition.absDifference,
     preselect: list[str] = ["Strata"],
     preserve_best: bool = True,
+    initialPopulation: list[State] = None,
 ) -> SearchResult:
     """Algorithm
     K: number of moviments for each expansion
@@ -404,7 +405,11 @@ def papaSingleSeach(
 
     # Init a set of states
     initialState = State.getStateByPersonId(personID)
-    population: list[State] = [State.getStateByPersonId(personID)]
+    population: list[State] = (
+        [State.getStateByPersonId(personID)]
+        if initialPopulation == None
+        else initialPopulation
+    )
 
     # Define target nutrition
     targetNutrition = Nutrition.idealNutritionByPersonId(personID)
