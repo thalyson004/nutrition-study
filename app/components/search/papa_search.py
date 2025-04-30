@@ -377,6 +377,7 @@ def papaSingleSeach(
     preselect: list[str] = ["Strata"],
     preserve_best: bool = True,
     initialPopulation: list[State] = None,
+    initialState: State = None,
 ) -> SearchResult:
     """Algorithm
     K: number of moviments for each expansion
@@ -404,7 +405,9 @@ def papaSingleSeach(
     MAX_STEPS = max_steps  # Maximum number of modifications
 
     # Init a set of states
-    initialState = State.getStateByPersonId(personID)
+    if initialState == None:
+        initialState = State.getStateByPersonId(personID)
+
     population: list[State] = (
         [State.getStateByPersonId(personID)]
         if initialPopulation == None
