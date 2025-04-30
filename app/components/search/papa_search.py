@@ -450,7 +450,8 @@ def papaSingleSeach(
             random.shuffle(options)
             options = options[: min(EXPANSION_SELECT, len(options))]
 
-            options.append(best)
+            if preserve_best:
+                options.append(best)
 
             # print("Options:", options)
 
