@@ -15,6 +15,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from copy import deepcopy
 
+from typing import Callable
+
 from app.components.extract_data.extract_data import (
     getDictPersonIdStrata,
     getDictStrataMeals,
@@ -301,6 +303,11 @@ def get_options_from_state(
     mealList: list[str],
     unit: int = 10,
     max_unit: int = 5,
+    nutritionFactor: float = 0.8,
+    distanceFactor: float = 0.2,
+    nutritionFitnessFunction: Callable[
+        [Nutrition, Nutrition], float
+    ] = Nutrition.absDifference,
 ):
     # Config
     UNIT = unit  # Quantity of grams using in an step
@@ -346,20 +353,46 @@ def get_options_from_state(
                 distance = initialDistance - pow(
                     initialState[mealCode] - state[mealCode], 2.0
                 )
+
                 distance += pow(initialState[mealCode] - state[mealCode] - factor, 2.0)
 
                 # Calc using fitness function
-                factorSum = 1.0  # 0.8 (nutrition) + 0.2 (distance)
-                nutritionFitness = Nutrition.absDifferenceNegativePenalty(
+
+                nutritionFitness = nutritionFitnessFunction(
                     stepNutrition, targetNutrition
                 )
+
                 mealFitness = distance
-                fitness = 0.2 * mealFitness + 0.8 * nutritionFitness
+                fitness = (
+                    distanceFactor * mealFitness + nutritionFactor * nutritionFitness
+                ) / (distanceFactor + nutritionFactor)
 
                 # Store tuple (fitness: float, mealCode: str, factor:float) into options.
                 options.append((fitness, mealCode, factor))
 
     return options
+
+
+def fitness(
+    state: State,
+    initialState: State,
+    targetNutrition: Nutrition,
+    nutritionFitness: Callable[[Nutrition, Nutrition], float] = Nutrition.absDifference,
+    nutritionFactor: float = 0.8,
+    distanceFitness: Callable[[State, State], float] = State.squareDifference,
+    distanceFactor: float = 0.2,
+) -> float:
+    return (
+        (
+            nutritionFactor
+            * nutritionFitness(
+                Nutrition(state),
+                targetNutrition,
+            )
+            + distanceFactor * distanceFitness(state, initialState)
+        )
+        / (distanceFactor + nutritionFactor),
+    )
 
 
 def papaSingleSeach(
@@ -373,11 +406,14 @@ def papaSingleSeach(
     max_steps=100,
     verbose=False,
     crossover=0.15,
-    fitness=Nutrition.absDifference,
     preselect: list[str] = ["Strata"],
     preserve_best: bool = True,
     initialPopulation: list[State] = None,
     initialState: State = None,
+    nutritionFitness: Callable[[Nutrition, Nutrition], float] = Nutrition.absDifference,
+    nutritionFactor: float = 0.8,
+    distanceFitness: Callable[[State, State], float] = State.squareDifference,
+    distanceFactor: float = 0.2,
 ) -> SearchResult:
     """Algorithm
     K: number of moviments for each expansion
@@ -430,6 +466,9 @@ def papaSingleSeach(
 
         mealList = getDictStrataMeals()[strata]
 
+    best: State = None
+    bestFitness: float = None
+
     # Start search
     for i in range(1, MAX_STEPS + 1):
         if verbose:
@@ -437,29 +476,31 @@ def papaSingleSeach(
             print(f"Step {i}: ")
 
         newPopulation = []
+
         # For each state
         for state in population:
             # Get the difference vector between ideal and actual state (D vector)
-            stateNutrition = Nutrition(state)
+            # stateNutrition = Nutrition(state)
             # direction = Nutrition.directionDifference(stateNutrition, targetNutrition)
             # print("direction: ", direction)
 
             # Test increase and decrease each meal
             options = get_options_from_state(
-                state, initialState, targetNutrition, mealList, UNIT, MAX_UNIT
+                state,
+                initialState,
+                targetNutrition,
+                mealList,
+                UNIT,
+                MAX_UNIT,
+                nutritionFactor,
+                distanceFactor,
             )
 
             # Select EXPANSION_SELECT options to expand between EXPANSION_SET better options
-            best = None
-            if preserve_best:
-                best = options.pop(0)
 
             options = options[: min(EXPANSION_SET, len(options))]
             random.shuffle(options)
             options = options[: min(EXPANSION_SELECT, len(options))]
-
-            if preserve_best:
-                options.append(best)
 
             # print("Options:", options)
 
@@ -471,12 +512,17 @@ def papaSingleSeach(
                 newState = state.change(option[1], option[2])  # (mealCode, factor)
                 selectedOptions.append(newState)
 
-            # Rank the population using module difference SUM ((Ni - Nt)/Nt)
+            # Rank the population
             newPopulation = newPopulation + [
                 [
                     fitness(
-                        Nutrition(solution),
-                        targetNutrition,
+                        state=solution,
+                        initialState=initialState,
+                        targetNutrition=targetNutrition,
+                        nutritionFitness=nutritionFitness,
+                        distanceFitness=distanceFitness,
+                        nutritionFactor=nutritionFactor,
+                        distanceFactor=distanceFactor,
                     ),
                     solution,
                 ]
@@ -489,20 +535,48 @@ def papaSingleSeach(
                 min([distance for distance, solution in newPopulation]),
             )
 
+        # Crossover newPopulation = (fitness, state)
+        newPopulationCrossOver = []
         for state in newPopulation:
             if random.random() <= crossover:
                 secondState = random.choice(newPopulation)
-                State.crossover(state[1], secondState[1])
-                state[0] = fitness(
-                    Nutrition(state[1]),
-                    targetNutrition,
-                )
-                secondState[0] = fitness(
-                    Nutrition(secondState[1]),
-                    targetNutrition,
-                )
+                print(state[1])
+                print(secondState[1])
+                newStates = State.crossover(state[1], secondState[1])
+                for state in newStates:
+                    newPopulationCrossOver.append(
+                        [
+                            fitness(
+                                state=state,
+                                initialState=initialState,
+                                targetNutrition=targetNutrition,
+                                nutritionFitness=nutritionFitness,
+                                distanceFitness=distanceFitness,
+                                nutritionFactor=nutritionFactor,
+                                distanceFactor=distanceFactor,
+                            ),
+                            state,
+                        ]
+                    )
+
+        newPopulation += newPopulationCrossOver
 
         newPopulation.sort(reverse=False)
+
+        if preserve_best:
+            value = fitness(
+                state=newPopulation[0][1],
+                initialState=initialState,
+                targetNutrition=targetNutrition,
+                nutritionFitness=nutritionFitness,
+                distanceFitness=distanceFitness,
+                nutritionFactor=nutritionFactor,
+                distanceFactor=distanceFactor,
+            )
+            if bestFitness == None or bestFitness > value:
+                bestFitness = value
+                best = newPopulation[0]
+
         newPopulation = newPopulation[: min(MAX_POPULATION_SET, len(newPopulation))]
         random.shuffle(newPopulation)
 
@@ -513,6 +587,9 @@ def papaSingleSeach(
                 : min(MAX_POPULATION_SELECT, len(newPopulation))
             ]
         ]
+
+        if preserve_best:
+            newPopulation.append(best)
 
         population = newPopulation
 

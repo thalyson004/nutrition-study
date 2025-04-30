@@ -14,7 +14,7 @@ class State:
             self.data = {key: 0 for key in mealCodeList}
             # self.data = {}
         else:
-            self.data = data
+            self.data = deepcopy(data)
 
     def keys(self):
         return list(self.data)
@@ -40,10 +40,16 @@ class State:
         return newState
 
     @staticmethod
-    def crossover(state1: "State", state2: "State") -> None:
+    def crossover(state1: "State", state2: "State") -> list["State"]:
+        states = [State(state1.data), State(state2.data)]
         for mealCode in state1.data:
             if random.random() >= 0.5:
-                state1[mealCode], state2[mealCode] = state2[mealCode], state1[mealCode]
+                states[0][mealCode], states[1][mealCode] = (
+                    states[1][mealCode],
+                    states[0][mealCode],
+                )
+
+        return states
 
     @staticmethod
     def squareDifference(state1: "State", state2: "State") -> float:
