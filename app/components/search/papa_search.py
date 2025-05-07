@@ -378,7 +378,9 @@ def fitness(
     state: State,
     initialState: State,
     targetNutrition: Nutrition,
-    nutritionFitness: Callable[[Nutrition, Nutrition], float] = Nutrition.absDifference,
+    nutritionFitness: Callable[
+        [Nutrition, Nutrition], float
+    ] = Nutrition.absDifferenceNegativePenalty,
     nutritionFactor: float = 0.8,
     distanceFitness: Callable[[State, State], float] = State.squareDifference,
     distanceFactor: float = 0.2,
