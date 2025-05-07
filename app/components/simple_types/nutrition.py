@@ -30,7 +30,7 @@ class Nutrition:
                         dictNutritionByMeal[code][nutrient] * state[code]
                     )
         elif type(state) is dict:
-            self.data = state
+            self.data = deepcopy(state)
         else:
             self.data = {key: 0 for key in list(nutrients)}
 
