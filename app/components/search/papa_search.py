@@ -530,7 +530,8 @@ def papaSingleSeach(
                     ]
                 )
 
-        print("newPopulationOptions:", newPopulationOptions)
+        if verbose:
+            print("newPopulationOptions:", newPopulationOptions)
 
         # Crossover newPopulation = (fitness, state)
         newPopulationCrossOver = []
@@ -557,7 +558,8 @@ def papaSingleSeach(
                         ]
                     )
 
-        print("newPopulationCrossOver:", newPopulationCrossOver)
+        if verbose:
+            print("newPopulationCrossOver:", newPopulationCrossOver)
 
         newPopulation = []
         newPopulation += newPopulationOptions
@@ -572,7 +574,9 @@ def papaSingleSeach(
                     bestFitness if bestFitness != None else newPopulation[0][0],
                 ),
             )
-        print("newPopulation", newPopulation)
+
+        if verbose:
+            print("newPopulation", newPopulation)
 
         if bestFitness == None or bestFitness > newPopulation[0][0]:
             bestFitness = newPopulation[0][0]
@@ -607,6 +611,12 @@ def papaSingleSeach(
                     " / Final:",
                     best[meal],
                 )
+
+    if initialPopulation == None:
+        initialPopulation = []
+
+    initialPopulation.clear()
+    initialPopulation.extend(population)
 
     return SearchResult([personID], initialState, best)
 
