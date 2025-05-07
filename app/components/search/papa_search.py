@@ -307,7 +307,8 @@ def get_options_from_state(
     distanceFactor: float = 0.2,
     nutritionFitnessFunction: Callable[
         [Nutrition, Nutrition], float
-    ] = Nutrition.absDifference,
+    ] = Nutrition.absDifferenceNegativePenalty,
+    distanceFitness: Callable[[State, State], float] = State.squareDifference,
 ):
     # Config
     UNIT = unit  # Quantity of grams using in an step
@@ -322,10 +323,6 @@ def get_options_from_state(
     options = []  # Init the options of steps as an empty array
     for mealCode in mealList:
         for signal in [-1, 1]:  # Try remove and add
-
-            # # TODO: GAMBI
-            if mealCode == "C0007K" and signal == 1:
-                continue
 
             for times in range(1, MAX_UNIT + 1):
 
@@ -354,7 +351,9 @@ def get_options_from_state(
                     initialState[mealCode] - state[mealCode], 2.0
                 )
 
-                distance += pow(initialState[mealCode] - state[mealCode] - factor, 2.0)
+                distance += pow(
+                    initialState[mealCode] - (state[mealCode] + factor), 2.0
+                )
 
                 # Calc using fitness function
 
@@ -362,13 +361,15 @@ def get_options_from_state(
                     stepNutrition, targetNutrition
                 )
 
-                mealFitness = distance
-                fitness = (
-                    distanceFactor * mealFitness + nutritionFactor * nutritionFitness
+                distanceFitness = distance
+
+                fitnessValue = (
+                    distanceFactor * distanceFitness
+                    + nutritionFactor * nutritionFitness
                 ) / (distanceFactor + nutritionFactor)
 
                 # Store tuple (fitness: float, mealCode: str, factor:float) into options.
-                options.append((fitness, mealCode, factor))
+                options.append((fitnessValue, mealCode, factor))
 
     return options
 
@@ -377,19 +378,23 @@ def fitness(
     state: State,
     initialState: State,
     targetNutrition: Nutrition,
-    nutritionFitness: Callable[[Nutrition, Nutrition], float] = Nutrition.absDifference,
+    nutritionFitness: Callable[
+        [Nutrition, Nutrition], float
+    ] = Nutrition.absDifferenceNegativePenalty,
     nutritionFactor: float = 0.8,
     distanceFitness: Callable[[State, State], float] = State.squareDifference,
     distanceFactor: float = 0.2,
 ) -> float:
-    return (
+    return float(
         (
-            nutritionFactor
-            * nutritionFitness(
-                Nutrition(state),
-                targetNutrition,
+            (
+                nutritionFactor
+                * nutritionFitness(
+                    Nutrition(state),
+                    targetNutrition,
+                )
             )
-            + distanceFactor * distanceFitness(state, initialState)
+            + (distanceFactor * distanceFitness(state, initialState))
         )
         / (distanceFactor + nutritionFactor),
     )
@@ -410,7 +415,9 @@ def papaSingleSeach(
     preserve_best: bool = True,
     initialPopulation: list[State] = None,
     initialState: State = None,
-    nutritionFitness: Callable[[Nutrition, Nutrition], float] = Nutrition.absDifference,
+    nutritionFitness: Callable[
+        [Nutrition, Nutrition], float
+    ] = Nutrition.absDifferenceNegativePenalty,
     nutritionFactor: float = 0.8,
     distanceFitness: Callable[[State, State], float] = State.squareDifference,
     distanceFactor: float = 0.2,
@@ -470,12 +477,12 @@ def papaSingleSeach(
     bestFitness: float = None
 
     # Start search
-    for i in range(1, MAX_STEPS + 1):
+    for i in range(1, MAX_STEPS + 1):  # Generations
         if verbose:
             clear_output(wait=True)
             print(f"Step {i}: ")
 
-        newPopulation = []
+        newPopulationOptions = []
 
         # For each state
         for state in population:
@@ -494,10 +501,11 @@ def papaSingleSeach(
                 MAX_UNIT,
                 nutritionFactor,
                 distanceFactor,
+                nutritionFitness,
             )
 
             # Select EXPANSION_SELECT options to expand between EXPANSION_SET better options
-
+            options.sort(reverse=False)
             options = options[: min(EXPANSION_SET, len(options))]
             random.shuffle(options)
             options = options[: min(EXPANSION_SELECT, len(options))]
@@ -505,44 +513,37 @@ def papaSingleSeach(
             # print("Options:", options)
 
             # Expand the state using the K best moviments
-            selectedOptions = []
-            population.clear()
 
             for option in options:
                 newState = state.change(option[1], option[2])  # (mealCode, factor)
-                selectedOptions.append(newState)
-
-            # Rank the population
-            newPopulation = newPopulation + [
-                [
-                    fitness(
-                        state=solution,
-                        initialState=initialState,
-                        targetNutrition=targetNutrition,
-                        nutritionFitness=nutritionFitness,
-                        distanceFitness=distanceFitness,
-                        nutritionFactor=nutritionFactor,
-                        distanceFactor=distanceFactor,
-                    ),
-                    solution,
-                ]
-                for solution in selectedOptions
-            ]
+                newPopulationOptions.append(
+                    [
+                        option[0],
+                        # fitness(
+                        #     state=newState,
+                        #     initialState=initialState,
+                        #     targetNutrition=targetNutrition,
+                        #     nutritionFitness=nutritionFitness,
+                        #     distanceFitness=distanceFitness,
+                        #     nutritionFactor=nutritionFactor,
+                        #     distanceFactor=distanceFactor,
+                        # ),
+                        newState,
+                    ]
+                )
 
         if verbose:
-            print(
-                "Best fitness: ",
-                min([distance for distance, solution in newPopulation]),
-            )
+            print("newPopulationOptions:", newPopulationOptions)
 
         # Crossover newPopulation = (fitness, state)
         newPopulationCrossOver = []
-        for state in newPopulation:
+        for state in newPopulationOptions:
             if random.random() <= crossover:
-                secondState = random.choice(newPopulation)
-                print(state[1])
-                print(secondState[1])
+                secondState = random.choice(newPopulationOptions)
+                # print(state[1])
+                # print(secondState[1])
                 newStates = State.crossover(state[1], secondState[1])
+
                 for state in newStates:
                     newPopulationCrossOver.append(
                         [
@@ -551,39 +552,45 @@ def papaSingleSeach(
                                 initialState=initialState,
                                 targetNutrition=targetNutrition,
                                 nutritionFitness=nutritionFitness,
-                                distanceFitness=distanceFitness,
                                 nutritionFactor=nutritionFactor,
+                                distanceFitness=distanceFitness,
                                 distanceFactor=distanceFactor,
                             ),
                             state,
                         ]
                     )
 
-        newPopulation += newPopulationCrossOver
+        if verbose:
+            print("newPopulationCrossOver:", newPopulationCrossOver)
 
+        newPopulation = []
+        newPopulation += newPopulationOptions
+        newPopulation += newPopulationCrossOver
         newPopulation.sort(reverse=False)
 
-        if preserve_best:
-            value = fitness(
-                state=newPopulation[0][1],
-                initialState=initialState,
-                targetNutrition=targetNutrition,
-                nutritionFitness=nutritionFitness,
-                distanceFitness=distanceFitness,
-                nutritionFactor=nutritionFactor,
-                distanceFactor=distanceFactor,
+        if verbose:
+            print(
+                "Best fitness: ",
+                min(
+                    newPopulation[0][0],
+                    bestFitness if bestFitness != None else newPopulation[0][0],
+                ),
             )
-            if bestFitness == None or bestFitness > value:
-                bestFitness = value
-                best = newPopulation[0]
+
+        if verbose:
+            print("newPopulation", newPopulation)
+
+        if bestFitness == None or bestFitness > newPopulation[0][0]:
+            bestFitness = newPopulation[0][0]
+            best = newPopulation[0][1]
 
         newPopulation = newPopulation[: min(MAX_POPULATION_SET, len(newPopulation))]
         random.shuffle(newPopulation)
+        # newPopulation.sort(reverse=False)
 
-        newPopulation.sort(reverse=False)
         newPopulation = [
-            person
-            for (x, person) in newPopulation[
+            solution
+            for (_, solution) in newPopulation[
                 : min(MAX_POPULATION_SELECT, len(newPopulation))
             ]
         ]
@@ -595,19 +602,25 @@ def papaSingleSeach(
 
     if verbose:
         print("initialState: ", initialState)
-        print("Population[0]: ", population[0])
+        print("best: ", best)
 
         for meal in list(initialState.data):
-            if initialState[meal] != population[0][meal]:
+            if initialState[meal] != best[meal]:
                 print(
                     meal,
                     "- Init:",
                     initialState[meal],
                     " / Final:",
-                    population[0][meal],
+                    best[meal],
                 )
 
-    return SearchResult([personID], initialState, population[0])
+    if initialPopulation == None:
+        initialPopulation = []
+
+    initialPopulation.clear()
+    initialPopulation.extend(population)
+
+    return SearchResult([personID], initialState, best)
 
 
 def papaSearch(
