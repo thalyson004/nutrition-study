@@ -22,7 +22,7 @@ class Nutrition:
         from app.components.basic_dataframes import dictNutritionByMeal
 
         if isinstance(state, State):
-            self.data = {key: 0 for key in list(nutrients)}
+            self.data = {key: 0.0 for key in list(nutrients)}
 
             for code in list(state.keys()):  # Meals code
                 for nutrient in list(self):  # Nutrient code
