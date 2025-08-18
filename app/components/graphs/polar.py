@@ -40,14 +40,16 @@ def plot_multiple_polar_charts(data_list, num_points=36, labels=None, save_path=
     num_charts = len(data_list)
 
     # Ajuste para layout em uma linha se houver exatamente dois gráficos
-    if num_charts == 2:
+    if num_charts == 4:
+        rows, cols = 1, 4
+    elif num_charts == 2:
         rows, cols = 1, 2
     else:
         rows = int(np.ceil(np.sqrt(num_charts)))
         cols = int(np.ceil(num_charts / rows))
 
     fig, axs = plt.subplots(
-        rows, cols, subplot_kw=dict(projection="polar"), figsize=(6 * cols, 6 * rows)
+        rows, cols, subplot_kw=dict(projection="polar"), figsize=(5 * cols, 5 * rows)
     )
     axs = np.array(axs).flatten()  # Flatten para fácil indexação
 
@@ -58,7 +60,7 @@ def plot_multiple_polar_charts(data_list, num_points=36, labels=None, save_path=
         ax = axs[i]
 
         # Ajustar os dados para fechar o gráfico polar
-        print(data["x_data"])
+        # print(data["x_data"])
         data["x_data"] = np.append(
             data["x_data"], data["x_data"][0]
         )  # Adiciona o primeiro ponto ao final
@@ -145,7 +147,7 @@ def plot_multiple_polar_charts(data_list, num_points=36, labels=None, save_path=
     plt.tight_layout()
 
     if save_path:
-        plt.savefig(save_path, dpi=300, bbox_inches="tight")
+        plt.savefig(save_path, dpi=600, bbox_inches="tight")
         print(f"Gráfico salvo em: {save_path}")
     else:
         plt.show()
