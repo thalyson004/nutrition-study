@@ -123,7 +123,7 @@ class Nutrition:
         less = [
             nutrient for nutrient, signal in nutrients_signal.items() if signal == "<"
         ]
-        quantity = len(nutrients_signal)
+        quantity = len(nutrients_signal) - 1
 
         adequancy = 0.0
         for nutrient in greaters:
@@ -132,6 +132,8 @@ class Nutrition:
             )
 
         for nutrient in less:
+            if nutrient == "ENERGIA_KCAL":
+                continue
             adequancy += (
                 1.0 if nutrition[nutrient] <= idealNutrition[nutrient] else 0.0
             ) / quantity
@@ -162,7 +164,9 @@ class Nutrition:
 
     @staticmethod
     # works fine with 1007
-    def absDifferenceNegativePenalty(initNutrition, finalNutrition, mult=107) -> float:
+    def absDifferenceNegativePenalty(
+        initNutrition, finalNutrition, mult=50007
+    ) -> float:
         initNutrition: Nutrition = initNutrition
         finalNutrition: Nutrition = finalNutrition
 
