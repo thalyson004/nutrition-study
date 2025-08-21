@@ -165,7 +165,7 @@ class Nutrition:
     @staticmethod
     # works fine with 1007
     def absDifferenceNegativePenalty(
-        initNutrition, finalNutrition, mult=50007
+        initNutrition, finalNutrition, mult=1000000
     ) -> float:
         initNutrition: Nutrition = initNutrition
         finalNutrition: Nutrition = finalNutrition
