@@ -73,6 +73,7 @@ class SearchResult:
         initialMeal: State = None,
         finalMeal: State = None,
         bestList: list[float] = [],
+        adequacyList: list[float] = [],
     ):
         self.personIDs = personIDs
         self.initialMeal = initialMeal
@@ -80,6 +81,7 @@ class SearchResult:
         self.initialNutrition = None
         self.finalNutrition = None
         self.bestList = bestList
+        self.adequacyList = adequacyList
 
         if initialMeal:
             self.initialNutrition = Nutrition(initialMeal)
@@ -478,6 +480,7 @@ def papaSingleSeach(
     best: State = None
     bestFitness: float = None
     bestList: list[float] = []
+    adequacyList: list[float] = []
 
     # Start search
     for i in range(1, MAX_STEPS + 1):  # Generations
@@ -588,6 +591,9 @@ def papaSingleSeach(
             best = newPopulation[0][1]
 
         bestList.append(bestFitness)
+        adequacyList.append(
+            Nutrition.nutritionAdequancyByPersonId(best.nutrition(), personID)
+        )
 
         newPopulation = newPopulation[: min(MAX_POPULATION_SET, len(newPopulation))]
         random.shuffle(newPopulation)
@@ -625,7 +631,7 @@ def papaSingleSeach(
     initialPopulation.clear()
     initialPopulation.extend(population)
 
-    return SearchResult([personID], initialState, best, bestList)
+    return SearchResult([personID], initialState, best, bestList, adequacyList)
 
 
 def papaSearch(
