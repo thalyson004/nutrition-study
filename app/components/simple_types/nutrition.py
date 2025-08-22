@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from copy import deepcopy
 from typing import Union
+from typing import Any
 
 from app.components.extract_data.dataframes.dictionaries.nutrients import (
     nutrients,
@@ -22,7 +23,7 @@ class Nutrition:
         from app.components.basic_dataframes import dictNutritionByMeal
 
         if isinstance(state, State):
-            self.data = {key: 0 for key in list(nutrients)}
+            self.data = {key: 0.0 for key in list(nutrients)}
 
             for code in list(state.keys()):  # Meals code
                 for nutrient in list(self):  # Nutrient code
@@ -114,6 +115,32 @@ class Nutrition:
             return Nutrition.idealNutritionByEer(2388.8400)
 
     @staticmethod
+    def nutritionAdequancyByPersonId(nutrition: "Nutrition", personID: str):
+        idealNutrition = Nutrition.idealNutritionByPersonId(personID)
+        greaters = [
+            nutrient for nutrient, signal in nutrients_signal.items() if signal == ">"
+        ]
+        less = [
+            nutrient for nutrient, signal in nutrients_signal.items() if signal == "<"
+        ]
+        quantity = len(nutrients_signal) - 1
+
+        adequancy = 0.0
+        for nutrient in greaters:
+            adequancy += (
+                min(1.0, nutrition[nutrient] / idealNutrition[nutrient]) / quantity
+            )
+
+        for nutrient in less:
+            if nutrient == "ENERGIA_KCAL":
+                continue
+            adequancy += (
+                1.0 if nutrition[nutrient] <= idealNutrition[nutrient] else 0.0
+            ) / quantity
+
+        return adequancy
+
+    @staticmethod
     def directionDifference(initNutrition, finalNutrition):
         initNutrition: Nutrition = initNutrition
         finalNutrition: Nutrition = finalNutrition
@@ -137,7 +164,9 @@ class Nutrition:
 
     @staticmethod
     # works fine with 1007
-    def absDifferenceNegativePenalty(initNutrition, finalNutrition, mult=1007) -> float:
+    def absDifferenceNegativePenalty(
+        initNutrition, finalNutrition, mult=1000000
+    ) -> float:
         initNutrition: Nutrition = initNutrition
         finalNutrition: Nutrition = finalNutrition
 

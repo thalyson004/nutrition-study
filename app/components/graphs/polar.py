@@ -2,7 +2,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def plot_multiple_polar_charts(data_list, num_points=36, labels=None, save_path=None):
+def plot_multiple_polar_charts(
+    data_list,
+    num_points=36,
+    labels=None,
+    save_path=None,
+    rows=None,
+    cols=None,
+    square=False,
+):
     """
     Gera múltiplos gráficos polares em uma única imagem, com opção de salvar a imagem e personalizar labels.
 
@@ -40,13 +48,17 @@ def plot_multiple_polar_charts(data_list, num_points=36, labels=None, save_path=
     num_charts = len(data_list)
 
     # Ajuste para layout em uma linha se houver exatamente dois gráficos
-    if num_charts == 4:
-        rows, cols = 1, 4
-    elif num_charts == 2:
-        rows, cols = 1, 2
-    else:
-        rows = int(np.ceil(np.sqrt(num_charts)))
-        cols = int(np.ceil(num_charts / rows))
+    if rows == None or cols == None:
+        if num_charts == 4:
+            if square:
+                rows, cols = 2, 2
+            else:
+                rows, cols = 1, 4
+        elif num_charts == 2:
+            rows, cols = 1, 2
+        else:
+            rows = int(np.ceil(np.sqrt(num_charts)))
+            cols = int(np.ceil(num_charts / rows))
 
     fig, axs = plt.subplots(
         rows, cols, subplot_kw=dict(projection="polar"), figsize=(5 * cols, 5 * rows)
