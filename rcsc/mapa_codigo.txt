@@ -1,0 +1,519 @@
+Leite Integral  BRC0043G
+Aveia em Flocos BRC0021A
+Maçã    BRC0023C
+Banana Prata    BRC0011C
+Amendoim torrado sem sal    BRC0021T
+Arroz Cozido    BRC0209A
+Feijão Cozido  BRC0091T
+Peito de Frango Grelhado    BRC0230F
+Salada de Folhas e Tomate   BRC0396B
+Azeite para tempero -
+Pão Francês BRC0002A
+Queijo Minas Padrão BRC0056G
+Batata Doce Cozida  BRC0042B
+Ovos Cozidos    BRC0010J
+Salada de Brócolis e Cenoura Cozida BRC0643B,BRC0504B
+Salada de Brócolis  BRC0643B
+Salada de Cenoura BRC0504B
+Chá de Ervas    -
+Ovos Mexidos    BRC0028J
+Azeite para preparo dos ovos    -
+Iogurte Natural Integral    BRC0011G
+Mel BRC0028K
+Carne Moída Magra (patinho) BRC0441F
+Salada Mista (alface, tomate, pepino)   BRC0396B
+Leite em Pó Integral    BRC0041G
+Mandioca Cozida (Aipim) BRC0908B
+Filé de Frango Grelhado BRC0230F
+Abóbora Cozida (Jerimum)    BRC0166B
+Frango Desfiado BRC0230F
+Salada Mista de Folhas   BRC0391B
+Pasta de Amendoim   BRC0290T
+Macarrão Cozido BRC0834A
+Carne Moída Magra (molho)   BRC0257F
+Salada de Couve-Flor Cozida BRC0572B
+Manteiga    BRC0007D
+Sardinha em Lata (drenada)  BRC0071E
+Salada de Repolho e Cenoura BRC0631B,BRC0504B
+Salada de Repolho   BRC0631B
+Chá de Ervas (sem açúcar)   -
+Cuscuz (cozido) BRC0890A
+Carne Bovina Cozida (Músculo/Paleta)    BRC0431F
+Salada de Legumes Cozidos (Chuchu e Quiabo) BRC0364B
+Filé de Frango Cozido e Desfiado    BRC0195F
+Milho e Ervilha (em lata)   BRC0787A
+Salada de Folhas Verdes BRC0391B
+Chá de Camomila (sem açúcar)    -
+Ovos Mexidos (2 un.)    BRC0028J
+Mandioca/Aipim Cozido   BRC0908B
+Frango Desfiado (cozido s/ óleo)    BRC0230F
+Azeite (para preparo dos ovos)  -
+Salada Mista (folhas)   BRC0391B
+Pasta de Amendoim (integral, sem açúcar)    BRC0290T
+Abóbora Moranga Cozida  BRC0166B
+Arroz Integral Cozido   BRC0211A
+Atum em Lata (em água, drenado) BRC0039E
+Aveia   BRC0021A
+Azeite (para preparo)   -
+Azeite (para tempero)   -
+Banana Prata (picada)   BRC0011C
+Batata Cozida   BRC0117B
+Batata Inglesa Cozida   BRC0117B
+Biscoito Cream Cracker  BRC0201A
+Biscoito Maizena    BRC0027A
+Biscoito de Polvilho    BRC0096B
+Bolo de Banana (caseiro)    BRC0467A
+Bolo de Milho/Fubá (caseiro)    BRC0226A
+Bolo de Milho (caseiro)    BRC0226A
+Bolo de Fubá (caseiro)    BRC0226A
+Café com Leite Integral BRC0044H
+Café preto (sem açúcar) BRC0007H
+Carne Bovina (Alcatra magra, cozida)    BRC0727F
+Carne Bovina (Alcatra/Maminha magra, cozida)    BRC0727F
+Carne Bovina (Alcatra/Maminha magra, grelhada)  BRC0727F
+Carne Bovina (Músculo/Paleta cozida)    BRC0431F
+Carne Bovina (Patrimho magro, cozido)   BRC0431F
+Carne Bovina Magra (patinho, cozida)    BRC0727F
+Carne Suína (Lombo magro, cozido)   BRC0861F
+Carne Suína (Lombo magro, grelhado) BRC0697F
+Carne Suína (Lombo, cozido) BRC0861F
+Carne Suína (Lombo, grelhado)   BRC0697F
+Carne de Sol/Seca dessalgada e cozida   BRC0084F
+Chá de Erva Doce (sem açúcar)   -
+Chá de Hortelã (sem açúcar) -
+Feijão Carioca Cozido   BRC0091T
+Feijão Preto Cozido BRC0108T
+Filé de Frango Desfiado BRC0195F
+Filé de Tilápia Grelhada    BRC0487E
+Frango Desfiado (cozido) na sopa    BRC0195F
+Frango Desfiado na Sopa BRC0195F
+Fígado de Frango Grelhado   BRC0230F
+Gelatina Diet   BRC0014N
+Goiaba  BRC0014C
+Grão-de-Bico Cozido BRC0174T
+Grão-de-Bico    BRC0174T
+Inhame/Cará Cozido  BRC0343B
+Leite Integral (na vitamina)    BRC0043G
+Lentilha Cozida BRC0018T
+Mamão Formosa   BRC0045C
+Mamão Formosa picado    BRC0045C
+Mandioquinha/Batata Baroa Cozida    BRC0297B
+Maçã (picada)   BRC0023C
+Maçã picada BRC0023C
+Milho Verde (em conserva)   BRC0007A
+Milho e Ervilha (conserva)  BRC0787A
+Mingau de Aveia (com água)  BRC0053G
+Molho de Tomate caseiro BRC0729B
+Ovo Cozido  BRC0010J
+Ovos Cozidos (2 un.)    BRC0010J
+Ovos Cozidos (3 un.)    BRC0010J
+Ovos Fritos (2 un.) BRC0028J
+Ovos Mexidos (1 un.)    BRC0028J
+Patê de Atum (Atum em água - 50g + Maionese Light - 10g)    BRC0032D
+Patê de Frango (Frango desfiado - 50g + Ricota - 10g)   BRC0032D
+Purê de Batata (preparado com leite)    BRC0323B
+Purê de Mandioquinha/Batata Baroa   BRC0868B
+Pão Integral    BRC0149A
+Pão de Queijo (pequeno) BRC0044R
+Pêra    BRC0030C
+Queijo Coalho (grelhado)    BRC0048G
+Queijo Coalho Grelhado  BRC0048G
+Queijo Mussarela Fatiado    BRC0059G
+Queijo Ricota Fresca    BRC0051G
+Quiabo Cozido   BRC0055B
+Requeijão Cremoso Light BRC0040N
+Ricota Fresca   BRC0051G
+Salada Mista (folhas, tomate)   BRC0396B
+Salada de Abóbora Cozida (Jerimum)  BRC0166B
+Salada de Alface    BRC0391B
+Salada de Alface e Pepino   BRC0009B,BRC0030B
+Salada de Alface e Tomate   BRC0009B,BRC0035B
+Salada de Beterraba e Cenoura Cozida    BRC0047B,BRC0015B
+Salada de Beterraba e Cenoura Ralada    BRC0020B,BRC0015B
+Salada de Brócolis Cozido   BRC0045B
+Salada de Cenoura e Vagem Cozidas   BRC0047B,BRC0103T
+Salada de Couve Refogada (só água/alho) BRC0144B
+Salada de Couve e Tomate    BRC0144B,BRC0035B
+Salada de Fruta (Banana e Mamão)    BRC0006C,BRC0045C 
+Salada de Frutas (Mamão 80g + Laranja 70g)  BRC0045C,BRC0017C
+Salada de Pepino e Coentro  BRC0030B,BRC0775B
+Salada de Pepino e Pimentão BRC0030B,BRC0031B
+Salada de Quiabo e Chuchu Cozidos   BRC0055B,BRC0050B
+Salada de Quiabo e Maxixe Cozidos   BRC0055B,BRC0247B
+Salada de Repolho Refogado  BRC0928B
+Salada de Repolho e Cenoura Ralada  BRC0080B,BRC0047B
+Salada de Rúcula e Tomate   BRC0081B,BRC0035B
+Salada de Tomate e Cenoura  BRC0035B,BRC0047B
+Salada de Tomate e Cenoura Ralada   BRC0035B,BRC0047B
+Salada de Tomate e Pepino   BRC0035B,BRC0030B
+Salada de Vagem Cozida  BRC0103T
+Salada de Vagem e Beterraba Cozidas BRC0103T,BRC0015B
+Salada de Vagem e Brócolis Cozidos  BRC0103T,BRC0045B
+Sardinha em Lata (em água, drenada) BRC0071E
+Sardinha em Lata (água/drenada) BRC0071E
+Sopa de Legumes (Abóbora, Batata, Cenoura)  BRC0166B,BRC0297B,BRC0035B
+Sopa de Legumes com Batata e Abóbora    BRC0166B,BRC0297B
+Tapioca (Massa) BRC0137B
+Tomate Picado   BRC0035B
+Vitamina (Morango 75g + Banana 75g + Leite Integral 100g)   BRC0081G
+Vitamina de Abacate (Abacate - 50g + Leite Integral - 100g) BRC0078G
+Vitamina de Banana (Banana 100g + Leite Integral 100g)  BRC0006C,BRC0043G
+Abacate BRC0001C
+Abobrinha Cozida    BRC0040B
+Abobrinha Grelhada  BRC0264B
+Abobrinha Refogada  BRC0040B
+Abóbora Cabotiá Cozida  BRC0166B
+Abóbora Cozida  BRC0166B
+Ameixa  BRC0005C
+Ameixa Fresca   BRC0005C
+Ameixa Seca BRC0181C
+Amendoim    BRC0020T
+Amendoim Torrado Sem Sal    BRC0021T
+Amêndoas    BRC0020T
+Arroz 7 Grãos   BRC0211A
+Arroz Branco Cozido BRC0018A
+Arroz Branco com Brócolis   BRC0018A,BRC0045B
+Arroz Branco com Salsa  BRC0018A
+Arroz Cateto Cozido BRC0018A
+Arroz Integral com Cenoura  BRC0211A,BRC0047B
+Arroz Integral com Lentilha BRC0211A
+Arroz Negro Cozido  BRC0211A
+Arroz Parboilizado Cozido   BRC0018A
+Arroz Selvagem  BRC0211A
+Arroz de Couve-Flor BRC0018A,BRC0572B
+Arroz de Ervilha    BRC0018A
+Aveia em Flocos Finos   BRC0018A
+Azeite de Oliva -
+Azeitonas   BRC0121B
+Banana Maçã BRC0009C
+Banana Nanica   BRC0007C
+Banana da Terra Cozida  BRC0276C
+Abóbora Assada  BRC0355B      
+Abóbora Refogada    BRC0151B
+Amendoim Torrado sem Sal    BRC0021T
+Amendoim Torrado sem sal    BRC0021T
+Arroz Branco    BRC0018A
+Arroz Integral  BRC0211A
+Azeite de Oliva -
+Azeite de oliva -
+Banana  BRC0011C
+Bife de Coxão Mole Grelhado BRC0727F
+Biscoito Integral   BRC0059A
+Bolacha de Água e Sal   BRC0060A
+Brócolis    BRC0150B
+Brócolis Cozido BRC0150B
+Brócolis no Vapor   BRC0164B
+Café Preto sem Açúcar   BRC0007H
+Café Preto sem açúcar   BRC0007H
+Café com Leite Desnatado    BRC0044H
+Café com Leite Desnatado (sem açúcar)   BRC0044H
+Café sem açúcar BRC0044H
+Carne Bovina Magra Cozida   BRC0727F
+Carne Bovina Magra Grelhada BRC0441F
+Carne Magra Cozida  BRC0727F
+Carne Moída Magra   BRC0727F
+Carne Moída Magra Cozida    BRC0727F
+Carne Moída Magra Refogada  BRC0727F
+Carne de Panela Magra   BRC0441F
+Castanha de Caju sem sal    BRC0002U
+Castanha-de-Caju    BRC0002U
+Castanha-de-caju    BRC0002U
+Castanha-de-caju sem sal    BRC0002U
+Castanha-do-Pará    BRC0002U
+Castanha-do-pará    BRC0002U
+Cenoura Cozida  BRC0047B
+Cenoura e Vagem Cozidas BRC0047B,BRC0103T
+Cereal Integral BRC0092A
+Cereal Integral sem Açúcar  BRC0092A
+Cereal Integral sem açúcar  BRC0092A
+Chuchu Cozido   BRC0050B
+Chá Verde   -
+Chá Verde (sem açúcar)  -
+Chá de Camomila -
+Chá de Erva-Doce (sem açúcar)   -
+Chá de Erva-doce (sem açúcar)   -
+Couve Refogada  BRC0572B
+Coxa e Sobrecoxa sem pele Grelhada  BRC0955F
+Cuscuz Cozido   BRC0890A
+Cuscuz Nordestino   BRC0890A
+Cuscuz de Milho BRC0890A
+Feijão Carioca  BRC0091T
+Feijão Preto    BRC0108T
+Filé de Peixe Assado    BRC0486E
+Filé de Peixe Grelhado  BRC0486E
+Filé de Tilápia Grelhado    BRC0486E
+Frango ao Curry (Peito de Frango + Legumes) BRC0231F
+Frango ao Forno BRC0231F
+Granola Tradicional BRC1076A
+Granola sem Açúcar  BRC1076A
+Granola sem açúcar  BRC1076A
+Inhame Cozido   BRC0342B
+Iogurte Desnatado   BRC0022G
+Iogurte Grego Light BRC0022G
+Iogurte Natural BRC0011G
+Iogurte Natural Desnatado   BRC0022G
+Legumes Cozidos (Cenoura e Chuchu)  BRC0047B,BRC0050B
+Legumes Cozidos (cenoura e chuchu)  BRC0047B,BRC0050B
+Legumes Cozidos (cenoura e vagem)   BRC0047B,BRC0050B
+Legumes Cozidos (chuchu e cenoura)  BRC0047B,BRC0050B
+Leite Desnatado BRC0036G
+Leite Desnatado Morno   BRC0036G
+Macarrão Integral   BRC0229A
+Macarrão Integral Cozido    BRC0229A
+Macaxeira Cozida    BRC0908B
+Mamão   BRC0045C
+Mamão Papaia    BRC0045C
+Mamão Papaya    BRC0045C
+Mamão com Linhaça   BRC0045C
+Manga   BRC0048C
+Melancia    BRC0027C
+Mix de Castanhas    BRC0396A
+Molho de Tomate Caseiro BRC0729B
+Morango BRC0029C
+Morangos    BRC0029C
+Nozes   BRC0009U
+Omelete (2 ovos + cebola + tomate)  BRC0032J
+Omelete (2 ovos)    BRC0032J
+Omelete com Claras e Espinafre  BRC0032J
+Omelete com Legumes BRC0032J
+Omelete com Queijo Branco e Tomate  BRC0032J
+Omelete de 2 Ovos   BRC0032J
+Omelete de 2 Ovos com Legumes   BRC0032J
+Omelete de Claras com Espinafre BRC0032J
+Omelete de Legumes (2 ovos, cebola, tomate, espinafre)  BRC0032J
+Ovo Mexido  BRC0028J
+Pasta de Amendoim Natural   BRC0290T
+Peito de Frango Desfiado    BRC0230F
+Peixe Assado    BRC0486E
+Peixe Branco Grelhado   BRC0486E
+Pera    BRC0030C
+Polenta Cozida  BRC0143A
+Purê de Batata  BRC0323B
+Purê de Batata Doce BRC0323B
+Purê de Inhame  BRC0868B
+Purê de Mandioca    BRC1052B
+Purê de Mandioquinha    BRC0868B
+Pão Francês (miolo retirado)    BRC0002A
+Queijo Branco   BRC0048G
+Queijo Minas Frescal    BRC0056G
+Requeijão Light BRC0040N
+Ricota  BRC0051G
+Salada Verde    BRC0391B
+Salada de Alface e Beterraba    BRC0009B,BRC0015B
+Salada de Alface e Cenoura  BRC0009B,BRC0020B
+Salada de Alface e Rúcula   BRC0009B,BRC0081B
+Salada de Alface, Cenoura e Tomate  BRC0009B,BRC0035B,BRC0020B
+Salada de Alface, Pepino e Beterraba    BRC0009B,BRC0015B
+Salada de Alface, Rúcula e Cenoura  BRC0009B,BRC0081B,BRC0020B
+Salada de Alface, Rúcula e Tomate   BRC0009B,BRC0081B,BRC0035B
+Salada de Alface, Tomate e Cenoura  BRC0009B,BRC0035B,BRC0020B
+Salada de Alface, Tomate e Pepino   BRC0009B,BRC0035B,BRC0030B
+Salada de Beterraba e Pepino    BRC0015B,BRC0035B
+Salada de Brócolis e Cenoura no Vapor   BRC0150B,BRC0020B
+Salada de Brócolis e Couve  BRC0150B,BRC0051B
+Salada de Brócolis e Couve-flor no vapor    BRC0150B,BRC0051B
+Salada de Brócolis e Pepino BRC0150B,BRC0030B
+Salada de Brócolis e Tomate BRC0150B,BRC0035B
+Salada de Couve Refogada    BRC0051B
+Salada de Couve e Beterraba BRC0051B,BRC0015B
+Salada de Couve e Cenoura   BRC0051B,BRC0020B
+Salada de Espinafre BRC0072B
+Salada de Espinafre e Cenoura   BRC0072B,BRC0020B
+Salada de Espinafre e Cenoura Ralada    BRC0072B,BRC0020B
+Salada de Espinafre e Tomate    BRC0072B,BRC0035B
+Salada de Folhas Verdes com Pepino  BRC0391B
+Salada de Legumes Cozidos (Chuchu e Cenoura)    BRC0050B,BRC0020B
+Salada de Pepino e Alface   BRC0030B,BRC0009B
+Salada de Pepino e Cenoura  BRC0030B,BRC0020B
+Salada de Repolho e Tomate  BRC0080B,BRC0035B
+Salada de Rúcula e Beterraba    BRC0081B,BRC0015B
+Salada de Tomate e Alface   BRC0009B,BRC0035B
+Salada de Tomate, Pepino e Alface   BRC0030B,BRC0009B,BRC0035B
+Semente de Girassol BRC0025U
+Sementes de Girassol    BRC0025U
+Sopa de Legumes com Carne Magra BRC0846A
+Sopa de Legumes com Frango Desfiado BRC0074R
+Suco de Laranja Natural BRC0038C
+Tapioca BRC0137B
+Tapioca com Ovo Mexido  BRC0137B,BRC0028J
+Tomate  BRC0035B
+Torradas Integrais  BRC0170A
+Uva BRC0033C
+Vagem Cozida    BRC0103T
+Vagem Refogada  BRC0103T
+Vitamina de Banana com Leite Desnatado e Aveia  BRC0075G
+Vitamina de Leite Desnatado com Banana e Aveia  BRC0075G
+Barra de Cereal Caseira BRC0082A
+Batata Salsa Cozida BRC0054B
+Berinjela Assada    BRC0287B
+Berinjela Grelhada  BRC0287B
+Biscoito de Arroz   BRC0836A
+Biscoito de Arroz Integral  BRC0836A
+Biscoito de Aveia   BRC0041A
+Biscoito de Água e Sal  BRC0060A
+Bisteca Suína Magra Grelhada    BRC0684F
+Bolo de Fubá Simples    BRC0226A
+Café com Leite  BRC0044H
+Canela em Pó    -
+Carne Assada    BRC0727F
+Carne Assada Magra  BRC0727F
+Carne Louca BRC0526F
+Carne Moída com Abobrinha   BRC0434N
+Carne Moída com Abóbora BRC0434N
+Carne Seca Desfiada BRC0084F
+Carne de Panela BRC0431F
+Carne de Sol Desfiada   BRC0084F
+Castanha de Caju    BRC0002U
+Chá de Canela   -
+Chá de Capim-Limão  -
+Chá de Cidreira -
+Chá de Erva-Cidreira    -
+Chá de Erva-Doce    -
+Chá de Gengibre -
+Chá de Hibisco  -
+Chá de Hortelã  -
+Chá de Maracujá -
+Chá de Maçã -
+Chá de Melissa  -
+Coalhada    BRC0140G
+Coalhada Seca   BRC0140G
+Coalhada com Azeitona   BRC0140G
+Coco Ralado BRC0013C
+Coco Ralado Light   BRC0013C
+Couve-Manteiga Refogada BRC0102B
+Creme de Abacate    BRC0421N
+Creme de Espinafre  BRC1005B
+Creme de Mandioca   BRC0053B
+Croutons Integrais  BRC1030B
+Cuscuz Marroquino   BRC0890A
+Cuscuz Paulista BRC0890A
+Damasco Seco    BRC0178C
+Escarola Refogada   BRC0169B
+Farelo de Aveia BRC0018A
+Farelo de Trigo BRC0137A
+Farofa de Banana    BRC0804B
+Farofa de Ovo   BRC0010J
+Feijão Branco   BRC0028T
+Feijão Fradinho BRC0118T
+Feijão Manteiga Cozido  BRC0001T
+Feijão Mulatinho    BRC0118T
+Feijão Mulatinho Cozido BRC0118T
+Feijão Preto Temperado  BRC0008T
+Feijão Rajado Cozido    BRC0118T
+Feijão Tropeiro Light   BRC0001T
+Feijão Verde Cozido BRC0001T
+Filé de Frango à Milanesa (assado)  BRC0239F
+Filé de Frango à Parmegiana Light   BRC0494F
+Filé de Pescada Assada  BRC0154E
+Filé de Pescada Assado  BRC0154E
+Filé de Pescada Grelhado    BRC0154E
+Flocos de Milho BRC0100A
+Frango Ensopado BRC0541F
+Frango Xadrez (light)   BRC0533F
+Frango à Caesar Light   BRC0230F
+Frango à Passarinho BRC0115F
+Geleia de Fruta Sem Açúcar  BRC0016K
+Goiaba Vermelha BRC0014C
+Granola BRC1076A
+Granola Sem Açúcar  BRC1076A
+Grão de Bico Cozido BRC0174T
+Iogurte Desnatado com Mel   BRC0022G
+Iogurte Grego   BRC0011G
+Iogurte Grego Natural   BRC0011G
+Iogurte Natural com Granola BRC0116G
+Iogurte com Açafrão BRC0011G
+Iscas de Carne  BRC0727F
+Kiwi    BRC0061C
+Laranja BRC0017C
+Leite Desnatado com Cacau   BRC0037G
+Leite Dourado (com cúrcuma) BRC0043G	
+Leite Fermentado    BRC0031G
+Leite com Canela    BRC0043G
+Leite de Coco Light BRC0175C
+Leite de Soja   BRC0043T
+Lentilha com Legumes    BRC0077T
+Linguiça de Frango Grelhada BRC0763F
+Linhaça Dourada BRC0039U
+Lombo Suíno Assado  BRC0163F
+Maxixe Cozido   BRC0252B
+Maçã Fuji   BRC0064C
+Maçã Verde  BRC0172C
+Melão   BRC0028C
+Mingau de Aveia BRC0053G
+Mingau de Fubá  BRC0141G
+Moqueca de Camarão  BRC0256E
+Moqueca de Peixe    BRC0120E
+Omelete de Espinafre    BRC0059J
+Omelete de Espinafre e Queijo   BRC0059J
+Omelete de Queijo   BRC0026J
+Ovo Pochê   BRC0010J
+Peito de Peru Grelhado  BRC0783F
+Peixe Cozido    BRC0099E
+Peixe Ensopado  BRC0112E
+Peru Defumado   BRC0196F
+Polenta Cremosa BRC0143A
+Posta de Pescada Amarela Grelhada   BRC0215E
+Pudim de Chia   BRC1171A
+Pudim de Leite Desnatado    BRC0140N
+Purê de Abóbora BRC0127B
+Purê de Abóbora Jerimum BRC0127B
+Purê de Batata Baroa    BRC0868B
+Purê de Batata Salsa    BRC0868B
+Purê de Cenoura BRC1057B
+Pão Francês Integral    BRC0149A
+Pão Integral com Gergelim   BRC0149A
+Pão Sírio   BRC1048A
+Pão Sírio Integral  BRC1048A
+Pão de Centeio  BRC0157A
+Pão de Forma Integral   BRC0153A
+Pão de Forma Light  BRC0153A
+Pão de Queijo Light BRC0081R
+Pêssego BRC0031C
+Queijo Coalho   BRC0048G
+Queijo Cottage  BRC0158G
+Queijo Minas    BRC0037N
+Queijo Minas Light  BRC0039N
+Queijo Prato Light  BRC0039N
+Queijo Ricota   BRC0051G
+Requeijão   BRC0066G
+Salada de Acelga    BRC0975B
+Salada de Agrião    BRC0188B
+Salada de Agrião com Laranja    BRC0008B,BRC0017C
+Salada de Alface Americana  BRC0595B
+Salada de Alface Crespa BRC0060B
+Salada de Alface Roxa   BRC0062B
+Salada de Alface e Cebola   BRC1068B
+Salada de Alface e Rabanete BRC0062B,BRC0079B
+Salada de Almeirão   BRC0658B
+Salada de Beterraba BRC0015B
+Salada de Beterraba Cozida  BRC0490B
+Salada de Chicória  BRC0601B
+Salada de Couve BRC0052B
+Salada de Couve Flor Cozida BRC0052B
+Salada de Escarola  BRC0573B
+Salada de Palmito   BRC0612B
+Salada de Pepino    BRC0532B
+Salada de Rabanete  BRC0079B
+Salada de Repolho Roxo  BRC1029B
+Salada de Repolho com Cenoura   BRC1029B,BRC0020B
+Salada de Rúcula    BRC0081B
+Salada de Rúcula com Tomate Seco    BRC0081B,BRC0390B
+Salada de Tomate    BRC0035B
+Salada de Tomate Cereja BRC0035B
+Sardinha Assada BRC0068E
+Semente de Abóbora  BRC0024U
+Semente de Linhaça  BRC0006U
+Sobrecoxa de Frango Assada  BRC0994F
+Sobrecoxa de Frango Assada sem Pele BRC0116F
+Suco Verde (couve + abacaxi)    BRC0109C
+Suco de Uva Integral    BRC0226C
+Tangerina   BRC0032C
+Torrada Integral    BRC0170A
+Torta de Frango Light   BRC0992A
+Torta de Legumes    BRC0579A
+Uvas    BRC0034C
+Uvas Passas BRC0171C
+Vinagrete   BRC0172B
+Vitamina de Abacate BRC0078G
+Vitamina de Abacate com Linhaça BRC0078G
+Vitamina de Morango BRC0081G
