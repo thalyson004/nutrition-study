@@ -450,3 +450,15 @@ alimentos_gbt = carregar_alimentos_do_json("gbt.json")
 alimentos_deepseek = carregar_alimentos_do_json("deepseek.json")
 codigos = carregar_mapa_codigo()
 mapa = criar_dicionario_de_arquivo()
+
+gemini_diets = None
+with open("../../rcsc/gemini.json", "r", encoding="utf-8") as f:
+    gemini_diets = json.load(f)
+
+gbt_diets = None
+with open("../../rcsc/gbt.json", "r", encoding="utf-8") as f:
+    gbt_diets = json.load(f)
+
+deepseek_diets = None
+with open("../../rcsc/deepseek.json", "r", encoding="utf-8") as f:
+    deepseek_diets = json.load(f)
