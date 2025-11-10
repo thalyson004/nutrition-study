@@ -1,0 +1,1539 @@
+[
+	{
+    "1": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Aveia em Flocos", "quantidade": "30" },
+        { "alimento": "Maçã", "quantidade": "130" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Castanha-de-Caju", "quantidade": "10" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Abobrinha Refogada", "quantidade": "100" },
+        { "alimento": "Azeite de Oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "15" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Batata", "quantidade": "120" },
+        { "alimento": "Filé de Peixe Assado", "quantidade": "120" },
+        { "alimento": "Salada de Alface e Tomate", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado", "quantidade": "150" }
+      ]
+    },
+    "2": {
+      "Café da Manhã": [
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Queijo Minas Frescal", "quantidade": "40" },
+        { "alimento": "Mamão Papaia", "quantidade": "150" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "150" },
+        { "alimento": "Granola Tradicional", "quantidade": "20" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Carne Moída Magra", "quantidade": "100" },
+        { "alimento": "Couve Refogada", "quantidade": "80" },
+        { "alimento": "Azeite de Oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Pasta de Amendoim", "quantidade": "10" }
+      ],
+      "Jantar": [
+        { "alimento": "Omelete (2 ovos)", "quantidade": "100" },
+        { "alimento": "Batata Doce Cozida", "quantidade": "150" },
+        { "alimento": "Salada de Pepino e Cenoura", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Ervas (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "3": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Cuscuz Cozido", "quantidade": "80" },
+        { "alimento": "Ovos Cozidos", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Castanha-do-Pará", "quantidade": "10" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Frango Desfiado", "quantidade": "120" },
+        { "alimento": "Abóbora Cozida", "quantidade": "100" },
+        { "alimento": "Azeite de Oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "15" }
+      ],
+      "Jantar": [
+        { "alimento": "Macarrão Integral Cozido", "quantidade": "120" },
+        { "alimento": "Carne Moída Magra", "quantidade": "100" },
+        { "alimento": "Molho de Tomate Caseiro", "quantidade": "50" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado", "quantidade": "150" }
+      ]
+    },
+    "4": {
+      "Café da Manhã": [
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Requeijão Light", "quantidade": "20" },
+        { "alimento": "Suco de Laranja Natural", "quantidade": "200" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "150" },
+        { "alimento": "Aveia em Flocos", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Brócolis Cozido", "quantidade": "100" },
+        { "alimento": "Azeite de Oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Amendoim Torrado Sem Sal", "quantidade": "10" }
+      ],
+      "Jantar": [
+        { "alimento": "Sopa de Legumes com Carne Magra", "quantidade": "250" },
+        { "alimento": "Torradas Integrais", "quantidade": "30" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Camomila (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "5": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Aveia em Flocos", "quantidade": "30" },
+        { "alimento": "Mamão Papaia", "quantidade": "150" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola Tradicional", "quantidade": "20" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Carne Bovina Magra Cozida", "quantidade": "100" },
+        { "alimento": "Salada de Legumes Cozidos (Chuchu e Cenoura)", "quantidade": "150" },
+        { "alimento": "Azeite de Oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Queijo Minas Frescal", "quantidade": "40" }
+      ],
+      "Jantar": [
+        { "alimento": "Batata Cozida", "quantidade": "100" },
+        { "alimento": "Filé de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Salada de Folhas Verdes", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado", "quantidade": "150" }
+      ]
+    }
+  },
+
+  {
+    "1": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Aveia em Flocos", "quantidade": "30" },
+        { "alimento": "Banana Prata", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Castanha de Caju sem sal", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Abóbora Cozida", "quantidade": "100" },
+        { "alimento": "Salada de Alface, Tomate e Cenoura", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "15" }
+      ],
+      "Jantar": [
+        { "alimento": "Batata Doce Cozida", "quantidade": "150" },
+        { "alimento": "Omelete (2 ovos + cebola + tomate)", "quantidade": "120" },
+        { "alimento": "Salada de Brócolis e Couve-flor no vapor", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Camomila (sem açúcar)", "quantidade": "200" },
+        { "alimento": "Biscoito Integral", "quantidade": "20" }
+      ]
+    },
+    "2": {
+      "Café da Manhã": [
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Queijo Minas Frescal", "quantidade": "30" },
+        { "alimento": "Suco de Laranja Natural", "quantidade": "200" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Mamão Papaia", "quantidade": "120" },
+        { "alimento": "Granola sem açúcar", "quantidade": "20" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Carne Moída Magra Cozida", "quantidade": "100" },
+        { "alimento": "Abobrinha Refogada", "quantidade": "100" },
+        { "alimento": "Salada de Folhas Verdes", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Maçã", "quantidade": "130" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Mandioca", "quantidade": "150" },
+        { "alimento": "Peito de Frango Desfiado", "quantidade": "100" },
+        { "alimento": "Salada de Beterraba e Pepino", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Aveia em Flocos", "quantidade": "20" }
+      ]
+    },
+    "3": {
+      "Café da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem açúcar", "quantidade": "30" },
+        { "alimento": "Morangos", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Amendoim Torrado sem sal", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Filé de Peixe Grelhado", "quantidade": "120" },
+        { "alimento": "Chuchu Cozido", "quantidade": "100" },
+        { "alimento": "Salada de Rúcula e Tomate", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Torradas Integrais", "quantidade": "30" },
+        { "alimento": "Requeijão Light", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Polenta Cozida", "quantidade": "150" },
+        { "alimento": "Ovos Mexidos", "quantidade": "100" },
+        { "alimento": "Salada de Espinafre e Cenoura", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá Verde (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "4": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Pasta de Amendoim Natural", "quantidade": "15" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Pera", "quantidade": "130" },
+        { "alimento": "Castanha-do-Pará", "quantidade": "10" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Vagem Refogada", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Cenoura", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "15" }
+      ],
+      "Jantar": [
+        { "alimento": "Batata Cozida", "quantidade": "150" },
+        { "alimento": "Carne Magra Cozida", "quantidade": "100" },
+        { "alimento": "Salada de Brócolis e Tomate", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Erva-Doce (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "5": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Cereal Integral", "quantidade": "30" },
+        { "alimento": "Mamão Papaia", "quantidade": "120" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Amêndoas", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Filé de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Abóbora Assada", "quantidade": "100" },
+        { "alimento": "Salada de Folhas Verdes com Pepino", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem açúcar", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Batata Doce", "quantidade": "150" },
+        { "alimento": "Ovos Cozidos", "quantidade": "100" },
+        { "alimento": "Salada de Couve Refogada", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Hortelã (sem açúcar)", "quantidade": "200" }
+      ]
+    }
+  },
+
+  {
+    "1": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Queijo Minas Frescal", "quantidade": "30" },
+        { "alimento": "Mamão Papaia", "quantidade": "120" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Amendoim torrado sem sal", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Abóbora Cozida", "quantidade": "100" },
+        { "alimento": "Salada de Alface, Tomate e Cenoura", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "15" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Batata Doce", "quantidade": "150" },
+        { "alimento": "Ovos Mexidos", "quantidade": "100" },
+        { "alimento": "Salada de Espinafre e Cenoura", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Camomila (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "2": {
+      "Café da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem açúcar", "quantidade": "30" },
+        { "alimento": "Morangos", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Castanha de Caju sem sal", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Carne Moída Magra Cozida", "quantidade": "100" },
+        { "alimento": "Abobrinha Refogada", "quantidade": "100" },
+        { "alimento": "Salada de Folhas Verdes com Pepino", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Torradas Integrais", "quantidade": "30" },
+        { "alimento": "Requeijão Light", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Batata Inglesa Cozida", "quantidade": "150" },
+        { "alimento": "Filé de Peixe Grelhado", "quantidade": "120" },
+        { "alimento": "Salada de Couve e Tomate", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Hortelã (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "3": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Aveia em Flocos", "quantidade": "30" },
+        { "alimento": "Banana Prata", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Pera", "quantidade": "130" },
+        { "alimento": "Amêndoas", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Cenoura Cozida", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Rúcula", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Torradas Integrais", "quantidade": "25" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Mandioquinha", "quantidade": "150" },
+        { "alimento": "Ovos Cozidos", "quantidade": "100" },
+        { "alimento": "Salada de Brócolis e Pepino", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Erva-Doce (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "4": {
+      "Café da Manhã": [
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Pasta de Amendoim Natural", "quantidade": "15" },
+        { "alimento": "Suco de Laranja Natural", "quantidade": "200" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Castanha-do-Pará", "quantidade": "10" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Carne Magra Cozida", "quantidade": "100" },
+        { "alimento": "Vagem Refogada", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Cenoura", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem açúcar", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Batata", "quantidade": "150" },
+        { "alimento": "Filé de Peixe Assado", "quantidade": "120" },
+        { "alimento": "Salada de Espinafre e Tomate", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Camomila (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "5": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Cereal Integral", "quantidade": "30" },
+        { "alimento": "Mamão Papaia", "quantidade": "120" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Amendoim Torrado sem sal", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Desfiado", "quantidade": "120" },
+        { "alimento": "Abóbora Assada", "quantidade": "100" },
+        { "alimento": "Salada de Folhas Verdes", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "15" }
+      ],
+      "Jantar": [
+        { "alimento": "Batata Doce Cozida", "quantidade": "150" },
+        { "alimento": "Omelete de Legumes (2 ovos, cebola, tomate, espinafre)", "quantidade": "120" },
+        { "alimento": "Salada de Brócolis e Couve", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Hortelã (sem açúcar)", "quantidade": "200" }
+      ]
+    }
+  },
+
+  {
+    "1": {
+      "Café da Manhã": [
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Queijo Minas Frescal", "quantidade": "40" },
+        { "alimento": "Mamão Papaia", "quantidade": "150" },
+        { "alimento": "Café com Leite Desnatado (sem açúcar)", "quantidade": "200" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem açúcar", "quantidade": "20" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Abobrinha Refogada", "quantidade": "100" },
+        { "alimento": "Salada de Alface, Cenoura e Tomate", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Castanha-de-caju", "quantidade": "15" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Mandioquinha", "quantidade": "150" },
+        { "alimento": "Filé de Peixe Grelhado", "quantidade": "120" },
+        { "alimento": "Brócolis no Vapor", "quantidade": "120" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" }
+      ]
+    },
+    "2": {
+      "Café da Manhã": [
+        { "alimento": "Tapioca com Ovo Mexido", "quantidade": "100" },
+        { "alimento": "Manga", "quantidade": "100" },
+        { "alimento": "Café Preto sem açúcar", "quantidade": "200" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Pera", "quantidade": "130" },
+        { "alimento": "Amendoim Torrado sem Sal", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Carne Moída Magra", "quantidade": "120" },
+        { "alimento": "Salada de Couve e Beterraba", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Macaxeira Cozida", "quantidade": "150" },
+        { "alimento": "Omelete com Legumes", "quantidade": "120" },
+        { "alimento": "Salada de Pepino e Alface", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Erva-Doce (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "3": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Aveia em Flocos", "quantidade": "30" },
+        { "alimento": "Banana Prata", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Iogurte Grego Light", "quantidade": "120" },
+        { "alimento": "Granola sem açúcar", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Desfiado", "quantidade": "120" },
+        { "alimento": "Legumes Cozidos (chuchu e cenoura)", "quantidade": "150" },
+        { "alimento": "Azeite de oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Torradas Integrais", "quantidade": "30" },
+        { "alimento": "Requeijão Light", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Batata Doce Cozida", "quantidade": "150" },
+        { "alimento": "Filé de Peixe Assado", "quantidade": "120" },
+        { "alimento": "Salada de Folhas Verdes", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Camomila", "quantidade": "200" }
+      ]
+    },
+    "4": {
+      "Café da Manhã": [
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Queijo Branco", "quantidade": "40" },
+        { "alimento": "Mamão com Linhaça", "quantidade": "150" },
+        { "alimento": "Café com Leite Desnatado", "quantidade": "200" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Uva", "quantidade": "100" },
+        { "alimento": "Castanha-do-Pará", "quantidade": "10" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Coxa e Sobrecoxa sem pele Grelhada", "quantidade": "120" },
+        { "alimento": "Salada de Alface, Rúcula e Cenoura", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Batata", "quantidade": "150" },
+        { "alimento": "Omelete de Claras com Espinafre", "quantidade": "120" },
+        { "alimento": "Salada de Brócolis", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Hortelã (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "5": {
+      "Café da Manhã": [
+        { "alimento": "Vitamina de Leite Desnatado com Banana e Aveia", "quantidade": "250" },
+        { "alimento": "Torradas Integrais", "quantidade": "30" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Amêndoas", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Carne de Panela Magra", "quantidade": "120" },
+        { "alimento": "Abóbora Refogada", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Tomate", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem açúcar", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Inhame Cozido", "quantidade": "150" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Salada de Couve e Tomate", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" }
+      ]
+    }
+  },
+
+  {
+    "1": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Queijo Minas Frescal", "quantidade": "40" },
+        { "alimento": "Mamão Papaia", "quantidade": "150" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Castanha-do-Pará", "quantidade": "10" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Salada de Alface, Tomate e Cenoura", "quantidade": "150" },
+        { "alimento": "Azeite de Oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Batata Doce Cozida", "quantidade": "150" },
+        { "alimento": "Omelete com Legumes", "quantidade": "120" },
+        { "alimento": "Brócolis no Vapor", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Erva-Doce (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "2": {
+      "Café da Manhã": [
+        { "alimento": "Café com Leite Desnatado (sem açúcar)", "quantidade": "200" },
+        { "alimento": "Tapioca com Ovo Mexido", "quantidade": "100" },
+        { "alimento": "Maçã", "quantidade": "130" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Pera", "quantidade": "130" },
+        { "alimento": "Amendoim Torrado sem Sal", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Carne Moída Magra", "quantidade": "120" },
+        { "alimento": "Abobrinha Refogada", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Beterraba", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Grego Light", "quantidade": "120" },
+        { "alimento": "Granola sem Açúcar", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Mandioquinha", "quantidade": "150" },
+        { "alimento": "Filé de Peixe Grelhado", "quantidade": "120" },
+        { "alimento": "Salada de Rúcula e Tomate", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" }
+      ]
+    },
+    "3": {
+      "Café da Manhã": [
+        { "alimento": "Vitamina de Leite Desnatado com Banana e Aveia", "quantidade": "250" },
+        { "alimento": "Torradas Integrais", "quantidade": "30" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Castanha-de-Caju", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Frango ao Curry (Peito de Frango + Legumes)", "quantidade": "150" },
+        { "alimento": "Salada de Alface, Tomate e Pepino", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Iogurte Grego Light", "quantidade": "100" }
+      ],
+      "Jantar": [
+        { "alimento": "Batata Inglesa Cozida", "quantidade": "150" },
+        { "alimento": "Ovos Cozidos", "quantidade": "100" },
+        { "alimento": "Salada de Couve e Cenoura", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Camomila (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "4": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Aveia em Flocos", "quantidade": "30" },
+        { "alimento": "Banana Prata", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem Açúcar", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Desfiado", "quantidade": "120" },
+        { "alimento": "Legumes Cozidos (Cenoura e Chuchu)", "quantidade": "120" },
+        { "alimento": "Azeite de Oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Torradas Integrais", "quantidade": "30" },
+        { "alimento": "Requeijão Light", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Batata Doce", "quantidade": "150" },
+        { "alimento": "Filé de Peixe Assado", "quantidade": "120" },
+        { "alimento": "Salada de Folhas Verdes", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" }
+      ]
+    },
+    "5": {
+      "Café da Manhã": [
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Ovos Mexidos", "quantidade": "100" },
+        { "alimento": "Mamão Papaia", "quantidade": "150" },
+        { "alimento": "Café Preto sem Açúcar", "quantidade": "200" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Pera", "quantidade": "130" },
+        { "alimento": "Amêndoas", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Carne de Panela Magra", "quantidade": "120" },
+        { "alimento": "Abóbora Refogada", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Tomate", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Inhame Cozido", "quantidade": "150" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Salada de Couve e Tomate", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Hortelã (sem açúcar)", "quantidade": "200" }
+      ]
+    }
+  },
+
+  {
+    "1": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Queijo Minas Frescal", "quantidade": "30" },
+        { "alimento": "Mamão Papaya", "quantidade": "120" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Castanha-de-caju sem sal", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Abóbora Cozida", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Tomate", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Mandioquinha", "quantidade": "150" },
+        { "alimento": "Ovos Mexidos", "quantidade": "100" },
+        { "alimento": "Salada de Espinafre e Cenoura Ralada", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Hortelã (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "2": {
+      "Café da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem açúcar", "quantidade": "30" },
+        { "alimento": "Manga", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Amendoim torrado sem sal", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Carne Moída Magra Refogada", "quantidade": "120" },
+        { "alimento": "Chuchu Cozido", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Beterraba", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Tapioca", "quantidade": "70" },
+        { "alimento": "Queijo Branco", "quantidade": "30" }
+      ],
+      "Jantar": [
+        { "alimento": "Batata Doce Cozida", "quantidade": "150" },
+        { "alimento": "Peixe Branco Grelhado", "quantidade": "120" },
+        { "alimento": "Brócolis no Vapor", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado Morno", "quantidade": "200" }
+      ]
+    },
+    "3": {
+      "Café da Manhã": [
+        { "alimento": "Café com Leite Desnatado (sem açúcar)", "quantidade": "200" },
+        { "alimento": "Pão Francês (miolo retirado)", "quantidade": "50" },
+        { "alimento": "Requeijão Light", "quantidade": "20" },
+        { "alimento": "Melancia", "quantidade": "150" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Pera", "quantidade": "130" },
+        { "alimento": "Nozes", "quantidade": "10" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Filé de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Abobrinha Refogada", "quantidade": "100" },
+        { "alimento": "Salada de Alface, Rúcula e Tomate", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "15" }
+      ],
+      "Jantar": [
+        { "alimento": "Cuscuz de Milho", "quantidade": "100" },
+        { "alimento": "Ovos Cozidos", "quantidade": "100" },
+        { "alimento": "Salada de Pepino e Cenoura", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Erva-Doce (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "4": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Aveia em Flocos", "quantidade": "30" },
+        { "alimento": "Banana Prata", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Mamão Papaya", "quantidade": "120" },
+        { "alimento": "Sementes de Girassol", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Desfiado", "quantidade": "120" },
+        { "alimento": "Cenoura Cozida", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Pepino", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem açúcar", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Batata", "quantidade": "150" },
+        { "alimento": "Carne Magra Cozida", "quantidade": "120" },
+        { "alimento": "Salada de Brócolis e Tomate", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" }
+      ]
+    },
+    "5": {
+      "Café da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "25" },
+        { "alimento": "Morango", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Castanha-do-pará", "quantidade": "10" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Frango ao Forno", "quantidade": "120" },
+        { "alimento": "Abobrinha Refogada", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Beterraba", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Queijo Minas Frescal", "quantidade": "30" }
+      ],
+      "Jantar": [
+        { "alimento": "Inhame Cozido", "quantidade": "150" },
+        { "alimento": "Omelete com Legumes", "quantidade": "120" },
+        { "alimento": "Salada de Couve e Tomate", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Camomila (sem açúcar)", "quantidade": "200" }
+      ]
+    }
+  },
+
+  {
+   "1": {
+      "Café da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem açúcar", "quantidade": "25" },
+        { "alimento": "Mamão Papaya", "quantidade": "120" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Pão Integral", "quantidade": "40" },
+        { "alimento": "Queijo Minas Frescal", "quantidade": "30" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Abobrinha Refogada", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Tomate", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Pasta de Amendoim Natural", "quantidade": "15" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Batata Doce", "quantidade": "150" },
+        { "alimento": "Omelete de 2 Ovos com Legumes", "quantidade": "120" },
+        { "alimento": "Salada de Brócolis e Cenoura no Vapor", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" }
+      ]
+    },
+    "2": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Aveia em Flocos", "quantidade": "30" },
+        { "alimento": "Maçã", "quantidade": "130" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Torradas Integrais", "quantidade": "30" },
+        { "alimento": "Requeijão Light", "quantidade": "20" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Filé de Peixe Grelhado", "quantidade": "120" },
+        { "alimento": "Cenoura e Vagem Cozidas", "quantidade": "100" },
+        { "alimento": "Salada de Alface, Pepino e Beterraba", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem açúcar", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Inhame Cozido", "quantidade": "150" },
+        { "alimento": "Peito de Frango Desfiado", "quantidade": "120" },
+        { "alimento": "Salada de Folhas e Tomate", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Hortelã (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "3": {
+      "Café da Manhã": [
+        { "alimento": "Café com Leite Desnatado (sem açúcar)", "quantidade": "200" },
+        { "alimento": "Pão Francês (miolo retirado)", "quantidade": "50" },
+        { "alimento": "Queijo Minas Frescal", "quantidade": "30" },
+        { "alimento": "Melancia", "quantidade": "150" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Pera", "quantidade": "130" },
+        { "alimento": "Castanha-de-caju sem sal", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Carne Moída Magra Refogada", "quantidade": "120" },
+        { "alimento": "Chuchu Cozido", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Rúcula", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Mandioquinha", "quantidade": "150" },
+        { "alimento": "Omelete de 2 Ovos", "quantidade": "100" },
+        { "alimento": "Salada de Espinafre e Cenoura Ralada", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado Morno", "quantidade": "200" }
+      ]
+    },
+    "4": {
+      "Café da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "25" },
+        { "alimento": "Manga", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Amendoim Torrado sem Sal", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Abóbora Cozida", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Tomate", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Tapioca", "quantidade": "70" },
+        { "alimento": "Queijo Branco", "quantidade": "30" }
+      ],
+      "Jantar": [
+        { "alimento": "Batata Doce Cozida", "quantidade": "150" },
+        { "alimento": "Ovos Cozidos", "quantidade": "100" },
+        { "alimento": "Salada de Brócolis e Cenoura no Vapor", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Camomila (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "5": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Requeijão Light", "quantidade": "20" },
+        { "alimento": "Mamão Papaya", "quantidade": "120" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Nozes", "quantidade": "10" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Cenoura Cozida", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Beterraba", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem açúcar", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Batata", "quantidade": "150" },
+        { "alimento": "Carne Magra Cozida", "quantidade": "120" },
+        { "alimento": "Salada de Brócolis e Tomate", "quantidade": "150" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Erva-Doce (sem açúcar)", "quantidade": "200" }
+      ]
+    }
+  },
+
+  {
+    "1": {
+      "Café da Manhã": [
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Queijo Minas Frescal", "quantidade": "40" },
+        { "alimento": "Mamão Papaia", "quantidade": "120" },
+        { "alimento": "Café sem açúcar", "quantidade": "200" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem açúcar", "quantidade": "20" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Abobrinha Refogada", "quantidade": "100" },
+        { "alimento": "Salada de Alface, Tomate e Cenoura", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Castanha-de-caju", "quantidade": "15" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Batata", "quantidade": "150" },
+        { "alimento": "Filé de Tilápia Grelhado", "quantidade": "100" },
+        { "alimento": "Vagem Cozida", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" }
+      ]
+    },
+    "2": {
+      "Café da Manhã": [
+        { "alimento": "Tapioca", "quantidade": "70" },
+        { "alimento": "Ovo Mexido", "quantidade": "100" },
+        { "alimento": "Manga", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Banana Prata", "quantidade": "90" },
+        { "alimento": "Amendoim torrado sem sal", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral", "quantidade": "100" },
+        { "alimento": "Feijão Carioca", "quantidade": "80" },
+        { "alimento": "Carne Moída Magra", "quantidade": "100" },
+        { "alimento": "Salada de Rúcula e Beterraba", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Grego Light", "quantidade": "120" },
+        { "alimento": "Aveia em Flocos", "quantidade": "25" }
+      ],
+      "Jantar": [
+        { "alimento": "Macarrão Integral", "quantidade": "100" },
+        { "alimento": "Molho de Tomate Caseiro", "quantidade": "60" },
+        { "alimento": "Frango Desfiado", "quantidade": "90" },
+        { "alimento": "Salada Verde", "quantidade": "120" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Hortelã (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "3": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Cereal Integral sem açúcar", "quantidade": "40" },
+        { "alimento": "Morango", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Pão Integral", "quantidade": "40" },
+        { "alimento": "Pasta de Amendoim Natural", "quantidade": "10" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco", "quantidade": "100" },
+        { "alimento": "Feijão Preto", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Abóbora Cozida", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Pepino", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Pera", "quantidade": "130" }
+      ],
+      "Jantar": [
+        { "alimento": "Omelete com Queijo Branco e Tomate", "quantidade": "150" },
+        { "alimento": "Salada de Espinafre", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Camomila (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "4": {
+      "Café da Manhã": [
+        { "alimento": "Café com Leite Desnatado (sem açúcar)", "quantidade": "200" },
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Requeijão Light", "quantidade": "20" },
+        { "alimento": "Mamão", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Iogurte Natural", "quantidade": "150" },
+        { "alimento": "Aveia em Flocos", "quantidade": "20" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral", "quantidade": "100" },
+        { "alimento": "Feijão Carioca", "quantidade": "80" },
+        { "alimento": "Bife de Coxão Mole Grelhado", "quantidade": "120" },
+        { "alimento": "Salada de Tomate, Pepino e Alface", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Banana", "quantidade": "90" },
+        { "alimento": "Castanha-do-pará", "quantidade": "10" }
+      ],
+      "Jantar": [
+        { "alimento": "Sopa de Legumes com Frango Desfiado", "quantidade": "250" },
+        { "alimento": "Torradas Integrais", "quantidade": "20" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Erva-doce (sem açúcar)", "quantidade": "200" }
+      ]
+    },
+    "5": {
+      "Café da Manhã": [
+        { "alimento": "Vitamina de Banana com Leite Desnatado e Aveia", "quantidade": "250" },
+        { "alimento": "Pão Integral", "quantidade": "40" },
+        { "alimento": "Queijo Minas Frescal", "quantidade": "30" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Amendoim torrado sem sal", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco", "quantidade": "100" },
+        { "alimento": "Feijão Preto", "quantidade": "80" },
+        { "alimento": "Peixe Assado", "quantidade": "120" },
+        { "alimento": "Salada de Alface, Rúcula e Tomate", "quantidade": "150" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Grego Light", "quantidade": "120" },
+        { "alimento": "Granola sem açúcar", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Batata Doce Cozida", "quantidade": "150" },
+        { "alimento": "Omelete com Legumes", "quantidade": "120" },
+        { "alimento": "Brócolis Cozido", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Camomila (sem açúcar)", "quantidade": "200" }
+      ]
+    }
+  },
+
+  {
+    "1": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Queijo Minas Frescal", "quantidade": "30" },
+        { "alimento": "Mamão Papaia", "quantidade": "150" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Castanha-de-caju", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Salada de Alface, Tomate e Cenoura", "quantidade": "150" },
+        { "alimento": "Azeite de Oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Batata Doce", "quantidade": "150" },
+        { "alimento": "Filé de Peixe Grelhado", "quantidade": "120" },
+        { "alimento": "Brócolis Cozido", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Camomila (sem açúcar)", "quantidade": "200" },
+        { "alimento": "Bolacha de Água e Sal", "quantidade": "20" }
+      ]
+    },
+    "2": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Cereal Integral sem Açúcar", "quantidade": "40" },
+        { "alimento": "Maçã", "quantidade": "130" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Pasta de Amendoim", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Carne Moída Magra Refogada", "quantidade": "120" },
+        { "alimento": "Abobrinha Refogada", "quantidade": "100" },
+        { "alimento": "Salada Verde", "quantidade": "100" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem Açúcar", "quantidade": "25" }
+      ],
+      "Jantar": [
+        { "alimento": "Macarrão Integral", "quantidade": "100" },
+        { "alimento": "Molho de Tomate Caseiro", "quantidade": "60" },
+        { "alimento": "Peito de Frango Desfiado", "quantidade": "100" },
+        { "alimento": "Brócolis", "quantidade": "80" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá Verde", "quantidade": "200" }
+      ]
+    },
+    "3": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Tapioca", "quantidade": "70" },
+        { "alimento": "Ovo Mexido", "quantidade": "60" },
+        { "alimento": "Manga", "quantidade": "120" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "150" },
+        { "alimento": "Aveia em Flocos", "quantidade": "20" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral", "quantidade": "100" },
+        { "alimento": "Feijão Carioca", "quantidade": "80" },
+        { "alimento": "Carne Bovina Magra Grelhada", "quantidade": "120" },
+        { "alimento": "Abóbora Cozida", "quantidade": "100" },
+        { "alimento": "Salada de Alface e Pepino", "quantidade": "100" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Castanha-do-Pará", "quantidade": "10" }
+      ],
+      "Jantar": [
+        { "alimento": "Cuscuz Nordestino", "quantidade": "100" },
+        { "alimento": "Ovo Cozido", "quantidade": "100" },
+        { "alimento": "Tomate", "quantidade": "80" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado", "quantidade": "150" }
+      ]
+    },
+    "4": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Queijo Branco", "quantidade": "30" },
+        { "alimento": "Melancia", "quantidade": "150" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem Açúcar", "quantidade": "25" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral", "quantidade": "100" },
+        { "alimento": "Feijão Preto", "quantidade": "80" },
+        { "alimento": "Filé de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Legumes Cozidos (cenoura e chuchu)", "quantidade": "150" },
+        { "alimento": "Azeite de Oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Amendoim torrado sem sal", "quantidade": "15" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Mandioquinha", "quantidade": "150" },
+        { "alimento": "Peixe Assado", "quantidade": "120" },
+        { "alimento": "Salada de Folhas Verdes", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Ervas", "quantidade": "200" }
+      ]
+    },
+    "5": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Aveia em Flocos", "quantidade": "30" },
+        { "alimento": "Banana Prata", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Ricota", "quantidade": "30" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco", "quantidade": "100" },
+        { "alimento": "Feijão Carioca", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Salada de Repolho e Tomate", "quantidade": "150" },
+        { "alimento": "Azeite de Oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Desnatado", "quantidade": "170" },
+        { "alimento": "Castanha-de-caju", "quantidade": "15" }
+      ],
+      "Jantar": [
+        { "alimento": "Batata Doce Cozida", "quantidade": "150" },
+        { "alimento": "Omelete com Claras e Espinafre", "quantidade": "120" },
+        { "alimento": "Salada de Tomate e Alface", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Camomila (sem açúcar)", "quantidade": "200" }
+      ]
+    }
+  },
+
+  {
+    "1": {
+      "Café da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem açúcar", "quantidade": "25" },
+        { "alimento": "Morango", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Castanha-do-pará", "quantidade": "10" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Carne Moída Magra", "quantidade": "120" },
+        { "alimento": "Salada de Alface, Tomate e Pepino", "quantidade": "150" },
+        { "alimento": "Azeite de Oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Aveia em Flocos", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Mandioquinha", "quantidade": "150" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Couve Refogada", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" }
+      ]
+    },
+    "2": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Queijo Minas Frescal", "quantidade": "30" },
+        { "alimento": "Mamão Papaia", "quantidade": "150" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Mix de Castanhas", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Carioca Cozido", "quantidade": "80" },
+        { "alimento": "Filé de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Abóbora Cozida", "quantidade": "100" },
+        { "alimento": "Salada Verde", "quantidade": "100" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Desnatado", "quantidade": "170" },
+        { "alimento": "Aveia em Flocos", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Cuscuz Nordestino", "quantidade": "100" },
+        { "alimento": "Ovo Cozido", "quantidade": "100" },
+        { "alimento": "Tomate", "quantidade": "80" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Ervas", "quantidade": "200" }
+      ]
+    },
+    "3": {
+      "Café da Manhã": [
+        { "alimento": "Tapioca", "quantidade": "70" },
+        { "alimento": "Ovo Mexido", "quantidade": "60" },
+        { "alimento": "Manga", "quantidade": "120" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "150" },
+        { "alimento": "Semente de Girassol", "quantidade": "10" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral Cozido", "quantidade": "100" },
+        { "alimento": "Feijão Preto Cozido", "quantidade": "80" },
+        { "alimento": "Carne de Panela Magra", "quantidade": "120" },
+        { "alimento": "Brócolis Cozido", "quantidade": "100" },
+        { "alimento": "Azeite de Oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Amendoim Torrado sem Sal", "quantidade": "15" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Batata Doce", "quantidade": "150" },
+        { "alimento": "Filé de Tilápia Grelhado", "quantidade": "120" },
+        { "alimento": "Cenoura Cozida", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" }
+      ]
+    },
+    "4": {
+      "Café da Manhã": [
+        { "alimento": "Leite Desnatado", "quantidade": "200" },
+        { "alimento": "Aveia em Flocos", "quantidade": "30" },
+        { "alimento": "Banana Prata", "quantidade": "100" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Maçã", "quantidade": "130" },
+        { "alimento": "Castanha-de-caju", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Integral", "quantidade": "100" },
+        { "alimento": "Feijão Carioca", "quantidade": "80" },
+        { "alimento": "Peito de Frango Grelhado", "quantidade": "120" },
+        { "alimento": "Legumes Cozidos (cenoura e vagem)", "quantidade": "150" },
+        { "alimento": "Azeite de Oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" }
+      ],
+      "Jantar": [
+        { "alimento": "Macarrão Integral", "quantidade": "100" },
+        { "alimento": "Molho de Tomate Caseiro", "quantidade": "60" },
+        { "alimento": "Frango Desfiado", "quantidade": "100" },
+        { "alimento": "Brócolis", "quantidade": "80" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Camomila", "quantidade": "200" }
+      ]
+    },
+    "5": {
+      "Café da Manhã": [
+        { "alimento": "Iogurte Natural Desnatado", "quantidade": "170" },
+        { "alimento": "Granola sem Açúcar", "quantidade": "25" },
+        { "alimento": "Mamão Papaia", "quantidade": "150" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Pão Integral", "quantidade": "50" },
+        { "alimento": "Pasta de Amendoim", "quantidade": "15" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz Branco", "quantidade": "100" },
+        { "alimento": "Feijão Preto", "quantidade": "80" },
+        { "alimento": "Carne Bovina Magra Grelhada", "quantidade": "120" },
+        { "alimento": "Salada de Repolho e Tomate", "quantidade": "150" },
+        { "alimento": "Azeite de Oliva", "quantidade": "5" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Banana Prata", "quantidade": "100" },
+        { "alimento": "Aveia em Flocos", "quantidade": "20" }
+      ],
+      "Jantar": [
+        { "alimento": "Purê de Inhame", "quantidade": "150" },
+        { "alimento": "Omelete de Claras com Espinafre", "quantidade": "120" },
+        { "alimento": "Salada de Alface e Tomate", "quantidade": "100" }
+      ],
+      "Ceia": [
+        { "alimento": "Chá de Hortelã (sem açúcar)", "quantidade": "200" }
+      ]
+    }
+  }
+
+]
