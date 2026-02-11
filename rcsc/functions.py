@@ -1,5 +1,6 @@
 import sys
 
+import io
 import os
 import pickle
 import random
@@ -15,7 +16,7 @@ from bs4 import BeautifulSoup
 
 import json
 
-caminho_diretorio = os.path.join("./")
+caminho_diretorio = os.path.dirname(os.path.abspath(__file__))
 
 
 def listar_codigos_alimentos_tbca(pagina: str) -> list:
@@ -86,14 +87,12 @@ def listar_dados_alimentos_tbca(numero_pagina: int) -> list[tuple]:
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
         }
 
-        todas_as_tabelas = pd.read_html(
-            requests.get(url_pagina, headers=headers).content
-        )
+        
+        response = requests.get(url_pagina, headers=headers)
+        todas_as_tabelas = pd.read_html(io.StringIO(response.text))
 
         tabela_alimentos = None
 
-        # ***** A CORREÇÃO ESTÁ AQUI *****
-        # O nome da coluna é 'Nome', e não 'Nome do alimento'.
         colunas_necessarias = ["Código", "Nome", "Grupo"]
 
         for tabela in todas_as_tabelas:
@@ -112,7 +111,6 @@ def listar_dados_alimentos_tbca(numero_pagina: int) -> list[tuple]:
             return []
 
     except ValueError:
-        # Erro comum quando a página não tem tabelas
         print(
             f"Aviso: Nenhuma tabela foi encontrada pelo Pandas na página {numero_pagina}."
         )
@@ -143,8 +141,8 @@ def get_codigos_tbca() -> list:
 
         todos_os_dados = []
         # O site informa um total de 10 páginas na paginação, mas os dados vão além.
-        # Vamos manter 57 por enquanto, que parece ser o total real de páginas com dados.
-        total_paginas = 57
+        # Vamos manter 58 por enquanto, que parece ser o total real de páginas com dados.
+        total_paginas = 58
 
         for i in range(1, total_paginas + 1):
             print(f"Processando página {i}/{total_paginas}...")
@@ -328,7 +326,7 @@ def carregar_mapa_codigo() -> dict:
         dict: Um dicionário contendo os dados do arquivo.
               Retorna um dicionário vazio se o arquivo não for encontrado ou ocorrer um erro.
     """
-    caminho_arquivo = os.path.join("../../rcsc", "mapa_codigo.txt")
+    caminho_arquivo = os.path.join(caminho_diretorio, "mapa_codigo.txt")
 
     mapa_alimentos = {}
     try:
@@ -366,7 +364,7 @@ def carregar_alimentos_do_json(arquivo: str) -> list:
               Retorna uma lista vazia se o arquivo não for encontrado ou ocorrer um erro.
     """
 
-    caminho_arquivo = os.path.join("../../rcsc", arquivo)
+    caminho_arquivo = os.path.join(caminho_diretorio, arquivo)
 
     alimentos_unicos = set()
 
@@ -411,7 +409,7 @@ def criar_dicionario_de_arquivo() -> dict:
               Retorna um dicionário vazio se o arquivo não for encontrado ou ocorrer um erro.
     """
 
-    caminho_arquivo = os.path.join("../../rcsc", "mapa_codigo.txt")
+    caminho_arquivo = os.path.join(caminho_diretorio, "mapa_codigo.txt")
     mapa_dados = {}
 
     try:
@@ -452,13 +450,13 @@ codigos = carregar_mapa_codigo()
 mapa = criar_dicionario_de_arquivo()
 
 gemini_diets = None
-with open("../../rcsc/gemini.json", "r", encoding="utf-8") as f:
+with open(os.path.join(caminho_diretorio, "gemini.json"), "r", encoding="utf-8") as f:
     gemini_diets = json.load(f)
 
 gbt_diets = None
-with open("../../rcsc/gbt.json", "r", encoding="utf-8") as f:
+with open(os.path.join(caminho_diretorio, "gbt.json"), "r", encoding="utf-8") as f:
     gbt_diets = json.load(f)
 
 deepseek_diets = None
-with open("../../rcsc/deepseek.json", "r", encoding="utf-8") as f:
+with open(os.path.join(caminho_diretorio, "deepseek.json"), "r", encoding="utf-8") as f:
     deepseek_diets = json.load(f)
