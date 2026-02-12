@@ -20,10 +20,68 @@ class TbcaUnit:
     nome: str
     grupo: str
     link: str
-    # O mapa de nutrientes será: {"Energia": 100.5, "Proteína": 20.0, ...}
+    
     nutrientes: dict = field(default_factory=dict)
 
 # --- Funções de Scraping ---
+
+def get_links_tbca() -> list:
+    """
+    Percorre as páginas de listagem da TBCA (1 a {pages}) e extrai o link 
+    direto para o detalhe de cada alimento.
+    """
+    nome_arquivo_pickle = "links_alimentos_tbca.pkl"
+    base_url = "https://www.tbca.net.br/base-dados/"
+
+    # Verifica se já temos os links salvos
+    if os.path.exists(nome_arquivo_pickle):
+        print(f"O arquivo '{nome_arquivo_pickle}' já existe. Carregando links...")
+        with open(nome_arquivo_pickle, "rb") as f:
+            links = pickle.load(f)
+        return links
+
+    print(f"Iniciando coleta de links (Crawling)...")
+    todos_links = []
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
+
+    for i in range(1, pages + 1):
+        print(f"Processando página de links {i}/{pages}...")
+        try:
+            resp = requests.get(url_listagem.format(i), headers=headers)
+            soup = BeautifulSoup(resp.content, "html.parser")
+            
+            # Encontra a tabela de listagem
+            tabela = soup.find("table")
+            if not tabela:
+                continue
+
+            # Itera sobre as linhas da tabela (pula o cabeçalho se houver)
+            linhas = tabela.find("tbody").find_all("tr")
+            
+            for linha in linhas:
+                # Procura o link (tag 'a') na linha. Geralmente está na coluna do nome ou em um botão 'visualizar'
+                link_tag = linha.find("a", href=True)
+                if link_tag:
+                    href = link_tag['href']
+                    # Monta a URL completa
+                    full_url = base_url + href
+                    todos_links.append(full_url)
+            
+            sleep(0.5) # Respeitar o servidor
+
+        except Exception as e:
+            print(f"Erro na página {i}: {e}")
+
+    # Salva o resultado
+    if todos_links:
+        with open(nome_arquivo_pickle, "wb") as f:
+            pickle.dump(todos_links, f)
+        print(f"Coleta finalizada. {len(todos_links)} links encontrados.")
+    
+    return todos_links
 
 def mapear_alimentos_tbca() -> dict[str, TbcaUnit]:
     """
