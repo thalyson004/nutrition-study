@@ -1,0 +1,264 @@
+--- Relatório Individual: gbt.json ---
+
+>> MÉDIA DIÁRIA
+   [GERAL]
+    Energia..................  1446.04 ± 146.96 kcal
+    Proteína.................   100.19 ± 13.55  g
+    Fibra alimentar..........    27.15 ± 3.00   g
+    Sódio....................  2018.79 ± 1323.51 mg
+    Alfa-tocoferol (Vitamina E)     7.14 ± 1.81   g
+    Açúcar de adição.........     0.75 ± 2.97   g
+    Carboidrato disponível...   154.72 ± 23.85  g
+    Carboidrato total........   181.85 ± 24.29  g
+    Cinzas...................    16.22 ± 4.34   g
+    Cobre....................     1.97 ± 0.92   g
+    Colesterol...............   395.77 ± 183.68 g
+    Cálcio...................   966.41 ± 205.44 g
+    Equivalente de folato....   377.06 ± 78.06  g
+    Ferro....................     9.97 ± 2.04   g
+    Fósforo..................  1480.79 ± 168.33 g
+    Gordura de adição........     1.49 ± 1.99   g
+    Lipídios.................    41.33 ± 8.36   g
+    Magnésio.................   335.06 ± 37.65  g
+    Manganês.................     3.72 ± 0.79   g
+    Niacina..................    32.32 ± 12.80  g
+    Potássio.................  3521.17 ± 495.93 g
+    Proteína animal..........    22.83 ± 11.63  g
+    Proteína vegetal.........    13.18 ± 4.14   g
+    Riboflavina..............     1.48 ± 0.36   g
+    Sal de adição............     2.34 ± 0.50   g
+    Selênio..................    55.93 ± 21.07  g
+    Tiamina..................     0.93 ± 0.53   g
+    Umidade..................  1230.76 ± 156.71 g
+    Vitamina A (RAE).........   871.89 ± 504.48 g
+    Vitamina A (RE)..........  1605.54 ± 983.32 g
+    Vitamina B12.............     4.53 ± 1.64   g
+    Vitamina B6..............     0.60 ± 0.19   g
+    Vitamina C...............   139.82 ± 63.98  g
+    Vitamina D...............     2.39 ± 1.66   g
+    Zinco....................    11.18 ± 3.11   g
+    Ácidos graxos monoinsaturados    14.55 ± 3.06   g
+    Ácidos graxos poliinsaturados     8.85 ± 2.17   g
+    Ácidos graxos saturados..    12.72 ± 3.49   g
+    Ácidos graxos trans......     0.51 ± 0.20   g
+
+>> MÉDIA POR REFEIÇÃO
+   [CAFÉ DA MANHÃ]
+    Energia..................   316.98 ± 72.84  kcal
+    Proporção Energética.....    21.92 ± 4.29   %
+    Proteína.................    13.61 ± 3.71   g
+    Fibra alimentar..........     4.15 ± 1.49   g
+    Sódio....................   339.19 ± 189.05 mg
+    Alfa-tocoferol (Vitamina E)     0.94 ± 0.59   g
+    Açúcar de adição.........     0.75 ± 2.97   g
+    Carboidrato disponível...    44.90 ± 9.47   g
+    Carboidrato total........    49.06 ± 8.89   g
+    Cinzas...................     3.13 ± 0.83   g
+    Cobre....................     0.79 ± 0.85   g
+    Colesterol...............    66.12 ± 131.88 g
+    Cálcio...................   336.52 ± 140.21 g
+    Equivalente de folato....    70.35 ± 23.48  g
+    Ferro....................     2.07 ± 0.95   g
+    Fósforo..................   309.83 ± 74.10  g
+    Lipídios.................     8.25 ± 5.46   g
+    Magnésio.................    71.04 ± 17.73  g
+    Manganês.................     0.89 ± 0.30   g
+    Niacina..................     2.87 ± 1.59   g
+    Potássio.................   636.19 ± 154.25 g
+    Proteína animal..........     6.76 ± 3.66   g
+    Proteína vegetal.........     2.28 ± 2.17   g
+    Riboflavina..............     0.54 ± 0.18   g
+    Selênio..................     9.84 ± 8.70   g
+    Tiamina..................     0.18 ± 0.09   g
+    Umidade..................   277.43 ± 57.49  g
+    Vitamina A (RAE).........    85.30 ± 68.38  g
+    Vitamina A (RE)..........   125.72 ± 95.38  g
+    Vitamina B12.............     0.98 ± 0.38   g
+    Vitamina B6..............     0.13 ± 0.14   g
+    Vitamina C...............    57.99 ± 49.23  g
+    Vitamina D...............     0.32 ± 0.68   g
+    Zinco....................     1.74 ± 0.37   g
+    Ácidos graxos monoinsaturados     2.43 ± 1.64   g
+    Ácidos graxos poliinsaturados     1.43 ± 1.33   g
+    Ácidos graxos saturados..     2.97 ± 2.18   g
+    Ácidos graxos trans......     0.16 ± 0.17   g
+   [LANCHE DA MANHÃ]
+    Energia..................   164.43 ± 26.90  kcal
+    Proporção Energética.....    11.42 ± 1.89   %
+    Proteína.................     5.50 ± 2.64   g
+    Fibra alimentar..........     3.07 ± 1.12   g
+    Sódio....................    75.36 ± 88.52  mg
+    Alfa-tocoferol (Vitamina E)     0.72 ± 0.50   g
+    Carboidrato disponível...    19.79 ± 4.12   g
+    Carboidrato total........    22.85 ± 4.25   g
+    Cinzas...................     1.15 ± 0.56   g
+    Cobre....................     0.24 ± 0.33   g
+    Colesterol...............     2.69 ± 4.27   g
+    Cálcio...................    96.28 ± 125.92 g
+    Equivalente de folato....    29.21 ± 15.52  g
+    Ferro....................     0.86 ± 0.35   g
+    Fósforo..................   129.51 ± 80.30  g
+    Lipídios.................     6.35 ± 1.77   g
+    Magnésio.................    46.11 ± 11.55  g
+    Manganês.................     0.48 ± 0.23   g
+    Niacina..................     0.89 ± 0.46   g
+    Potássio.................   389.90 ± 172.42 g
+    Proteína animal..........     1.80 ± 2.81   g
+    Proteína vegetal.........     2.77 ± 1.77   g
+    Riboflavina..............     0.12 ± 0.17   g
+    Selênio..................     1.96 ± 2.51   g
+    Umidade..................    95.93 ± 38.64  g
+    Vitamina A (RAE).........     9.67 ± 11.44  g
+    Vitamina A (RE)..........    16.73 ± 21.55  g
+    Vitamina B12.............     0.20 ± 0.34   g
+    Vitamina C...............    10.18 ± 19.69  g
+    Zinco....................     0.84 ± 0.44   g
+    Ácidos graxos monoinsaturados     2.74 ± 1.26   g
+    Ácidos graxos poliinsaturados     1.89 ± 1.09   g
+    Ácidos graxos saturados..     1.28 ± 0.43   g
+   [ALMOÇO]
+    Energia..................   428.84 ± 50.73  kcal
+    Proporção Energética.....    29.80 ± 3.49   %
+    Proteína.................    45.81 ± 4.57   g
+    Fibra alimentar..........    11.85 ± 1.48   g
+    Sódio....................   645.86 ± 145.79 mg
+    Alfa-tocoferol (Vitamina E)     2.18 ± 0.91   g
+    Carboidrato disponível...    33.78 ± 4.67   g
+    Carboidrato total........    45.63 ± 4.81   g
+    Cinzas...................     5.26 ± 0.72   g
+    Cobre....................     0.54 ± 0.18   g
+    Colesterol...............   109.48 ± 21.89  g
+    Cálcio...................    88.08 ± 34.70  g
+    Equivalente de folato....   142.30 ± 39.48  g
+    Ferro....................     3.59 ± 1.42   g
+    Fósforo..................   467.36 ± 50.67  g
+    Gordura de adição........     0.41 ± 0.43   g
+    Lipídios.................     9.66 ± 4.24   g
+    Magnésio.................   103.67 ± 11.75  g
+    Manganês.................     1.27 ± 0.59   g
+    Niacina..................    18.88 ± 12.43  g
+    Potássio.................  1109.29 ± 169.16 g
+    Proteína animal..........     1.36 ± 5.32   g
+    Proteína vegetal.........     4.53 ± 2.65   g
+    Sal de adição............     1.45 ± 0.35   g
+    Selênio..................    16.12 ± 10.79  g
+    Tiamina..................     0.27 ± 0.08   g
+    Umidade..................   390.68 ± 54.84  g
+    Vitamina A (RAE).........   280.24 ± 139.89 g
+    Vitamina A (RE)..........   560.16 ± 279.93 g
+    Vitamina B12.............     1.34 ± 1.47   g
+    Vitamina B6..............     0.16 ± 0.06   g
+    Vitamina C...............    28.91 ± 15.93  g
+    Vitamina D...............     0.26 ± 0.89   g
+    Zinco....................     5.00 ± 3.04   g
+    Ácidos graxos monoinsaturados     3.52 ± 2.20   g
+    Ácidos graxos poliinsaturados     2.19 ± 0.82   g
+    Ácidos graxos saturados..     2.98 ± 1.61   g
+    Ácidos graxos trans......     0.12 ± 0.07   g
+   [LANCHE DA TARDE]
+    Energia..................   167.47 ± 44.86  kcal
+    Proporção Energética.....    11.58 ± 2.81   %
+    Proteína.................     7.62 ± 2.71   g
+    Fibra alimentar..........     2.12 ± 1.15   g
+    Sódio....................   136.26 ± 107.93 mg
+    Alfa-tocoferol (Vitamina E)     0.38 ± 0.37   g
+    Carboidrato disponível...    22.85 ± 6.00   g
+    Carboidrato total........    24.96 ± 5.94   g
+    Cinzas...................     1.65 ± 0.54   g
+    Cobre....................     0.12 ± 0.05   g
+    Colesterol...............     7.57 ± 8.85   g
+    Cálcio...................   221.41 ± 134.50 g
+    Equivalente de folato....    28.97 ± 11.03  g
+    Ferro....................     0.83 ± 0.33   g
+    Fósforo..................   191.44 ± 80.85  g
+    Lipídios.................     4.60 ± 3.16   g
+    Magnésio.................    44.40 ± 12.69  g
+    Manganês.................     0.54 ± 0.23   g
+    Niacina..................     0.76 ± 0.27   g
+    Potássio.................   397.23 ± 174.86 g
+    Proteína animal..........     4.72 ± 2.94   g
+    Proteína vegetal.........     1.71 ± 1.61   g
+    Riboflavina..............     0.28 ± 0.18   g
+    Selênio..................     2.42 ± 1.50   g
+    Umidade..................   115.52 ± 52.48  g
+    Vitamina A (RAE).........    14.10 ± 24.36  g
+    Vitamina A (RE)..........    17.01 ± 25.24  g
+    Vitamina B12.............     0.53 ± 0.39   g
+    Vitamina C...............     3.91 ± 7.08   g
+    Zinco....................     1.17 ± 0.46   g
+    Ácidos graxos monoinsaturados     1.71 ± 1.24   g
+    Ácidos graxos poliinsaturados     1.11 ± 0.81   g
+    Ácidos graxos saturados..     1.38 ± 1.55   g
+   [JANTAR]
+    Energia..................   341.10 ± 102.32 kcal
+    Proporção Energética.....    23.47 ± 5.03   %
+    Proteína.................    25.63 ± 11.20  g
+    Fibra alimentar..........     5.90 ± 1.60   g
+    Sódio....................   789.94 ± 1302.47 mg
+    Alfa-tocoferol (Vitamina E)     2.89 ± 1.32   g
+    Carboidrato disponível...    29.56 ± 21.97  g
+    Carboidrato total........    35.45 ± 22.45  g
+    Cinzas...................     4.54 ± 4.30   g
+    Cobre....................     0.27 ± 0.08   g
+    Colesterol...............   207.81 ± 138.55 g
+    Cálcio...................   152.36 ± 86.03  g
+    Equivalente de folato....   102.66 ± 62.43  g
+    Ferro....................     2.56 ± 1.12   g
+    Fósforo..................   329.59 ± 93.12  g
+    Gordura de adição........     1.18 ± 1.94   g
+    Lipídios.................    12.09 ± 4.99   g
+    Magnésio.................    62.85 ± 20.67  g
+    Manganês.................     0.52 ± 0.25   g
+    Niacina..................     9.00 ± 9.56   g
+    Potássio.................   901.75 ± 236.18 g
+    Proteína animal..........     7.50 ± 9.51   g
+    Proteína vegetal.........     2.46 ± 1.50   g
+    Riboflavina..............     0.33 ± 0.24   g
+    Sal de adição............     0.87 ± 0.35   g
+    Selênio..................    24.24 ± 15.97  g
+    Tiamina..................     0.33 ± 0.53   g
+    Umidade..................   296.79 ± 58.12  g
+    Vitamina A (RAE).........   478.10 ± 473.26 g
+    Vitamina A (RE)..........   880.44 ± 925.77 g
+    Vitamina B12.............     1.17 ± 0.67   g
+    Vitamina B6..............     0.19 ± 0.12   g
+    Vitamina C...............    40.80 ± 28.10  g
+    Vitamina D...............     1.79 ± 1.43   g
+    Zinco....................     2.17 ± 1.50   g
+    Ácidos graxos monoinsaturados     4.08 ± 1.86   g
+    Ácidos graxos poliinsaturados     2.26 ± 1.30   g
+    Ácidos graxos saturados..     3.93 ± 1.96   g
+    Ácidos graxos trans......     0.13 ± 0.09   g
+   [CEIA]
+    Energia..................    75.63 ± 20.44  kcal
+    Proporção Energética.....     1.81 ± 2.52   %
+    Proteína.................     5.63 ± 1.55   g
+    Fibra alimentar..........     0.20 ± 0.49   g
+    Sódio....................   104.52 ± 26.60  mg
+    Alfa-tocoferol (Vitamina E)     0.11 ± 0.05   g
+    Carboidrato disponível...    10.65 ± 3.02   g
+    Carboidrato total........    10.84 ± 3.48   g
+    Cinzas...................     1.34 ± 0.32   g
+    Colesterol...............     7.03 ± 0.81   g
+    Cálcio...................   199.32 ± 73.32  g
+    Equivalente de folato....     9.94 ± 3.12   g
+    Ferro....................     0.22 ± 0.22   g
+    Fósforo..................   147.38 ± 45.92  g
+    Lipídios.................     1.06 ± 0.71   g
+    Magnésio.................    19.38 ± 7.26   g
+    Manganês.................     0.30 ± 0.22   g
+    Niacina..................     2.69 ± 0.59   g
+    Potássio.................   241.14 ± 80.05  g
+    Proteína animal..........     5.85 ± 0.68   g
+    Proteína vegetal.........     0.19 ± 0.75   g
+    Riboflavina..............     0.44 ± 0.15   g
+    Selênio..................     7.37 ± 0.85   g
+    Umidade..................   151.15 ± 56.41  g
+    Vitamina A (RAE).........    13.20 ± 4.94   g
+    Vitamina A (RE)..........    18.00 ± 6.73   g
+    Vitamina B12.............     0.85 ± 0.32   g
+    Zinco....................     0.72 ± 0.23   g
+    Ácidos graxos monoinsaturados     0.30 ± 0.25   g
+    Ácidos graxos poliinsaturados     0.11 ± 0.21   g
+    Ácidos graxos saturados..     0.52 ± 0.14   g
+    Ácidos graxos trans......     0.33 ± 0.02   g
