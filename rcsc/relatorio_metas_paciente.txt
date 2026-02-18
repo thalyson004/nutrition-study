@@ -1,0 +1,51 @@
+==================================================
+RESUMO DO PERFIL DO PACIENTE
+==================================================
+Sexo: Feminino
+Idade: 30 anos
+Peso: 71.0 kg
+Altura: 1.62 m
+IMC: 27.1 kg/m²
+Nível de Atividade: Leve
+Objetivo: Emagrecimento
+
+==================================================
+PASSO A PASSO DO CÁLCULO ENERGÉTICO
+==================================================
+1. Taxa Metabólica Basal (TMB):
+   Equação utilizada: Mifflin-St Jeor
+   TMB = (10 x 71.0) + (6.25 x 162.0) - (5 x 30) - 161
+   TMB = 1411.5 kcal
+
+2. Gasto Energético Total (GET):
+   Fator de Atividade (FA) = 1.375
+   GET = 1411.5 x 1.375
+   GET = 1940.8 kcal
+
+3. Meta Calórica (VET):
+   Ajuste: Déficit de 500 kcal para Emagrecimento Saudável
+   VET Final = 1440.8 kcal
+
+==================================================
+METAS NUTRICIONAIS RECOMENDADAS
+==================================================
+>> MACRONUTRIENTES
+   Energia: 1440.8 kcal
+   Proteínas: 106.5 g (29.6%)
+   Carboidratos: 163.7 g (45.4%)
+   Lipídios totais: 40.0 g (25.0%)
+   Gordura Saturada: < 16.0 g (Máximo de 10%)
+
+>> MICRONUTRIENTES E FIBRAS
+   Fibras: > 25.0 g
+   Cálcio: 1000.0 mg
+   Zinco: 8.0 mg
+   Selênio: 55.0 mcg
+   Ferro: 18.0 mg
+   Vitamina C: 75.0 mg
+   Vitamina B12: 2.4 mcg
+   Folato: 400.0 mcg
+   Magnésio: 310.0 mg
+   Sódio: < 2000.0 mg
+   Colesterol: < 300.0 mg
+==================================================
