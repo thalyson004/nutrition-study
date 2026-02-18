@@ -40,7 +40,7 @@ except ImportError:
 
 MACROS = ["Energia", "Proteína", "Lipídeos Totais", "Gordura Saturada"]
 MICROS = ["Cálcio", "Zinco", "Selênio", "Ferro", "Vitamina C", "Vitamina B12", 
-          "Folato", "Colesterol", "Fibras", "Magnésio"]
+          "Folato", "Colesterol", "Fibras", "Magnésio", "Sódio"]
 
 VALORES_DIARIOS_RECOMENDADOS = {
     "Energia": 2000.0,         # kcal
@@ -56,7 +56,8 @@ VALORES_DIARIOS_RECOMENDADOS = {
     "Folato": 400.0,           # mcg
     "Colesterol": 300.0,       # mg (Limite)
     "Fibras": 25.0,            # g
-    "Magnésio": 400.0          # mg
+    "Magnésio": 400.0,         # mg
+    "Sódio": 2000.0            # mg (Limite recomendado OMS/ANVISA)
 }
 
 def normalizar_nome_nutriente(nome_tbca):
@@ -75,6 +76,7 @@ def normalizar_nome_nutriente(nome_tbca):
     if "colesterol" in n: return "Colesterol"
     if "fibra" in n: return "Fibras"
     if "magnésio" in n or "magnesio" in n: return "Magnésio"
+    if "sódio" in n or "sodio" in n: return "Sódio"
     return None 
 
 # ==============================================================================
