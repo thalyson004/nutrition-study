@@ -29,15 +29,15 @@ PASSO A PASSO DO CÁLCULO ENERGÉTICO
 ==================================================
 METAS NUTRICIONAIS RECOMENDADAS
 ==================================================
->> MACRONUTRIENTES
+>> MACRONUTRIENTES E FIBRAS
    Energia: 1440.8 kcal
    Proteínas: 106.5 g (29.6%)
    Carboidratos: 163.7 g (45.4%)
+   Fibras: > 25.0 g
    Lipídios totais: 40.0 g (25.0%)
    Gordura Saturada: < 16.0 g (Máximo de 10%)
 
->> MICRONUTRIENTES E FIBRAS
-   Fibras: > 25.0 g
+>> MICRONUTRIENTES
    Cálcio: 1000.0 mg
    Zinco: 8.0 mg
    Selênio: 55.0 mcg
