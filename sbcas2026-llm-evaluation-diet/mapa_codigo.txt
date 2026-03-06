@@ -7,7 +7,7 @@ Arroz Cozido    BRC0209A
 Feijão Cozido  BRC0091T
 Peito de Frango Grelhado    BRC0230F
 Salada de Folhas e Tomate   BRC0396B
-Azeite para tempero -
+Azeite para tempero BRC0002D
 Pão Francês BRC0002A
 Queijo Minas Padrão BRC0056G
 Batata Doce Cozida  BRC0042B
@@ -17,7 +17,7 @@ Salada de Brócolis  BRC0643B
 Salada de Cenoura BRC0504B
 Chá de Ervas    -
 Ovos Mexidos    BRC0028J
-Azeite para preparo dos ovos    -
+Azeite para preparo dos ovos    BRC0002D
 Iogurte Natural Integral    BRC0011G
 Mel BRC0028K
 Carne Moída Magra (patinho) BRC0441F
@@ -47,15 +47,15 @@ Chá de Camomila (sem açúcar)    -
 Ovos Mexidos (2 un.)    BRC0028J
 Mandioca/Aipim Cozido   BRC0908B
 Frango Desfiado (cozido s/ óleo)    BRC0230F
-Azeite (para preparo dos ovos)  -
+Azeite (para preparo dos ovos)  BRC0002D
 Salada Mista (folhas)   BRC0391B
 Pasta de Amendoim (integral, sem açúcar)    BRC0290T
 Abóbora Moranga Cozida  BRC0166B
 Arroz Integral Cozido   BRC0211A
 Atum em Lata (em água, drenado) BRC0039E
 Aveia   BRC0021A
-Azeite (para preparo)   -
-Azeite (para tempero)   -
+Azeite (para preparo)   BRC0002D
+Azeite (para tempero)   BRC0002D
 Banana Prata (picada)   BRC0011C
 Batata Cozida   BRC0117B
 Batata Inglesa Cozida   BRC0117B
@@ -183,7 +183,7 @@ Arroz Selvagem  BRC0211A
 Arroz de Couve-Flor BRC0018A,BRC0572B
 Arroz de Ervilha    BRC0018A
 Aveia em Flocos Finos   BRC0018A
-Azeite de Oliva -
+Azeite de Oliva BRC0002D
 Azeitonas   BRC0121B
 Banana Maçã BRC0009C
 Banana Nanica   BRC0007C
@@ -194,8 +194,8 @@ Amendoim Torrado sem Sal    BRC0021T
 Amendoim Torrado sem sal    BRC0021T
 Arroz Branco    BRC0018A
 Arroz Integral  BRC0211A
-Azeite de Oliva -
-Azeite de oliva -
+Azeite de Oliva BRC0002D
+Azeite de oliva BRC0002D
 Banana  BRC0011C
 Bife de Coxão Mole Grelhado BRC0727F
 Biscoito Integral   BRC0059A

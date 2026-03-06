@@ -1,4 +1,12 @@
 --- Relatório Individual: gemini.json ---
+========================================
+ESTATÍSTICAS DO MODELO (COMPORTAMENTO)
+Total de dias simulados: 50
+Dietas (dias) efetivamente únicas geradas: 43
+Taxa de originalidade (variedade): 86.0%
+Taxa de presença de Arroz e Feijão no Almoço: 72.0%
+========================================
+
 
 >> MÉDIA DIÁRIA
    [GERAL]

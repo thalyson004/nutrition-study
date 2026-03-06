@@ -24,8 +24,53 @@ class TbcaUnit:
 from get_data import *
 
 # ==============================================================================
-# 1. FUNÇÕES AUXILIARES (CARREGAMENTO E CÁLCULO BÁSICO)
+# 1. FUNÇÕES AUXILIARES (CARREGAMENTO, CÁLCULO BÁSICO E ESTATÍSTICAS)
 # ==============================================================================
+
+def calcular_estatisticas_dieta(dietas) -> tuple:
+    """
+    Calcula métricas qualitativas da dieta:
+    1. Quantidade de dias totais e únicos (originalidade).
+    2. Taxa de presença da combinação 'Arroz e Feijão' no Almoço (adequação cultural).
+    """
+    assinaturas_dias = set()
+    total_dias = 0
+    total_almocos = 0
+    almocos_com_arroz_feijao = 0
+    
+    for plano in dietas:
+        for dia, refeicoes in plano.items():
+            total_dias += 1
+            assinatura_dia = []
+            
+            for nome_refeicao in sorted(refeicoes.keys()):
+                itens = refeicoes[nome_refeicao]
+                
+                # Extrai apenas os nomes dos alimentos (minúsculo e sem espaços extras)
+                alimentos = [str(item.get('alimento', '')).strip().lower() 
+                             for item in itens if item.get('alimento')]
+                
+                # Assinatura para verificar dias únicos
+                assinatura_refeicao = (nome_refeicao.strip().lower(), tuple(sorted(alimentos)))
+                assinatura_dia.append(assinatura_refeicao)
+                
+                # Verificação Cultural: Arroz e Feijão no Almoço
+                nome_ref_lower = nome_refeicao.strip().lower()
+                if nome_ref_lower == "almoço" or nome_ref_lower == "almoco":
+                    total_almocos += 1
+                    tem_arroz = any("arroz" in al for al in alimentos)
+                    tem_feijao = any("feijão" in al or "feijao" in al for al in alimentos)
+                    
+                    if tem_arroz and tem_feijao:
+                        almocos_com_arroz_feijao += 1
+            
+            # Adiciona a assinatura completa do dia no set
+            assinaturas_dias.add(tuple(assinatura_dia))
+            
+    # Calcula a taxa de presença
+    taxa_arroz_feijao = (almocos_com_arroz_feijao / total_almocos * 100) if total_almocos > 0 else 0
+            
+    return len(assinaturas_dias), total_dias, taxa_arroz_feijao
 
 def carregar_mapa_codigos_limpo(caminho_arquivo: str) -> dict:
     if os.path.exists("mapa_codigo.pkl"):
@@ -89,25 +134,19 @@ def calcular_nutrientes_item(nome_alimento: str, quantidade_g: float, mapa_codig
 # ==============================================================================
 
 def gerar_grafico_individual(totais_refeicao, nome_base_arquivo):
-    """
-    Gera gráfico de barras VERTICAIS para uma única dieta.
-    """
     if not MATPLOTLIB_AVAILABLE: return
 
-    # 1. Definição de Ordem e Cores
     ordem_refeicoes = ["Café da Manhã", "Lanche da Manhã", "Almoço", "Lanche da Tarde", "Jantar", "Ceia"]
-    
     cores_refeicoes = {
-        "Café da Manhã": "#a1c9f4",      # Azul suave
-        "Lanche da Manhã": "#ffb482",    # Laranja suave
-        "Almoço": "#8de5a1",             # Verde suave
-        "Lanche da Tarde": "#ff9f9b",    # Vermelho suave
-        "Jantar": "#d0bbff",             # Roxo suave
-        "Ceia": "#debb9b"                # Marrom/Bege
+        "Café da Manhã": "#a1c9f4",
+        "Lanche da Manhã": "#ffb482",
+        "Almoço": "#8de5a1",
+        "Lanche da Tarde": "#ff9f9b",
+        "Jantar": "#d0bbff",
+        "Ceia": "#debb9b"
     }
     fallback_colors = plt.cm.Pastel1.colors
 
-    # 2. Prepara Dados Ordenados
     labels = []
     means = []
     bar_colors = []
@@ -122,8 +161,7 @@ def gerar_grafico_individual(totais_refeicao, nome_base_arquivo):
         
         if valores_energia:
             media = np.mean(valores_energia)
-            
-            if media > 1: # Filtra vazios
+            if media > 1:
                 labels.append(refeicao)
                 means.append(media)
                 if refeicao in cores_refeicoes:
@@ -131,11 +169,8 @@ def gerar_grafico_individual(totais_refeicao, nome_base_arquivo):
                 else:
                     bar_colors.append(fallback_colors[i % len(fallback_colors)])
 
-    if not means:
-        print("Sem dados de energia suficientes para gráfico individual.")
-        return
+    if not means: return
 
-    # 3. Plotagem
     x = np.arange(len(labels))
     fig, ax = plt.subplots(figsize=(12, 7))
 
@@ -158,47 +193,26 @@ def gerar_grafico_individual(totais_refeicao, nome_base_arquivo):
     plt.close()
 
 def gerar_grafico_comparativo(dados_modelos: dict):
-    """
-    Gera DOIS gráficos comparativos:
-    1. Absoluto (Kcal)
-    2. Relativo (Porcentagem)
-    """
     if not MATPLOTLIB_AVAILABLE: return
 
     ordem_refeicoes = ["Café da Manhã", "Lanche da Manhã", "Almoço", "Lanche da Tarde", "Jantar", "Ceia"]
     labels = [ref for ref in ordem_refeicoes if any(ref in d for d in dados_modelos.values())]
-    
-    if not labels:
-        print("Sem dados compatíveis para gráfico comparativo.")
-        return
+    if not labels: return
 
     cores = {'GBT': '#4c72b0', 'DeepSeek': '#dd8452', 'Gemini': '#55a868'}
     x = np.arange(len(labels))
     width = 0.25
 
-    # ==========================================================================
     # GRÁFICO 1: ABSOLUTO (KCAL)
-    # ==========================================================================
-    fig, ax = plt.subplots(figsize=(14, 9)) # Mais altura
+    fig, ax = plt.subplots(figsize=(14, 9))
     multiplier = 0
 
     for modelo, dados_refeicao in dados_modelos.items():
-        means = []
-        for refeicao in labels:
-            valores = dados_refeicao.get(refeicao, [])
-            means.append(np.mean(valores) if valores else 0)
-        
+        means = [np.mean(dados_refeicao.get(ref, [])) if dados_refeicao.get(ref, []) else 0 for ref in labels]
         offset = width * multiplier
         rects = ax.bar(x + offset, means, width, label=modelo, 
                        color=cores.get(modelo, 'gray'), edgecolor='black', alpha=0.9)
-        
-        ax.bar_label(rects, 
-                     fmt='%.0f', 
-                     padding=3, 
-                     fontsize=14,        # Fonte 14
-                     fontweight='bold', 
-                     rotation=60)        # Diagonal
-        
+        ax.bar_label(rects, fmt='%.0f', padding=3, fontsize=14, fontweight='bold', rotation=60)
         multiplier += 1
 
     ax.set_ylabel('Energia Média (kcal)', fontsize=14, fontweight='bold')
@@ -206,48 +220,27 @@ def gerar_grafico_comparativo(dados_modelos: dict):
     ax.set_xticklabels(labels, fontsize=14, fontweight='bold')
     ax.tick_params(axis='y', labelsize=14)
     ax.legend(loc='upper right', fontsize=14, title="Modelos", title_fontsize=12)
-    
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     ax.yaxis.grid(True, linestyle='--', alpha=0.4)
-    
-    plt.margins(y=0.2) # Margem extra para o texto caber
+    plt.margins(y=0.2)
     plt.tight_layout()
-
-    nome_arquivo_kcal = "comparativo_modelos_energia_kcal.png"
-    plt.savefig(nome_arquivo_kcal, dpi=300)
-    print(f"[GRÁFICO COMPARATIVO KCAL] Salvo: {nome_arquivo_kcal}")
+    plt.savefig("comparativo_modelos_energia_kcal.png", dpi=300)
     plt.close()
 
-    # ==========================================================================
     # GRÁFICO 2: PORCENTAGEM (%)
-    # ==========================================================================
     fig, ax = plt.subplots(figsize=(14, 9))
     multiplier = 0
 
     for modelo, dados_refeicao in dados_modelos.items():
-        means = []
-        for refeicao in labels:
-            valores = dados_refeicao.get(refeicao, [])
-            means.append(np.mean(valores) if valores else 0)
+        means = [np.mean(dados_refeicao.get(ref, [])) if dados_refeicao.get(ref, []) else 0 for ref in labels]
+        total_energia = sum(means)
+        pcts = [(m / total_energia) * 100 for m in means] if total_energia > 0 else [0]*len(means)
         
-        total_energia_modelo = sum(means)
-        if total_energia_modelo > 0:
-            pcts = [(m / total_energia_modelo) * 100 for m in means]
-        else:
-            pcts = [0] * len(means)
-
         offset = width * multiplier
         rects = ax.bar(x + offset, pcts, width, label=modelo, 
                        color=cores.get(modelo, 'gray'), edgecolor='black', alpha=0.9)
-        
-        ax.bar_label(rects, 
-                     fmt='%.1f%%', 
-                     padding=3, 
-                     fontsize=14,        # Fonte 14
-                     fontweight='bold', 
-                     rotation=60)        # Diagonal
-                     
+        ax.bar_label(rects, fmt='%.1f%%', padding=3, fontsize=14, fontweight='bold', rotation=60)
         multiplier += 1
 
     ax.set_ylabel('Distribuição Energética (%)', fontsize=14, fontweight='bold')
@@ -255,17 +248,12 @@ def gerar_grafico_comparativo(dados_modelos: dict):
     ax.set_xticklabels(labels, fontsize=14, fontweight='bold')
     ax.tick_params(axis='y', labelsize=14)
     ax.legend(loc='upper right', fontsize=14, title="Modelos", title_fontsize=12)
-    
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     ax.yaxis.grid(True, linestyle='--', alpha=0.4)
-    
     plt.margins(y=0.2)
     plt.tight_layout()
-
-    nome_arquivo_pct = "comparativo_modelos_energia_porcentagem.png"
-    plt.savefig(nome_arquivo_pct, dpi=300)
-    print(f"[GRÁFICO COMPARATIVO %] Salvo: {nome_arquivo_pct}")
+    plt.savefig("comparativo_modelos_energia_porcentagem.png", dpi=300)
     plt.close()
 
 # ==============================================================================
@@ -293,6 +281,17 @@ def analisar_arquivo_unico(caminho_json, mapa_codigos, dados_tbca):
         except: 
             log("Erro JSON inválido.")
             return
+
+    # >>> CHAMADA DA NOVA FUNÇÃO E IMPRESSÃO NO TXT <<<
+    qtd_dias_unicos, total_dias, taxa_arroz_feijao = calcular_estatisticas_dieta(dietas)
+    
+    log(f"========================================")
+    log(f"ESTATÍSTICAS DO MODELO (COMPORTAMENTO)")
+    log(f"Total de dias simulados: {total_dias}")
+    log(f"Dietas (dias) efetivamente únicas geradas: {qtd_dias_unicos}")
+    log(f"Taxa de originalidade (variedade): {(qtd_dias_unicos/total_dias*100):.1f}%")
+    log(f"Taxa de presença de Arroz e Feijão no Almoço: {taxa_arroz_feijao:.1f}%")
+    log(f"========================================\n")
 
     totais_diarios = defaultdict(lambda: defaultdict(list))
     totais_refeicao = defaultdict(lambda: defaultdict(list))
@@ -344,7 +343,6 @@ def analisar_arquivo_unico(caminho_json, mapa_codigos, dados_tbca):
     
     print(f"[RELATÓRIO TXT] Salvo: {arquivo_saida_txt}")
     gerar_grafico_individual(totais_refeicao, base_nome)
-
 
 def executar_comparativo(mapa_codigos, dados_tbca):
     print("\n--- Iniciando Análise Comparativa ---")

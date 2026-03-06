@@ -1,4 +1,12 @@
 --- Relatório Individual: gbt.json ---
+========================================
+ESTATÍSTICAS DO MODELO (COMPORTAMENTO)
+Total de dias simulados: 50
+Dietas (dias) efetivamente únicas geradas: 50
+Taxa de originalidade (variedade): 100.0%
+Taxa de presença de Arroz e Feijão no Almoço: 100.0%
+========================================
+
 
 >> MÉDIA DIÁRIA
    [GERAL]
