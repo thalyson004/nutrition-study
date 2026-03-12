@@ -44,10 +44,8 @@ def gerar_prompt_dieta(
         regra_restricao = "DIETA VEGANA: Proibido ingredientes de origem animal (carnes, peixes, ovos, laticínios, mel). Use apenas fontes vegetais presentes no arquivo."
     elif tipo_dieta.lower() == "vegetariana":
         regra_restricao = "DIETA VEGETARIANA: Proibido qualquer tipo de carne (bovina, suína, frango, peixes). Ovos e laticínios são permitidos, desde que constem no arquivo."
-    elif tipo_dieta.lower() in ["carnivora", "carnívora"]:
-        regra_restricao = "DIETA CARNÍVORA: Use exclusivamente alimentos de origem animal presentes no arquivo (carnes, miúdos, ovos, laticínios). Proibido qualquer vegetal."
     else:
-        regra_restricao = "DIETA PADRÃO: Utilize ingredientes comuns presentes no arquivo, respeitando a cultura brasileira."
+        regra_restricao = "DIETA REGULAR: Não há restrições de grupos alimentares. Utilize qualquer combinação de alimentos (carnes, vegetais, grãos, laticínios), desde que constem EXATAMENTE no arquivo anexo."
 
     prompt = f"""Atue como um nutricionista clínico especialista em modelagem computacional. 
 Sua tarefa é criar um cardápio teórico de 5 dias, distribuído em 6 refeições diárias.
@@ -75,6 +73,7 @@ Sua tarefa é criar um cardápio teórico de 5 dias, distribuído em 6 refeiçõ
 **Regras de Saída:**
 * O formato de saída deve ser EXCLUSIVAMENTE código JSON validável. Não inclua texto markdown (como ```json) ou introduções.
 * O exemplo abaixo utiliza itens reais do seu arquivo anexo apenas para demonstrar a estrutura de chaves exigida. Adapte os alimentos do exemplo para a dieta {tipo_dieta.upper()} se for necessário.
+* A quantidade dos alimentos representa a quantidade, em gramas, que deve ser consumida.
 * Varie as recomendações. Tente não fazer uma mesma recomendação semanal já realizada.
 
 **Exemplo de Formato Estrutural:**
@@ -114,5 +113,8 @@ Sua tarefa é criar um cardápio teórico de 5 dias, distribuído em 6 refeiçõ
     return prompt
 
 # Teste de Geração
-prompt_teste = gerar_prompt_dieta(tipo_dieta="Vegetariana", qtd_deficit=0)
+# vegana
+# vegetariana
+# regular
+prompt_teste = gerar_prompt_dieta(tipo_dieta="vegana", qtd_deficit=0)
 print(prompt_teste)

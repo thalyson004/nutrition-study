@@ -24,9 +24,10 @@ Sua tarefa é criar um cardápio teórico de 5 dias, distribuído em 6 refeiçõ
 **Regras de Saída:**
 * O formato de saída deve ser EXCLUSIVAMENTE código JSON validável. Não inclua texto markdown (como ```json) ou introduções.
 * O exemplo abaixo utiliza itens reais do seu arquivo anexo apenas para demonstrar a estrutura de chaves exigida. Adapte os alimentos do exemplo para a dieta VEGETARIANA se for necessário.
+* A quantidade dos alimentos representa a quantidade, em gramas, que deve ser consumida.
 * Varie as recomendações. Tente não fazer uma mesma recomendação semanal já realizada.
 
-**Exemplo de Formato Estrutural (Baseado no seu arquivo):**
+**Exemplo de Formato Estrutural:**
 {
     "1": {
       "Café da Manhã": [
