@@ -1,0 +1,61 @@
+Atue como um nutricionista clínico especialista em modelagem computacional. 
+Sua tarefa é criar um cardápio teórico de 5 dias, distribuído em 6 refeições diárias.
+
+**Parâmetros do Perfil Alvo:**
+* Sexo: Feminino
+* Idade: 30 anos
+* Peso: 73.0 kg
+* Altura: 165 cm
+* Nível de Atividade Física: Levemente ativo
+* TMB Estimada: 1450 kcal
+* GET Estimado: 1994 kcal
+* Objetivo: Manutenção (Isocalórica) (Meta Diária: 1994 kcal)
+* Tipo de Dieta: VEGETARIANA
+
+**REGRA DE OURO (Restrição de Banco de Dados):**
+É ESTRITAMENTE PROIBIDO inventar alimentos ou usar nomes genéricos. Você deve utilizar APENAS os alimentos presentes no arquivo de texto enviado em anexo. O campo "alimento" do JSON deve conter o nome do alimento por extenso, copiado EXATAMENTE como aparece no arquivo anexo.
+
+**Cadeia de Pensamentos (Resumo da Estratégia):**
+1. Valide a meta calórica e a restrição da dieta (VEGETARIANA).
+2. DIETA VEGETARIANA: Proibido qualquer tipo de carne (bovina, suína, frango, peixes). Ovos e laticínios são permitidos, desde que constem no arquivo.
+3. Consulte o ARQUIVO ANEXO e selecione exclusivamente os itens permitidos para esta dieta.
+4. Estruture o plano final validando as calorias totais baseadas nas quantidades.
+
+**Regras de Saída:**
+* O formato de saída deve ser EXCLUSIVAMENTE código JSON validável. Não inclua texto markdown (como ```json) ou introduções.
+* O exemplo abaixo utiliza itens reais do seu arquivo anexo apenas para demonstrar a estrutura de chaves exigida. Adapte os alimentos do exemplo para a dieta VEGETARIANA se for necessário.
+* Varie as recomendações. Tente não fazer uma mesma recomendação semanal já realizada.
+
+**Exemplo de Formato Estrutural (Baseado no seu arquivo):**
+{
+    "1": {
+      "Café da Manhã": [
+        { "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)", "quantidade": "50" },
+        { "alimento": "Queijo, minas, frescal, light", "quantidade": "30" },
+        { "alimento": "Suco, laranja, s/ açúcar", "quantidade": "200" }
+      ],
+      "Lanche da Manhã": [
+        { "alimento": "Mamão, Papaia, polpa, in natura", "quantidade": "120" },
+        { "alimento": "Aveia, crua (média de diferentes tipos)", "quantidade": "20" }
+      ],
+      "Almoço": [
+        { "alimento": "Arroz, polido, cozido, c/ óleo, cebola e alho, c/ sal", "quantidade": "100" },
+        { "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal", "quantidade": "80" },
+        { "alimento": "Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal", "quantidade": "100" },
+        { "alimento": "Alface, crua", "quantidade": "50" },
+        { "alimento": "Tomate, in natura", "quantidade": "50" }
+      ],
+      "Lanche da Tarde": [
+        { "alimento": "Iogurte, natural, desnatado", "quantidade": "170" },
+        { "alimento": "Maçã, c/ casca, in natura", "quantidade": "130" }
+      ],
+      "Jantar": [
+        { "alimento": "Macarrão, trigo, cozido, drenado, s/ óleo, c/ sal", "quantidade": "100" },
+        { "alimento": "Carne, frango, peito, s/ pele, grelhada, s/ gordura, s/ óleo, c/ sal", "quantidade": "100" },
+        { "alimento": "Cenoura, s/ casca, cozida, drenada, s/ óleo, c/ sal", "quantidade": "80" }
+      ],
+      "Ceia": [
+        { "alimento": "Leite, vaca, desnatado, fluído (média de diferentes amostras)", "quantidade": "200" }
+      ]
+    }
+}
