@@ -12,7 +12,7 @@ Sua tarefa é criar um cardápio teórico de 5 dias, distribuído em 6 refeiçõ
 * Objetivo: Manutenção (Isocalórica) (Meta Diária: 1994 kcal)
 * Tipo de Dieta: VEGETARIANA
 
-**REGRA DE OURO (Restrição de Banco de Dados):**
+**Restrição de Banco de Dados:**
 É ESTRITAMENTE PROIBIDO inventar alimentos ou usar nomes genéricos. Você deve utilizar APENAS os alimentos presentes no arquivo de texto enviado em anexo. O campo "alimento" do JSON deve conter o nome do alimento por extenso, copiado EXATAMENTE como aparece no arquivo anexo.
 
 **Cadeia de Pensamentos (Resumo da Estratégia):**

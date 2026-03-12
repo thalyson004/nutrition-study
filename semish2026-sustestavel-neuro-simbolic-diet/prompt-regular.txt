@@ -10,20 +10,20 @@ Sua tarefa é criar um cardápio teórico de 5 dias, distribuído em 6 refeiçõ
 * TMB Estimada: 1450 kcal
 * GET Estimado: 1994 kcal
 * Objetivo: Manutenção (Isocalórica) (Meta Diária: 1994 kcal)
-* Tipo de Dieta: VEGANA
+* Tipo de Dieta: REGULAR
 
 **Restrição de Banco de Dados:**
 É ESTRITAMENTE PROIBIDO inventar alimentos ou usar nomes genéricos. Você deve utilizar APENAS os alimentos presentes no arquivo de texto enviado em anexo. O campo "alimento" do JSON deve conter o nome do alimento por extenso, copiado EXATAMENTE como aparece no arquivo anexo.
 
 **Cadeia de Pensamentos (Resumo da Estratégia):**
-1. Valide a meta calórica e a restrição da dieta (VEGANA).
-2. DIETA VEGANA: Proibido ingredientes de origem animal (carnes, peixes, ovos, laticínios, mel). Use apenas fontes vegetais presentes no arquivo.
+1. Valide a meta calórica e a restrição da dieta (REGULAR).
+2. DIETA REGULAR: Não há restrições de grupos alimentares. Utilize qualquer combinação de alimentos (carnes, vegetais, grãos, laticínios), desde que constem EXATAMENTE no arquivo anexo.
 3. Consulte o ARQUIVO ANEXO e selecione exclusivamente os itens permitidos para esta dieta.
 4. Estruture o plano final validando as calorias totais baseadas nas quantidades.
 
 **Regras de Saída:**
 * O formato de saída deve ser EXCLUSIVAMENTE código JSON validável. Não inclua texto markdown (como ```json) ou introduções.
-* O exemplo abaixo utiliza itens reais do seu arquivo anexo apenas para demonstrar a estrutura de chaves exigida. Adapte os alimentos do exemplo para a dieta VEGANA se for necessário.
+* O exemplo abaixo utiliza itens reais do seu arquivo anexo apenas para demonstrar a estrutura de chaves exigida. Adapte os alimentos do exemplo para a dieta REGULAR se for necessário.
 * A quantidade dos alimentos representa a quantidade, em gramas, que deve ser consumida.
 * Varie as recomendações. Tente não fazer uma mesma recomendação semanal já realizada.
 

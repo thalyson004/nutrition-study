@@ -116,5 +116,5 @@ Sua tarefa é criar um cardápio teórico de 5 dias, distribuído em 6 refeiçõ
 # vegana
 # vegetariana
 # regular
-prompt_teste = gerar_prompt_dieta(tipo_dieta="vegana", qtd_deficit=0)
+prompt_teste = gerar_prompt_dieta(tipo_dieta="regular", qtd_deficit=0)
 print(prompt_teste)
