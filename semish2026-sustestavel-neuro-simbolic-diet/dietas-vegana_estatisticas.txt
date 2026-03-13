@@ -1,0 +1,463 @@
+--- Relatório Individual: dietas-vegana.json ---
+========================================
+ESTATÍSTICAS DO MODELO (COMPORTAMENTO)
+Total de dias simulados: 250
+Dietas (dias) efetivamente únicas geradas: 171
+Taxa de originalidade (variedade): 68.4%
+Taxa de presença de Arroz e Feijão no Almoço: 32.4%
+========================================
+
+
+>> MÉDIA DIÁRIA
+   [GERAL]
+    Energia..................  2244.61 ± 554.62 kcal
+    Pegada de Carbono........   165.70 ± 45.71  
+    Pegada Hídrica...........   270.53 ± 88.97  
+    Pegada Ecológica.........     1.49 ± 0.59   
+    Carboidrato disponível...   280.06 ± 84.50  g
+    Carboidrato total........   330.64 ± 87.83  g
+    Proteína.................    64.42 ± 18.78  g
+    Lipídios.................    85.25 ± 47.71  g
+    Fibra alimentar..........    50.97 ± 9.05   g
+    Sódio....................  1754.95 ± 431.60 mg
+    Alfa-tocoferol (Vitamina E)    10.21 ± 4.67   g
+    Açúcar de adição.........    46.82 ± 78.99  g
+    Cinzas...................    15.90 ± 2.95   g
+    Cobre....................     2.53 ± 0.54   g
+    Colesterol...............    25.62 ± 32.02  g
+    Cálcio...................   599.25 ± 282.94 g
+    Equivalente de folato....   595.51 ± 124.30 g
+    Ferro....................    16.31 ± 4.64   g
+    Fósforo..................  1254.36 ± 336.12 g
+    Gordura de adição........     2.05 ± 3.46   g
+    Magnésio.................   455.38 ± 94.52  g
+    Manganês.................   102.22 ± 155.25 g
+    Niacina..................     9.15 ± 3.65   g
+    Potássio.................  3091.66 ± 573.02 g
+    Proteína animal..........     4.59 ± 8.89   g
+    Proteína vegetal.........    27.30 ± 13.14  g
+    Riboflavina..............     0.71 ± 0.39   g
+    Sal de adição............     2.54 ± 0.56   g
+    Selênio..................   231.42 ± 308.85 g
+    Tiamina..................     2.03 ± 2.13   g
+    Umidade..................  1305.22 ± 137.34 g
+    Vitamina A (RAE).........   696.26 ± 581.93 g
+    Vitamina A (RE)..........  1327.57 ± 1159.19 g
+    Vitamina B12.............     0.57 ± 0.92   g
+    Vitamina B6..............     1.08 ± 0.43   g
+    Vitamina C...............   191.49 ± 78.34  g
+    Vitamina D...............     0.22 ± 0.64   g
+    Zinco....................    11.31 ± 2.24   g
+    Ácidos graxos monoinsaturados    24.03 ± 12.14  g
+    Ácidos graxos poliinsaturados    37.68 ± 28.21  g
+    Ácidos graxos saturados..    19.06 ± 10.29  g
+    Ácidos graxos trans......     0.58 ± 0.43   g
+
+>> MÉDIA POR REFEIÇÃO
+   [CAFÉ DA MANHÃ]
+    Energia..................   492.86 ± 276.98 kcal
+    Pegada de Carbono........    39.24 ± 31.64  
+    Pegada Hídrica...........    42.05 ± 31.78  
+    Pegada Ecológica.........     0.33 ± 0.29   
+    Carboidrato disponível...    62.51 ± 37.43  g
+    Carboidrato total........    68.12 ± 38.46  g
+    Proteína.................    11.18 ± 8.42   g
+    Lipídios.................    20.75 ± 25.68  g
+    Fibra alimentar..........     5.76 ± 4.88   g
+    Sódio....................   242.02 ± 222.23 mg
+    Alfa-tocoferol (Vitamina E)     1.45 ± 2.34   g
+    Açúcar de adição.........    12.44 ± 31.96  g
+    Cinzas...................     2.44 ± 1.37   g
+    Cobre....................     0.32 ± 0.22   g
+    Colesterol...............    20.67 ± 32.31  g
+    Cálcio...................   206.42 ± 284.87 g
+    Equivalente de folato....    60.60 ± 35.76  g
+    Ferro....................     2.41 ± 1.69   g
+    Fósforo..................   248.63 ± 184.77 g
+    Gordura de adição........     1.18 ± 3.59   g
+    Magnésio.................    65.28 ± 36.13  g
+    Manganês.................    74.24 ± 145.66 g
+    Niacina..................     1.53 ± 1.89   g
+    Potássio.................   393.16 ± 176.76 g
+    Proteína animal..........     4.84 ± 9.27   g
+    Proteína vegetal.........     4.86 ± 4.65   g
+    Riboflavina..............     0.20 ± 0.24   g
+    Selênio..................     7.93 ± 6.63   g
+    Tiamina..................     0.59 ± 1.35   g
+    Umidade..................   214.38 ± 56.69  g
+    Vitamina A (RAE).........    54.05 ± 56.34  g
+    Vitamina A (RE)..........    63.40 ± 68.71  g
+    Vitamina B12.............     0.45 ± 0.92   g
+    Vitamina B6..............     0.15 ± 0.14   g
+    Vitamina C...............    24.10 ± 25.83  g
+    Zinco....................     1.91 ± 1.36   g
+    Ácidos graxos monoinsaturados     5.60 ± 6.05   g
+    Ácidos graxos poliinsaturados     7.04 ± 14.33  g
+    Ácidos graxos saturados..     6.51 ± 7.24   g
+    Ácidos graxos trans......     0.29 ± 0.33   g
+   [LANCHE DA MANHÃ]
+    Energia..................   208.47 ± 117.61 kcal
+    Pegada de Carbono........    16.59 ± 13.65  
+    Pegada Hídrica...........    51.87 ± 58.74  
+    Pegada Ecológica.........     0.16 ± 0.23   
+    Carboidrato disponível...    28.73 ± 29.45  g
+    Carboidrato total........    33.96 ± 29.00  g
+    Proteína.................     4.92 ± 1.68   g
+    Lipídios.................     7.08 ± 4.23   g
+    Fibra alimentar..........     5.23 ± 2.14   g
+    Sódio....................    22.72 ± 72.81  mg
+    Alfa-tocoferol (Vitamina E)     0.72 ± 1.19   g
+    Açúcar de adição.........     4.83 ± 30.27  g
+    Cinzas...................     1.34 ± 0.34   g
+    Cobre....................     0.27 ± 0.14   g
+    Cálcio...................    41.52 ± 28.39  g
+    Equivalente de folato....    42.01 ± 42.53  g
+    Ferro....................     1.78 ± 0.99   g
+    Fósforo..................   116.66 ± 59.82  g
+    Magnésio.................    56.78 ± 20.56  g
+    Manganês.................     0.67 ± 0.64   g
+    Niacina..................     1.59 ± 1.33   g
+    Potássio.................   316.16 ± 147.24 g
+    Proteína vegetal.........     4.42 ± 1.94   g
+    Selênio..................    52.02 ± 170.02 g
+    Tiamina..................     0.13 ± 0.08   g
+    Umidade..................   142.48 ± 41.35  g
+    Vitamina A (RAE).........    27.15 ± 41.19  g
+    Vitamina A (RE)..........    52.99 ± 83.12  g
+    Vitamina B6..............     0.12 ± 0.18   g
+    Vitamina C...............    48.85 ± 58.60  g
+    Vitamina D...............     0.11 ± 0.53   g
+    Zinco....................     1.13 ± 0.77   g
+    Ácidos graxos monoinsaturados     2.16 ± 1.99   g
+    Ácidos graxos poliinsaturados     3.30 ± 2.73   g
+    Ácidos graxos saturados..     1.17 ± 1.04   g
+   [ALMOÇO]
+    Energia..................   527.42 ± 215.09 kcal
+    Pegada de Carbono........    36.86 ± 13.78  
+    Pegada Hídrica...........    50.80 ± 12.29  
+    Pegada Ecológica.........     0.21 ± 0.08   
+    Carboidrato disponível...    63.98 ± 13.51  g
+    Carboidrato total........    81.80 ± 14.80  g
+    Proteína.................    20.78 ± 9.85   g
+    Lipídios.................    17.16 ± 25.14  g
+    Fibra alimentar..........    17.99 ± 3.44   g
+    Sódio....................   670.88 ± 259.71 mg
+    Alfa-tocoferol (Vitamina E)     3.17 ± 2.50   g
+    Cinzas...................     5.39 ± 1.59   g
+    Cobre....................     0.69 ± 0.27   g
+    Colesterol...............     0.18 ± 1.31   g
+    Cálcio...................   133.68 ± 56.11  g
+    Equivalente de folato....   219.18 ± 66.87  g
+    Ferro....................     5.26 ± 3.17   g
+    Fósforo..................   356.79 ± 158.74 g
+    Gordura de adição........     0.79 ± 1.11   g
+    Magnésio.................   125.79 ± 40.97  g
+    Manganês.................     1.45 ± 0.61   g
+    Niacina..................     2.42 ± 2.43   g
+    Potássio.................   931.59 ± 248.38 g
+    Proteína vegetal.........     8.35 ± 11.24  g
+    Riboflavina..............     0.15 ± 0.13   g
+    Sal de adição............     1.20 ± 0.51   g
+    Selênio..................     7.75 ± 10.87  g
+    Tiamina..................     0.35 ± 0.13   g
+    Umidade..................   381.09 ± 56.07  g
+    Vitamina A (RAE).........   373.28 ± 525.39 g
+    Vitamina A (RE)..........   746.29 ± 1051.00 g
+    Vitamina B6..............     0.34 ± 0.27   g
+    Vitamina C...............    46.90 ± 32.95  g
+    Zinco....................     3.41 ± 1.05   g
+    Ácidos graxos monoinsaturados     4.15 ± 6.08   g
+    Ácidos graxos poliinsaturados     9.31 ± 15.15  g
+    Ácidos graxos saturados..     3.06 ± 3.88   g
+   [LANCHE DA TARDE]
+    Energia..................   333.15 ± 212.58 kcal
+    Pegada de Carbono........    21.94 ± 15.55  
+    Pegada Hídrica...........    39.36 ± 45.84  
+    Pegada Ecológica.........     0.25 ± 0.33   
+    Carboidrato disponível...    48.62 ± 47.69  g
+    Carboidrato total........    53.40 ± 47.54  g
+    Proteína.................     6.50 ± 3.29   g
+    Lipídios.................    11.45 ± 7.16   g
+    Fibra alimentar..........     4.77 ± 2.80   g
+    Sódio....................    93.49 ± 112.41 mg
+    Alfa-tocoferol (Vitamina E)     0.88 ± 0.90   g
+    Açúcar de adição.........    15.44 ± 48.48  g
+    Cinzas...................     1.58 ± 0.63   g
+    Cobre....................     0.30 ± 0.15   g
+    Colesterol...............     1.31 ± 7.59   g
+    Cálcio...................    69.63 ± 81.19  g
+    Equivalente de folato....    49.55 ± 33.74  g
+    Ferro....................     1.79 ± 1.30   g
+    Fósforo..................   143.37 ± 86.08  g
+    Magnésio.................    66.76 ± 26.49  g
+    Manganês.................    23.97 ± 79.16  g
+    Niacina..................     1.62 ± 1.14   g
+    Potássio.................   391.15 ± 167.72 g
+    Proteína animal..........     0.41 ± 2.20   g
+    Proteína vegetal.........     4.68 ± 2.84   g
+    Riboflavina..............     0.14 ± 0.20   g
+    Selênio..................   102.35 ± 244.75 g
+    Tiamina..................     0.38 ± 1.12   g
+    Umidade..................   146.48 ± 72.08  g
+    Vitamina A (RAE).........    34.93 ± 55.88  g
+    Vitamina A (RE)..........    68.97 ± 112.71 g
+    Vitamina B6..............     0.13 ± 0.12   g
+    Vitamina C...............    28.45 ± 30.38  g
+    Zinco....................     1.25 ± 0.76   g
+    Ácidos graxos monoinsaturados     3.98 ± 3.09   g
+    Ácidos graxos poliinsaturados     4.40 ± 2.97   g
+    Ácidos graxos saturados..     2.53 ± 2.37   g
+   [JANTAR]
+    Energia..................   483.10 ± 313.71 kcal
+    Pegada de Carbono........    36.81 ± 19.88  
+    Pegada Hídrica...........    45.73 ± 14.86  
+    Pegada Ecológica.........     0.22 ± 0.10   
+    Carboidrato disponível...    50.33 ± 9.88   g
+    Carboidrato total........    64.80 ± 11.87  g
+    Proteína.................    17.10 ± 7.44   g
+    Lipídios.................    20.51 ± 37.72  g
+    Fibra alimentar..........    14.53 ± 4.36   g
+    Sódio....................   687.67 ± 274.12 mg
+    Alfa-tocoferol (Vitamina E)     3.28 ± 3.14   g
+    Cinzas...................     4.30 ± 1.50   g
+    Cobre....................     0.69 ± 0.32   g
+    Colesterol...............     3.13 ± 8.39   g
+    Cálcio...................   108.05 ± 57.53  g
+    Equivalente de folato....   189.94 ± 82.51  g
+    Ferro....................     3.82 ± 1.90   g
+    Fósforo..................   281.75 ± 114.79 g
+    Gordura de adição........     0.48 ± 0.93   g
+    Magnésio.................    94.70 ± 41.28  g
+    Manganês.................     1.17 ± 0.57   g
+    Niacina..................     2.50 ± 1.89   g
+    Potássio.................   799.07 ± 319.83 g
+    Proteína vegetal.........     4.23 ± 6.97   g
+    Riboflavina..............     0.14 ± 0.11   g
+    Sal de adição............     1.33 ± 0.44   g
+    Selênio..................     7.29 ± 8.68   g
+    Tiamina..................     0.29 ± 0.12   g
+    Umidade..................   326.24 ± 68.80  g
+    Vitamina A (RAE).........   201.11 ± 231.33 g
+    Vitamina A (RE)..........   387.16 ± 466.54 g
+    Vitamina B6..............     0.31 ± 0.26   g
+    Vitamina C...............    33.09 ± 30.44  g
+    Zinco....................     2.88 ± 1.09   g
+    Ácidos graxos monoinsaturados     5.20 ± 9.41   g
+    Ácidos graxos poliinsaturados    10.38 ± 20.49  g
+    Ácidos graxos saturados..     4.06 ± 7.28   g
+    Ácidos graxos trans......     0.16 ± 0.29   g
+   [CEIA]
+    Energia..................   199.60 ± 229.52 kcal
+    Pegada de Carbono........    14.27 ± 9.36   
+    Pegada Hídrica...........    40.73 ± 37.48  
+    Pegada Ecológica.........     0.32 ± 0.46   
+    Carboidrato disponível...    25.88 ± 53.92  g
+    Carboidrato total........    28.57 ± 53.57  g
+    Proteína.................     3.93 ± 2.12   g
+    Lipídios.................     8.43 ± 4.90   g
+    Fibra alimentar..........     2.68 ± 2.48   g
+    Sódio....................    45.05 ± 52.07  mg
+    Alfa-tocoferol (Vitamina E)     0.99 ± 1.56   g
+    Açúcar de adição.........    16.55 ± 59.02  g
+    Cinzas...................     0.85 ± 0.43   g
+    Cobre....................     0.26 ± 0.14   g
+    Colesterol...............     0.33 ± 1.25   g
+    Cálcio...................    41.84 ± 32.70  g
+    Equivalente de folato....    38.85 ± 37.04  g
+    Ferro....................     1.24 ± 1.24   g
+    Fósforo..................   107.17 ± 60.20  g
+    Magnésio.................    46.65 ± 24.17  g
+    Manganês.................     0.73 ± 1.15   g
+    Niacina..................     0.74 ± 0.84   g
+    Potássio.................   263.75 ± 153.35 g
+    Proteína vegetal.........     4.09 ± 2.12   g
+    Riboflavina..............     0.11 ± 0.19   g
+    Selênio..................    86.51 ± 217.69 g
+    Tiamina..................     0.40 ± 1.17   g
+    Umidade..................    94.55 ± 85.39  g
+    Vitamina A (RAE).........     7.36 ± 19.61  g
+    Vitamina A (RE)..........    16.23 ± 42.46  g
+    Vitamina B6..............     0.10 ± 0.12   g
+    Vitamina C...............    19.83 ± 32.44  g
+    Zinco....................     0.75 ± 0.45   g
+    Ácidos graxos monoinsaturados     3.08 ± 2.27   g
+    Ácidos graxos poliinsaturados     3.42 ± 2.75   g
+    Ácidos graxos saturados..     1.80 ± 1.82   g
+
+========================================
+ALIMENTOS NÃO MAPEADOS
+========================================
+
+--- Não encontrados no TBCA ---
+Abacate, polpa, in natura 
+Abobrinha, italiana, c/ casca, refogada (c/ óleo, cebola e alho), c/ sal 
+Abóbora, moranga, refogada (c/ óleo, cebolha e alho), c/ sal 
+Alface, crua 
+Amendoim, grão, cru 
+Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal 
+Arroz, polido, cozido, c/ óleo, cebola e alho, c/ sal 
+Aveia, crua (média de diferentes tipos) 
+Aveia, crua (média de differentes tipos)
+Avelã , crua, s/ sal 
+Avelã, crua, s/ sal
+Azeite de oliva, extra virgem
+Banana, da terra, assada, s/ adição de ingredientes 
+Banana, in natura 
+Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal 
+Batata, doce, s/ casca, cozida, drenada, s/ óleo, c/ sal 
+Bebida, chá, infusão, s/ açúcar (média de várias ervas) 
+Beterraba, s/ casca, crua 
+Biscoito, arroz 
+Brócolos, flor, cozido, drenado, s/ óleo, c/ sal 
+Brócolos, flor, refogado (c/ óleo, cebola e alho), c/ sal
+Castanha de caju, crua, s/ sal 
+Castanha do Brasil, crua 
+Cebolinha, verde, crua 
+Cenoura, s/ casca, cozida, drenada, s/ óleo, c/ sal 
+Cereais, granola, caseira 
+Chia, semente, seca 
+Chichória, crua
+Coco, água 
+Couve, manteiga, refogada (c/ óleo, cebola e alho), c/ sal 
+Cuscuz de milho, cozido, c/ sal 
+Ervilha, grão, seca, partida, cozida, drenada, s/ óleo, c/ sal 
+Espinafre, folha, refogada (c/ óleo, cebola e alho), c/ sal 
+Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal 
+Feijão, fradinho, cozido (50% grão e 50% caldo), c/ óleo, cebola e 1
+Feijão, fradinho, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal 
+Feijão, guandu, grão, seco, cozido (50% grão e 50% caldo), s/ óleo
+Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal
+Geleia, fruta (média de diferentes sabores)
+Geleia, fruta, s/ açúcar
+Geleia, s/ açúcar (média de differentes sabores)
+Grão de bico, cozido, dreando, s/ óleo, c/ sal 
+Inhame, s/ casca, cozido, drenado, s/ óleo, c/ sal 
+Leite de coco
+Lentilha, cozida, drenada, c/ óleo, cebola e alho, c/ sal 
+Linhaça, semente 
+Macarrão, trigo, c/ vegetais, c/ sal 
+Macarrão, trigo, integral, cozido, drenado, s/ óleo, c/ sal 
+Mamão, polpa, in natura 
+Mandioca (aipim, macaxeira), s/ casca, cozida, drenada, s/ óleo, c/ sal 
+Manjerona, in natura
+Maçã, c/ casca, in natura 
+Melado, de cana
+Melão, polpa, in natura 
+Milho, verde, cozido, s/ sal
+Noz, crua 
+Pera, in natura 
+Pistache, cru, s/ sal 
+Pão francês, trigo, branco, de padaria (médias de differentes amostras)
+Pão, sírio, branco 
+Quinoa, grão, cozida, s/ óleo, s/ sal 
+Repolho, roxo, cru 
+Risoto de legumes, c/ arroz polido, c/ sal 
+Rúcula, crua 
+Salada de frutas, c/ açúcar 
+Salada, alface crespa, c/ óleo de soja, c/ sal 
+Salada, legumes cozidos, c/ óleo de soja, c/ sal 
+Semente de abóbora, inteira, torrada, s/ óleo, s/ sal 
+Semente de girassol, torrada, s/ óleo, s/ sal 
+Soja, extrato, bebida (média de diferentes sabores) 
+Soja, extrato, bebida, natural (média de diferentes amostras) 
+Soja, extrato, bebida, natural (média de differentes amostras)
+Soja, leite
+Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal 
+Soja, tofu 
+Sopa, feijão, preto, c/ sal 
+Suco natural, abacaxi, s/ açúcar 
+Suco natural, goiaba, vermelha, s/ açúcar 
+Suco natural, melancia, c/ açúcar 
+Suco, laranja, s/ açúcar 
+Tahini (pasta de gergelim) 
+Tangerina, Ponkã, in natura 
+Tapioca, sem manteiga, sem recheio 
+Tofu, soja
+Tomate, in natura 
+
+--- Não encontrados nas Pegadas ---
+Abacate, polpa, in natura 
+Abobrinha, italiana, c/ casca, refogada (c/ óleo, cebola e alho), c/ sal 
+Abóbora, moranga, refogada (c/ óleo, cebolha e alho), c/ sal 
+Alface, crua 
+Amendoim, grão, cru 
+Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal 
+Arroz, polido, cozido, c/ óleo, cebola e alho, c/ sal 
+Aveia, crua (média de diferentes tipos) 
+Aveia, crua (média de differentes tipos)
+Avelã , crua, s/ sal 
+Avelã, crua, s/ sal
+Azeite de oliva, extra virgem
+Banana, da terra, assada, s/ adição de ingredientes 
+Banana, in natura 
+Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal 
+Batata, doce, s/ casca, cozida, drenada, s/ óleo, c/ sal 
+Bebida, chá, infusão, s/ açúcar (média de várias ervas) 
+Beterraba, s/ casca, crua 
+Biscoito, arroz 
+Brócolos, flor, cozido, drenado, s/ óleo, c/ sal 
+Brócolos, flor, refogado (c/ óleo, cebola e alho), c/ sal
+Castanha de caju, crua, s/ sal 
+Castanha do Brasil, crua 
+Cebolinha, verde, crua 
+Cenoura, s/ casca, cozida, drenada, s/ óleo, c/ sal 
+Cereais, granola, caseira 
+Chia, semente, seca 
+Chichória, crua
+Coco, água 
+Couve, manteiga, refogada (c/ óleo, cebola e alho), c/ sal 
+Cuscuz de milho, cozido, c/ sal 
+Ervilha, grão, seca, partida, cozida, drenada, s/ óleo, c/ sal 
+Espinafre, folha, refogada (c/ óleo, cebola e alho), c/ sal 
+Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal 
+Feijão, fradinho, cozido (50% grão e 50% caldo), c/ óleo, cebola e 1
+Feijão, fradinho, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal 
+Feijão, guandu, grão, seco, cozido (50% grão e 50% caldo), s/ óleo
+Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal
+Geleia, fruta (média de diferentes sabores)
+Geleia, fruta, s/ açúcar
+Geleia, s/ açúcar (média de differentes sabores)
+Grão de bico, cozido, dreando, s/ óleo, c/ sal 
+Inhame, s/ casca, cozido, drenado, s/ óleo, c/ sal 
+Leite de coco
+Lentilha, cozida, drenada, c/ óleo, cebola e alho, c/ sal 
+Linhaça, semente 
+Macarrão, trigo, c/ vegetais, c/ sal 
+Macarrão, trigo, integral, cozido, drenado, s/ óleo, c/ sal 
+Mamão, polpa, in natura 
+Mandioca (aipim, macaxeira), s/ casca, cozida, drenada, s/ óleo, c/ sal 
+Manjerona, in natura
+Maçã, c/ casca, in natura 
+Melado, de cana
+Melão, polpa, in natura 
+Milho, verde, cozido, s/ sal
+Noz, crua 
+Pera, in natura 
+Pistache, cru, s/ sal 
+Pão francês, trigo, branco, de padaria (médias de differentes amostras)
+Pão, sírio, branco 
+Quinoa, grão, cozida, s/ óleo, s/ sal 
+Repolho, roxo, cru 
+Risoto de legumes, c/ arroz polido, c/ sal 
+Rúcula, crua 
+Salada de frutas, c/ açúcar 
+Salada, alface crespa, c/ óleo de soja, c/ sal 
+Salada, legumes cozidos, c/ óleo de soja, c/ sal 
+Semente de abóbora, inteira, torrada, s/ óleo, s/ sal 
+Semente de girassol, torrada, s/ óleo, s/ sal 
+Soja, extrato, bebida (média de diferentes sabores) 
+Soja, extrato, bebida, natural (média de diferentes amostras) 
+Soja, extrato, bebida, natural (média de differentes amostras)
+Soja, leite
+Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal 
+Soja, tofu 
+Sopa, feijão, preto, c/ sal 
+Suco natural, abacaxi, s/ açúcar 
+Suco natural, goiaba, vermelha, s/ açúcar 
+Suco natural, melancia, c/ açúcar 
+Suco, laranja, s/ açúcar 
+Tahini (pasta de gergelim) 
+Tangerina, Ponkã, in natura 
+Tapioca, sem manteiga, sem recheio 
+Tofu, soja
+Tomate, in natura 
