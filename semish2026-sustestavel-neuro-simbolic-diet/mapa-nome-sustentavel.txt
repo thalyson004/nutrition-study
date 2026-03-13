@@ -1,0 +1,2716 @@
+Arroz, polido, cozido, c/ óleo, cebola e alho, c/ sal	101	55	0,4
+Arroz, polido, cozido, c/ óleo, cebola e alho, c/ sal	101	55	0,4
+Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal	102	55	0,4
+Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal	102	55	0,4
+Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal	102	55	0,4
+Canjica, milho, branca, cozida, drenada	61	117	0,6
+Canjica, milho, branca, cozida, drenada	61	117	0,6
+Trigo para quibe, cozido, s/ sal	33	37	0,5
+Amendoim, grão, cru	133	270	0,6
+Ervilha, grão, seca, partida, cozida, drenada, s/ óleo, c/ sal	38	32	1,0
+Fava, grão, seco, cozida, drenada, s/ óleo, c/ sal	57	212	0,2
+Orelha-de-padre, semente, seca, remolho em água, cozida, drenada, s/ óleo, c/ sal	57	212	0,2
+Feijão, fradinho, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal	40	131	0,2
+Feijão, fradinho, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal	40	131	0,2
+Linhaça, semente	63	379	0,6
+Linhaça, semente	63	379	0,6
+Feijão, guandu, grão, seco, cozido (50% grão e 50% caldo), s/ óleo, cebola e alho, c/ sal	57	146	0,2
+Grão de bico, cozido, dreando, s/ óleo, c/ sal	95	146	0,2
+Lentilha, cozida, drenada, c/ óleo, cebola e alho, c/ sal	94	149	0,2
+Soja, grão, cozido, drenado, c/ sal	34	76	0,2
+Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal	40	131	0,3
+Semente de abóbora, inteira, torrada, s/ óleo, s/ sal	63	685	0,6
+Canjica, milho, branca, cozida, drenada	61	117	0,6
+Milho, pipoca, micro-ondas, light, preparado	56	125	0,3
+Quinoa, grão, cozida, s/ óleo, s/ sal	91	198	0,3
+Chia, semente, seca	63	685	0,6
+Semente de girassol, torrada, s/ óleo, s/ sal	63	325	0,6
+Batata, inglesa, s/ casca, assada, s/ óleo, c/ sal	56	90	0,4
+Batata, inglesa, s/ casca, cozida, drenada, c/ óleo de soja, c/ sal	59	106	0,6
+Batata, inglesa, s/ casca, cozida, drenada, s/ óleo, c/ sal	53	90	0,4
+Batata, inglesa, s/ casca, cozida, drenada, s/ óleo, c/ sal	26	69	0,3
+Batata, inglesa, frita, c/ sal	57	124	0,7
+Batata, inglesa, s/ casca, cozida, drenada, c/ óleo de soja, c/ sal	61	106	0,6
+Batata, inglesa, frita, c/ sal	70	124	0,7
+Batata, inglesa, s/ casca, assada, s/ óleo, c/ sal	34	90	0,4
+Batata, inglesa, sauté (c/ margarina e salsa), c/ sal	66	92	0,7
+Batata, inglesa, s/ casca, cozida, drenada, s/ óleo, c/ sal	53	90	0,4
+Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal	60	121	0,2
+Batata, baroa (mandioquinha, batata salsa), cozida, s/ casca, drenada, c/ óleo de soja, c/ sal	59	127	0,2
+Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal	57	121	0,2
+Batata, baroa (mandioquinha, batata salsa), cozida, s/ casca, drenada, c/ óleo de soja, c/ sal	61	127	0,2
+Batata, baroa (mandioquinha, batata salsa), s/ casca, sauté (c/ margarina e salsa), c/ sal	69	122	0,5
+Batata, baroa (mandioquinha, batata salsa), cozida, s/ casca, drenada, c/ óleo de soja, c/ sal	59	127	0,2
+Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal	57	121	0,2
+Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal	29	93	0,1
+Batata, baroa (mandioquinha, batata salsa), s/ casca, sauté (c/ margarina e salsa), c/ sal	69	122	0,5
+Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal	57	121	0,2
+Batata, doce, s/ casca, assada, salsa, s/ óleo, c/ pimenta-do-reino, c/ sal	34	72	0,8
+Batata, doce, s/ casca, cozida, drenada, c/ óleo de soja, c/ sal	34	79	0,9
+Batata, doce, s/ casca, cozida, drenada, s/ óleo, c/ sal	31	72	0,8
+Batata, doce, s/ casca, cozida, drenada, s/ óleo, c/ sal	9	55	0,7
+Batata, doce, s/ casca, frita, c/ sal	49	166	1,8
+Batata, doce, s/ casca, cozida, drenada, c/ óleo de soja, c/ sal	36	79	0,9
+Batata, doce, s/ casca, frita, c/ sal	62	166	1,8
+Batata, doce, s/ casca, sauté (c/ margarina e salsa), c/ sal	45	75	1,1
+Batata, doce, s/ casca, assada, salsa, s/ óleo, c/ pimenta-do-reino, c/ sal	34	72	0,8
+Inhame, s/ casca, assado, s/ óleo, c/ sal	35	80	0,9
+Inhame, c/ casca, cozido, drenado, c/ óleo de soja, s/ sal	39	96	1,0
+Inhame, s/ casca, cozido, drenado, s/ óleo, c/ sal	32	80	0,9
+Inhame, s/ casca, cozido, drenado, s/ óleo, c/ sal	10	61	0,7
+Inhame, s/ casca, refogado (c/ óleo, cebola e alho), c/ sal	25	87	0,9
+Inhame, s/ casca, refogado (c/ óleo, cebola e alho), c/ sal	36	87	0,9
+Inhame, s/ casca, refogado (c/ óleo, cebola e alho), c/ sal	38	87	0,9
+Inhame, s/ casca, refogado (c/ óleo, cebola e alho), c/ sal	31	87	0,9
+Inhame, s/ casca, cozido, drenado, s/ óleo, c/ sal	32	80	0,9
+Mandioca, s/ casca, cozida, assada, s/ óleo, c/ sal	36	80	1,0
+Mandioca, s/ casca, cozida, c/ óleo de soja, c/ sal	40	96	1,1
+Mandioca (aipim, macaxeira), s/ casca, cozida, drenada, s/ óleo, c/ sal	33	80	1,0
+Mandioca (aipim, macaxeira), s/ casca, cozida, drenada, s/ óleo, c/ sal	11	61	0,7
+Mandioca (aipim, macaxeira), frita, c/ sal	39	115	1,2
+Mandioca, s/ casca, cozida, c/ óleo de soja, c/ sal	41	96	1,1
+Mandioca (aipim, macaxeira), frita, c/ sal	51	115	1,2
+Mandioca, s/ casca, cozida, sauté (c/ margarina e salsa), c/ sal	46	83	1,2
+Mandioca, s/ casca, cozida, c/ óleo de soja, c/ sal	40	96	1,1
+Mandioca, s/ casca, cozida, assada, s/ óleo, c/ sal	36	80	1,0
+Mandioca, s/ casca, cozida, c/ óleo de soja, c/ sal	40	96	1,1
+Mandioca (aipim, macaxeira), s/ casca, cozida, drenada, s/ óleo, c/ sal	33	80	1,0
+Mandioca (aipim, macaxeira), frita, c/ sal	39	115	1,2
+Mandioca, s/ casca, cozida, c/ óleo de soja, c/ sal	41	96	1,1
+Mandioca (aipim, macaxeira), frita, c/ sal	51	115	1,2
+Mandioca, s/ casca, cozida, sauté (c/ margarina e salsa), c/ sal	46	83	1,2
+Mandioca, s/ casca, cozida, c/ óleo de soja, c/ sal	40	96	1,1
+Mandioca, s/ casca, cozida, assada, s/ óleo, c/ sal	36	80	1,0
+Mandioca, s/ casca, cozida, c/ óleo de soja, c/ sal	40	96	1,1
+Mandioca (aipim, macaxeira), s/ casca, cozida, drenada, s/ óleo, c/ sal	33	80	1,0
+Mandioca (aipim, macaxeira), s/ casca, cozida, drenada, s/ óleo, c/ sal	11	61	0,7
+Mandioca (aipim, macaxeira), frita, c/ sal	39	115	1,2
+Mandioca (aipim, macaxeira), frita, c/ sal	51	115	1,2
+Mandioca, s/ casca, cozida, sauté (c/ margarina e salsa), c/ sal	46	83	1,2
+Mandioca, s/ casca, cozida, c/ óleo de soja, c/ sal	40	96	1,1
+Cará, cozido, drenada, s/ óleo, c/ sal	35	81	0,9
+Cará, s/ casca, cozido, drenado, c/ óleo de soja, c/ sal	39	97	1,0
+Cará, cozido, drenada, s/ óleo, c/ sal	32	81	0,9
+Cará, cozido, drenada, s/ óleo, c/ sal	10	62	0,7
+Cará, s/ casca, cozido, drenado, c/ óleo de soja, c/ sal	40	97	1,0
+Cará, refogada (c/ óleo, cebola e alho), c/ sal	38	88	0,9
+Cará, refogada (c/ óleo, cebola e alho), c/ sal	31	88	0,9
+Cará, cozido, drenada, s/ óleo, c/ sal	32	81	0,9
+Cará, cozido, drenada, s/ óleo, c/ sal	35	81	0,9
+Cará, cozido, drenada, s/ óleo, c/ sal	32	81	0,9
+Cará, cozido, drenada, s/ óleo, c/ sal	32	81	0,9
+Batata, inglesa, s/ casca, assada, s/ óleo, c/ sal	56	90	0,4
+Batata, inglesa, s/ casca, cozida, drenada, c/ óleo de soja, c/ sal	59	106	0,6
+Batata, inglesa, s/ casca, cozida, drenada, s/ óleo, c/ sal	53	90	0,4
+Batata, inglesa, s/ casca, cozida, drenada, s/ óleo, c/ sal	26	69	0,3
+Batata, inglesa, frita, c/ sal	57	124	0,7
+Batata, inglesa, s/ casca, cozida, drenada, c/ óleo de soja, c/ sal	61	106	0,6
+Batata, inglesa, frita, c/ sal	70	124	0,7
+Batata, inglesa, sauté (c/ margarina e salsa), c/ sal	66	92	0,7
+Batata, inglesa, s/ casca, cozida, drenada, s/ óleo, c/ sal	53	90	0,4
+Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal	60	121	0,2
+Batata, baroa (mandioquinha, batata salsa), cozida, s/ casca, drenada, c/ óleo de soja, c/ sal	59	127	0,2
+Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal	57	121	0,2
+Batata, baroa (mandioquinha, batata salsa), cozida, s/ casca, drenada, c/ óleo de soja, c/ sal	61	127	0,2
+Batata, baroa (mandioquinha, batata salsa), s/ casca, frita, c/ sal	103	244	0,7
+Rabanete, c/ casca, cozido, drenado, s/ óleo, c/ sal	27	104	0,1
+Rabanete, c/ casca, cru	14	103	0,1
+Rabanete, c/ casca, cru	14	103	0,1
+Beterraba, cozida, drenada, s/ óleo, c/ sal	35	97	0,1
+Salada, beterraba cozida, c/ óleo de soja, c/ sal	33	113	0,2
+Beterraba, cozida, drenada, s/ óleo, c/ sal	26	97	0,1
+Beterraba, s/ casca, crua	13	96	0,1
+Beterraba, refogada (c/ óleo, cebola e alho), c/ sal	29	103	0,1
+Beterraba, refogada (c/ óleo, cebola e alho), c/ sal	29	103	0,1
+Beterraba, refogada (c/ óleo, cebola e alho), c/ sal	29	103	0,1
+Beterraba, s/ casca, crua	13	96	0,1
+Cenoura, s/ casca, cozida, drenada, s/ óleo, c/ sal	47	79	0,1
+Cenoura, s/ casca, cozida, drenada, c/ óleo de soja, c/ sal	44	96	0,3
+Cenoura, s/ casca, cozida, drenada, s/ óleo, c/ sal	37	79	0,1
+Cenoura, s/ casca, crua	29	93	0,1
+Cenoura, s/ casca, refogada (c/ óleo, cebola e alho), c/ sal	40	86	0,1
+Cenoura, s/ casca, cozida, drenada, c/ óleo de soja, c/ sal	46	96	0,3
+Cenoura, s/ casca, cozida, drenada, s/ óleo, c/ sal	25	79	0,1
+Cenoura, s/ casca, refogada (c/ óleo, cebola e alho), c/ sal	40	86	0,1
+Cenoura, s/ casca, crua	29	93	0,1
+Nabo, s/ casca, cozido, drenado, s/ óleo, c/ sal	42	94	0,1
+Nabo, c/ casca, cru	29	93	0,1
+Açafrão, pistilo, in natura	33	816	5,0
+Gengibre, raiz, in natura	33	816	5,0
+
+Arroz, creme, cozido, s/ tempero	421	210	0,8
+Mingau, farinha de cereais, c/ leite integral	208	167	1,0
+Arroz, creme, cozido, s/ tempero	421	210	0,8
+Biscoito, arroz	155	151	1,0
+Biscoito, arroz	155	151	1,0
+Arroz, farinha, crua (média  de diferentes marcas)	73	456	1,0
+Aveia, crua (média de diferentes tipos)	73	456	1,0
+Milho, polenta/fubá, cozido, c/ sal	45	92	0,4
+Mingau, de amido de milho (maisena)	126	133	0,8
+Mingau, de amido de milho (maisena)	126	133	0,8
+Mingau, de amido de milho (maisena)	126	133	0,8
+Mingau, farinha de cereais, c/ leite integral	174	146	0,9
+Mingau, de amido de milho (maisena)	130	129	0,8
+Cuscuz de milho, cozido, c/ sal	426	252	1,5
+Mingau, de amido de milho (maisena)	126	133	0,8
+Cereal matinal (média de diferentes marcas)	290	177	1,0
+Cereal matinal (média de diferentes marcas)	290	177	1,0
+Trigo, farelo	73	456	1,0
+Trigo, farelo	73	456	1,0
+Trigo, farelo	73	456	1,0
+Mandioca, farinha, crua	59	165	0,9
+Mandioca, farinha, crua	59	165	0,9
+Mandioca, farinha, crua	59	165	0,9
+Mandioca, farinha, crua	59	165	0,9
+Sagu, mandioca, preparado c/ vinho tinto, c/ açúcar	28	50	0,3
+Tapioca, sem manteiga, sem recheio	49	154	0,7
+Cereais, farinha, láctea	290	177	1,0
+Cereais, farinha	290	177	1,0
+Cereal matinal, milho	290	177	1,0
+Aveia, crua (média de diferentes tipos)	73	456	1,0
+Trigo para quibe, cozido, s/ sal	33	37	0,5
+Soja, farinha, c/ casca, desengordurada	324	226	0,5
+Pastel, frito, caseiro (média de diferentes recheios)	1561	1026	6,2
+Macarrão, trigo, c/ ovos, c/ alho e óleo, c/ sal	89	105	0,6
+Macarrão, trigo, cozido, drenado, s/ óleo, c/ sal	72	75	0,5
+Macarrão, trigo, c/ ovos, c/ alho e óleo, c/ sal	85	105	0,6
+Macarrão, trigo, c/ ovos, c/ alho e óleo, c/ sal	85	105	0,6
+Macarrão, trigo, cozido, drenado, s/ óleo, c/ sal	72	75	0,5
+Purê, batata, inglesa, c/ sal	74	104	0,6
+Purê de abóbora	34	80	0,2
+Inhame, s/ casca, refogado (c/ óleo, cebola e alho), c/ sal	31	87	0,9
+Mandioca, s/ casca, cozida, c/ óleo de soja, c/ sal	40	96	1,1
+Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal	103	92	0,2
+Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal	99	92	0,2
+Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal	90	92	0,2
+Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal	103	92	0,2
+Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal	103	92	0,2
+Amendoim, torrado, c/ sal	133	270	0,6
+Cereais, granola, caseira	241	694	1,3
+Cereais, granola, caseira	241	694	1,3
+Macarrão, trigo, intantâneo, c/ tempero, cozido, drenado (preparado conforme a embalagem)	69	75	0,5
+Macarrão, trigo, intantâneo, c/ tempero, cozido, drenado (preparado conforme a embalagem)	69	75	0,5
+Suplemento nutricional, Sustagen	79	1154	5,8
+Suplemento nutricional, Sustagen	79	1154	5,8
+Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal	103	92	0,2
+Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal	103	92	0,2
+Cereais, farinha, p/ crianças (média de diferentes sabores)	79	1154	5,8
+Macarrão, trigo, intantâneo, c/ tempero, cozido, drenado (preparado conforme a embalagem)	69	75	0,5
+Macarrão, c/ molho bolonhesa, c/ sal	428	272	1,7
+Macarrão, trigo, c/ ovos, c/ peixe, água doce, refogado (c/ óleo, cebola e alho), c/ sal	275	43	18,5
+Macarrão, trigo, c/ vegetais, c/ sal	137	79	0,4
+Macarrão, trigo, c/ vegetais, c/ sal	137	79	0,4
+Macarrão, trigo, c/ vegetais, c/ sal	137	79	0,4
+Macarrão, trigo, integral, cozido, drenado, s/ óleo, c/ sal	72	75	0,5
+Macarrão, trigo, cozido, drenado, s/ óleo, c/ sal	72	75	0,5
+Macarrão, trigo, cozido, drenado, s/ óleo, c/ sal	72	75	0,5
+Suplemento, à base de proteina, em pó	79	1154	5,8
+Suplemento nutricional, Sustagen	79	1154	5,8
+
+Coco, polpa, in natura	1782	892	4,7
+Coco, polpa, in natura	1782	892	4,7
+Coco, polpa, in natura	1782	892	4,7
+Pinhão, cozido, s/ sal	405	1912	3,4
+Pinhão, cozido, s/ sal	405	1912	3,4
+Amêndoa, torrada, c/ sal	471	1912	3,4
+Avelã , crua, s/ sal	405	1912	3,4
+Castanha do Brasil, crua	327	1600	0,9
+Castanha do Brasil, crua	327	1600	0,9
+Castanha do Brasil, crua	327	1600	0,9
+Castanha de caju, crua, s/ sal	327	5907	0,9
+Coco, polpa, in natura	1782	892	4,7
+Pupunha, fruto, cozido, s/ sal	1782	892	4,7
+Coco, polpa, in natura	1782	892	4,7
+Coco, polpa, in natura	1782	892	4,7
+Tucumã, in natura	1782	892	4,7
+Macaúba, raw	1782	892	4,7
+Noz, crua	288	1912	3,4
+Açaí, polpa (média de amostras)	185	93	0,5
+Açaí, polpa (média de amostras)	185	93	0,5
+Pupunha, fruto, cozido, s/ sal	1782	892	4,7
+Pupunha, fruto, cozido, s/ sal	1782	892	4,7
+Tucumã, in natura	1782	892	4,7
+Pinhão, cozido, s/ sal	405	1912	3,4
+Pistache, cru, s/ sal	580	1642	2,9
+Pupunha, fruto, cozido, s/ sal	1782	892	4,7
+Coco, polpa, in natura	1782	892	4,7
+Caju, castanha, torrada, c/ sal	327	5907	0,9
+Caju, castanha, torrada, c/ sal	327	5907	0,9
+Pupunha, fruto, cozido, s/ sal	1782	892	4,7
+Noz, crua	288	1912	3,4
+Tahini (pasta de gergelim)	205	447	6,6
+
+Alface, crua	63	51	0,3
+Salada, alface crespa, c/ óleo de soja, c/ sal	60	68	0,4
+Alface, crua	54	51	0,3
+Alface, crua	41	51	0,3
+Salada, alface crespa, c/ óleo de soja, c/ sal	60	68	0,4
+Salada, alface crespa, c/ óleo de soja, c/ sal	61	68	0,4
+Salada, alface crespa, c/ óleo de soja, c/ sal	60	68	0,4
+Salada, alface crespa, c/ óleo de soja, c/ sal	60	68	0,4
+Alface, crua	41	51	0,3
+Espinafre, folha, refogada (c/ óleo, cebola e alho), c/ sal	38	99	0,2
+Chicória, refogada (c/ óleo, cebola e alho), c/ sal	52	55	0,3
+Chicória, cozida, drenada, s/ óleo, c/ sal	51	47	0,2
+Chicória, crua	39	48	0,2
+Chicória, refogada (c/ óleo, cebola e alho), c/ sal	52	55	0,3
+Chicória, crua	39	48	0,2
+Chicória, refogada (c/ óleo, cebola e alho), c/ sal	52	55	0,3
+Chicória, cozida, drenada, s/ óleo, c/ sal	51	47	0,2
+Chicória, crua	39	48	0,2
+Chicória, refogada (c/ óleo, cebola e alho), c/ sal	52	55	0,3
+Chicória, crua	39	48	0,2
+Chicória, refogada (c/ óleo, cebola e alho), c/ sal	52	55	0,3
+Chicória, crua	39	48	0,2
+Couve, cozida, drenada, s/ óleo, c/ sal	71	111	0,2
+Couve, cozida, drenada, c/ óleo de soja, c/ sal	64	118	0,3
+Couve, cozida, drenada, s/ óleo, c/ sal	61	111	0,2
+Couve, crua	49	112	0,2
+Couve, manteiga, refogada (c/ óleo, cebola e alho), c/ sal	62	117	0,2
+Couve, cozida, drenada, c/ óleo de soja, c/ sal	65	118	0,3
+Couve, manteiga, refogada (c/ óleo, cebola e alho), c/ sal	62	117	0,2
+Couve, manteiga, refogada (c/ óleo, cebola e alho), c/ sal	62	117	0,2
+Couve, crua	49	112	0,2
+Salada, couve-flor, cozida, c/ óleo de soja, c/ sal	56	111	0,3
+Couve-flor, cozida, drenada, s/ óleo, c/ sal	49	95	0,1
+Couve-flor, cozida, drenada, s/ óleo, c/ sal	38	98	0,1
+Couve-for, à milanesa (farinha de trigo, ovo e farinha de rosca), frita em imersão, c/ sal	101	146	0,7
+Couve-flor, cozida, drenada, s/ óleo, c/ sal	37	95	0,1
+Couve-for, à milanesa (farinha de trigo, ovo e farinha de rosca), frita em imersão, c/ sal	101	146	0,7
+Couve-flor, cozida, drenada, s/ óleo, c/ sal	49	95	0,1
+Espinafre, folha, cozida, drenado, s/ óleo, c/ sal	36	93	0,2
+Espinafre, folha, cru	23	93	0,2
+Espinafre, folha, refogada (c/ óleo, cebola e alho), c/ sal	38	99	0,2
+Espinafre, folha, refogada (c/ óleo, cebola e alho), c/ sal	38	99	0,2
+Mostarda, cozida, drenada, c/ óleo de soja, c/ sal	42	97	0,2
+Mostarda, folha, crua	27	93	0,1
+Mostarda, folha, refogada (c/ óleo, cebola e alho), c/ sal	41	96	0,2
+Mostarda, folha, crua	27	93	0,1
+Repolho, branco, cozido, drenado, c/ óleo de soja, c/ sal	28	94	0,2
+Repolho, branco, cozido, drenado, s/ óleo, c/ sal	24	88	0,1
+Repolho, cru	13	96	0,1
+Repolho, branco, refogado (c/ óleo, cebola e alho), c/ sal	27	94	0,2
+Repolho, branco, cozido, drenado, c/ óleo de soja, c/ sal	29	94	0,2
+Repolho, branco, refogado (c/ óleo, cebola e alho), c/ sal	27	94	0,2
+Repolho, branco, refogado (c/ óleo, cebola e alho), c/ sal	27	94	0,2
+Repolho, cru	13	96	0,1
+Repolho, roxo, cozido, drenado, s/ óleo, c/ sal	38	88	0,1
+Repolho, roxo, cru	28	96	0,1
+Repolho, roxo, refogado (c/ óleo, cebola e alho), c/ sal	40	94	0,2
+Repolho, branco, cozido, drenado, c/ óleo de soja, c/ sal	28	94	0,2
+Repolho, branco, cozido, drenado, s/ óleo, c/ sal	24	88	0,1
+Repolho, cru	13	96	0,1
+Repolho, branco, cozido, drenado, c/ óleo de soja, c/ sal	29	94	0,2
+Repolho, branco, refogado (c/ óleo, cebola e alho), c/ sal	27	94	0,2
+Cebolinha, verde, cozida, s/ óleo, c/ sal	36	179	0,1
+Cebolinha, verde, cozida, s/ óleo, c/ sal	36	179	0,1
+Cebolinha, verde, crua	23	176	0,1
+Cebolinha, verde, cozida, s/ óleo, c/ sal	33	179	0,1
+Cebolinha, verde, cozida, s/ óleo, c/ sal	33	179	0,1
+Cebolinha, verde, crua	23	176	0,1
+Agrião, cozido, drenado, c/ óleo de soja, c/ sal	49	123	0,3
+Agrião, cru	35	121	0,2
+Agrião, cozido, drenado, c/ óleo de soja, c/ sal	49	123	0,3
+Agrião, cru	35	121	0,2
+Taioba, folha, refogada (c/ óleo, cebolha e alho), c/ sal	26	75	0,8
+Taioba, folha, cozida, drenada, s/ óleo, c/ sal	23	68	0,8
+Taioba, folha, crua	11	68	0,8
+Taioba, folha, refogada (c/ óleo, cebolha e alho), c/ sal	26	75	0,8
+Taioba, folha, crua	11	68	0,8
+Acelga, cozida, drenada, s/ óleo, c/ sal	49	45	0,2
+Acelga, crua	37	46	0,2
+Acelga, refogada, (c/ óleo, cebola e alho), c/ sal	51	53	0,2
+Acelga, refogada, (c/ óleo, cebola e alho), c/ sal	51	53	0,2
+Acelga, crua	37	46	0,2
+Acelga, crua	37	46	0,2
+Almeirão, refogado (c/ óleo, cebola e alho), c/ sal	52	55	0,3
+Almeirão, cozido, drenado, s/ óleo, c/ sal	51	47	0,2
+Almeirão, cru	39	48	0,2
+Almeirão, refogado (c/ óleo, cebola e alho), c/ sal	52	55	0,3
+Almeirão, cru	39	48	0,2
+Almeirão, refogado (c/ óleo, cebola e alho), c/ sal	52	55	0,3
+Almeirão, cozido, drenado, s/ óleo, c/ sal	51	47	0,2
+Almeirão, cru	39	48	0,2
+Almeirão, refogado (c/ óleo, cebola e alho), c/ sal	52	55	0,3
+Almeirão, cru	39	48	0,2
+Brócolos, flor, cozido, drenado, s/ óleo, c/ sal	63	86	0,2
+Salada, brócolis, cozido, c/ óleo de soja, c/ sal	59	102	0,3
+Brócolos, flor, cozido, drenado, s/ óleo, c/ sal	53	86	0,2
+Brócolos, flor, cozido, drenado, s/ óleo, c/ sal	42	89	0,2
+Brócolis, flor, à milanesa (farinha de trigo, ovo e farinha de rosca), frita em imersão, c/ sal	103	139	0,7
+Brócolis, flor, à milanesa (farinha de trigo, ovo e farinha de rosca), frita em imersão, c/ sal	106	139	0,7
+Brócolos, flor, cozido, drenado, s/ óleo, c/ sal	41	86	0,2
+Brócolis, flor, refogado (c/ óleo, cebola e alho), c/ sal	55	93	0,2
+Brócolos, flor, cozido, drenado, s/ óleo, c/ sal	53	86	0,2
+Serralha, folha, refogada (c/ óleo, cebola e alho), c/ sal	40	93	0,2
+Serralha, folha, crua	26	89	0,1
+Serralha, folha, refogada (c/ óleo, cebola e alho), c/ sal	40	93	0,2
+Caruru, cozido, drenado, s/ óleo, c/ sal	40	93	0,1
+Caruru, cozido, drenado, s/ óleo, c/ sal	40	93	0,1
+Couve, cozida, drenada, c/ óleo de soja, c/ sal	64	118	0,3
+Couve, cozida, drenada, s/ óleo, c/ sal	61	111	0,2
+Couve, manteiga, refogada (c/ óleo, cebola e alho), c/ sal	62	117	0,2
+Couve, cozida, drenada, s/ óleo, c/ sal	61	111	0,2
+Couve, cozida, drenada, c/ óleo de soja, c/ sal	64	118	0,3
+Couve, cozida, drenada, s/ óleo, c/ sal	61	111	0,2
+Couve, crua	49	112	0,2
+Lingua de vaca, in natura	28	97	0,2
+Rúcula, cozida, s/ óleo, c/ sal	47	117	0,2
+Rúcula, crua	35	121	0,2
+Rúcula, refogada (c/ óleo, cebola e alho), c/ sal	48	122	0,2
+Rúcula, crua	35	121	0,2
+Jambu, in natura	26	90	0,1
+Jambu, in natura	32	90	0,1
+Jambu, in natura	26	90	0,1
+Lingua de vaca, cozida, s/ óleo, s/ sal	43	117	0,2
+Caruru, cozido, drenado, s/ óleo, c/ sal	40	93	0,1
+Caruru, cozido, drenado, s/ óleo, c/ sal	40	93	0,1
+Aipo (salsão), cozido, drenado, s/ óleo, c/ sal	53	50	0,2
+Acelga, crua	37	46	0,2
+Acelga, refogada, (c/ óleo, cebola e alho), c/ sal	51	53	0,2
+Couve, crua	49	112	0,2
+Feijão, broto, cozido, drenado, s/ óleo, c/ sal	34	331	0,5
+Feijão, broto, cozido, drenado, s/ óleo, c/ sal	34	331	0,5
+Feijão, broto, cru	21	326	0,5
+Abóbora, moranga, s/ casca, s/ semente, assada, s/ óleo, c/ sal	69	81	0,2
+Abóbora, moranga, s/ casca, s/ semente, cozida, drenada, c/ óleo de soja, c/ sal	62	88	0,2
+Abóbora, moranga, s/ casca, s/ semente, cozida, drenada, s/ óleo, c/ sal	60	81	0,2
+Abóbora, moranga, refogada (c/ óleo, cebolha e alho), c/ sal	61	88	0,2
+Abóbora, moranga, s/ casca, s/ semente, cozida, drenada, c/ óleo de soja, c/ sal	63	88	0,2
+Abóbora, moranga, refogada (c/ óleo, cebolha e alho), c/ sal	61	88	0,2
+Abóbora, moranga, refogada (c/ óleo, cebolha e alho), c/ sal	61	88	0,2
+Abóbora, moranga, s/ casca, s/ semente, cozida, drenada, s/ óleo, c/ sal	60	81	0,2
+Abobrinha, italiana, c/ casca, grelhada, s/ gordura, c/ sal	44	105	0,2
+Abobrinha, italiana, c/ casca, cozida, drenada, c/ óleo de soja, c/ sal	38	112	0,3
+Abobrinha, italiana, c/ casca, cozida, drenada, s/ óleo, c/ sal	35	105	0,2
+Abobrinha, italiana, c/ casca, crua	22	104	0,2
+Abobrinha, italiana, c/ casca, à milanesa (farinha de trigo, ovo e farinha de rosca), frita em imersão, c/ sal	100	202	0,8
+Abobrinha, italiana, c/ casca, cozida, drenada, c/ óleo de soja, c/ sal	39	112	0,3
+Abobrinha, italiana, c/ casca, à milanesa (farinha de trigo, ovo e farinha de rosca), frita em imersão, c/ sal	103	202	0,8
+Abobrinha, italiana, c/ casca, grelhada, s/ gordura, c/ sal	22	105	0,2
+Abobrinha, italiana, c/ casca, refogada (c/ óleo, cebola e alho), c/ sal	37	111	0,2
+Abobrinha, italiana, c/ casca, cozida, drenada, s/ óleo, c/ sal	35	105	0,2
+Abobrinha, italiana, c/ casca, cozida, drenada, c/ óleo de soja, c/ sal	38	112	0,3
+Abobrinha, italiana, c/ casca, refogada (c/ óleo, cebola e alho), c/ sal	37	111	0,2
+Abóbora, moranga, s/ casca, s/ semente, cozida, drenada, c/ óleo de soja, c/ sal	62	88	0,2
+Abóbora, pescoço, s/ casca, s/ semente, cozida, drenada, s/ óleo, c/ sal	47	81	0,2
+Abóbora, moranga, refogada (c/ óleo, cebolha e alho), c/ sal	62	88	0,2
+Abóbora, pescoço, s/ casca, s/ semente, cozida, drenada, s/ óleo, c/ sal	47	81	0,2
+Abóbora, moranga, s/ casca, s/ semente, assada, s/ óleo, c/ sal	69	81	0,2
+Abóbora, moranga, s/ casca, s/ semente, cozida, drenada, c/ óleo de soja, c/ sal	62	88	0,2
+Abóbora, moranga, s/ casca, s/ semente, cozida, drenada, s/ óleo, c/ sal	60	81	0,2
+Abóbora, moranga, s/ casca, s/ semente, cozida, drenada, s/ óleo, c/ sal	61	106	0,2
+Abóbora, moranga, refogada (c/ óleo, cebolha e alho), c/ sal	61	88	0,2
+Abóbora, moranga, s/ casca, s/ semente, cozida, drenada, c/ óleo de soja, c/ sal	63	88	0,2
+Abóbora, moranga, refogada (c/ óleo, cebolha e alho), c/ sal	61	88	0,2
+Abóbora, moranga, refogada (c/ óleo, cebolha e alho), c/ sal	61	88	0,2
+Abóbora, moranga, s/ casca, s/ semente, cozida, drenada, s/ óleo, c/ sal	60	81	0,2
+Pepino, c/ casca, cru	57	107	0,4
+Pepino, c/ casca, cru	43	106	0,4
+Salada, pepino, c/ óleo de soja, c/ sal	62	122	0,5
+Salada, pepino, c/ óleo de soja, c/ sal	62	122	0,5
+Pepino, c/ casca, cru	43	106	0,4
+Chuchu, s/ casca, cozido, drenado, c/ óleo de soja, c/ sal	81	163	0,4
+Chuchu, s/ casca, cozido, drenado, s/ óleo, c/ sal	79	157	0,3
+Chuchu, s/ casca, cozido, drenado, s/ óleo, c/ sal	46	110	0,2
+Chuchu, s/ casca, cozido, drenado, c/ óleo de soja, c/ sal	82	163	0,4
+Chuchu, s/ casca, refogado (c/ óleo, cebola e alho), c/ sal	79	161	0,3
+Chuchu, s/ casca, cozido, drenado, s/ óleo, c/ sal	66	157	0,3
+Chuchu, s/ casca, refogado (c/ óleo, cebola e alho), c/ sal	79	161	0,3
+Chuchu, s/ casca, cozido, drenado, s/ óleo, c/ sal	79	157	0,3
+Chuchu, s/ casca, cozido, c/ molho branco (farinha de trigo, manteiga e leite), gratinado, c/ queijo parmesão, c/ sal	159	185	0,9
+Chuchu, s/ casca, cozido, c/ molho branco (farinha de trigo, manteiga e leite), gratinado, c/ queijo parmesão, c/ sal	159	185	0,9
+Jiló, c/ casca, cozido, drenado, c/ óleo de soja, c/ sal	55	101	0,2
+Jiló, c/ casca, cozido, drenado, s/ óleo,  c/ sal	52	94	0,2
+Jiló, c/ casca, cozido, drenado, s/ óleo,  c/ sal	39	93	0,2
+Jiló, c/ casca, frito, c/ sal	106	229	1,2
+Jiló, c/ casca, cozido, drenado, c/ óleo de soja, c/ sal	56	101	0,2
+Jiló, c/ casca, frito, c/ sal	106	229	1,2
+Jiló, c/ casca, refogado (c/ óleo, cebola e alho), c/ sal	54	101	0,2
+Jiló, c/ casca, cozido, drenado, s/ óleo,  c/ sal	52	94	0,2
+Maxixe, c/ casca, cozido, drenado, c/ óleo de soja, c/ sal	60	114	0,3
+Maxixe, c/ casca, cozido, drenado, s/ óleo, c/ sal	58	107	0,2
+Maxixe, madure, c/ casca, cru	44	106	0,2
+Maxixe, c/ casca, cozido, drenado, c/ óleo de soja, c/ sal	62	114	0,3
+Maxixe, c/ casca, refogado (c/ óleo, cebola e alho), c/ sal	59	113	0,2
+Maxixe, c/ casca, cozido, drenado, s/ óleo, c/ sal	58	107	0,2
+Maxixe, madure, c/ casca, cru	44	106	0,2
+Salada, palmito, c/ óleo de soja, c/ sal	105	252	0,7
+Palmito, conversa, drenado (média de variedades - Pupunha e Juçara)	101	244	0,5
+Palmito, conversa, drenado (média de variedades - Pupunha e Juçara)	87	240	0,5
+Salada, palmito, c/ óleo de soja, c/ sal	106	252	0,7
+Palmito, conversa, drenado (média de variedades - Pupunha e Juçara)	89	244	0,5
+Salada, palmito, c/ óleo de soja, c/ sal	105	252	0,7
+Palmito, conversa, drenado (média de variedades - Pupunha e Juçara)	87	240	0,5
+Salada, palmito, c/ óleo de soja, c/ sal	105	252	0,7
+Palmito, conversa, drenado (média de variedades - Pupunha e Juçara)	101	244	0,5
+Salada, palmito, c/ óleo de soja, c/ sal	106	252	0,7
+Salada, palmito, c/ óleo de soja, c/ sal	105	252	0,7
+Palmito, conversa, drenado (média de variedades - Pupunha e Juçara)	87	240	0,5
+Salada, palmito, c/ óleo de soja, c/ sal	105	252	0,7
+Palmito, conversa, drenado (média de variedades - Pupunha e Juçara)	87	240	0,5
+Salada, palmito, c/ óleo de soja, c/ sal	105	252	0,7
+Pimentão, assado, c/ sal	63	97	0,2
+Pimentão, refogado, c/ sal	55	103	0,2
+Pimentão, cozido, drenado, c/ sal	54	97	0,2
+Pimentão, cru	40	96	0,2
+Pimentão, refogado, c/ sal	56	103	0,2
+Pimentão, refogado, c/ sal	55	103	0,2
+Pimentão, assado, c/ sal	41	97	0,2
+Pimentão, refogado, c/ sal	55	103	0,2
+Pimentão, cru	40	96	0,2
+Pimenta, vermelha, caiena, in natura	33	184	5,0
+Pimenta, vermelha, caiena, in natura	46	184	5,0
+Pimenta, vermelha, caiena, in natura	43	184	5,0
+Pimenta, vermelha, caiena, in natura	43	184	5,0
+Pimenta, vermelha, caiena, in natura	33	184	5,0
+Quiabo, c/ casca, cozido, drenado, c/ óleo de soja, c/ sal	56	104	0,3
+Quiabo, c/ casca, cozido, drenado, s/ óleo, c/ sal	54	98	0,2
+Quiabo, c/ casca, cozido, drenado, s/ óleo, c/ sal	40	96	0,2
+Quiabo, c/ casca, cozido, drenado, c/ óleo de soja, c/ sal	58	104	0,3
+Quiabo, c/ casca, refogado (c/ óleo, cebola e alho), c/ sal	55	104	0,2
+Quiabo, c/ casca, refogado (c/ óleo, cebola e alho), c/ sal	55	104	0,2
+Quiabo, c/ casca, cozido, drenado, s/ óleo, c/ sal	54	98	0,2
+Tomate, maduro, assado, s/ óleo, c/ sal	104	9	0,1
+Tomate, refogado (c/ óleo de soja, cebola e alho), c/ sal	94	19	0,1
+Tomate, maduro, cozido, s/ óleo, c/ sal	95	9	0,1
+Tomate, in natura	82	9	0,1
+Tomate, refogado (c/ óleo de soja, cebola e alho), c/ sal	94	19	0,1
+Tomate, refogado (c/ óleo de soja, cebola e alho), c/ sal	96	19	0,1
+Tomate, refogado (c/ óleo de soja, cebola e alho), c/ sal	94	19	0,1
+Tomate, refogado (c/ óleo de soja, cebola e alho), c/ sal	94	19	0,1
+Tomate, in natura	82	9	0,1
+Vagem, cozida, drenada, s/ óleo, c/ sal (média de diferentes amostras)	79	95	2,9
+Vagem, cozida, drenada, c/ óleo de soja, c/ sal	72	101	3,0
+Vagem, cozida, drenada, s/ óleo, c/ sal (média de diferentes amostras)	70	95	2,9
+Vagem, cozida, drenada, s/ óleo, c/ sal (média de diferentes amostras)	56	93	2,9
+Vagem, cozida, drenada, c/ óleo de soja, c/ sal	73	101	3,0
+Vagem, refogada (c/ óleo, cebola e alho), c/ sal	70	101	2,9
+Vagem, refogada (c/ óleo, cebola e alho), c/ sal	70	101	2,9
+Vagem, cozida, drenada, s/ óleo, c/ sal (média de diferentes amostras)	70	95	2,9
+Cogumelo, Paris, cozido, drenado, s/ óleo, c/ sal	61	81	0,1
+Cogumelo, Paris, cozido, c/ salsa, pimenta-do-reino, c/ manteiga, c/ sal	119	107	0,9
+Cogumelo, Paris, cozido, c/ salsa, pimenta-do-reino, c/ manteiga, c/ sal	119	107	0,9
+Champignon, Paris, cru	48	80	0,1
+Berinjela, c/ casca, grelhada, s/ gordura, c/ sal	81	141	0,3
+Beringela, c/ casca, cozida, drenada, c/ óleo de soja, c/ sal	74	147	0,3
+Beringela, c/ casca, cozida, drenada, s/ óleo, c/ sal	72	141	0,3
+Berinjela, c/ casca, crua	41	97	0,2
+Beringela, c/ casca, à milanesa (farinha de trigo, ovo e farinha de rosca), frita em imersão, c/ sal	150	258	0,9
+Beringela, c/ casca, cozida, drenada, c/ óleo de soja, c/ sal	76	147	0,3
+Beringela, c/ casca, à milanesa (farinha de trigo, ovo e farinha de rosca), frita em imersão, c/ sal	154	258	0,9
+Berinjela, c/ casca, grelhada, s/ gordura, c/ sal	59	141	0,3
+Berinjela, refogada (c/ óleo, cebola e alho), c/ sal	73	146	0,3
+Beringela, c/ casca, cozida, drenada, s/ óleo, c/ sal	72	141	0,3
+Ervilha, em vagem, fresca, cozida, drenada, s/ óleo, c/ sal	64	85	2,6
+Ervilha, em vagem, fresca, cozida, drenada, s/ óleo, c/ sal	50	83	2,6
+Ervilha, em vagem, refogada (c/ óleo, cebola e alho), c/ sal	65	91	2,6
+Abobrinha, italiana, c/ casca, cozida, drenada, c/ óleo de soja, c/ sal	38	112	0,3
+Cebola, branca, assada, s/ óleo, c/ sal	46	52	0,1
+Cebola, branca, refogada, c/ óleo de soja, c/ sal	64	61	0,2
+Cebola, branca, cozida, s/ óleo, c/ sal	36	52	0,1
+Cebola, branca, crua	23	52	0,1
+Cebola, branca, refogada, c/ óleo de soja, c/ sal	57	61	0,2
+Cebola, branca, refogada, c/ óleo de soja, c/ sal	65	61	0,2
+Cebola, branca, refogada, c/ óleo de soja, c/ sal	57	61	0,2
+Cebola, branca, assada, s/ óleo, c/ sal	24	52	0,1
+Cebola, branca, refogada, c/ óleo de soja, c/ sal	57	61	0,2
+Cebola, branca, crua	23	52	0,1
+Cebola, branca, crua	23	52	0,1
+Cebolinha, verde, cozida, s/ óleo, c/ sal	33	179	0,1
+Legumes, seleta, enlatada, drenada	173	226	0,5
+Legumes, seleta, enlatada, drenada	186	226	0,5
+Legumes, seleta, enlatada, drenada	173	226	0,5
+Alho, refogado c/ óleo de soja, s/ sal	65	325	0,2
+Alho, cru	24	324	0,1
+Alho, refogado c/ óleo de soja, s/ sal	59	325	0,2
+Alho, refogado c/ óleo de soja, s/ sal	59	325	0,2
+Alho, cru	24	324	0,1
+Alho-poró, cru	26	200	0,2
+Broto de alfafa, s/ óleo, c/ sal	148	372	0,5
+Broto de alfafa, in natura	140	385	0,5
+Broto de alfafa, c/ óleo de soja, c/ sal	150	375	0,7
+Salsa, cozida, drenada, s/ óleo, s/ sal	62	50	0,2
+Salsa, crua	42	51	0,2
+Salsa, cozida, drenada, s/ óleo, s/ sal	50	50	0,2
+Orégano, seco	34	42	0,2
+Aspargo, cozido, s/ óleo, c/ sal	34	81	0,1
+Aspargo, cozido, s/ óleo, c/ sal	44	81	0,1
+Aspargo, cozido, s/ óleo, c/ sal	47	81	0,1
+Couve, crua	49	112	0,2
+Couve, cozida, drenada, s/ óleo, c/ sal	61	111	0,2
+Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal	109	92	0,2
+Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal	109	92	0,2
+Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal	231	225	0,5
+Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal	103	92	0,2
+Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal	103	92	0,2
+Repolho, cru	13	96	0,1
+Salada de legumes, cozidos no vapor	109	89	0,7
+Legumes refogados, c/ sal	112	88	0,3
+Alcaparra, conserva	173	226	0,5
+Alcaparra, conserva	176	229	0,5
+Nori, alga, seca	74	316	0,6
+Nori, alga, seca	71	316	0,6
+
+Banana, da terra, assada, s/ adição de ingredientes	145	146	0,7
+Banana, da terra, in natura	139	146	0,7
+Banana, da terra, assada, s/ adição de ingredientes	155	146	0,7
+Banana, da terra, in natura	139	146	0,7
+Banana, da terra, assada, s/ adição de ingredientes	155	146	0,7
+Banana, da terra, assada, s/ adição de ingredientes	145	146	0,7
+Banana, da terra, assada, s/ adição de ingredientes	145	146	0,7
+Banana, da terra, assada, s/ adição de ingredientes	139	146	0,7
+Banana, da terra, à milanesa (farinha de trigo, ovo e farinha de rosca), frita em imersão, s/ açúcar	200	229	1,3
+Banana, da terra, assada, s/ adição de ingredientes	139	146	0,7
+Banana, da terra, frita, c/ óleo de soja	190	212	1,2
+Banana, da terra, assada, s/ adição de ingredientes	139	146	0,7
+Banana, da terra, assada, s/ adição de ingredientes	145	146	0,7
+Banana, da terra, assada, s/ adição de ingredientes	155	146	0,7
+Banana, da terra, assada, s/ adição de ingredientes	155	146	0,7
+Banana, da terra, assada, s/ adição de ingredientes	145	146	0,7
+Banana, da terra, assada, s/ adição de ingredientes	145	146	0,7
+Banana, da terra, assada, s/ adição de ingredientes	139	146	0,7
+Banana, da terra, frita, c/ óleo de soja	190	212	1,2
+Banana, da terra, assada, s/ adição de ingredientes	155	146	0,7
+Banana, in natura	139	146	0,7
+Laranja, in natura	40	62	0,8
+Laranja, Lima, in natura	12	84	0,8
+Limão, cravo, in natura	18	118	1,1
+Tangerina, Ponkã, in natura	78	73	0,7
+Tangerina, Ponkã, in natura	78	73	0,7
+Tangerina, Ponkã, in natura	78	73	0,7
+Tangerina, Ponkã, in natura	78	73	0,7
+Tangerina, Ponkã, in natura	78	73	0,7
+Tangerina, Ponkã, in natura	78	73	0,7
+Laranja, in natura	40	62	0,8
+Laranja, in natura	40	62	0,8
+Cana, caldo (garapa)	98	18	0,5
+Abacaxi, cozida, caramelada	57	36	0,7
+Abacaxi, cozida, caramelada	47	36	0,7
+Abacaxi, cozida, caramelada	47	36	0,7
+Abacaxi, polpa, in natura	40	25	0,8
+Abacaxi, cozida, caramelada	41	36	0,7
+Abacaxi, polpa, in natura	40	25	0,8
+Abacate, polpa, in natura	51	145	0,7
+Caqui, in natura	66	443	0,5
+Figo, in natura	27	137	0,6
+Maçã, c/ casca, in natura	44	20	0,1
+Maçã, c/ casca, in natura	33	20	0,1
+Maçã, c/ casca, in natura	27	20	0,1
+Maçã, c/ casca, in natura	27	20	0,1
+Maçã, c/ casca, in natura	33	20	0,1
+Maçã, c/ casca, in natura	27	20	0,1
+Mamão, polpa, in natura	100	34	0,7
+Mamão, Papaia, polpa, in natura	100	34	0,7
+Manga, polpa, in natura	15	155	0,8
+Maracujá, amarelo, polpa, in natura	25	804	0,8
+Melancia, polpa, in natura	121	38	0,8
+Melão, polpa, in natura	101	27	0,7
+Pera, in natura	14	129	0,2
+Pera, in natura	14	129	0,2
+Pêssego, in natura	43	156	0,7
+Pinha, in natura	120	804	0,8
+Pinha, in natura	120	804	0,8
+Pinha, in natura	120	804	0,8
+Uva, in natura	24	44	0,6
+Uva, passa, preta	85	175	0,6
+Cacau, in natura	90	600	0,6
+Jaca, crua	103	688	0,7
+Goiaba, inteira, in natura	10	106	0,6
+Goiaba, inteira, in natura	10	106	0,6
+Ameixa, in natura	42	156	0,3
+Caqui, polpa, in natura	163	443	0,5
+Cereja, in natura	40	157	0,6
+Cajá-Manga, in natura	66	443	0,5
+Cajá-Manga, in natura	66	443	0,5
+Cajá-Manga, in natura	66	443	0,5
+Cajá-Manga, in natura	66	443	0,5
+Carambola, in natura	66	443	0,5
+Jabuticaba, in natura	66	443	0,5
+Graviola, in natura	97	650	0,7
+Pinha, in natura	120	804	0,8
+Morango, in natura	64	59	0,2
+Jambo, in natura	66	443	0,5
+Atemóia, in natura	120	804	0,8
+Cereja, in natura	40	157	0,6
+Abiu, in natura	66	443	0,5
+Goiaba, inteira, in natura	10	106	0,6
+Fruta pão, in natura	65	392	0,4
+Fruta pão, in natura	59	392	0,4
+Pêssego, in natura	43	156	0,7
+Tucumã, in natura	1782	892	4,7
+Tamarindo, in natura	67	446	0,5
+Cacau, in natura	90	600	0,6
+Jabuticaba, in natura	66	443	0,5
+Abiu, in natura	66	443	0,5
+Macaúba, raw	1782	892	4,7
+Pequi, polpa, cozido, s/ óleo, c/ sal	73	444	0,5
+Pequi, polpa, cozido, s/ óleo, c/ sal	73	444	0,5
+Pequi, polpa, maduro, cru	67	446	0,5
+Pequi, polpa, cozido, s/ óleo, c/ sal	73	444	0,5
+Pequi, polpa, cozido, s/ óleo, c/ sal	73	444	0,5
+Pequi, polpa, cozido, s/ óleo, c/ sal	73	444	0,5
+Pequi, polpa, cozido, s/ óleo, c/ sal	73	444	0,5
+Pitanga, <i>in natura</i>	70	467	0,5
+Ciriguela, in natura	66	443	0,5
+Ciriguela, in natura	66	443	0,5
+Ciriguela, in natura	66	443	0,5
+Umbu, in natura	66	443	0,5
+Pinha, in natura	120	804	0,8
+Cupuaçu, in natura	90	600	0,6
+Pêssego, in natura	43	156	0,7
+Tucumã, in natura	1782	892	4,7
+Acerola, madura, polpa	66	443	0,5
+Kiwi, in natura	150	136	0,3
+Abiu, in natura	66	443	0,5
+Ciriguela, in natura	66	443	0,5
+Jurubeba, crua	64	426	0,4
+Amora preta, in natura	19	446	0,5
+Jabuticaba, in natura	66	443	0,5
+Jamelão, in natura	67	451	0,5
+Cajá-Manga, in natura	66	443	0,5
+Cereja, in natura	40	157	0,6
+Tamarindo, in natura	67	446	0,5
+Pêssego, in natura	43	156	0,7
+
+Açúcar, refinado (média de diferentes amostras)	42	68	0,4
+Açúcar, mascavo	42	68	0,4
+Rapadura	77	34	0,4
+Rapadura	77	34	0,4
+Rapadura	77	34	0,4
+Sorvete, industrializado (média de diferentes sabores)	235	611	3,4
+Picolé, industrializado, c/ suco de fruta (média de diferentes sabores)	235	611	3,4
+Picolé, industrializado, c/ suco de fruta (média de diferentes sabores)	235	611	3,4
+Goma de mascar, c/ açúcar (média de diferentes sabores)	330	59	0,4
+Bala, frutas	400	59	0,4
+Bala, caramelo	330	59	0,4
+Bala, frutas	400	59	0,4
+Goma de mascar, c/ açúcar (média de diferentes sabores)	330	59	0,4
+Bala, frutas	400	59	0,4
+Goma de mascar, c/ açúcar (média de diferentes sabores)	330	59	0,4
+Goma de mascar, c/ açúcar (média de diferentes sabores)	330	59	0,4
+Bala, frutas	400	59	0,4
+Goma de mascar, c/ açúcar (média de diferentes sabores)	330	59	0,4
+Bala, frutas	400	59	0,4
+Chocolate, ao leite (média de diferentes marcas)	233	3099	4,6
+Chocolate, ao leite (média de diferentes marcas)	233	3099	4,6
+Chocolate, ao leite (média de diferentes marcas)	233	3099	4,6
+Chocolate, ao leite (média de diferentes marcas)	233	3099	4,6
+Chocolate, ao leite (média de diferentes marcas)	233	3099	4,6
+Chocolate, ao leite (média de diferentes marcas)	233	3099	4,6
+Chocolate, branco (média de diferentes marcas)	233	3099	4,6
+Chocolate, branco (média de diferentes marcas)	233	3099	4,6
+Chocolate, meio amargo	233	3099	4,6
+Chocolate, ao leite (média de diferentes marcas)	233	3099	4,6
+Chocolate, em pó, solúvel (média de diferentes marcas)	79	2491	5,8
+Achocolatado, "Ovomaltine"	79	1154	5,8
+Achocolatado, "Ovomaltine"	79	1154	5,8
+Achocolatado, pó (média diferentes amostras)	79	1154	5,8
+Leite, vaca, c/ chocolate	79	1154	5,8
+Chocolate, ao leite (média de diferentes marcas)	233	3099	4,6
+Chocolate, ao leite (média de diferentes marcas)	233	3099	4,6
+Geleias (média de diferentes amostras)	350	147	0,6
+Mousse, mistura p/, preparada (média de diferentes sabores)	295	147	0,6
+Geleia, mocotó, natural	295	147	0,6
+Goiaba, doce, em pasta	295	147	0,6
+Amendoim, torrado, c/ sal	133	270	0,6
+Marmelada	240	147	0,6
+Marmelada	240	147	0,6
+Marmelada	240	147	0,6
+Goiaba, doce, cascão	295	147	0,6
+Banana, doce, em barra	139	146	0,7
+Banana, doce, em barra	139	146	0,7
+Banana, doce, em barra	139	146	0,7
+Pêssego, enlatado, em calda, drenado	160	147	0,6
+Goiaba, doce, cascão	295	147	0,6
+Melado, cana	77	34	0,4
+Mel, de abelha	200	398	0,9
+Gelatina, em pó, preparada c/ água (média de diferentes sabores)	295	147	0,6
+Adoçante, sacarina, em pó	4457	1748	3,4
+Suspiro, merengue, caseiro	330	59	0,4
+Marshmallow	330	59	0,4
+Melado, cana	77	34	0,4
+Uva, passa, branca	72	308	0,3
+Uva, passa, preta	85	175	0,6
+Pudim de leite	244	186	0,9
+Creme, chocolate	320	187	0,5
+Manjar, coco, c/ calda de ameixa	179	214	0,9
+Cuscuz de milho, cozido, c/ sal	426	252	1,5
+Cuscuz de tapioca, c/ coco e leite de coco	152	133	0,7
+Milho, cuscuz, cozido, c/ leite integral, c/ açúcar	307	200	1,2
+Milho, cuscuz, cozido, c/ leite de coco, c/ açúcar	338	230	1,3
+Maria mole (média de diferentes sabores)	295	147	0,6
+Baba de moça	221	202	1,1
+Cocada, branca	184	147	0,6
+Cocada, branca	184	147	0,6
+Paçoca, amendoim	184	147	0,6
+Pé-de-moleque, amendoim	184	147	0,6
+Paçoca, amendoim	184	147	0,6
+Pé-de-moleque, amendoim	184	147	0,6
+Paçoca, amendoim	184	147	0,6
+Amendoim, caramelizado	111	220	0,5
+Amendoim, caramelizado	111	220	0,5
+Amendoim, caramelizado	111	220	0,5
+Amendoim, torrado, c/ sal	133	270	0,6
+Amendoim, grão, cru	133	270	0,6
+Brigadeiro, lata	233	3099	4,6
+Bomba, c/ recheio de creme de confeiteiro (pâtissiére), c/ cobertura de chocolate ao leite	302	985	3,3
+Doce, massa folhada, c/ doce de leite, c/ açúcar	285	192	1,1
+Doce, massa folhada, c/ doce de leite, c/ açúcar	285	192	1,1
+Queijadinha, c/ coco	359	254	2,1
+Quindim	330	59	0,4
+Pudim de leite	244	186	0,9
+Quindim	330	59	0,4
+Doce, leite, cremoso (média de diferentes amostras)	320	187	0,5
+Pavê, baunilha	382	335	2,2
+Quindim	330	59	0,4
+Flan, leite, caseiro	196	198	1,3
+Creme, chocolate	320	187	0,5
+Doce, leite, cremoso (média de diferentes amostras)	320	187	0,5
+Doce, leite, cremoso (média de diferentes amostras)	320	187	0,5
+Canudinho, c/ recheio de creme de coco	300	230	1,2
+Tapioca, c/ leite condensado e coco	350	269	1,3
+Tapioca, c/ leite condensado e coco	350	269	1,3
+Geleias (média de diferentes amostras)	350	147	0,6
+Sequilho	320	187	0,5
+Picolé, industrializado, c/ suco de fruta (média de diferentes sabores)	235	611	3,4
+Picolé, industrializado, c/ suco de fruta (média de diferentes sabores)	235	611	3,4
+Picolé, industrializado, c/ suco de fruta (média de diferentes sabores)	235	611	3,4
+Picolé, industrializado, c/ suco de fruta (média de diferentes sabores)	235	611	3,4
+Churros, frito, c/ recheio de doce de leite, s/ açúcar polvilhado	287	260	2,2
+Milho, verde, pamonha, pré-cozido	320	187	0,5
+Creme, chocolate, sabor avelã	253	3099	4,6
+Creme, chocolate, sabor avelã	253	3099	4,6
+Guaraná, em pó	253	3099	4,6
+Chocolate, ao leite (média de diferentes marcas)	233	3099	4,6
+Chocolate, ao leite (média de diferentes marcas)	233	3099	4,6
+Torrone, c/ amêndoas	330	59	0,4
+Arroz doce, c/ açúcar e canela	109	76	0,5
+Coco, polpa, in natura	1782	892	4,7
+Bebida, substituto de refeição, em pó	79	1154	5,8
+Bebida, substituto de refeição, em pó	79	1154	5,8
+Bebida, substituto de refeição, em pó	79	1154	5,8
+Açúcar, refinado (média de diferentes amostras)	42	68	0,4
+Açúcar, refinado (média de diferentes amostras)	42	68	0,4
+Cereais, barra (média de diferentes sabores)	290	177	1,0
+Cereais, barra (média de diferentes sabores)	290	177	1,0
+Rabanada	172	243	1,5
+Milk shake (leite integral, sorvete, extrato de baunilha e calda de chocolate)	201	332	1,8
+Geleia, s/ açúcar (média de diferentes sabores)	295	147	0,6
+Goiabada, diet	295	147	0,6
+Suspiro, merengue, caseiro	330	59	0,4
+Sorvete, industrializado, diet (média de diferentes sabores)	235	611	3,4
+Sorvete, industrializado, diet (média de diferentes sabores)	235	611	3,4
+Goma de mascar, diet (média de diferentes sabores)	330	59	0,4
+Chocolate, ao leite, dietético	233	3099	4,6
+Chocolate, ao leite, dietético	233	3099	4,6
+Achocolatado, pó (média diferentes amostras)	79	1154	5,8
+Achocolatado, pó (média diferentes amostras)	80	1166	5,8
+Leite, vaca, c/chocolate, desnatado	79	1154	5,8
+Geleia, s/ açúcar (média de diferentes sabores)	295	147	0,6
+Geleia, s/ açúcar (média de diferentes sabores)	295	147	0,6
+Geleia, s/ açúcar (média de diferentes sabores)	295	147	0,6
+Goiabada, diet	295	147	0,6
+Goiabada, diet	295	147	0,6
+Doce de leite, diet	320	187	0,5
+Barra de cereal, diet	290	177	1,0
+Barra de cereal, diet	290	177	1,0
+Sorvete, industrializado, diet (média de diferentes sabores)	235	611	3,4
+Cocada, branca	184	147	0,6
+Doce de amendoim, diet	295	147	0,6
+Doce de leite, diet	320	187	0,5
+Gelatina, em pó, preparada, diet (média de diferentes sabores)	295	147	0,6
+Adoçante, sacarina, em pó	4457	1748	3,4
+Adoçante, sacarina, em pó	4457	1748	3,4
+Sorvete, industrializado (média de diferentes sabores)	235	611	3,4
+Casquinha, sorvete, cone	235	611	3,4
+Sorvete, sundae	306	622	3,0
+Pudim, chocolate, em pó, preparado	320	187	0,5
+Pudim de leite	244	186	0,9
+Pudim de pão	191	163	0,8
+Pudim de sorvete	329	321	2,3
+Flan, leite, caseiro	196	198	1,3
+Banana, cozida, caramelada	115	126	0,6
+Banana flambada	137	141	1,5
+Uva, passa, coberta, c/ chocolate, ao leite	129	1052	1,8
+Cajuzinho	236	200	0,5
+Calda, chocolate	320	187	0,5
+Xarope, frutas	320	187	0,5
+Xarope, maple	320	187	0,5
+Crème brûlée	449	358	3,1
+Doce árabe, Ataif de nozes, c/ calda de laranja	144	647	1,6
+Rocambole (farinha de trigo, ovo, leite, manteiga, açúcar e fermento químico), recheado com brigadeiro, c/ cobertura de cacau em pó	315	1102	3,8
+Maçã do amor	29	27	0,2
+Marrom glacê	320	187	0,5
+Olho de sogra	218	212	0,4
+Pastel, frito, c/ recheio, doce de leite	347	195	1,1
+Pastal de nata	333	249	1,9
+Toucinho do céu	317	211	1,0
+Waffle	224	198	2,1
+Doce, abóbora, cremoso	320	187	0,5
+Delícia de abacaxi	284	208	1,6
+
+Canela, em pó	33	816	5,0
+Molho, mostarda, caseiro, c/ sal	472	367	3,9
+Bebida, infusão, hortelã rasteira, planta, folha, s/ açúcar	46	80	0,2
+Coentro, folhas, desidratadas	34	42	0,1
+Molho, soja, shoyu (média de diferentes tipos)	156	63	3,4
+Coco, leite	73	207	1,1
+Molho tártaro, c/ sal, caseiro	132	379	1,8
+Maionese, molho, tradicional	156	43	3,4
+Tomate, molho, industrializado	130	32	0,5
+Catchup, tomate, molho	156	24	3,4
+Catchup, tomate, molho	156	24	3,4
+Pimenta, preta, em grão	33	184	5,0
+Tucupi, com pimenta-de-cheiro, s/ óleo, s/ sal	290	611	3,4
+Creme de queijo, caseiro (Tipo Catupiry)	306	253	2,0
+Caldo de peixe	90	17	1,3
+Gergelim, semente, crua	63	685	0,6
+Tomate, seco, caseiro, c/ sal	186	171	1,4
+Maionese, molho, tradicional	156	43	3,4
+Molho, vinagrete, c/ sal	139	114	1,1
+Vinagre, maçã	224	101	1,2
+Sal, refinado	18	0	0,0
+Molho para salada, c/ vinagre de maçã, caseiro, c/ sal	181	287	2,9
+Caponata de berinjela, conserva de berinjela, c/ sal	149	227	1,5
+
+Carne, boi, filé mignon, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4721	3134	19,4
+Carne, boi, filé mignon, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4483	3001	18,6
+Carne, boi, filé mignon, s/ gordura, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal	5182	3517	21,9
+Carne, boi, filé mignon, s/ gordura, frita (c/ óleo de soja), c/ sal	4309	2917	18,2
+Carne, boi, filé mignon, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4655	3134	19,4
+Carne, boi, filé mignon, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4477	3001	18,6
+Carne, boi, filé mignon, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4721	3134	19,4
+Carne, boi, contrafilé, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4721	3134	19,4
+Carne, boi, contrafilé, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4693	3134	19,4
+Carne, boi, contra-filé, à milanesa (farinha de trigo, ovo e farinha de rosca, frita em imersão), c/ sal	5182	3517	21,9
+Carne, boi, contrafilé, s/ gordura, frita (c/ óleo de soja), c/ sal	4309	2917	18,2
+Carne, boi, contrafilé, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4655	3134	19,4
+Carne, boi, costela, assada, s/ óleo, c/ sal	4652	3012	18,4
+Carne, boi, costela, cozida, c/ óleo, c/ sal	4423	2894	17,7
+Carne, boi, costela, assada, s/ óleo, c/ sal	4625	3012	18,4
+Carne, boi, costela, assada, s/ óleo, c/ sal	4599	3012	18,4
+Carne, boi, costela, ensopada (c/ óleo, cebola e alho), c/ sal	4147	2720	16,6
+Carne, boi, costela, assada, s/ óleo, c/ sal	4596	3012	18,4
+Carne, boi, costela, assada, s/ óleo, c/ sal	4586	3012	18,4
+Carne, boi, costela, ensopada (c/ óleo, cebola e alho), c/ sal	4159	2720	16,6
+Carne, boi, costela, assada, s/ óleo, c/ sal	4652	3012	18,4
+Carne, boi, miolo de alcatra, grelhada/assada, s/ óleo, c/ sal	4721	3134	19,4
+Carne, boi, alcatra, refogada, c/ óleo e temperos, c/ sal	4483	3001	18,6
+Carne, boi, miolo de alcatra, grelhada/assada, s/ óleo, c/ sal	4693	3134	19,4
+Carne, boi, alcatra, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal	5182	3517	21,9
+Carne, boi, alcatra, frita (c/ óleo de soja), c/ sal	4309	2917	18,2
+Carne, boi, miolo de alcatra, grelhada/assada, s/ óleo, c/ sal	4655	3134	19,4
+Carne, boi, miolo de alcatra, grelhada/assada, s/ óleo, c/ sal	4721	3134	19,4
+Carne, boi, maminha, grelhada/assada, s/ óleo, c/ sal	4721	3134	19,4
+Carne, boi, maminha, frita (c/ óleo de soja), c/ sal	4309	2917	18,2
+Carne, boi, maminha, grelhada/assada, s/ óleo, c/ sal	4655	3134	19,4
+Carne, boi, maminha, grelhada/assada, s/ óleo, c/ sal	4721	3134	19,4
+Carne, boi, picanha, c/ gordura, grelhada, c/ óleo, cebola e alho, c/ sal	4511	3001	18,6
+Carne, boi, picanha, c/ gordura, grelhada, c/ óleo, cebola e alho, c/ sal	4458	3001	18,6
+Carne, boi, picanha, c/ gordura, grelhada, c/ óleo, cebola e alho, c/ sal	4445	3001	18,6
+Carne, boi, picanha, c/ gordura, grelhada, c/ óleo, cebola e alho, c/ sal	4477	3001	18,6
+Carne, boi, picanha, c/ gordura, grelhada, c/ óleo, cebola e alho, c/ sal	4445	3001	18,6
+Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4243	2812	17,4
+Carne, boi, lagarto, cozida, s/ óleo, c/ sal	4721	3134	19,4
+Carne, boi, lagarto, cozida, c/ óleo, cebola e alho, c/ sal	4483	3001	18,6
+Carne, boi, lagarto, cozida, s/ óleo, c/ sal	4693	3134	19,4
+Carne, boi, lagarto, frita (c/ óleo de soja), c/ sal	4309	2917	18,2
+Carne, boi, lagarto, cozida, s/ óleo, c/ sal	4721	3134	19,4
+Carne, boi, lagarto, cozida, s/ óleo, c/ sal	4721	3134	19,4
+Carne, boi, lagarto, cozida, c/ óleo, cebola e alho, c/ sal	4483	3001	18,6
+Carne, boi, lagarto, cozida, s/ óleo, c/ sal	4693	3134	19,4
+Carne, boi, lagarto, frita (c/ óleo de soja), c/ sal	4309	2917	18,2
+Carne, boi, lagarto, cozida, s/ óleo, c/ sal	4655	3134	19,4
+Carne, boi, lagarto, refogada (c/ óleo, cebola e alho), c/ sal	4477	3001	18,6
+Carne, boi, músculo, s/ gordura, cozida, s/ óleo, c/ sal	4721	3134	19,4
+Carne, boi, músculo, s/ gordura, cozida, c/ óleo, cebola e alho, c/ sal	4483	3001	18,6
+Carne, boi, músculo, s/ gordura, cozida, s/ óleo, c/ sal	4693	3134	19,4
+Carne, boi, músculo, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4466	3001	18,6
+Carne, boi, músculo, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4458	3001	18,6
+Carne, boi, músculo, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4477	3001	18,6
+Carne, boi, músculo, s/ gordura, cozida, s/ óleo, c/ sal	4693	3134	19,4
+Carne, carne, paleta, s/ gordura, refogada (c/ óleo, cebola e alho), c/ sal	4028	2694	16,7
+Carne, boi, paleta, s/ gordura, cozida, s/ óleo, c/ sal	4216	2812	17,4
+Carne, carne, paleta, s/ gordura, refogada (c/ óleo, cebola e alho), c/ sal	4021	2694	16,7
+Carne, boi, músculo, s/ gordura, cozida, s/ óleo, c/ sal	4721	3134	19,4
+Carne, boi, músculo, s/ gordura, cozida, c/ óleo, cebola e alho, c/ sal	4483	3001	18,6
+Carne, boi, músculo, s/ gordura, cozida, s/ óleo, c/ sal	4693	3134	19,4
+Carne, boi, músculo, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4466	3001	18,6
+Carne, boi, músculo, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4458	3001	18,6
+Carne, boi, músculo, s/ gordura, cozida, s/ óleo, c/ sal	4655	3134	19,4
+Carne, boi, músculo, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4477	3001	18,6
+Carne, boi, músculo, s/ gordura, cozida, s/ óleo, c/ sal	4693	3134	19,4
+Carne, boi, fraldinha, c/ gordura, grelhada/assada, s/ óleo, c/ sal	4738	3145	19,5
+Carne, boi, fraldinha, c/ gordura, cozida, c/ óleo, cebola e alho, c/ sal	4500	3012	18,6
+Carne, boi, fraldinha, c/ gordura, grelhada/assada, s/ óleo, c/ sal	4672	3145	19,5
+Carne, carne, paleta, s/ gordura, refogada (c/ óleo, cebola e alho), c/ sal	4028	2694	16,7
+Carne, boi, paleta, s/ gordura, cozida, s/ óleo, c/ sal	4216	2812	17,4
+Carne, boi, fraldinha, c/ gordura, grelhada/assada, s/ óleo, c/ sal	4738	3145	19,5
+Carne, boi, fraldinha, c/ gordura, cozida, c/ óleo, cebola e alho, c/ sal	4500	3012	18,6
+Carne, boi, fraldinha, c/ gordura, frita (c/ óleo de soja), c/ sal	4324	2928	18,2
+Carne, boi, fraldinha, c/ gordura, grelhada/assada, s/ óleo, c/ sal	4738	3145	19,5
+Carne, boi, costela, assada, s/ óleo, c/ sal	4652	3012	18,4
+Carne, boi, costela, cozida, c/ óleo, c/ sal	4423	2894	17,7
+Carne, boi, costela, cozida, c/ óleo, c/ sal	4423	2894	17,7
+Carne, boi, costela, ensopada (c/ óleo, cebola e alho), c/ sal	4147	2720	16,6
+Carne, boi, costela, cozida, c/ óleo, c/ sal	4397	2894	17,7
+Carne, boi, costela, assada, s/ óleo, c/ sal	4586	3012	18,4
+Carne, boi, costela, ensopada (c/ óleo, cebola e alho), c/ sal	4159	2720	16,6
+Carne, boi, costela, assada, s/ óleo, c/ sal	4652	3012	18,4
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1123	163	9,0
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1148	163	9,0
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1148	163	9,0
+Carne, boi, bucho, cozida, s/ óleo, c/ sal	1198	160	9,3
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1131	163	9,0
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1148	163	9,0
+Carne, boi, coração, cozido, s/ óleo, c/ sal	1481	195	11,4
+Carne, boi, coração, cozido, c/ óleo, c/ sal	1453	195	11,4
+Carne, boi, coração, cozido, s/ óleo, c/ sal	1453	195	11,4
+Carne, boi, coração, cozido, c/ óleo, c/ sal	1424	195	11,4
+Carne, boi, coração, cozido, s/ óleo, c/ sal	1415	195	11,4
+Carne, boi, coração, cozido, s/ óleo, c/ sal	1453	195	11,4
+Carne, boi, bucho, cozida, s/ óleo, c/ sal	1226	160	9,3
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1148	163	9,0
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1123	163	9,0
+Carne, boi, pulmão, cozido, s/ óleo, c/ sal	1226	160	9,3
+Carne, boi, pulmão, cozido, s/ óleo, c/ sal	1198	160	9,3
+Carne, boi, pulmão, cozido, s/ óleo, c/ sal	1170	160	9,3
+Carne, boi, bucho, cozida, s/ óleo, c/ sal	1226	160	9,3
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1148	163	9,0
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1123	163	9,0
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1110	163	9,0
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1148	163	9,0
+Carne, boi, bucho, cozida, s/ óleo, c/ sal	1198	160	9,3
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1131	163	9,0
+Carne, boi, bucho, cozida, s/ óleo, c/ sal	1226	160	9,3
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1148	163	9,0
+Carne, boi, bucho, cozida, s/ óleo, c/ sal	1198	160	9,3
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1131	163	9,0
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1123	163	9,0
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1123	163	9,0
+Carne, boi, fígado, grelhada, s/ óleo, c/ sal	1226	160	9,3
+Carne, boi, fígado, refogada (c/ óleo, cebola e alho), c/ sal	1148	163	9,0
+Carne, boi, fígado, grelhada, s/ óleo, c/ sal	1198	160	9,3
+Carne, boi, fígado, refogada (c/ óleo, cebola e alho), c/ sal	1131	163	9,0
+Carne, boi, fígado, frita (c/ óleo de soja), c/ sal	1094	181	8,9
+Carne, boi, fígado, grelhada, s/ óleo, c/ sal	1160	160	9,3
+Carne, boi, fígado, refogada (c/ óleo, cebola e alho), c/ sal	1142	163	9,0
+Carne, boi, fígado, grelhada, s/ óleo, c/ sal	1160	160	9,3
+Carne, boi, fígado, grelhada, s/ óleo, c/ sal	1226	160	9,3
+Carne, boi, fígado, refogada (c/ óleo, cebola e alho), c/ sal	1148	163	9,0
+Carne, boi, fígado, grelhada, s/ óleo, c/ sal	1198	160	9,3
+Carne, boi, fígado, grelhada, s/ óleo, c/ sal	1006	138	8,1
+Carne, boi, fígado, refogada (c/ óleo, cebola e alho), c/ sal	1131	163	9,0
+Carne, boi, fígado, frita (c/ óleo de soja), c/ sal	1094	181	8,9
+Carne, boi, fígado, grelhada, s/ óleo, c/ sal	1160	160	9,3
+Carne, boi, fígado, refogada (c/ óleo, cebola e alho), c/ sal	1142	163	9,0
+Carne, boi, fígado, grelhada, s/ óleo, c/ sal	1160	160	9,3
+Carne, boi, cupim, assado, s/ óleo, c/ sal	4738	3145	19,5
+Carne, boi, cupim, frita (c/ óleo de soja), c/ sal	4350	2928	18,2
+Carne, boi, cupim, assado, s/ óleo, c/ sal	4710	3145	19,5
+Carne, boi, cupim, frita (c/ óleo de soja), c/ sal	4324	2928	18,2
+Carne, boi, cupim, assado, s/ óleo, c/ sal	4672	3145	19,5
+Carne, boi, língua, cozida, s/ óleo, c/ sal	1481	195	11,4
+Carne, boi, língua, refogada, c/ óleo, cebola e alho, c/ sal	1391	196	10,9
+Carne, boi, língua, cozida, s/ óleo, c/ sal	1453	195	11,4
+Carne, boi, língua, refogada, c/ óleo, cebola e alho, c/ sal	1374	196	10,9
+Carne, boi, língua, refogada, c/ óleo, cebola e alho, c/ sal	1366	196	10,9
+Carne, boi, língua, cozida, s/ óleo, c/ sal	1453	195	11,4
+Carne, boi, rabo, cozido, s/ óleo, c/ sal	4479	2898	17,7
+Carne, boi, rabo, cozido, s/ óleo, c/ sal	4451	2898	17,7
+Carne, boi, rabo, cozido, s/ óleo, c/ sal	4451	2898	17,7
+Carne, boi, rabo, cozido, s/ óleo, c/ sal	4432	2898	17,7
+Mocotó bovino, c/ feijão branco, tomate, c/ caldo de mocotó, c/ óleo, cebola e alho, c/ sal	387	87	2,2
+Mocotó bovino, c/ feijão branco, tomate, c/ caldo de mocotó, c/ óleo, cebola e alho, c/ sal	312	87	2,2
+Mocotó bovino, c/ feijão branco, tomate, c/ caldo de mocotó, c/ óleo, cebola e alho, c/ sal	312	87	2,2
+Mocotó bovino, c/ feijão branco, tomate, c/ caldo de mocotó, c/ óleo, cebola e alho, c/ sal	296	87	2,2
+Mocotó bovino, c/ feijão branco, tomate, c/ caldo de mocotó, c/ óleo, cebola e alho, c/ sal	293	87	2,2
+Mocotó bovino, c/ feijão branco, tomate, c/ caldo de mocotó, c/ óleo, cebola e alho, c/ sal	309	87	2,2
+Carne, porco, bisteca, grelhada/assada, s/ óleo, c/ sal	741	1266	5,9
+Carne, porco, bisteca, refogada (c/ óleo, cebola e alho), c/ sal	686	1219	5,7
+Carne, porco, bisteca, grelhada/assada, s/ óleo, c/ sal	714	1266	5,9
+Carne, porco, bisteca, frita (c/ óleo de soja), c/ sal	648	1199	5,7
+Carne, porco, bisteca, grelhada/assada, s/ óleo, c/ sal	675	1266	5,9
+Carne, porco, bisteca, refogada (c/ óleo, cebola e alho), c/ sal	679	1219	5,7
+Carne, porco, bisteca, refogada (c/ óleo, cebola e alho), c/ sal	679	1219	5,7
+Carne, boi, costela, assada, s/ óleo, c/ sal	4652	3012	18,4
+Carne, boi, costela, assada, s/ óleo, c/ sal	4625	3012	18,4
+Carne, boi, costela, assada, s/ óleo, c/ sal	4596	3012	18,4
+Carne, boi, costela, assada, s/ óleo, c/ sal	4652	3012	18,4
+Carne, porco, bisteca, grelhada/assada, s/ óleo, c/ sal	741	1266	5,9
+Carne, porco, bisteca, refogada (c/ óleo, cebola e alho), c/ sal	686	1219	5,7
+Carne, porco, bisteca, grelhada/assada, s/ óleo, c/ sal	714	1266	5,9
+Carne, porco, bisteca, grelhada/assada, s/ óleo, c/ sal	462	865	4,0
+Carne, porco, bisteca, empanada (farinha de trigo), frita (c/ óleo de soja), c/ sal	871	1610	7,6
+Carne, porco, bisteca, refogada (c/ óleo, cebola e alho), c/ sal	668	1219	5,7
+Carne, porco, bisteca, frita (c/ óleo de soja), c/ sal	648	1199	5,7
+Carne, porco, bisteca, grelhada/assada, s/ óleo, c/ sal	675	1266	5,9
+Carne, porco, bisteca, refogada (c/ óleo, cebola e alho), c/ sal	679	1219	5,7
+Carne, porco, pernil, grelhada/assada, s/ óleo, c/ sal	741	1266	5,9
+Carne, porco, costela, assada, s/ adição de gordura, c/ sal	741	1266	5,9
+Carne, porco, costela, refogada (c/ óleo, cebola e alho), c/ sal	686	1219	5,7
+Carne, porco, costela, assada, s/ adição de gordura, c/ sal	714	1266	5,9
+Carne, porco, costela, assada, s/ adição de gordura, c/ sal	462	865	4,0
+Carne, porco, costela, refogada (c/ óleo, cebola e alho), c/ sal	668	1219	5,7
+Carne, porco, costela, frita (c/ óleo de soja), c/ sal	648	1199	5,7
+Carne, porco, costela, assada, s/ adição de gordura, c/ sal	675	1266	5,9
+Carne, porco, costela, refogada (c/ óleo, cebola e alho), c/ sal	679	1219	5,7
+Carne, porco, costela, assada, s/ adição de gordura, c/ sal	741	1266	5,9
+Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal	778	1094	5,1
+Carne, porco, lombo, refogada (c/ óleo, cebola e alho), c/ sal	720	1054	4,9
+Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal	750	1094	5,1
+Carne, porco, lombo, frita (c/ óleo de soja), c/ sal	681	1041	5,0
+Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal	712	1094	5,1
+Carne, porco, toucinho, frito	1001	705	2,1
+Carne, porco, toucinho, frito	973	705	2,1
+Carne, porco, toucinho, frito	973	705	2,1
+Carne, porco, toucinho, frito	948	705	2,1
+Carne, porco, toucinho, frito	948	705	2,1
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1148	163	9,0
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1148	163	9,0
+Sarapatel, c/ sal	621	99	5,1
+Sarapatel, c/ sal	621	99	5,1
+Sarapatel, c/ sal	578	99	5,1
+Sarapatel, c/ sal	575	95	4,9
+Carne, porco, pernil, grelhada/assada, s/ óleo, c/ sal	741	1266	5,9
+Carne, porco, pernil, refogada (c/ óleo, cebola e alho), c/ sal	686	1219	5,7
+Carne, porco, pernil, grelhada/assada, s/ óleo, c/ sal	714	1266	5,9
+Carne, porco, pernil, frita (c/ óleo de soja), c/ sal	651	1199	5,7
+Carne, porco, pernil, refogada (c/ óleo, cebola e alho), c/ sal	668	1219	5,7
+Carne, porco, pernil, frita (c/ óleo de soja), c/ sal	648	1199	5,7
+Carne, porco, pernil, grelhada/assada, s/ óleo, c/ sal	675	1266	5,9
+Carne, porco, pernil, refogada (c/ óleo, cebola e alho), c/ sal	679	1219	5,7
+Carne, porco, pernil, grelhada/assada, s/ óleo, c/ sal	741	1266	5,9
+Carne, porco, pernil, grelhada/assada, s/ óleo, c/ sal	741	1266	5,9
+Carne, porco, pernil, refogada (c/ óleo, cebola e alho), c/ sal	686	1219	5,7
+Carne, porco, cozida, s/ óleo, c/ sal	710	1266	5,9
+Carne, porco, cozida, s/ óleo, c/ sal	459	865	4,0
+Carne, porco, pernil, refogada (c/ óleo, cebola e alho), c/ sal	668	1219	5,7
+Carne, porco, pernil, frita (c/ óleo de soja), c/ sal	648	1199	5,7
+Carne, porco, pernil, grelhada/assada, s/ óleo, c/ sal	675	1266	5,9
+Carne, porco, pernil, refogada (c/ óleo, cebola e alho), c/ sal	679	1219	5,7
+Carne, porco, cozida, s/ óleo, c/ sal	710	1266	5,9
+Carne, boi, acém moída, cozida, c/ óleo, cebola e alho, c/ sal	4056	2694	16,7
+Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal	4028	2694	16,7
+Carne, boi, acém moída, cozida, c/ óleo, cebola e alho, c/ sal	4028	2694	16,7
+Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal	3113	2104	13,0
+Carne, boi, paleta, s/ gordura, frita (c/ óleo de soja), c/ sal	3873	2622	16,3
+Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal	4010	2694	16,7
+Carne, boi, paleta, s/ gordura, frita (c/ óleo de soja), c/ sal	3869	2622	16,3
+Carne, boi, acém moída, cozida, c/ óleo, cebola e alho, c/ sal	3990	2694	16,7
+Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal	4021	2694	16,7
+Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal	4021	2694	16,7
+Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal	4028	2694	16,7
+Carne, boi, acém moída, cozida, c/ óleo, cebola e alho, c/ sal	4028	2694	16,7
+Carne, boi, acém moída, cozida, c/ óleo, cebola e alho, c/ sal	4010	2694	16,7
+Carne, boi, paleta, s/ gordura, frita (c/ óleo de soja), c/ sal	3869	2622	16,3
+Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal	4021	2694	16,7
+Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal	4021	2694	16,7
+Carne, boi, bucho, cozida, s/ óleo, c/ sal	1226	160	9,3
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1123	163	9,0
+Carne, boi, fígado, refogada (c/ óleo, cebola e alho), c/ sal	1148	163	9,0
+Carne, boi, fígado, grelhada, s/ óleo, c/ sal	1198	160	9,3
+Carne, boi, fígado, frita (c/ óleo de soja), c/ sal	1094	181	8,9
+Carne, boi, fígado, frita (c/ óleo de soja), c/ sal	1094	181	8,9
+Carne, boi, língua, cozida, s/ óleo, c/ sal	1481	195	11,4
+Carne, boi, língua, refogada, c/ óleo, cebola e alho, c/ sal	1391	196	10,9
+Carne, boi, língua, cozida, s/ óleo, c/ sal	1453	195	11,4
+Carne, boi, língua, cozida, s/ óleo, c/ sal	1226	169	9,9
+Carne, boi, língua, refogada, c/ óleo, cebola e alho, c/ sal	1366	196	10,9
+Carne, boi, língua, cozida, s/ óleo, c/ sal	1415	195	11,4
+Carne, boi, língua, cozida, s/ óleo, c/ sal	1453	195	11,4
+Porco, orelha, cozido, s/ óleo, c/sal	537	237	13,9
+Sarapatel, c/ sal	621	99	5,1
+Sarapatel, c/ sal	621	99	5,1
+Carne, porco, pé, cozido, s/ óleo, c/ sal	482	198	11,6
+Carne, porco, pé, cozido, s/ óleo, c/ sal	454	198	11,6
+Carne, porco, pé, cozido, s/ óleo, c/ sal	454	198	11,6
+Carne, cabrito, assada, s/ óleo, c/ sal (média de diferentes cortes e raças)	2208	1162	11,6
+Carne, boi, cabrito, cozido, c/ óleo, c/ sal	2090	1129	11,3
+Carne, boi, cabrito, cozido, c/ óleo, c/ sal	2065	1129	11,3
+Carne, cabrito, assada, s/ óleo, c/ sal (média de diferentes cortes e raças)	2143	1162	11,6
+Carne, cabrito, assada, s/ óleo, c/ sal (média de diferentes cortes e raças)	2208	1162	11,6
+Carne, boi, cabrito, cozido, c/ óleo, c/ sal	2090	1129	11,3
+Carne, boi, cabrito, cozido, c/ óleo, c/ sal	2090	1129	11,3
+Carne, boi, cabrito, cozido, c/ óleo, c/ sal	2073	1129	11,3
+Carne, cabrito, assada, s/ óleo, c/ sal (média de diferentes cortes e raças)	2152	1162	11,6
+Carne, cabrito, assada, s/ óleo, c/ sal (média de diferentes cortes e raças)	2143	1162	11,6
+Carne, cabrito, cozida, assada, s/ óleo, c/ sal	2181	1162	11,6
+Carne, cabrito, assada, s/ óleo, c/ sal (média de diferentes cortes e raças)	2208	1162	11,6
+Carne, boi, cabrito, cozido, c/ óleo, c/ sal	2090	1129	11,3
+Carne, boi, cabrito, cozido, c/ óleo, c/ sal	2090	1129	11,3
+Carne, cabrito, assada, s/ óleo, c/ sal (média de diferentes cortes e raças)	2152	1162	11,6
+Carne, cabrito, assada, s/ óleo, c/ sal (média de diferentes cortes e raças)	2143	1162	11,6
+Carne, cabrito, cozida, assada, s/ óleo, c/ sal	2181	1162	11,6
+Carne, cabrito, assada, s/ óleo, c/ sal (média de diferentes cortes e raças)	2208	1162	11,6
+Carne, boi, cabrito, cozido, c/ óleo, c/ sal	2090	1129	11,3
+Carne, boi, cabrito, cozido, c/ óleo, c/ sal	2090	1129	11,3
+Carne, ovino, ovelha, perna, cozida, assada, s/ óleo, c/ sal	2208	1162	11,6
+Carne, boi, ovelha, cozido, c/ óleo, c/ sal	2090	1129	11,3
+Carne, boi, ovelha, cozido, c/ óleo, c/ sal	2090	1129	11,3
+Carne, boi, ovelha, cozido, c/ óleo, c/ sal	2073	1129	11,3
+Carne, boi, ovelha, cozido, c/ óleo, c/ sal	2065	1129	11,3
+Carne, ovino, ovelha, perna, cozida, assada, s/ óleo, c/ sal	2143	1162	11,6
+Carne, boi, ovelha, cozido, c/ óleo, c/ sal	2090	1129	11,3
+Carne, ovino, ovelha, perna, cozida, assada, s/ óleo, c/ sal	2208	1162	11,6
+Carne, boi, ovelha, cozido, c/ óleo, c/ sal	2090	1129	11,3
+Carne, boi, ovelha, cozido, c/ óleo, c/ sal	2090	1129	11,3
+Carne, boi, ovelha, cozido, c/ óleo, c/ sal	2065	1129	11,3
+Carne, boi, ovelha, cozido, c/ óleo, c/ sal	2090	1129	11,3
+Carne, porco, pé, cozido, s/ óleo, c/ sal	435	198	11,6
+Carne, porco, pernil, grelhada/assada, s/ óleo, c/ sal	741	1266	5,9
+Carne, porco, pernil, refogada (c/ óleo, cebola e alho), c/ sal	686	1219	5,7
+Carne, porco, pernil, grelhada/assada, s/ óleo, c/ sal	714	1266	5,9
+Carne, porco, pernil, grelhada/assada, s/ óleo, c/ sal	462	865	4,0
+Carne, porco, pernil, frita (c/ óleo de soja), c/ sal	648	1199	5,7
+Carne, porco, pernil, grelhada/assada, s/ óleo, c/ sal	675	1266	5,9
+Carne, porco, pernil, refogada (c/ óleo, cebola e alho), c/ sal	679	1219	5,7
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1148	163	9,0
+Carne, boi, bucho, cozida, s/ óleo, c/ sal	1198	160	9,3
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1148	163	9,0
+Carne, boi, bucho, cozida, s/ óleo, c/ sal	1198	160	9,3
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1131	163	9,0
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1142	163	9,0
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1131	163	9,0
+Carne, porco, costela, assada, s/ adição de gordura, c/ sal	741	1266	5,9
+Carne, porco, costela, refogada (c/ óleo, cebola e alho), c/ sal	686	1219	5,7
+Carne, porco, costela, assada, s/ adição de gordura, c/ sal	714	1266	5,9
+Carne, porco, costela, frita (c/ óleo de soja), c/ sal	648	1199	5,7
+Carne, porco, costela, refogada (c/ óleo, cebola e alho), c/ sal	679	1219	5,7
+Carne, boi, costela, assada, s/ óleo, c/ sal	4652	3012	18,4
+Carne, boi, costela, cozida, c/ óleo, c/ sal	4423	2894	17,7
+Carne, boi, costela, assada, s/ óleo, c/ sal	4625	3012	18,4
+Carne, boi, costela, assada, s/ óleo, c/ sal	4596	3012	18,4
+Carne, caça, paca, assada	565	1645	12,6
+Carne, caça, paca, assada	540	1645	12,6
+Carne, caça, paca, assada	540	1645	12,6
+Carne, caça, paca, assada	525	1645	12,6
+Carne, caça, paca, assada	515	1645	12,6
+Carne, caça, paca, assada	534	1645	12,6
+Carne, caça, paca, assada	565	1645	12,6
+Carne, carne, jacaré, rabo, à milanesa (farinha de trigo, ovo e farinha de rosca), frita em imersão, c/ pimenta-do-reino, c/ alho, c/ sal, frito	666	1734	13,2
+Carne, carne, jacaré, rabo, à milanesa (farinha de trigo, ovo e farinha de rosca), frita em imersão, c/ pimenta-do-reino, c/ alho, c/ sal, frito	599	1734	13,2
+Carne, carne, jacaré, rabo, à milanesa (farinha de trigo, ovo e farinha de rosca), frita em imersão, c/ pimenta-do-reino, c/ alho, c/ sal, frito	600	1734	13,2
+Carne, caça (capivara, coelho), cozida, assada, s/ óleo, c/ sal	565	1645	12,6
+Carne, caça (capivara, coelho), cozida, assada, s/ óleo, c/ sal	540	1645	12,6
+Carne, caça (capivara, coelho), cozida, assada, s/ óleo, c/ sal	540	1645	12,6
+Carne, caça (capivara, coelho), cozida, assada, s/ óleo, c/ sal	525	1645	12,6
+Carne, caça (capivara, coelho), cozida, assada, s/ óleo, c/ sal	565	1645	12,6
+Carne, caça (capivara, coelho), cozida, assada, s/ óleo, c/ sal	540	1645	12,6
+Carne, caça (capivara, coelho), cozida, assada, s/ óleo, c/ sal	540	1645	12,6
+Carne, porco, lombo, frita (c/ óleo de soja), c/ sal	681	1041	5,0
+Carne, tartaruga, jabuti, cozida, s/ óleo, c/ sal	540	1645	12,6
+Carne, tartaruga, jabuti, cozida, s/ óleo, c/ sal	540	1645	12,6
+Carne, boi, costela, assada, s/ óleo, c/ sal	4652	3012	18,4
+Carne, boi, costela, cozida, c/ óleo, c/ sal	4423	2894	17,7
+Carne, boi, costela, assada, s/ óleo, c/ sal	4625	3012	18,4
+Carne, boi, costela, assada, s/ óleo, c/ sal	4596	3012	18,4
+Carne, boi, costela, assada, s/ óleo, c/ sal	4586	3012	18,4
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1148	163	9,0
+Carne, boi, bucho, cozida, s/ óleo, c/ sal	1198	160	9,3
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1131	163	9,0
+Carne, boi, bucho, cozida, c/ óleo, cebola e alho, c/ sal	1123	163	9,0
+Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4243	2812	17,4
+Carne, boi, patinho, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4028	2694	16,7
+Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4216	2812	17,4
+Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal	3258	2194	13,6
+Carne, boi, patinho, s/ gordura, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal	4658	3165	19,7
+Carne, boi, patinho, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4010	2694	16,7
+Carne, boi, patinho, s/ gordura, frita (c/ óleo de soja), c/ sal	3869	2622	16,3
+Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4177	2812	17,4
+Carne, boi, patinho, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4021	2694	16,7
+Carne, boi, patinho, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4021	2694	16,7
+Carne, boi, de segunda (acém, capa de contrafilé, costela, músculo, paleta, peito), cozida/grelhada/assada, s/ óleo, c/ sal	4243	2812	17,4
+Carne, boi, de segunda (acém, costela, músculo, paleta), refogada/ensopada (c/ óleo, cebola e alho), c/ sal	4028	2694	16,7
+Carne, boi, de segunda (acém, capa de contrafilé, costela, músculo, paleta, peito), cozida/grelhada/assada, s/ óleo, c/ sal	4216	2812	17,4
+Carne, boi, de segunda (acém, capa de contrafilé, costela, músculo, paleta, peito), cozida/grelhada/assada, s/ óleo, c/ sal	3258	2194	13,6
+Carne, boi, de segunda (acém, paleta, peito), frita (c/ óleo de soja), c/ sal	4045	2716	16,9
+Carne, boi, de segunda (acém, costela, músculo, paleta), refogada/ensopada (c/ óleo, cebola e alho), c/ sal	4010	2694	16,7
+Carne, boi, de segunda (acém, paleta, peito), frita (c/ óleo de soja), c/ sal	4036	2716	16,9
+Carne, boi, de segunda (acém, capa de contrafilé, costela, músculo, paleta, peito), cozida/grelhada/assada, s/ óleo, c/ sal	4177	2812	17,4
+Carne, boi, de segunda (acém, costela, músculo, paleta), refogada/ensopada (c/ óleo, cebola e alho), c/ sal	4021	2694	16,7
+Carne, boi, de segunda (acém, capa de contrafilé, costela, músculo, paleta, peito), cozida/grelhada/assada, s/ óleo, c/ sal	4216	2812	17,4
+Carne, boi, de segunda (acém, costela, músculo, paleta), refogada/ensopada (c/ óleo, cebola e alho), c/ sal	4028	2694	16,7
+Carne, boi, de segunda (acém, capa de contrafilé, costela, músculo, paleta, peito), cozida/grelhada/assada, s/ óleo, c/ sal	4216	2812	17,4
+Carne, ovino, ovelha, perna, cozida, assada, s/ óleo, c/ sal	2208	1162	11,6
+Carne, boi, ovelha, cozido, c/ óleo, c/ sal	2090	1129	11,3
+Carne, boi, patinho, s/ gordura, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal	4723	3165	19,7
+Carne, boi, patinho, s/ gordura, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal	4700	3165	19,7
+Carne, boi, patinho, s/ gordura, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal	4700	3165	19,7
+Carne, boi, patinho, s/ gordura, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal	4658	3165	19,7
+Carne, boi, patinho, s/ gordura, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal	4663	3165	19,7
+Carne, boi, patinho, s/ gordura, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal	4658	3165	19,7
+Carne, boi, patinho, s/ gordura, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal	4639	3165	19,7
+Carne, boi, patinho, s/ gordura, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal	4658	3165	19,7
+Bife à role, c/ sal	3104	1976	12,0
+Bife à role, c/ sal	3029	1976	12,0
+Bife à role, c/ sal	3029	1976	12,0
+Bife à role, c/ sal	2979	1976	12,0
+Bife à role, c/ sal	2994	1976	12,0
+Bife à role, c/ sal	2972	1976	12,0
+Bife à role, c/ sal	2928	1976	12,0
+Bife à role, c/ sal	2991	1976	12,0
+Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4243	2812	17,4
+Carne, boi, patinho, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4028	2694	16,7
+Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4216	2812	17,4
+Carne, boi, patinho, s/ gordura, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal	4658	3165	19,7
+Carne, boi, patinho, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4010	2694	16,7
+Carne, boi, patinho, s/ gordura, frita (c/ óleo de soja), c/ sal	3869	2622	16,3
+Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4177	2812	17,4
+Carne, boi, patinho, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4021	2694	16,7
+Carne, boi, patinho, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4021	2694	16,7
+Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4243	2812	17,4
+Carne, boi, patinho, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4028	2694	16,7
+Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4216	2812	17,4
+Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal	3258	2194	13,6
+Carne, boi, patinho, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4010	2694	16,7
+Carne, boi, patinho, s/ gordura, frita (c/ óleo de soja), c/ sal	3869	2622	16,3
+Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4177	2812	17,4
+Carne, boi, patinho, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4021	2694	16,7
+Carne, boi, patinho, s/ gordura, refogada, c/ óleo e temperos, c/ sal	4021	2694	16,7
+Carne, porco, pé, cozido, s/ óleo, c/ sal	454	198	11,6
+Carne, porco, pé, cozido, s/ óleo, c/ sal	454	198	11,6
+Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4243	2812	17,4
+Carne, porco, pernil, grelhada/assada, s/ óleo, c/ sal	741	1266	5,9
+Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal	778	1094	5,1
+Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal	750	1094	5,1
+Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal	712	1094	5,1
+Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal	778	1094	5,1
+Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal	778	1094	5,1
+Carne, porco, lombo, refogada (c/ óleo, cebola e alho), c/ sal	720	1054	4,9
+Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal	750	1094	5,1
+Carne, porco, lombo, frita (c/ óleo de soja), c/ sal	681	1041	5,0
+Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal	712	1094	5,1
+Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal	778	1094	5,1
+Carne, boi, filé mignon, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4721	3134	19,4
+Carne, boi, filé mignon, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4655	3134	19,4
+Carne, boi, filé mignon, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4721	3134	19,4
+Carne, boi, filé mignon, s/ gordura, grelhada/assada, s/ óleo, c/ sal	4655	3134	19,4
+Vitela, cozida, s/ óleo, c/ sal	1929	2150	9,6
+Vitela, cozida, s/ óleo, c/ sal	1882	2150	9,6
+Carne, bovina, rosbife, fatiado	2760	1814	11,2
+Carne, bovina, rosbife, fatiado	2694	1814	11,2
+
+Peixe, água salgada, filé/ posta, assado/grelhado, s/ óleo, c/ sal (média de várias espécies)	618	0	31,6
+Peixe, água salgada, filé/posta, ensopado (c/ cebola, tomate e pimentão), c/ óleo, c/ sal (média de várias espécies)	725	31	33,8
+Peixe, água salgada, filé/posta, cozido, drenado, s/ óleo, c/ sal (média de várias espécies)	631	0	31,6
+Peixe, água salgada, filé/posta, cozido, drenado, s/ óleo, c/ sal (média de várias espécies)	528	0	26,9
+Peixe, água salgada, filé/posta, à milanesa (ovo e farinha de rosca), frito (c/ óleo de soja), c/ sal (média de várias espécies)	758	93	35,6
+Peixe, água salgada, filé/posta, ensopado (c/ cebola, tomate e pimentão), c/ óleo, c/ sal (média de várias espécies)	723	31	33,8
+Peixe, água salgada, filé/posta, frito (c/ óleo de soja), c/ sal (média de várias espécies)	642	21	31,9
+Peixe, água salgada, filé/ posta, assado/grelhado, s/ óleo, c/ sal (média de várias espécies)	618	0	31,6
+Peixe, água salgada, filé/posta, cozido, drenado, s/ óleo, c/ sal (média de várias espécies)	631	0	31,6
+Peixe, água salgada, filé/ posta, assado/grelhado, s/ óleo, c/ sal (média de várias espécies)	618	0	31,6
+Peixe, água salgada, filé/posta, ensopado (c/ cebola, tomate e pimentão), c/ óleo, c/ sal (média de várias espécies)	725	31	33,8
+Peixe, água salgada, filé/posta, cozido, drenado, s/ óleo, c/ sal (média de várias espécies)	631	0	31,6
+Peixe, água salgada, filé/posta, à milanesa (ovo e farinha de rosca), frito (c/ óleo de soja), c/ sal (média de várias espécies)	758	93	35,6
+Peixe, água salgada, filé/posta, ensopado (c/ cebola, tomate e pimentão), c/ óleo, c/ sal (média de várias espécies)	723	31	33,8
+Peixe, água salgada, filé/posta, frito (c/ óleo de soja), c/ sal (média de várias espécies)	642	21	31,9
+Peixe, água salgada, filé/ posta, assado/grelhado, s/ óleo, c/ sal (média de várias espécies)	618	0	31,6
+Peixe, água salgada, filé/posta, cozido, drenado, s/ óleo, c/ sal (média de várias espécies)	631	0	31,6
+Crustáceo, camarão, s/ casca, cozido, s/ óleo, c/ sal	4009	0	57,0
+Crustáceo, camarão, s/ casca, refogado (c/ óleo, cebola e alho), c/ sal	3838	10	54,5
+Crustáceo, camarão, s/ casca, cozido, s/ óleo, c/ sal	4018	0	57,0
+Crustáceo, camarão, s/ casca, cozido, s/ óleo, c/ sal	2031	0	28,9
+Crustáceo, camarão, Sete Barbas, s/ cabeça, frito (c/ óleo de soja), c/ sal	3633	43	51,7
+Crustáceo, camarão, s/ casca, refogado (c/ óleo, cebola e alho), c/ sal	3840	10	54,5
+Crustáceo, camarão, Sete Barbas, s/ cabeça, frito (c/ óleo de soja), c/ sal	3636	43	51,7
+Crustáceo, camarão, s/ casca, cozido, s/ óleo, c/ sal	4009	0	57,0
+Crustáceo, camarão, s/ casca, refogado (c/ óleo, cebola e alho), c/ sal	3838	10	54,5
+Crustáceo, camarão, s/ casca, cozido, s/ óleo, c/ sal	4018	0	57,0
+Crustáceo, caranguejo, cozido, s/ óleo, c/ sal	1734	0	57,0
+Crustáceo, caranguejo, cozido, s/ óleo, c/ sal	1734	0	57,0
+Crustáceo, caranguejo, cozido, s/ óleo, c/ sal	1725	0	57,0
+Crustáceo, caranguejo, cozido, s/ óleo, c/ sal	1734	0	57,0
+Crustáceo, caranguejo, cozido, s/ óleo, c/ sal	1734	0	57,0
+Crustáceo, caranguejo, cozido, s/ óleo, c/ sal	1734	0	57,0
+Crustáceo, caranguejo, cozido, s/ óleo, c/ sal	1734	0	57,0
+Molusco, mexilhão, cozido, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ sal	1060	9	45,9
+Molusco, mexilhão, cozido, s/ óleo, c/ sal	1268	0	57,0
+Molusco, mexilhão, cozido, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ sal	1061	9	45,9
+Molusco, mexilhão, cozido, s/ óleo, c/ sal	1268	0	57,0
+Molusco, ostra, cru	640	0	29,0
+Molusco, lula, cozido, s/ óleo, c/ sal	1824	0	57,0
+Molusco, lula, cozido, frito, c/ sal	1742	21	54,4
+Molusco, mexilhão, cozido, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ sal	1060	9	45,9
+Molusco, mexilhão, cozido, s/ óleo, c/ sal	1268	0	57,0
+Molusco, mexilhão, cozido, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ sal	1061	9	45,9
+Molusco, mexilhão, cozido, s/ óleo, c/ sal	1268	0	57,0
+Crustáceo, lagosta, cozido, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ sal	5924	9	45,9
+Crustáceo, lagosta, cozido, s/ óleo, c/ sal	7321	0	57,0
+Crustáceo, lagosta, cozido, s/ óleo, c/ sal	7321	0	57,0
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	355	11	25,7
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	364	11	25,7
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	364	11	25,7
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	375	11	25,7
+Peixe, água salgada, filé/posta, frito (c/ óleo de soja), c/ sal (média de várias espécies)	642	21	31,9
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	377	11	25,7
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	377	11	25,7
+Peixe, caviar	655	63	5,2
+Peixe, caviar	664	63	5,2
+Peixe, caviar	664	63	5,2
+Molusco, polvo, cozido, s/ óleo, c/ sal	1021	0	29,0
+Molusco, polvo, cozido, s/ óleo, c/ sal	1030	0	29,0
+Ceviche de peixe, água salgada, pescada, c/ sal	383	26	19,2
+Peixe, água salgada, salmão, s/ pele, fresco, cru	530	0	27,1
+Salmon tartare	399	107	18,1
+Peixe, água doce, filé, grelhado/assado, s/ óleo, s/ sal (média de 7 espécies)	615	0	22,7
+Peixe, água doce, filé, ensopado (c/ cebola, tomate e pimentão), c/ óleo, c/ sal (média de 7 espécies)	713	22	24,2
+Peixe, água doce, filé, cozido, s/ óleo, c/ sal (média de 7 espécies)	628	0	22,7
+Peixe, água doce, filé, cozido, s/ óleo, c/ sal (média de 7 espécies)	525	0	19,4
+Peixe, água doce, filé, à milanesa à milanesa (farinha de trigo, ovo e farinha de rosca) frito (c/ óleo de soja), c/ sal (média de 7 espécies)	631	38	22,0
+Peixe, água doce, filé, ensopado (c/ cebola, tomate e pimentão), c/ óleo, c/ sal (média de 7 espécies)	711	22	24,2
+Peixe, água doce, filé, frito (c/ óleo de soja), c/ sal (média de 7 espécies)	782	21	28,3
+Peixe, água doce, filé, grelhado/assado, s/ óleo, c/ sal (média de 7 espécies)	615	0	22,7
+Peixe, água doce, filé, ensopado (c/ cebola, tomate e pimentão), c/ óleo, c/ sal (média de 7 espécies)	707	22	24,2
+Peixe, água doce, filé, cozido, s/ óleo, c/ sal (média de 7 espécies)	628	0	22,7
+Crustáceo, camarão, Sete Barbas, s/ cabeça, frito (c/ óleo de soja), c/ sal	3636	43	51,7
+Peixe, água salgada, atum, cozido, drenado, s/ óleo, c/ sal	626	0	22,7
+Peixe, água salgada, atum, frito (c/ óleo de soja), c/ sal	634	13	22,9
+Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal	613	0	22,7
+Peixe, água salgada, atum, cozido, drenado, s/ óleo, c/ sal	626	0	22,7
+Crustáceo, camarão, s/ casca, cozido, s/ óleo, c/ sal	4009	0	57,0
+Peixe, sticks, congelado, preparado	848	122	6,9
+Peixe, sticks, congelado, preparado	848	122	6,9
+Peixe, sticks, congelado, preparado	721	111	6,0
+Peixe, água doce, filé, grelhado/assado, s/ óleo, s/ sal (média de 7 espécies)	615	0	22,7
+Peixe, água doce, filé, refogado (c/ óleo, cebola e alho), c/ sal (média de 7 espécies)	457	10	36,9
+Peixe, água doce, filé, cozido, s/ óleo, c/ sal (média de 7 espécies)	628	0	22,7
+Peixe, água doce, filé, cozido, s/ óleo, c/ sal (média de 7 espécies)	525	0	19,4
+Peixe, água doce, filé, à milanesa à milanesa (farinha de trigo, ovo e farinha de rosca) frito (c/ óleo de soja), c/ sal (média de 7 espécies)	631	38	22,0
+Peixe, água doce, filé, ensopado (c/ cebola, tomate e pimentão), c/ óleo, c/ sal (média de 7 espécies)	711	22	24,2
+Peixe, água doce, filé, frito (c/ óleo de soja), c/ sal (média de 7 espécies)	782	21	28,3
+Peixe, água doce, filé, grelhado/assado, s/ óleo, c/ sal (média de 7 espécies)	615	0	22,7
+Peixe, água doce, filé, refogado (c/ óleo, cebola e alho), c/ sal (média de 7 espécies)	457	10	36,9
+Peixe, água doce, filé, cozido, s/ óleo, c/ sal (média de 7 espécies)	628	0	22,7
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	355	11	25,7
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	364	11	25,7
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	364	11	25,7
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	375	11	25,7
+Peixe, água salgada, filé/posta, frito (c/ óleo de soja), c/ sal (média de várias espécies)	642	21	31,9
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	377	11	25,7
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	377	11	25,7
+Peixe, água doce, filé, refogado (c/ óleo, cebola e alho), c/ sal (média de 7 espécies)	457	10	36,9
+Peixe, água doce, filé, cozido, s/ óleo, c/ sal (média de 7 espécies)	628	0	22,7
+Peixe, água doce, filé, ensopado (c/ cebola, tomate e pimentão), c/ óleo, c/ sal (média de 7 espécies)	711	22	24,2
+Peixe, água doce, filé, frito (c/ óleo de soja), c/ sal (média de 7 espécies)	782	21	28,3
+Peixe, água doce, filé, grelhado/assado, s/ óleo, c/ sal (média de 7 espécies)	615	0	22,7
+Peixe, água doce, filé, cozido, s/ óleo, c/ sal (média de 7 espécies)	628	0	22,7
+Peixe, água doce, Tucunaré, filé, congelado, cozido, s/ óleo, c/ sal	476	0	38,7
+Peixe, água salgada, filé/ posta, assado/grelhado, s/ óleo, c/ sal (média de várias espécies)	618	0	31,6
+Peixe, água salgada, filé/posta, ensopado (c/ cebola, tomate e pimentão), c/ óleo, c/ sal (média de várias espécies)	725	31	33,8
+Peixe, água salgada, filé/posta, cozido, drenado, s/ óleo, c/ sal (média de várias espécies)	631	0	31,6
+Peixe, água salgada, filé/posta, à milanesa (ovo e farinha de rosca), frito (c/ óleo de soja), c/ sal (média de várias espécies)	758	93	35,6
+Peixe, água salgada, filé/posta, ensopado (c/ cebola, tomate e pimentão), c/ óleo, c/ sal (média de várias espécies)	723	31	33,8
+Peixe, água salgada, filé/posta, frito (c/ óleo de soja), c/ sal (média de várias espécies)	642	21	31,9
+Peixe, água salgada, filé/ posta, assado/grelhado, s/ óleo, c/ sal (média de várias espécies)	618	0	31,6
+Peixe, água salgada, filé/posta, ensopado (c/ cebola, tomate e pimentão), c/ óleo, c/ sal (média de várias espécies)	718	31	33,8
+Peixe, água salgada, filé/posta, cozido, drenado, s/ óleo, c/ sal (média de várias espécies)	631	0	31,6
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	355	11	25,7
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	364	11	25,7
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	364	11	25,7
+Peixe, água salgada, filé/posta, à milanesa (ovo e farinha de rosca), frito (c/ óleo de soja), c/ sal (média de várias espécies)	758	93	35,6
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	375	11	25,7
+Peixe, água salgada, filé/posta, frito (c/ óleo de soja), c/ sal (média de várias espécies)	642	21	31,9
+Peixe, água salgada, bacalhau, salgado, dessalgado, refogado	355	11	25,7
+Azeitona, verde, conserva, drenada	110	1356	1,0
+Ervilha, enlatada, drenada	173	226	0,5
+Ervilha, enlatada, drenada	173	226	0,5
+Milho, verde, grão, enlatado, drenado (média de diferentes marcas)	247	322	0,7
+Palmito, conversa, drenado (média de variedades - Pupunha e Juçara)	111	769	0,6
+Cogumelo, Paris, cozido, drenado, s/ óleo, c/ sal	61	81	0,1
+Cogumelo, Paris, cozido, drenado, s/ óleo, c/ sal	61	81	0,1
+Salada, repolho, branco, cru, c/ molho vinagrete (tomate, cebola, salsinha, vinagre e óleo), c/ sal	25	97	0,2
+Salada, repolho, branco, cru, c/ molho vinagrete (tomate, cebola, salsinha, vinagre e óleo), c/ sal	25	97	0,2
+Milho verde e ervilha, grão, enlatado, drenado	160	769	0,6
+Yakisoba, c/ sal	487	328	2,3
+Milho verde e ervilha, grão, enlatado, drenado	160	769	0,6
+Feijoada, c/ sal	726	426	1,8
+Dobradinha, c/ feijão branco, bucho bovino, c/ óleo, cebola e alho, c/ sal	552	120	3,9
+Carne, porco, cozida, c/ batata e vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	319	506	2,6
+Goulash	2203	1447	8,9
+Patê (média de diferentes sabores)	530	874	5,2
+Patê, presunto, vidro	530	874	5,2
+Patê (média de diferentes sabores)	530	874	5,2
+Carne, bovina, em conserva	1450	874	5,2
+Almôndega, carne, boi, industrializada, frita, c/ sal	3122	2125	13,3
+Carne, bovina, em conserva	1450	874	5,2
+Apresuntado, cozido (média de diferentes marcas)	530	874	5,2
+Presunto, porco, cozido, s/ capa de gordura	1450	874	5,2
+Salsicha, aquecida	353	1280	5,2
+Peixe, água salgada, sardinha, filé, conserva, em óleo	655	63	5,2
+Peixe, água salgada, atum, sólido, conserva em óleo (média de diferentes marcas)	779	75	6,2
+Picles, pepino, azedo	111	769	0,6
+Peixe, água salgada, atum, sólido, conserva em óleo (média de diferentes marcas)	779	75	6,2
+Picles, pepino, azedo	111	769	0,6
+Nabo, s/ casca, cozido, drenado, s/ óleo, c/ sal	42	94	0,1
+Estrogonoffe de carne, c/ sal	2303	1554	10,2
+Peixe, água salgada, surimi, fresco	530	0	27,1
+Peixe, água salgada, salmão, filé, s/ pele, cozido, drenado, s/ óleo, c/ sal	631	0	31,6
+Peixe, água salgada, atum, sólido, conserva, light	655	63	5,2
+
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	490	632	3,7
+Carne, frango, caipira, inteiro, cozida, s/ óleo, c/ sal (média de amostras c/ e s/ pele)	509	651	3,9
+Carne, frango, inteiro, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal (média de amostras c/ e s/ pele)	572	748	4,5
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	478	632	3,7
+Carne, frango, inteiro, s/ pele, frita (c/ óleo de soja), c/ sal	471	633	3,9
+Carne, frango, inteiro, s/ pele, grelhada/assada, s/ óleo, c/ sal	483	651	3,9
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	487	632	3,7
+Carne, frango, caipira, inteiro, cozida, s/ óleo, c/ sal (média de amostras c/ e s/ pele)	509	651	3,9
+Carne, frango, inteiro, s/ pele, grelhada/assada, s/ óleo, c/ sal	533	651	3,9
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	490	632	3,7
+Carne, frango, caipira, inteiro, cozida, s/ óleo, c/ sal (média de amostras c/ e s/ pele)	509	651	3,9
+Carne, frango, caipira, inteiro, cozida, s/ óleo, c/ sal (média de amostras c/ e s/ pele)	387	521	3,1
+Carne, frango, inteiro, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal (média de amostras c/ e s/ pele)	572	748	4,5
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	478	632	3,7
+Carne, frango, inteiro, s/ pele, frita (c/ óleo de soja), c/ sal	471	633	3,9
+Carne, frango, inteiro, s/ pele, grelhada/assada, s/ óleo, c/ sal	483	651	3,9
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	487	632	3,7
+Carne, frango, caipira, inteiro, cozida, s/ óleo, c/ sal (média de amostras c/ e s/ pele)	509	651	3,9
+Carne, frango, inteiro, s/ pele, grelhada/assada, s/ óleo, c/ sal	533	651	3,9
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	490	632	3,7
+Carne, frango, caipira, inteiro, cozida, s/ óleo, c/ sal (média de amostras c/ e s/ pele)	509	651	3,9
+Carne, frango, caipira, inteiro, cozida, s/ óleo, c/ sal (média de amostras c/ e s/ pele)	387	521	3,1
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	478	632	3,7
+Carne, frango, inteiro, s/ pele, frita (c/ óleo de soja), c/ sal	471	633	3,9
+Carne, frango, inteiro, s/ pele, grelhada/assada, s/ óleo, c/ sal	483	651	3,9
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	487	632	3,7
+Carne, frango, caipira, inteiro, cozida, s/ óleo, c/ sal (média de amostras c/ e s/ pele)	509	651	3,9
+Carne, frango, inteiro, s/ pele, grelhada/assada, s/ óleo, c/ sal	533	651	3,9
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	490	632	3,7
+Carne, frango, caipira, inteiro, cozida, s/ óleo, c/ sal (média de amostras c/ e s/ pele)	509	651	3,9
+Carne, frango, inteiro, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal (média de amostras c/ e s/ pele)	572	748	4,5
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	478	632	3,7
+Carne, frango, inteiro, s/ pele, frita (c/ óleo de soja), c/ sal	471	633	3,9
+Carne, frango, inteiro, s/ pele, grelhada/assada, s/ óleo, c/ sal	483	651	3,9
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	487	632	3,7
+Carne, frango, caipira, inteiro, cozida, s/ óleo, c/ sal (média de amostras c/ e s/ pele)	509	651	3,9
+Carne, frango, inteiro, s/ pele, grelhada/assada, s/ óleo, c/ sal	533	651	3,9
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	490	632	3,7
+Carne, frango, caipira, inteiro, s/ pele, cozida, s/ óleo, c/ sal	509	651	3,9
+Carne, frango, caipira, inteiro, s/ pele, cozida, s/ óleo, c/ sal	387	521	3,1
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	478	632	3,7
+Carne, frango, inteiro, s/ pele, frita (c/ óleo de soja), c/ sal	471	633	3,9
+Carne, frango, inteiro, s/ pele, grelhada/assada, s/ óleo, c/ sal	483	651	3,9
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	487	632	3,7
+Carne, frango, caipira, inteiro, s/ pele, cozida, s/ óleo, c/ sal	509	651	3,9
+Carne, frango, peito, s/ pele, grelhada, s/ gordura, s/ óleo, c/ sal	533	651	3,9
+Carne, frango, peito, s/ pele, cozida, drenada, c/ óleo de soja, c/ sal	494	641	3,9
+Carne, frango, peito, s/ pele, cozida, drenada, c/ óleo de soja, c/ sal	494	641	3,9
+Carne, frango, peito, s/ pele, cozida, drenada, c/ óleo de soja, c/ sal	377	517	3,1
+Carne, frango, peito, filé, à milanesa (farinha de trigo, ovo e farinha de rosca), frita em imersão, c/ sal	583	773	4,7
+Carne, frango, peito, s/ pele, refogado (c/ óleo, cebola e alho), c/ sal	478	632	3,7
+Carne, frango, peito, s/ pele, frita, c/ óleo de soja, c/ sal	480	640	3,9
+Carne, frango, peito, s/ pele, grelhada, s/ gordura, s/ óleo, c/ sal	483	651	3,9
+Carne, frango, peito, s/ pele, refogado (c/ óleo, cebola e alho), c/ sal	487	632	3,7
+Carne, frango, peito, s/ pele, cozida, drenada, c/ óleo de soja, c/ sal	494	641	3,9
+Carne, frango, peito, s/ pele, grelhada, s/ gordura, s/ óleo, c/ sal	533	651	3,9
+Carne, frango, peito, s/ pele, cozida, drenada, c/ óleo de soja, c/ sal	494	641	3,9
+Carne, frango, peito, s/ pele, cozida, drenada, c/ óleo de soja, c/ sal	494	641	3,9
+Carne, frango, peito, filé, à milanesa (farinha de trigo, ovo e farinha de rosca), frita em imersão, c/ sal	583	773	4,7
+Carne, frango, peito, s/ pele, refogado (c/ óleo, cebola e alho), c/ sal	478	632	3,7
+Carne, frango, peito, s/ pele, frita, c/ óleo de soja, c/ sal	480	640	3,9
+Carne, frango, peito, s/ pele, grelhada, s/ gordura, s/ óleo, c/ sal	483	651	3,9
+Carne, frango, peito, s/ pele, refogado (c/ óleo, cebola e alho), c/ sal	487	632	3,7
+Carne, frango, peito, s/ pele, cozida, drenada, c/ óleo de soja, c/ sal	494	641	3,9
+Carne, frango, coxa, c/ pele, assada, s/ óleo, c/ sal	533	651	3,9
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	490	632	3,7
+Carne, frango, coxa, s/ pele, cozida, s/ óleo, c/ sal	509	651	3,9
+Carne, frango, inteiro, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal (média de amostras c/ e s/ pele)	572	748	4,5
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	478	632	3,7
+Carne, frango, inteiro, s/ pele, frita (c/ óleo de soja), c/ sal	471	633	3,9
+Carne, frango, coxa, c/ pele, assada, s/ óleo, c/ sal	483	651	3,9
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	487	632	3,7
+Carne, frango, coxa, s/ pele, cozida, s/ óleo, c/ sal	509	651	3,9
+Carne, frango, asa, c/ pele, assada, s/ óleo, c/ sal	533	651	3,9
+Carne, frango, asa, c/ pele, refogada (c/ óleo, cebola e alho), c/ sal	490	632	3,7
+Carne, frango, asa, c/ pele, cozida (líquido do cozimento excluído), s/ óleo, c/ sal	509	651	3,9
+Carne, frango, asa, c/ pele, refogada (c/ óleo, cebola e alho), c/ sal	478	632	3,7
+Carne, frango, asa, c/ pele, frita (c/ óleo de soja), c/ sal	471	633	3,9
+Carne, frango, asa, c/ pele, assada, s/ óleo, c/ sal	483	651	3,9
+Carne, frango, asa, c/ pele, refogada (c/ óleo, cebola e alho), c/ sal	487	632	3,7
+Carne, frango, asa, c/ pele, cozida (líquido do cozimento excluído), s/ óleo, c/ sal	509	651	3,9
+Carne, frango, asa, c/ pele, assada, s/ óleo, c/ sal	533	651	3,9
+Carne, frango, asa, c/ pele, refogada (c/ óleo, cebola e alho), c/ sal	490	632	3,7
+Carne, frango, asa, c/ pele, cozida (líquido do cozimento excluído), s/ óleo, c/ sal	509	651	3,9
+Carne, frango, asa, c/ pele, refogada (c/ óleo, cebola e alho), c/ sal	478	632	3,7
+Carne, frango, asa, c/ pele, frita (c/ óleo de soja), c/ sal	471	633	3,9
+Carne, frango, asa, c/ pele, assada, s/ óleo, c/ sal	483	651	3,9
+Carne, frango, asa, c/ pele, cozida (líquido do cozimento excluído), s/ óleo, c/ sal	509	651	3,9
+Carne, frango, asa, c/ pele, refogada (c/ óleo, cebola e alho), c/ sal	490	632	3,7
+Carne, frango, asa, c/ pele, cozida (líquido do cozimento excluído), s/ óleo, c/ sal	509	651	3,9
+Carne, frango, asa, c/ pele, refogada (c/ óleo, cebola e alho), c/ sal	478	632	3,7
+Carne, frango, asa, c/ pele, frita (c/ óleo de soja), c/ sal	471	633	3,9
+Carne, frango, asa, c/ pele, cozida (líquido do cozimento excluído), s/ óleo, c/ sal	509	651	3,9
+Carne, frango, pé, cozido, s/ óleo, c/sal	533	651	3,9
+Carne, frango, pé, cozido, c/ óleo de soja, cebola e alho, c/sal	490	632	3,7
+Carne, frango, pé, cozido, s/ óleo, c/sal	509	651	3,9
+Carne, frango, pé, cozido, c/ óleo de soja, cebola e alho, c/sal	478	632	3,7
+Carne, frango, pé, cozido, c/ óleo de soja, cebola e alho, c/sal	477	632	3,7
+Carne, frango, coração, grelhada, s/ óleo, c/ sal	447	514	3,0
+Carne, frango, coração, refogada (c/ óleo, cebola e alho), c/ sal	405	501	3,0
+Carne, frango, coração, cozida (líquido do cozimento excluído), s/ óleo, c/ sal	420	514	3,0
+Carne, frango, coração, frita (c/ óleo de soja), c/ sal	377	507	3,1
+Carne, frango, moela, cozida, s/ óleo, c/ sal	431	514	3,0
+Carne, frango, moela, cozida, s/ óleo, c/ sal	407	514	3,0
+Carne, frango, moela, cozida, s/ óleo, c/ sal	407	514	3,0
+Carne, frango, moela, cozida, s/ óleo, c/ sal	394	514	3,0
+Carne, frango, inteiro, s/ pele, frita (c/ óleo de soja), c/ sal	471	633	3,9
+Carne, frango, moela, cozida, s/ óleo, c/ sal	401	514	3,0
+Carne, frango, moela, cozida, s/ óleo, c/ sal	407	514	3,0
+Carne, frango, coração, grelhada, s/ óleo, c/ sal	447	514	3,0
+Carne, frango, coração, refogada (c/ óleo, cebola e alho), c/ sal	405	501	3,0
+Carne, frango, coração, cozida (líquido do cozimento excluído), s/ óleo, c/ sal	420	514	3,0
+Carne, frango, coração, refogada (c/ óleo, cebola e alho), c/ sal	388	501	3,0
+Carne, frango, coração, frita (c/ óleo de soja), c/ sal	377	507	3,1
+Carne, frango, coração, grelhada, s/ óleo, c/ sal	382	514	3,0
+Carne, frango, coração, refogada (c/ óleo, cebola e alho), c/ sal	399	501	3,0
+Carne, frango, coração, grelhada, s/ óleo, c/ sal	382	514	3,0
+Carne, frango, fígado, cozida (líquido do cozimento excluído), s/ óleo, c/ sal	431	514	3,0
+Carne, frango, fígado, refogada (c/ óleo, cebola e alho), c/ sal	385	491	2,9
+Carne, frango, fígado, cozida (líquido do cozimento excluído), s/ óleo, c/ sal	407	514	3,0
+Carne, frango, fígado, refogada (c/ óleo, cebola e alho), c/ sal	374	491	2,9
+Carne, frango, fígado, frita, c/ óleo de soja, c/ sal	384	510	3,1
+Carne, frango, fígado, cozida (líquido do cozimento excluído), s/ óleo, c/ sal	382	514	3,0
+Sopa, canja, c/ legumes, c/ arroz polido, c/ peito de frango, c/ sal	311	183	1,0
+Peru, inteiro, assado, c/ manteiga, c/ sal	537	550	3,7
+Peru, inteiro, assado, c/ manteiga, c/ sal	513	550	3,7
+Peru, inteiro, assado, c/ manteiga, c/ sal	502	550	3,7
+Carne, peru, peito, s/ pele, frita (c/ óleo de soja), c/ sal	502	600	3,7
+Peru, inteiro, assado, c/ manteiga, c/ sal	537	550	3,7
+Carne, peru, peito, s/ pele, grelhada/assada, s/ óleo, c/ sal	424	445	2,6
+Carne, peru, peito, s/ pele, frita (c/ óleo de soja), c/ sal	515	600	3,7
+Carne, peru, peito, s/ pele, cozida, drenada, s/ óleo, c/ sal	400	445	2,6
+Carne, peru, peito, s/ pele, cozida, drenada, s/ óleo, c/ sal	374	445	2,6
+Carne, peru, peito, s/ pele, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal	454	530	3,3
+Carne, peru, peito, s/ pele, frita (c/ óleo de soja), c/ sal	502	600	3,7
+Carne, peru, peito, s/ pele, grelhada/assada, s/ óleo, c/ sal	374	445	2,6
+Carne, peru, peito, s/ pele, cozida, drenada, s/ óleo, c/ sal	400	445	2,6
+Carne, peru, coxa, s/ pele, assada, s/ óleo, c/ sal	597	651	3,9
+Carne, peru, coxa, s/ pele, cozida, drenada, s/ óleo, c/ sal	573	651	3,9
+Carne, peru, coxa, s/ pele, cozida, drenada, s/ óleo, c/ sal	573	651	3,9
+Carne, peru, coxa, s/ pele, cozida, drenada, s/ óleo, c/ sal	573	651	3,9
+Carne, peru, coxa, s/ pele, assada, s/ óleo, c/ sal	597	651	3,9
+Carne, peru, coxa, s/ pele, cozida, drenada, s/ óleo, c/ sal	573	651	3,9
+Carne, peru, coxa, s/ pele, cozida, drenada, s/ óleo, c/ sal	573	651	3,9
+Carne, peru, coxa, s/ pele, cozida, drenada, s/ óleo, c/ sal	560	651	3,9
+Carne, frango, inteiro, s/ pele, grelhada/assada, s/ óleo, c/ sal	533	651	3,9
+Carne, frango, inteiro, refogada (c/ óleo, cebola e alho), c/ sal (média de amostras c/ e s/ pele)	490	632	3,7
+Carne, frango, caipira, inteiro, cozida, s/ óleo, c/ sal (média de amostras c/ e s/ pele)	387	521	3,1
+Carne, frango, caipira, inteiro, cozida, s/ óleo, c/ sal (média de amostras c/ e s/ pele)	509	651	3,9
+Peru, inteiro, assado, c/ manteiga, c/ sal	537	550	3,7
+Peru, inteiro, assado, c/ manteiga, c/ sal	513	550	3,7
+Carne, frango, inteiro, s/ pele, frita (c/ óleo de soja), c/ sal	471	633	3,9
+Carne, frango, empanado, tipo nuggets, congelado, frito (c/ óleo de soja)	502	1027	6,2
+Carne, frango, empanado, tipo nuggets, congelado, frito (c/ óleo de soja)	502	1027	6,2
+Carne, frango, empanado, tipo nuggets, congelado, assado (s/ óleo)	561	1093	6,5
+Carne, frango, empanado, tipo nuggets, congelado, frito (c/ óleo de soja)	492	1027	6,2
+Carne, frango, empanado, tipo nuggets, congelado, frito (c/ óleo de soja)	502	1027	6,2
+Carne, frango, empanado, tipo nuggets, congelado, frito (c/ óleo de soja)	502	1027	6,2
+Carne, frango, empanado, tipo nuggets, congelado, frito (c/ óleo de soja)	502	1027	6,2
+Carne, frango, empanado, tipo nuggets, congelado, assado (s/ óleo)	561	1093	6,5
+Carne, frango, empanado, tipo nuggets, congelado, frito (c/ óleo de soja)	502	1027	6,2
+Carne, frango, empanado, tipo nuggets, congelado, frito (c/ óleo de soja)	502	1027	6,2
+Carne, frango, asa, c/ pele, refogada (c/ óleo, cebola e alho), c/ sal	490	632	3,7
+Ovo, galinha, inteiro, cozido, c/ sal	388	338	2,3
+Ovo, galinha, mexido, c/ margarina, c/ sal	393	329	2,5
+Ovo, galinha, inteiro, cozido, c/ sal	380	338	2,3
+Ovo, galinha, inteiro, cru (média de várias amostras)	372	340	2,3
+Ovo, galinha, inteiro, frito (c/ óleo de soja), c/ sal	360	345	2,4
+Ovo, galinha, mexido, c/ margarina, c/ sal	380	329	2,5
+Ovo, galinha, inteiro, frito (c/ óleo de soja), c/ sal	360	345	2,4
+Ovo, galinha, inteiro, cozido, c/ sal	370	338	2,3
+Ovo, galinha, mexido, c/ margarina, c/ sal	377	329	2,5
+Ovo, galinha, inteiro, cozido, c/ sal	380	338	2,3
+Ovo, galinha, mexido, c/ margarina, c/ sal	393	329	2,5
+Ovo, codorna, inteiro, cozido, s/ sal	383	341	2,3
+Ovo, codorna, inteiro, cru	374	341	2,3
+Ovo, galinha, inteiro, frito (c/ óleo de soja), c/ sal	360	345	2,4
+Ovo, codorna, inteiro, cozido, s/ sal	383	341	2,3
+Carne, galinha da angola, carne e pele, cozida, c/ óleo de soja, cebola e alho, c/sal	492	632	3,7
+Carne, galinha da angola, carne e pele, cozida, s/ óleo, c/ sal	511	651	3,9
+Carne, galinha da angola, carne e pele, cozida, c/ óleo de soja, cebola e alho, c/sal	479	632	3,7
+Carne, galinha da angola, carne e pele, cozida, c/ óleo de soja, cebola e alho, c/sal	492	632	3,7
+Carne, frango, inteiro, s/ pele, frita (c/ óleo de soja), c/ sal	484	633	3,9
+Carne, pato, inteiro, cozido, assado, s/ óleo, c/ sal	535	651	3,9
+Carne, pato, inteiro, cozido, assado, s/ óleo, c/ sal	511	651	3,9
+Carne, frango, inteiro, s/ pele, frita (c/ óleo de soja), c/ sal	471	633	3,9
+Carne, pato, inteiro, cozido, assado, s/ óleo, c/ sal	505	651	3,9
+Carne, pato, inteiro, cozido, assado, s/ óleo, c/ sal	535	651	3,9
+Carne, pato, inteiro, cozido, assado, s/ óleo, c/ sal	535	651	3,9
+Carne, pato, inteiro, cozido, assado, s/ óleo, c/ sal	511	651	3,9
+Carne, pato, inteiro, cozido, assado, s/ óleo, c/ sal	511	651	3,9
+Carne, pato, inteiro, cozido, assado, s/ óleo, c/ sal	498	651	3,9
+Carne, pato, inteiro, cozido, assado, s/ óleo, c/ sal	495	651	3,9
+Peru , peito, defumado	495	559	3,3
+Peru , peito, defumado	470	559	3,3
+Carne, pato, inteiro, cozido, assado, s/ óleo, c/ sal	535	651	3,9
+Carne, frango, peito, s/ pele, refogado (c/ óleo, cebola e alho), c/ sal	490	632	3,7
+Carne, frango, peito, s/ pele, cozida, drenada, s/ óleo, c/ sal	509	651	3,9
+Carne, frango, peito, s/ pele, refogado (c/ óleo, cebola e alho), c/ sal	487	632	3,7
+Ovo, galinha, clara, cozida/10 min., c/ sal	421	340	2,3
+Ovo, galinha, clara, cozida/10 min., c/ sal	397	340	2,3
+Ovo, galinha, clara, cozida/10 min., c/ sal	397	340	2,3
+Ovo, galinha, inteiro, frito (c/ óleo de soja), c/ sal	360	345	2,4
+Ovo, galinha, clara, cozida/10 min., c/ sal	397	340	2,3
+Ovo, galinha, gema, cozida/10 min., c/ sal	397	340	2,3
+Ovo, galinha, inteiro, frito (c/ óleo de soja), c/ sal	360	345	2,4
+Ovo, galinha, mexido, c/ margarina, c/ sal	364	329	2,5
+Quindim	330	59	0,4
+Carne, frango, asa, c/ pele, assada, s/ óleo, c/ sal	533	651	3,9
+Carne, frango, asa, c/ pele, refogada (c/ óleo, cebola e alho), c/ sal	490	632	3,7
+Carne, frango, asa, c/ pele, cozida (líquido do cozimento excluído), s/ óleo, c/ sal	509	651	3,9
+Carne, frango, asa, c/ pele, à milanesa (ovo e farinha de rosca), frita (c/ óleo de soja), c/ sal	583	773	4,7
+Carne, frango, asa, c/ pele, refogada (c/ óleo, cebola e alho), c/ sal	478	632	3,7
+Carne, frango, asa, c/ pele, frita (c/ óleo de soja), c/ sal	471	633	3,9
+Carne, frango, asa, c/ pele, assada, s/ óleo, c/ sal	483	651	3,9
+Carne, frango, asa, c/ pele, refogada (c/ óleo, cebola e alho), c/ sal	487	632	3,7
+Carne, frango, asa, c/ pele, frita (c/ óleo de soja), c/ sal	471	633	3,9
+Carne, frango, peito, s/ pele, grelhada, s/ gordura, s/ óleo, c/ sal	533	651	3,9
+Carne, frango, peito, s/ pele, cozida, drenada, s/ óleo, c/ sal	509	651	3,9
+Carne, frango, peito, s/ pele, frita, c/ óleo de soja, c/ sal	480	640	3,9
+Carne, frango, peito, s/ pele, grelhada, s/ gordura, s/ óleo, c/ sal	483	651	3,9
+Carne, ganso, domesticado, carne e pele, cozido, s/ óleo, c/sal	535	651	3,9
+
+Leite, vaca, integral, fluído	127	135	0,8
+Leite, vaca, integral, fluído	127	135	0,8
+Leite, cabra, desnatado, fluído	132	120	1,7
+Leite, vaca, integral, em pó	127	135	0,8
+Leite, vaca, desnatado, em pó	1100	560	2,7
+Leite, vaca, integral, em pó	127	135	0,8
+Leite, vaca, condensado	320	187	0,5
+Leite, vaca, condensado	320	187	0,5
+Creme de leite (enlatado, UHT, 25% de gordura) (média de diferentes marcas)	627	495	4,5
+Iogurte, integral (média de diferentes sabores)	343	150	1,3
+Iogurte, natural, desnatado	161	150	1,3
+Iogurte, natural	161	150	1,3
+Leite, vaca, fermentado	79	1154	5,8
+Bebida láctea (média de diferentes sabores)	79	140	5,8
+Leite, vaca, fermentado	79	1154	5,8
+Iogurte, natural	161	150	1,3
+Manteiga, c/ sal	910	422	11,5
+Manteiga, c/ sal	910	422	11,5
+Margarina (média várias amostras, c/ e s/ sal)	157	132	6,6
+Queijo, prato	876	592	4,1
+Queijo, muçarela (média de diferentes amostras)	923	712	3,6
+Queijo, muçarela (média de diferentes amostras)	923	712	3,6
+Queijo, muçarela (média de diferentes amostras)	923	712	3,6
+Queijo, muçarela (média de diferentes amostras)	923	712	3,6
+Queijo, leite de vaca e búfala, muçarela	923	699	3,6
+Queijo, leite de vaca e búfala, muçarela	923	699	3,6
+Queijo, prato	876	592	4,1
+Queijo, minas, padrão (média de diferentes amostras)	835	375	5,4
+Queijo, requeijao do norte (queijo de manteiga)	400	262	1,4
+Queijo, ricota	400	262	1,4
+Queijo, coalho	876	592	4,1
+Queijo, minas, padrão (média de diferentes amostras)	835	375	5,4
+Queijo, ricota	400	262	1,4
+Soja, extrato, bebida (média de diferentes sabores)	79	1154	5,8
+Soja, extrato, bebida, natural (média de diferentes amostras)	94	41	5,8
+Queijo, parmesão, ralado	876	597	4,1
+Queijo, parmesão, ralado	876	597	4,1
+Queijo, pasteurizado	876	592	4,1
+Queijo, requeijão (média de diferentes amostras)	400	262	1,4
+Cream cheese (média de diferentes sabores)	893	486	5,4
+Queijo, muçarela (média de diferentes amostras)	923	712	3,6
+Leite, vaca, c/ chocolate	79	1154	5,8
+Leite, vaca, c/ chocolate	79	1154	5,8
+Leite, vaca, c/ chocolate	79	1154	5,8
+Leite, vaca, c/ chocolate	79	1154	5,8
+Creme de leite (enlatado, UHT, 25% de gordura) (média de diferentes marcas)	627	495	4,5
+Queijo, prato	876	592	4,1
+Soja, tofu	156	259	0,5
+Soja, extrato, solúvel, em pó	89	385	5,8
+Leite, vaca, desnatado, fluído (média de diferentes amostras)	111	120	1,7
+Leite, vaca, semidesnatado, UHT	141	124	1,7
+Leite, vaca, integral, UHT (média de diferentes amostras)	127	135	0,8
+Iogurte, natural, desnatado	161	150	1,3
+Iogurte, frutas, diet	343	150	1,3
+Margarina, c/ óleo interesterificado (65% lipídeos), s/ sal	157	132	6,6
+Queijo, muçarela, light	923	699	3,6
+Queijo, muçarela, light	923	699	3,6
+Creme de leite (enlatado, UHT, 25% de gordura) (média de diferentes marcas)	627	495	4,5
+Queijo, minas, frescal, light	835	375	5,4
+Queijo, minas, frescal, light	835	375	5,4
+Queijo, minas, frescal, light	835	375	5,4
+Queijo, ricota, light	400	262	1,4
+Queijo, pasteurizado (média de diferentes amostras)	876	592	4,1
+Queijo, requeijão, zero % gordura	400	262	1,4
+Queijo, muçarela, light	923	699	3,6
+Leite, vaca, c/chocolate, desnatado	79	1154	5,8
+Leite, vaca, c/chocolate, desnatado	79	1154	5,8
+Leite, vaca, c/chocolate, desnatado	79	1154	5,8
+Leite, vaca, c/chocolate, desnatado	79	1154	5,8
+Soja, extrato, solúvel, em pó	89	385	5,8
+Manteiga, levemente salgada, light	910	422	11,5
+Leite, vaca, fluído, s/ lactose, integral	111	120	1,7
+Kefir, c/ leite de vaca integral, bebida fermentada brasileira	215	150	1,3
+
+Pão francês, trigo, branco, de padaria (médias de diferentes amostras)	55	187	0,5
+Pão francês, trigo, branco, de padaria (médias de diferentes amostras)	55	187	0,5
+Pão, trigo, branco, hamburguer/hot dog/leite, de padaria (média de diferentes tipos)	126	105	0,7
+Pão francês, trigo, branco, de padaria (médias de diferentes amostras)	55	187	0,5
+Pão francês, trigo, branco, de padaria (médias de diferentes amostras)	55	187	0,5
+Pão francês, trigo, branco, de padaria (médias de diferentes amostras)	55	187	0,5
+Pão francês, trigo, branco, de padaria (médias de diferentes amostras)	55	187	0,5
+Pão, trigo, ciabatta	55	187	0,5
+Pão francês, trigo, branco, de padaria (médias de diferentes amostras)	55	187	0,5
+Pão francês, trigo, branco, de padaria (médias de diferentes amostras)	55	187	0,5
+Pão, trigo, doce, c/ creme de confeiteiro	134	119	0,8
+Pão, trigo, doce, c/ creme de confeiteiro	134	119	0,8
+Pão, trigo, doce, c/ creme de confeiteiro	134	119	0,8
+Pão, trigo, leite, industrializado (média de diferentes marcas)	126	105	0,7
+Bolo, coco, caseiro	360	308	1,9
+Bolo, pão de mel, c/ cobertura de chocolate ao leite	201	1159	2,1
+Panetone, frutas, caseiro	220	241	2,0
+Pão, trigo, bisnaguinha	93	105	0,7
+Croissant, simples	126	105	0,7
+Pão, trigo, integral, forma (média de diferentes marcas)	126	105	0,7
+Bolo, trigo, simples, caseiro	338	275	3,4
+Pão, trigo, branco, forma, tradicional (média de diferentes marcas)	108	88	0,5
+Pão, de queijo, industrializado, assado	55	187	0,5
+Pão, milho, forma	126	105	0,7
+Pão, trigo/centeio, preto, forma	126	105	0,7
+Pão, trigo/centeio, preto, forma	126	105	0,7
+Pão, trigo, integral, forma (média de diferentes marcas)	126	105	0,7
+Pão, sírio, branco	126	105	0,7
+Pão, trigo, integral, caseiro	126	105	0,7
+Pão, trigo, integral, caseiro	126	105	0,7
+Pão, trigo/centeio, preto, forma	126	105	0,7
+Pão, trigo, integral, caseiro	126	105	0,7
+Pão, trigo, integral, caseiro	126	105	0,7
+Pão, trigo, integral, caseiro	126	105	0,7
+Pão, trigo, integral, caseiro	126	105	0,7
+Pão francês, trigo, branco, de padaria (médias de diferentes amostras)	55	187	0,5
+Torrada, trigo, tradicional	154	132	1,0
+Pão, trigo, doce, c/ creme de confeiteiro	134	119	0,8
+Rosquinha, doce, frita, c/ açúcar e canela	115	194	1,2
+Rosca, salgada, recheada c/ presunto e queijo muçarela, caseira	363	283	2,1
+Biscoito, salgado, cream cracker	155	151	1,0
+Biscoito, salgado (média diferentes marcas e tipos)	155	151	1,0
+Salgadinho, snack de trigo (média de diferentes sabores)	220	226	0,5
+Biscoito, polvilho, doce, industrializado	164	223	1,1
+Biscoito, salgado (média diferentes marcas e tipos)	155	151	1,0
+Biscoito, salgado (média diferentes marcas e tipos)	155	151	1,0
+Salgadinho, snack de trigo (média de diferentes sabores)	220	226	0,5
+Salgadinho, snack, extrusado de milho	220	226	0,5
+Biscoito, salgado, cream cracker , integral	100	62	0,9
+Salgadinho, snack, extrusado de milho	220	226	0,5
+Torrada, trigo, integral	154	132	1,0
+Torrada, trigo, tradicional	154	132	1,0
+Torrada, trigo, integral	154	132	1,0
+Batata, chips, frita, c/ sal	390	177	1,0
+Salgadinho, snack de trigo (média de diferentes sabores)	220	226	0,5
+Biscoito, doce, simples (média de diferentes tipos)	169	305	1,3
+Biscoito, doce, maisena	164	223	1,1
+Sequilho	320	187	0,5
+Biscoito, doce, simples (média de diferentes tipos)	169	305	1,3
+Biscoito, doce, simples (média de diferentes tipos)	169	305	1,3
+Bolo, trigo, simples, caseiro	338	275	3,4
+Biscoito, doce, simples (média de diferentes tipos)	169	305	1,3
+Sequilho	320	187	0,5
+Rocambole (farinha de trigo, ovo, leite, manteiga, açúcar e fermento químico), recheado com doce de leite, c/ cobertura de açúcar	350	237	2,5
+Pão, trigo, doce, c/ creme de confeiteiro	134	119	0,8
+Rocambole (farinha de trigo, ovo, leite, manteiga, açúcar e fermento químico), recheado com doce de leite, c/ cobertura de açúcar	350	237	2,5
+Rocambole (farinha de trigo, ovo, leite, manteiga, açúcar e fermento químico), recheado com doce de leite, c/ cobertura de açúcar	350	237	2,5
+Bolo, fubá, caseiro	204	239	1,6
+Bolo, fubá, caseiro	180	246	1,6
+Sonho, frito, s/ recheio, polvilhado com açúcar	99	167	1,3
+Bolo, fubá, caseiro	204	239	1,6
+Bolo, fubá, caseiro	204	239	1,6
+Bolo, mandioca (aipim, macaxeira), c/ coco, simples, caseiro	240	182	1,9
+Bolo, mandioca (aipim, macaxeira), c/ coco, simples, caseiro	240	182	1,9
+Bolo, mandioca (aipim, macaxeira), c/ coco, simples, caseiro	240	182	1,9
+Bolo, mandioca (aipim, macaxeira), c/ coco, simples, caseiro	240	182	1,9
+Bolo, mandioca (aipim, macaxeira), c/ coco, simples, caseiro	240	182	1,9
+Bolo, mandioca (aipim, macaxeira), c/ coco, simples, caseiro	240	182	1,9
+Bolo, mandioca (aipim, macaxeira), c/ coco, simples, caseiro	240	182	1,9
+Bolo, mandioca (aipim, macaxeira), c/ coco, simples, caseiro	240	182	1,9
+Torta, sabor morango	300	196	1,3
+Torta de batata com carne, c/ sal	1183	783	4,9
+Sonho, frito, c/ creme de confeiteiro	86	142	1,1
+Sonho, frito, s/ recheio, polvilhado com açúcar	99	167	1,3
+Sonho, frito, c/ creme de confeiteiro	86	142	1,1
+Sonho, frito, c/ creme de confeiteiro	86	142	1,1
+Bolo, chocolate, simples	296	364	3,6
+Bolo, chocolate, simples	274	375	3,7
+Pão, trigo, leite, industrializado (média de diferentes marcas)	126	105	0,7
+Bolo, laranja, simples, caseiro	217	184	1,8
+Bolo, coco, caseiro	383	300	1,9
+Bolo, cenoura, simples, caseiro	146	179	1,1
+Pão de alho, assado	162	212	1,2
+Bolo, trigo, simples, caseiro	360	262	3,4
+Bolo, trigo, simples, caseiro	338	275	3,4
+Bolo, trigo, simples, caseiro	360	262	3,4
+Bolo, fubá, caseiro	180	246	1,6
+Biscoito, doce, recheado, sabores diversos (média de diferentes sabores)	182	172	1,1
+Biscoito, doce, wafer (média de diferentes sabores)	164	223	1,1
+Biscoito, doce, recheado, sabores diversos (média de diferentes sabores)	182	172	1,1
+Biscoito, doce, recheado, sabores diversos (média de diferentes sabores)	182	172	1,1
+Pão, trigo, doce, c/ creme de confeiteiro	134	119	0,8
+Biscoito, doce, recheado, sabores diversos (média de diferentes sabores)	182	172	1,1
+Biscoito, salgado (média diferentes marcas e tipos)	155	151	1,0
+Crepe, c/ presunto, c/ queijo muçarela	823	577	3,3
+Panqueca, c/ banana, c/ açúcar e canela	201	204	1,2
+Crepe, c/ banana, c/ chocolate ao leite	214	780	1,9
+Crepe, c/ banana, c/ chocolate ao leite	214	780	1,9
+Panqueca, c/ banana, c/ açúcar e canela	201	204	1,2
+Panqueca, c/ banana, c/ açúcar e canela	201	204	1,2
+Crepe, c/ banana, c/ chocolate ao leite	214	780	1,9
+Pão, sírio, branco	126	105	0,7
+Pão, trigo, forma, diet/light	126	105	0,7
+Pão, trigo, forma, diet/light	126	105	0,7
+Pão, de queijo, industrializado, assado	55	187	0,5
+Pão, trigo, forma, diet/light	126	105	0,7
+Torta de frutas, diet	117	122	1,6
+Sonho, assado, s/ recheio, s/ açúcar polvilhado	89	150	1,1
+Bolo, chocolate, simples, diet, caseiro	1260	1190	4,6
+Bolo, cenoura, simples, diet, caseiro	1274	617	1,9
+Biscoito, doce, recheado, light (média de diferentes sabores)	164	223	1,1
+Biscoito, doce, wafer, diet/light (média de diferentes sabores)	164	223	1,1
+Biscoito, doce, recheado, light (média de diferentes sabores)	164	223	1,1
+Biscoito, doce, recheado, diet (média de diferentes sabores)	164	223	1,1
+Biscoito, doce, recheado, diet (média de diferentes sabores)	164	223	1,1
+Biscoito, doce, recheado, diet (média de diferentes sabores)	164	223	1,1
+Panetone, frutas, caseiro	220	241	2,0
+Biscoito, salgado,  light	120	69	1,0
+Biscoito, salgado,  light	120	69	1,0
+Salgadinho, assado, light	79	1154	5,8
+Biscoito, doce, light	164	223	1,1
+Biscoito, doce, light	164	223	1,1
+Biscoito, doce, diet	164	223	1,1
+Biscoito, doce, diet	164	223	1,1
+Bolo, banana, simples, caseiro	256	215	2,0
+Bolo, abacaxi	316	228	3,0
+Bolo, banana, simples, caseiro	256	215	2,0
+Bolo, laranja, simples, caseiro	217	184	1,8
+Pão, sírio, branco	126	105	0,7
+Pão, milho, forma	126	105	0,7
+Pão, batata, c/ farinha de trigo, caseiro	157	212	1,4
+Pão, trigo, batata, assado, c/ recheio, de requeijão	181	136	0,8
+Biscoito, arroz	155	151	1,0
+Pão, trigo, doce, c/ creme de confeiteiro	160	118	0,8
+Pão, trigo, doce, c/ creme de confeiteiro	134	119	0,8
+Bolo, coco, caseiro	383	300	1,9
+Bolo, cenoura, c/ recheio - brigadeiro, c/ cobertura - chocolate	178	861	1,9
+Bolo, cenoura, c/ cobertura - chocolate	155	277	1,2
+Bolo, chocolate, c/ recheio - brigadeiro, c/ cobertura - chocolate	283	991	3,7
+Bolo, trigo, simples, caseiro	360	262	3,4
+Rocambole (farinha de trigo, ovo, leite, manteiga, açúcar e fermento químico), recheado com brigadeiro, c/ cobertura de cacau em pó	338	1092	3,8
+Bolo, cenoura, c/ recheio - brigadeiro, c/ cobertura - chocolate	155	870	2,0
+Bomba, c/ recheio de creme de confeiteiro (pâtissiére), c/ cobertura de chocolate ao leite	302	985	3,3
+Bolo, trigo, simples, caseiro	360	262	3,4
+Bomba, c/ recheio de creme de confeiteiro (pâtissiére), c/ cobertura de chocolate ao leite	302	985	3,3
+Queijadinha, c/ coco	359	254	2,1
+Croissant, assado, c/ recheio, de doce de leite	165	121	0,6
+Croissant, assado, c/ recheio, de muçarela e presunto	345	289	1,3
+Pão, trigo, sovado	55	187	0,5
+Tapioca, sem manteiga, sem recheio	49	154	0,7
+Tapioca, c/ manteiga, c/ sal	137	207	1,8
+Tapioca, c/ leite condensado e coco	350	269	1,3
+Tapioca, c/ carne seca e queijo coalho	927	901	1,6
+Tapioca, c/ queijo coalho e muçarela	304	303	1,6
+Tapioca, c/ peito de frango e requeijão	193	245	1,3
+
+Carne, boi, seca, cozida, s/ óleo	5011	4698	3,5
+Carne, boi, seca, dessalgada, refogada (c/ óleo, cebola e alho), s/ sal	4773	4474	3,4
+Carne, boi, seca, cozida, s/ óleo	5020	4698	3,5
+Carne, boi, seca, cozida, s/ óleo	3508	3288	2,5
+Carne, boi, seca, dessalgada, refogada (c/ óleo, cebola e alho), s/ sal	4784	4474	3,4
+Carne, boi, seca, dessalgada, frita (c/ óleo de soja), s/ sal	4636	4356	3,6
+Carne, boi, seca, cozida, s/ óleo	5011	4698	3,5
+Carne, boi, seca, dessalgada, refogada (c/ óleo, cebola e alho), s/ sal	4786	4474	3,4
+Carne, boi, seca, cozida, s/ óleo	5020	4698	3,5
+Carne, boi, seca, cozida, s/ óleo	5011	4698	3,5
+Carne, boi, seca, dessalgada, refogada (c/ óleo, cebola e alho), s/ sal	4773	4474	3,4
+Carne, boi, seca, cozida, s/ óleo	5020	4698	3,5
+Carne, boi, seca, cozida, s/ óleo	3508	3288	2,5
+Carne, boi, seca, dessalgada, refogada (c/ óleo, cebola e alho), s/ sal	4784	4474	3,4
+Carne, boi, seca, dessalgada, frita (c/ óleo de soja), s/ sal	4636	4356	3,6
+Carne, boi, seca, cozida, s/ óleo	5011	4698	3,5
+Carne, boi, seca, dessalgada, refogada (c/ óleo, cebola e alho), s/ sal	4786	4474	3,4
+Carne, boi, seca, cozida, s/ óleo	5020	4698	3,5
+Carne, boi, seca, cozida, s/ óleo	5011	4698	3,5
+Carne, boi, seca, dessalgada, refogada (c/ óleo, cebola e alho), s/ sal	4773	4474	3,4
+Carne, boi, seca, cozida, s/ óleo	5020	4698	3,5
+Carne, boi, seca, dessalgada, frita (c/ óleo de soja), s/ sal	4636	4356	3,6
+Carne, boi, seca, cozida, s/ óleo	5020	4698	3,5
+Carne, boi, seca, cozida, s/ óleo	5011	4698	3,5
+Carne, boi, seca, dessalgada, refogada (c/ óleo, cebola e alho), s/ sal	4773	4474	3,4
+Carne, boi, seca, cozida, s/ óleo	5020	4698	3,5
+Carne, boi, seca, dessalgada, frita (c/ óleo de soja), s/ sal	4636	4356	3,6
+Carne, boi, seca, cozida, s/ óleo	5011	4698	3,5
+Carne, boi, seca, dessalgada, refogada (c/ óleo, cebola e alho), s/ sal	4786	4474	3,4
+Carne, boi, seca, cozida, s/ óleo	5020	4698	3,5
+Carne, boi, seca, cozida, s/ óleo	5011	4698	3,5
+Carne, boi, seca, dessalgada, frita (c/ óleo de soja), s/ sal	4636	4356	3,6
+Hambúrguer, bovino, industrializado, grelhado	2104	1249	7,4
+Hambúrguer, bovino, industrializado, frito	1976	1208	7,2
+Hambúrguer, bovino, industrializado, frito	1986	1208	7,2
+Hambúrguer, bovino, grelhado (c/ óleo de soja), c/ molho de tomate (tomate, c/ óleo, cebola e alho, c/ sal)	1704	1008	6,0
+Hambúrguer, bovino, industrializado, frito	1986	1208	7,2
+Hambúrguer, bovino, industrializado, grelhado	2071	1249	7,4
+Hambúrguer, bovino, industrializado, grelhado	2071	1249	7,4
+Presunto, porco, cozido, c/ capa de gordura (média de diferentes amostras)	1162	1060	2,8
+Carne, porco, toucinho, frito	1001	705	2,1
+Carne, porco, toucinho, frito	973	705	2,1
+Carne, porco, toucinho, frito	973	705	2,1
+Carne, porco, toucinho, frito	935	705	2,1
+Carne, porco, toucinho, frito	948	705	2,1
+Carne, porco, toucinho, frito	935	705	2,1
+Carne, porco, toucinho, frito	948	705	2,1
+Hambúrguer, industrializado, frango, grelhado, s/ óleo	637	1249	7,4
+Carne, frango, empanado, tipo nuggets, congelado, frito (c/ óleo de soja)	502	1027	6,2
+Hambúrguer, industrializado, frango, grelhado, s/ óleo	604	1249	7,4
+Hambúrguer, industrializado, frango, grelhado, s/ óleo	604	1249	7,4
+Salsicha, aquecida	354	1164	4,7
+Salsicha, aquecida	321	1164	4,7
+Salsicha, aquecida	321	1164	4,7
+Salsicha, não aquecida (média de vários tipos)	353	1280	5,2
+Linguiça, frango/porco, fresca, frita (c/ óleo de soja), c/ sal	2409	2125	7,3
+Salsicha, aquecida	328	1164	4,7
+Linguiça, frango/porco, fresca, frita (c/ óleo de soja), c/ sal	2409	2125	7,3
+Salsicha, aquecida	321	1164	4,7
+Salsicha, aquecida	328	1164	4,7
+Salsicha, aquecida	353	1280	5,2
+Linguiça, porco, grelhada	2638	2283	7,6
+Linguiça, porco, grelhada	2605	2283	7,6
+Linguiça, porco, grelhada	2605	2283	7,6
+Linguiça, porco, grelhada	1780	1560	5,2
+Linguiça, frango/porco, fresca, frita (c/ óleo de soja), c/ sal	2409	2125	7,3
+Linguiça, porco, grelhada	2605	2283	7,6
+Linguiça, porco, grelhada	2605	2283	7,6
+Linguiça, frango/porco, fresca, grelhada/assada, s/ óleo, c/ sal	2626	2273	7,6
+Linguiça, frango/porco, fresca, refogada (c/ óleo, cebola e alho), c/ sal	2478	2179	7,3
+Linguiça, frango/porco, fresca, grelhada/assada, s/ óleo, c/ sal	2593	2273	7,6
+Linguiça, frango/porco, fresca, grelhada/assada, s/ óleo, c/ sal	1772	1553	5,2
+Linguiça, frango/porco, fresca, refogada (c/ óleo, cebola e alho), c/ sal	2485	2179	7,3
+Linguiça, frango/porco, fresca, frita (c/ óleo de soja), c/ sal	2409	2125	7,3
+Linguiça, frango/porco, fresca, grelhada/assada, s/ óleo, c/ sal	2593	2273	7,6
+Linguiça, frango/porco, fresca, refogada (c/ óleo, cebola e alho), c/ sal	2487	2179	7,3
+Linguiça, frango/porco, fresca, grelhada/assada, s/ óleo, c/ sal	2626	2273	7,6
+Linguiça, calabresa, assada no forno, s/ óleo, c/ sal	2626	2273	7,6
+Linguiça, calabresa, cozida, c/ óleo de soja, c/ sal	2482	2188	7,4
+Linguiça, calabresa, cozida, s/ óleo, c/ sal	2593	2273	7,6
+Linguiça, calabresa, cozida, c/ óleo de soja, c/ sal	1699	1502	5,1
+Linguiça, calabresa, cozida, c/ óleo de soja, c/ sal	2490	2188	7,4
+Linguiça, calabresa, frita, c/ óleo de soja, c/ sal	2623	2304	7,8
+Linguiça, calabresa, assada no forno, s/ óleo, c/ sal	2593	2273	7,6
+Linguiça, calabresa, refogada (c/ óleo, cebola e alho), c/ sal	2487	2179	7,3
+Linguiça, calabresa, assada no forno, s/ óleo, c/ sal	2626	2273	7,6
+Linguiça, frango, grelhada	651	1280	7,6
+Linguiça, frango, grelhada	618	1280	7,6
+Linguiça, frango, grelhada	618	1280	7,6
+Linguiça, frango, grelhada	423	874	5,2
+Linguiça, frango, fresca, frita, c/ adição de gordura, c/ sal	616	1257	7,5
+Linguiça, frango, grelhada	618	1280	7,6
+Linguiça, frango, grelhada	618	1280	7,6
+Linguiça, porco, grelhada	2638	2283	7,6
+Linguiça, frango/porco, fresca, frita (c/ óleo de soja), c/ sal	2409	2125	7,3
+Linguiça, porco, grelhada	2605	2283	7,6
+Linguiça, frango/porco, fresca, frita (c/ óleo de soja), c/ sal	2409	2125	7,3
+Linguiça, porco, grelhada	2605	2283	7,6
+Linguiça, porco, grelhada	2638	2283	7,6
+Linguiça, porco, grelhada	2605	2283	7,6
+Linguiça, porco, grelhada	1780	1560	5,2
+Linguiça, frango/porco, fresca, frita (c/ óleo de soja), c/ sal	2409	2125	7,3
+Linguiça, porco, grelhada	2605	2283	7,6
+Linguiça, calabresa, cozida, c/ óleo de soja, c/ sal	2482	2188	7,4
+Mortadela	1163	1000	5,2
+Mortadela	1130	1000	5,2
+Mortadela	1130	1000	5,2
+Mortadela	1130	1000	5,2
+Mortadela	1136	1000	5,2
+Mortadela	1136	1000	5,2
+Mortadela	1130	1000	5,2
+Mortadela	1136	1000	5,2
+Mortadela	1130	1000	5,2
+Salame, porco, lanche (média de vários tipos)	1163	1000	5,2
+Salame, porco, lanche (média de vários tipos)	1130	1000	5,2
+Salame, porco, lanche (média de vários tipos)	1130	1000	5,2
+Linguiça, frango/porco, fresca, frita (c/ óleo de soja), c/ sal	2409	2125	7,3
+Salame, porco, lanche (média de vários tipos)	1130	1000	5,2
+Salame, porco, lanche (média de vários tipos)	1130	1000	5,2
+Salame, porco, lanche (média de vários tipos)	1163	1000	5,2
+Salame, porco, lanche (média de vários tipos)	1130	1000	5,2
+Salame, porco, lanche (média de vários tipos)	1130	1000	5,2
+Linguiça, frango/porco, fresca, frita (c/ óleo de soja), c/ sal	2409	2125	7,3
+Salame, porco, lanche (média de vários tipos)	1136	1000	5,2
+Salame, porco, lanche (média de vários tipos)	1130	1000	5,2
+Blanquet, fatiado, cozido,	423	874	5,2
+Presunto, porco, cozido, c/ capa de gordura (média de diferentes amostras)	1152	1060	2,8
+Presunto, porco, cozido, c/ capa de gordura (média de diferentes amostras)	1162	1060	2,8
+Presunto, porco, cozido, c/ capa de gordura (média de diferentes amostras)	1162	1060	2,8
+Presunto, porco, cozido, c/ capa de gordura (média de diferentes amostras)	788	724	1,9
+Presunto, porco, cozido, c/ capa de gordura (média de diferentes amostras)	1162	1060	2,8
+Presunto, porco, cozido, c/ capa de gordura (média de diferentes amostras)	1152	1060	2,8
+Presunto, porco, cozido, c/ capa de gordura (média de diferentes amostras)	1171	1060	2,8
+Presunto, porco, cozido, c/ capa de gordura (média de diferentes amostras)	788	724	1,9
+Presunto cru, carne porco salgada,  cru, tipo Parma	788	724	1,9
+Presunto cru, carne porco salgada,  cru, tipo Parma	788	724	1,9
+Peixe, sticks, congelado, preparado	848	122	6,9
+Hambúrguer, bovino, industrializado, grelhado	2104	1249	7,4
+Hambúrguer, bovino, industrializado, grelhado	1450	874	5,2
+Hambúrguer, bovino, industrializado, frito	1986	1208	7,2
+Hambúrguer, bovino, industrializado, grelhado	2071	1249	7,4
+Hambúrguer, bovino, industrializado, grelhado	2078	1249	7,4
+Hambúrguer, bovino, industrializado, grelhado	2071	1249	7,4
+Presunto, porco, cozido, c/ capa de gordura (média de diferentes amostras)	1152	1060	2,8
+Apresuntado, cozido (média de diferentes marcas)	776	1280	7,6
+Apresuntado, cozido (média de diferentes marcas)	776	1280	7,6
+Apresuntado, cozido (média de diferentes marcas)	530	874	5,2
+Apresuntado, cozido (média de diferentes marcas)	530	874	5,2
+Carne, porco, toucinho, frito	1001	705	2,1
+Carne, porco, toucinho, frito	948	705	2,1
+Carne, porco, toucinho, frito	948	705	2,1
+Carne, porco, toucinho, frito	1001	705	2,1
+Carne, porco, toucinho, frito	973	705	2,1
+Carne, porco, toucinho, frito	935	705	2,1
+Carne, porco, toucinho, frito	948	705	2,1
+Carne, porco, pernil, grelhada/assada, s/ óleo, c/ sal	741	1266	5,9
+Patê (média de diferentes sabores)	530	874	5,2
+Patê (média de diferentes sabores)	530	874	5,2
+Patê (média de diferentes sabores)	530	874	5,2
+Patê (média de diferentes sabores)	536	874	5,2
+Patê (média de diferentes sabores)	530	874	5,2
+Carne, boi, salgada, dessalgada, cozida, s/ óleo (média várias amostras: charque, seca, jerked beef)	4497	4216	3,2
+Carne, boi, seca, dessalgada, refogada (c/ óleo, cebola e alho), s/ sal	4773	4474	3,4
+Carne, boi, salgada, dessalgada, cozida, s/ óleo (média várias amostras: charque, seca, jerked beef)	4506	4216	3,2
+Carne, boi, seca, dessalgada, frita (c/ óleo de soja), s/ sal	4636	4356	3,6
+Carne, boi, salgada, dessalgada, cozida, s/ óleo (média várias amostras: charque, seca, jerked beef)	4506	4216	3,2
+Carne, frango, empanado, tipo nuggets, congelado, assado (s/ óleo)	561	1093	6,5
+Carne, frango, empanado, tipo nuggets, congelado, frito (c/ óleo de soja)	502	1027	6,2
+Carne, frango, empanado, tipo nuggets, congelado, frito (c/ óleo de soja)	502	1027	6,2
+Carne, frango, empanado, tipo nuggets, congelado, frito (c/ óleo de soja)	502	1027	6,2
+Mortadela, light	1130	1000	5,2
+Mortadela, light	1130	1000	5,2
+Mortadela, light	1136	1000	5,2
+Refrigerante, tipo cola, regular, c/ açúcar	69	45	0,2
+Refrigerante, tipo cola, regular, c/ açúcar	69	45	0,2
+Refrigerante, tipo laranja, regular, c/ açúcar	45	45	0,2
+Refrigerante, tipo laranja, regular, c/ açúcar	45	45	0,2
+Refrigerante, tipo laranja, regular, c/ açúcar	45	45	0,2
+Refrigerante, tipo guaraná, regular, c/ açúcar	45	45	0,2
+Refrigerante, tipo guaraná, regular, c/ açúcar	45	45	0,2
+Refrigerante, tipo guaraná, regular, c/ açúcar	45	45	0,2
+Refrigerante, tipo limão, regular, c/ açúcar	33	45	0,2
+Refrigerante, tipo limão, regular, c/ açúcar	33	45	0,2
+Refrigerante, tipo laranja, regular, c/ açúcar	45	45	0,2
+Refrigerante, tipo laranja, regular, c/ açúcar	45	45	0,2
+Refrigerante, tipo cola, c/ adoçante	27	45	0,2
+Refrigerante, tipo cola, c/ adoçante	27	45	0,2
+Refrigerante, tipo cola, c/ adoçante	27	45	0,2
+Bebida, água, rede pública, torneira	20	1	2,1
+Bebida, água, rede pública, torneira	21	1	2,1
+Bebida, água, rede pública, torneira	20	1	2,1
+Refrigerante, c/ adoçante (média de diferentes sabores)	45	45	0,2
+Refrigerante, c/ adoçante (média de diferentes sabores)	45	45	0,2
+Bebida, infusão, erva-mate, chimarrão, (70g de matéria seca - 30% de ramos e 70% de folhas - em 1 L de água)	33	740	4,7
+Refrigerante, tipo laranja, c/ adoçante	45	45	0,2
+Refrigerante, tipo guaraná, c/ adoçante	45	45	0,2
+Refrigerante, tipo guaraná, c/ adoçante	45	45	0,2
+Refrigerante, tipo guaraná, regular, c/ açúcar	45	45	0,2
+Cana, caldo (garapa)	98	18	0,5
+Cana, caldo (garapa)	98	18	0,5
+Coco, água	73	207	1,1
+Bebida, refresco, em pó, preparado, c/ água	48	1154	5,8
+Bebida, refresco, em pó, preparado, c/ água	48	1154	5,8
+Bebida, chá, preto, infusão 5%, s/ açúcar	3	2	0,0
+Bebida, chá, mate, infusão 5%, s/ açúcar	3	2	0,0
+Bebida, infusão, erva-mate, chimarrão, (70g de matéria seca - 30% de ramos e 70% de folhas - em 1 L de água)	33	740	4,7
+Bebida, infusão, erva-mate, chimarrão, (70g de matéria seca - 30% de ramos e 70% de folhas - em 1 L de água)	33	740	4,7
+Bebida, infusão, erva-mate, chimarrão, (70g de matéria seca - 30% de ramos e 70% de folhas - em 1 L de água)	33	740	4,7
+Refrigerante, tipo cola, regular, c/ açúcar	69	45	0,2
+Cevada, nua (média diferentes cultivares)	13	0	0,0
+Leite, vaca, c/ chocolate	79	1154	5,8
+Refrigerante, tipo água tônica, regular, c/ açúcar	45	45	0,2
+Bebida, chá, infusão, s/ açúcar (média de várias ervas)	10	2	0,0
+Bebida energética	48	1154	5,8
+Bebida isotônica (diversos sabores)	48	1154	5,8
+Bebida isotônica (diversos sabores)	48	1154	5,8
+Bebida energética	48	1154	5,8
+Bebida, chá, infusão, s/ açúcar (média de várias ervas)	10	2	0,0
+Refrigerante, tipo guaraná, c/ adoçante	45	45	0,2
+Refrigerante, tipo guaraná, c/ adoçante	45	45	0,2
+Refrigerante, tipo limão, c/ adoçante	45	45	0,2
+Refrigerante, tipo limão, c/ adoçante	45	45	0,2
+Refrigerante, tipo água tônica, c/ adoçante	45	45	0,2
+Refrigerante, tipo água tônica, c/ adoçante	45	45	0,2
+Refrigerante, c/ adoçante (média de diferentes sabores)	45	45	0,2
+Refrigerante, c/ adoçante (média de diferentes sabores)	45	45	0,2
+Bebida, infusão, erva-mate, chimarrão, (70g de matéria seca - 30% de ramos e 70% de folhas - em 1 L de água)	33	740	4,7
+Refrigerante, tipo água tônica, c/ adoçante	45	45	0,2
+Bebida, chá, preto, infusão 5%, s/ açúcar	3	2	0,0
+Suco, clorofila	14	41	0,2
+Bebida, chá, preto, infusão 5%, s/ açúcar	3	2	0,0
+Bebida, chá, preto, infusão 5%, s/ açúcar	3	2	0,0
+Bebida, chá, infusão, s/ açúcar (média de várias ervas)	10	2	0,0
+Suco, clorofila	14	41	0,2
+Suco, clorofila	14	41	0,2
+Suco, clorofila	14	41	0,2
+Bebida, água, rede pública, torneira	0	0	0,0
+Bebida, chá, lata/garrafa, limão	30	1	2,1
+Suco, limonada), c/ açúcar	5	14	0,1
+Cevada, s/ casca (pérola), crua	0	0	0,0
+Suco, laranja, s/ açúcar	65	52	1,1
+Suco, clorofila	14	41	0,2
+Suco natural, laranja, mamão, pera e maçã, s/ açúcar	41	59	0,6
+Suco natural, laranja, cenoura e beterraba, s/ açúcar	34	71	0,6
+Suco, laranja, s/ açúcar	65	52	1,1
+Bebida, café, infusão 10%, s/ açúcar, c/ farinha de mandioca	33	85	0,4
+Suco, limonada), s/ açúcar	20	1	2,1
+Uva, suco, concentrado, envasado	65	52	1,1
+Suco natural, cajá (tapereba), c/ açúcar	29	181	0,2
+Suco natural, melancia, c/ açúcar	93	32	0,6
+Suco natural, tamarindo, c/ açúcar	65	52	1,1
+Uva, suco, concentrado, envasado	65	52	1,1
+
+Bebida alcoólica, cerveja, Pilsen	125	45	0,5
+Bebida alcoólica, cerveja, Pilsen	125	45	0,5
+Bebida alcoólica, aguardente, cachaça	530	50	4,1
+Bebida alcoólica, aguardente, cachaça	530	50	4,1
+Batida de maracujá com álcool	185	530	1,4
+Bebida alcoólica, destilada (gim, rum, vodka, whisky) (teor alcoólico 36%)	530	50	4,1
+Bebida alcoólica, destilada (gim, rum, vodka, whisky) (teor alcoólico 36%)	530	50	4,1
+Bebida alcoólica, destilada (gim, rum, vodka, whisky) (teor alcoólico 36%)	530	50	4,1
+Bebida alcoólica, destilada (gim, rum, vodka, whisky) (teor alcoólico 36%)	530	50	4,1
+Bebida alcoólica, vinho, branco (média diferentes amostras)	220	50	1,6
+Bebida alcoólica, vinho, branco (média diferentes amostras)	220	50	1,6
+Bebida alcoólica, vinho, meio doce/doce, espumante	140	50	2,1
+Bebida alcoólica, vinho, tinto (média diferentes amostras)	220	41	1,6
+Bebida alcoólica, conhaque	759	50	4,1
+Bebida alcoólica, conhaque	759	50	4,1
+Bebida alcoólica, destilada (gim, rum, vodka, whisky) (teor alcoólico 36%)	530	50	4,1
+Suco, concentrado, preparado, caju, c/ açúcar	12	13	0,2
+Bebida alcoólica, vinho (média diferentes amostras)	220	41	1,6
+Bebida alcoólica, vinho (média diferentes amostras)	220	41	1,6
+Coquetel de frutas, com álcool	193	113	1,1
+Bebida alcoólica, caipirinha	330	67	2,7
+Bebida alcoólica, caipirinha	330	67	2,7
+Bebida, cerveja, sem álcool	125	45	0,5
+Bebida alcoólica, aguardente, cachaça	530	50	4,1
+Quentão	221	39	1,7
+Coquetel de frutas, com álcool	193	113	1,1
+Coquetel de frutas, sem álcool	173	142	1,0
+Coquetel de frutas, com álcool	193	113	1,1
+Ponche de frutas, com álcool	97	60	0,9
+Bebida alcoólica, arroz, saquê	530	50	4,1
+Bebida alcoólica, espanhola	217	61	1,4
+Vinho quente	127	34	0,9
+Uva, suco, concentrado, envasado	65	52	1,1
+
+Azeite, oliva	294	736	7,5
+Óleo, soja	169	429	3,8
+Óleo, milho	169	429	3,8
+Coco, óleo	169	429	3,8
+
+Croquete, carne, boi, industrializada, frita, c / sal	352	198	1,3
+Pastel, frito, caseiro (média de diferentes recheios)	1561	1026	6,2
+Croquete, carne, boi, industrializada, frita, c / sal	352	198	1,3
+Coxinha de frango, industrializada, frita	370	173	1,1
+Empada, frango, caseira, assada	190	282	2,6
+Risole, caseiro, frito (média de diversos sabores - camarão, carne e queijo muçarela)	1344	632	11,2
+Acarajé, c/ sal	662	174	8,9
+Carne, porco, toucinho, frito	948	705	2,1
+Quibe, bovino, frito, c/sal	2133	1446	9,1
+Acarajé, c/ sal	662	174	8,9
+Paçoca de charque (carne seca, carne de sol, jaba)	3058	2901	2,6
+Milho, fubá/polenta, frita, c/ óleo de soja, c/ sal	67	175	1,0
+Milho, polenta/fubá, cozido, c/ sal	45	92	0,4
+Milho, polenta/fubá, cozido, c/ sal	45	92	0,4
+Esfirra, caseira, assada (média de diversos sabores - carne, frango e ricota)	807	592	3,6
+Esfirra, carne, caseira, assada	1715	1196	7,4
+Esfirra, ricota, caseira, assada	279	225	1,3
+Esfirra, ricota, caseira, assada	279	225	1,3
+Esfirra, frango, caseira, assada	273	356	2,2
+Enroladinho de muçarela e presunto, caseiro	492	448	1,9
+Bolinho, madioca (aipim, macaxeira), frito, c/ sal	134	130	1,3
+Bolinho de bacalhau, frito, caseiro	261	152	11,8
+Sanduíche, cachorro quente (c/ pão hot dog e salsicha), c/ catchup, mostarda e maionese	199	384	3,0
+Sanduíche, hambúrguer bovino grelhado (c/ pão hambúrguer), c/ catchup, mostarda e maionese	750	445	3,7
+Sanduíche, cheeseburguer, hambúrguer bovino grelhado (c/ pão hambúrguer), c/ queijo prato	996	625	3,9
+Sanduíche, hambúrguer bovino grelhado (c/ pão hambúrguer), c/ alface, tomate e ovo frito	741	478	2,9
+Sanduíche, bauru (pão francês, c/ presunto, queijo muçarela e tomate)	449	366	1,5
+Sanduíche, americano (pão forma tradicional), c/ presunto, queijo mussarela, alface, tomate e ovo frito <>	419	353	1,7
+Sanduíche, misto quente, pão francês, c/ presunto e queijo muçarela	455	452	1,6
+Sanduíche,  queijo quente, pão francês, c/ queijo prato	420	367	2,1
+Sanduíche, pão francês c/ salame	458	492	2,3
+Sanduíche, pão francês, c/ presunto	330	388	1,0
+Sanduíche, pão francês, c/ presunto e queijo prato	524	439	1,8
+Sanduíche, pão francês, c/ mortadela	458	492	2,3
+Sanduíche, pão francês, c/ queijo minas	480	289	3,2
+Sanduíche, hambúrguer bovino grelhado (c/ pão hambúrguer), c/ alface, tomate e ovo frito	741	478	2,9
+Sanduíche, hambúrguer grelhado (c/ pão hambúrguer), c/ alface, tomate, queijo prato, maionese e ovo frito	692	440	3,0
+Sanduíche, pão forma integral, c/ queijo minas frescal, alface americana, cenoura crua, tomate e maionese	286	143	2,0
+Torta, hot dog	263	428	2,0
+Sanduíche, cheeseburguer, hambúrguer bovino grelhado (c/ pão hambúrguer), c/ queijo prato	996	625	3,9
+Sanduíche, hambúrguer bovino grelhado (c/ pão hambúrguer), c/ queijo prato e maionese	903	560	3,8
+Sanduíche, bauru (pão francês, c/ presunto, queijo muçarela e tomate)	449	366	1,5
+Sanduíche, bauru (pão francês, c/ presunto, queijo muçarela e tomate)	449	366	1,5
+Sanduíche, pão francês, c/ queijo muçarela	380	384	1,6
+Sanduíche, pão francês c/ salame	458	492	2,3
+Sanduíche, pão francês, c/ presunto	330	388	1,0
+Sanduíche, pão francês, c/ presunto e queijo prato	524	439	1,8
+Sanduíche, pão francês, c/ mortadela	458	492	2,3
+Sanduíche, baguete, c/ queijo muçarela, alface, tomate, atum em conserva e maionese	278	187	1,8
+Sanduíche, pão forma tradicional, atum em conserva e maionese	281	71	2,5
+Sanduíche, pão francês, c/ carne assada, alface, tomate, maionese, c/ sal	1288	888	5,5
+Sanduíche, pão francês, c/ carne assada, maionese, c/ sal	1970	1351	8,3
+Sanduíche, pão francês, c/ filé mignon grelhada, rúcula, tomate seco e muçarela, c/ sal	1662	1190	7,1
+Sanduíche, pão francês, c/ filé mignon grelhada, rúcula, tomate seco e muçarela, c/ sal	1662	1190	7,1
+Sanduíche, pão francês, c/ filé mignon grelhada, rúcula, tomate seco e muçarela, c/ sal	1662	1190	7,1
+Sanduíche, pão francês, c/ filé mignon grelhada, rúcula, tomate seco e muçarela, c/ sal	1662	1190	7,1
+Sanduíche, pão francês, c/ carne suína refogada, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ sal	313	525	2,3
+Sanduíche, pão francês, c/ carne suína refogada, c/ óleo, cebola e alho, c/ sal <>	346	638	2,9
+Sanduíche, pão forma tradicional, c/ peito de frango grelhado (c/ óleo de soja), alface americana, cenoura crua, tomate, c/ sal	201	245	1,5
+Sanduíche, peito de frango grelhado, s/ óleo, c/ sal (c/ pão de hambúrguer)	292	357	2,1
+Sanduíche, pão francês, c/ peito de peru defumado e queijo muçarela	319	361	1,7
+Sanduíche, pão francês, c/ peito de peru defumado	175	285	1,3
+Sanduíche, pão forma integral, c/ alface, tomate, sardinha em conserva e maionese	224	73	1,7
+Sanduíche, pão forma tradicional, sardinha e maionese	281	71	2,5
+Sanduíche, vegetariano, pão forma integral, c/ alface, tomate, pimentão vermelho, cebola, berinjela grelhada e cream cheese, c/ sal	193	143	1,1
+Sanduíche, pão sírio, c/ peito de frango grelhado (c/ óleo de soja), alface americana, cenoura crua, tomate, c/ molho de iogurte, c/ sal	187	232	1,4
+Sanduíche, pão sírio, c/ queijo minas, alface e tomate	291	150	1,7
+Sanduíche, hambúrguer bovino grelhado (c/ pão hambúrguer), c/ alface, tomate e ovo frito	735	478	2,9
+Sanduíche, hambúrguer, c/ alface, tomate, queijo prato, bacon e maionese <<Sandwich, hamburguer, with lettuce, tomato, prato cheese, bacon and mayonnaise egg>>	900	874	5,2
+Sanduíche, hambúrguer, c/ alface, tomate, queijo prato, bacon e maionese <<Sandwich, hamburguer, with lettuce, tomato, prato cheese, bacon and mayonnaise egg>>	900	874	5,2
+Sanduíche, hambúrguer grelhado (c/ pão hambúrguer), c/ alface, tomate, queijo prato, maionese e ovo frito	686	440	3,0
+Sanduíche, pão francês, c/ queijo muçarela	380	384	1,6
+Sanduíche, queijo quente, pão francês, c/ queijo muçarela e manteiga	487	420	2,8
+Suco, laranja, s/ açúcar	65	52	1,1
+Suco natural, abacaxi, s/ açúcar	14	8	0,3
+Suco natural, acerola, s/ açúcar	14	93	0,1
+Bebida, refresco, beterraba, s/ açúcar	4	29	0,0
+Suco, polpa, congelada, preparado, cupuaçu, s/ açúcar	19	126	0,1
+Suco natural, goiaba, vermelha, s/ açúcar	7	77	0,4
+Suco, laranja, s/ açúcar	65	52	1,1
+Suco natural, laranja e banana, s/ açúcar	51	64	0,6
+Suco natural, laranja e beterraba, s/ açúcar	33	70	0,6
+Suco natural, laranja e cenoura, s/ açúcar	37	71	0,6
+Suco natural, laranja, cenoura e beterraba, s/ açúcar	34	71	0,6
+Suco natural, mamão, s/ açúcar	53	18	0,4
+Suco natural, manga, s/ açúcar	5	50	0,3
+Suco natural, maracujá, s/ açúcar	2	72	0,1
+Suco natural, melão, s/ açúcar	56	15	0,4
+Suco natural, morango, s/ açúcar	35	32	0,1
+Suco, pêssego, enlatado, em calda	48	1154	5,8
+Suco, pêssego, enlatado, em calda	48	1154	5,8
+Vitamina, leite de vaca integral c/ banana, c/ açúcar	125	134	0,8
+Vitamina, leite de vaca integral c/ banana, c/ açúcar	125	134	0,8
+Vitamina, leite de vaca integral, c/ banana e aveia, c/ açúcar	124	140	0,8
+Vitamina, leite de vaca integral c/ mamão, c/ açúcar	114	101	0,8
+Vitamina, leite de vaca integral c/ abacate, c/ açúcar	107	134	0,8
+Vitamina, leite de vaca integral c/ morango, c/ açúcar	104	109	0,6
+Vitamina, leite de vaca integral c/ banana, mamão e maçã, c/ açúcar	97	93	0,6
+Vitamina, leite de vaca integral c/ maçã, c/ açúcar	92	97	0,6
+Vitamina, leite de vaca integral c/ banana, mamão e maçã, c/ aveia, flocos, c/ açúcar	95	115	0,6
+Vitamina, leite de vaca integral c/ manga, c/ açúcar	91	136	0,8
+Suco, laranjada, c/ açúcar	18	28	0,3
+Suco, concentrado, preparado, caju, c/ açúcar	12	13	0,2
+Bebida, refresco, groselha, c/ xarope , s/ açúcar	48	1154	5,8
+Suco, laranjada, c/ açúcar	18	28	0,3
+Suco, concentrado, preparado, maracujá, c/ açúcar	10	13	0,1
+Suco, limonada), c/ açúcar	5	14	0,1
+Refrigerante, c/ adoçante (média de diferentes sabores)	45	45	0,2
+Refrigerante, c/ adoçante (média de diferentes sabores)	45	45	0,2
+Bebida, refresco, em pó, preparado, c/ água	48	1154	5,8
+Salada de legumes, cozidos no vapor	109	89	0,7
+Salada de legumes, c/ maionese, c/ sal	136	73	1,4
+Pizza, muçarela, caseira	558	281	1,5
+Lasanha, bolonhesa, caseira, assada	1032	688	4,3
+Nhoque (batata, ovo, farinha de trigo), cozido, s/ molho, c/ sal	157	172	1,0
+Canelone, c/ carne moída refogada, caseiro, c/ sal	2462	1647	10,2
+Capeleti, c/ carne moída refogada, s/ molho, caseiro, c/ sal	497	337	2,1
+Ravioli, c/ carne moída refogada, s/ molho, caseiro, c/ sal	497	337	2,1
+Calzone, frios, c/ molho de tomate, caseiro, c/ sal	593	327	1,4
+Panqueca, c/ carne moída refogada, c/ molho de tomate, c/ sal	2152	1432	8,9
+Pizza, linguiça calabresa, caseira	851	560	2,3
+Pizza, muçarela, caseira	558	281	1,5
+Pizza, presunto, caseira	769	389	2,3
+Pizza, portuguesa, assada	475	269	1,1
+Macarrão, c/ molho bolonhesa, c/ sal	428	272	1,7
+Lasanha, bolonhesa, caseira, assada	1054	688	4,3
+Capeleti, c/ carne moída refogada, s/ molho, caseiro, c/ sal	497	337	2,1
+Capeleti, c/ peito de frango refogado, c/ molho de tomate, caseiro, c/ sal	531	331	2,1
+Pizza, pepperoni, caseira	620	331	1,8
+Pizza, queijos, caseira	567	289	1,8
+Pizza, lombo canadense, caseira	504	353	1,9
+Pizza, Napolitana, caseira	546	261	1,6
+Pizza, frango com requeijão, caseira	544	259	1,5
+Pizza, atum, caseira	549	190	1,8
+Pizza, rúcula ,c/ tomate seco e muçarela de búfula, caseira	465	242	1,4
+Pizza, Marguerita, caseira	448	196	1,1
+Pizza, vegetariana, caseira	364	139	0,6
+Pizza, brigadeiro c/ morango, caseira	365	846	1,6
+Carne, galeto, assada, s/ óleo, c/ sal	380	445	2,6
+Carne, boi, costela, assada, s/ óleo, c/ sal	4652	3012	18,4
+Milho, pipoca, preparada, c/ óleo de soja, c/ açúcar	60	133	0,5
+Bebida, café, infusão 8% - médio, s/ açúcar	3	4	0,0
+Bebida, café - infusão 8% - média, c/ leite (meio a meio), "média", s/ açúcar	70	69	0,4
+Bebida, café, infusão 10%, s/ açúcar	3	4	0,0
+Bebida, capuccino tradicional (leite integral, café - infusão 10% e canela em pó), c/ açúcar	94	103	0,6
+Bebida, capuccino tradicional (leite integral, café descafeinado - infusão e canela em pó), c/ açúcar	94	103	0,6
+Bebida, capuccino tradicional (leite desnatado, café - infusão 10% e canela em pó), s/ açúcar	95	103	0,6
+Bebida, café, infusão 6% - suave, s/ açúcar	3	4	0,0
+Bebida, café - infusão 10%, c/ substituto do leite - extrato de soja, natural (meio a meio), c/ açúcar	43	548	2,7
+Bebida, café, descafeinado, infusão 8% - médio, s/ açúcar	3	4	0,0
+Bebida, café, descafeinado, infusão 8% - médio, s/ açúcar	3	4	0,0
+Milho, verde, grão, cozido, drenado, c/ sal	68	125	0,3
+Batata, inglesa, frita, c/ sal	70	124	0,7
+Batata, chips, frita, c/ sal	390	177	1,0
+Canjica, milho, branca, cozida, c/ leite integral e açúcar	89	120	0,7
+Canjica, milho, branca, cozida, c/ leite integral e açúcar	89	120	0,7
+Milho, curau, cozido	320	187	0,5
+Milho, curau, cozido	320	187	0,5
+Mandioca, farofa, temperada, c/ sal	59	185	0,9
+Mandioca, farofa, temperada, c/ sal	59	185	0,9
+Farofa, linguiça, c/ sal	831	816	2,9
+Farofa, ovos, c sal	174	277	1,5
+Farofa, couve, c/ sal	74	163	0,8
+Mingau, de amido de milho (maisena)	126	133	0,8
+Tacacá, c/ sal	1242	262	16,9
+Queijadinha, c/ coco	359	254	2,1
+Risoto de legumes, c/ arroz polido, c/ sal	203	127	1,4
+Vatapá, c/ sal	1243	258	17,8
+Mandioca, farofa, temperada, c/ sal	59	185	0,9
+Caldo de carne, c/ sal	278	142	0,8
+Caldo de feijão, c/ sal	36	83	0,2
+Caldo, mocotó, c/ sal	378	56	2,3
+Mocotó bovino, c/ feijão branco, tomate, c/ caldo de mocotó, c/ óleo, cebola e alho, c/ sal	309	87	2,2
+Baião de dois, arroz e feijão de corda, c/ sal	171	114	0,4
+Rubacão	871	733	2,0
+Churrasquinho misto (espetinho misto), c/ sal	1704	1434	7,2
+Churrasquinho misto (espetinho misto), c/ sal	1704	1434	7,2
+Sushi	260	117	5,6
+Salada de frutas, c/ açúcar	74	65	0,6
+Sopa, carne bovina, c/ vegetais, c/ sal	1409	884	5,3
+Sopa, abóbora, cabotian (japonesa), c/ sal	102	62	0,1
+Sopa, camarão, c/ sal	1988	15	26,8
+Sopa, feijão, preto, c/ sal	160	133	0,4
+Sopa, feijão, preto, c/ macarrão, c/ sal	167	126	0,4
+Sopa, peito de frango, c/ vegetais, c/ sal	282	221	1,1
+Sopa, milho, fubá, c/ sal	109	76	0,3
+Sopa, milho, fubá, c/ couve, c/ sal	113	82	0,3
+Sopa, legumes, c/ sal	136	70	0,2
+Sopa de entulho, c/ carne e vegetais, c/ feijão vermelho, c/ sal	1181	724	4,3
+Sopa, mandioca (aipim, macaxeira), c/ sal	96	51	0,5
+Sopa, carne bovina, c/ macarrão, c/ vegetais, c/ sal	1156	729	4,3
+Sopa/creme, tomate, c/ sal	165	66	0,5
+Sopa/creme, ervilha, c/ sal	131	64	0,8
+Salpicão, de frango, c/ sal	331	286	2,5
+Charuto de repolho, com arroz polido e carne bovino, s/ molho, c/ sal	1041	701	4,1
+Charuto de repolho, com arroz polido e carne bovino, s/ molho, c/ sal	1041	701	4,1
+Charuto de repolho, c/ peito de frango refogado, c/ molho de tomate, c/ sal	205	181	0,9
+Arroz à grega, c/ arroz polido, c/ sal	126	82	0,6
+Arrumadinho de charque (carne seca, carne de sol, jaba)	1580	1511	1,5
+Escondidinho de frango, c/ sal	279	256	2,2
+Arrumadinho de charque (carne seca, carne de sol, jaba)	1580	1511	1,5
+Escondidinho, c/ carne seca (carne seca, carne de sol, jaba) , c/ sal	1406	1272	2,2
+Escondidinho de frango, c/ sal	279	256	2,2
+Bolo de mandioca (aipim, macaxeira) com frango, c/ sal	292	264	2,1
+Torta de batata com frango, c/ sal	292	268	1,7
+Escondidinho de carne bovina, c/ sal	1170	771	5,4
+Bolo de mandioca (aipim, macaxeira) com carne, c/ sal	1182	780	5,3
+Escondidinho de bacalhau, c/ sal	251	100	7,7
+Escondidinho de camarão, c/ sal	1160	98	15,6
+Bobó de camarão, c/ sal	993	76	12,6
+Bobó de frango, c/ sal	276	205	1,4
+Caruru (camarão com quiabo)	1097	210	14,7
+Cuscuz paulista, c/ sal	108	128	1,4
+Cuscuz, atum, c/ sal	356	228	1,5
+Cuscuz, camarão, c/ sal	680	223	6,5
+Cuscuz paulista, c/ sal	108	128	1,4
+Cuscuz, legumes, c/ sal	307	231	1,0
+Cuscuz, marroquino (semolina), c/ amêndoa, damasco seco e uva passa, c/ sal	109	344	0,8
+Empada, frango, caseira, assada	190	282	2,6
+Farofa, banana, da terra, c/ sal	114	173	0,9
+Feijão tropeiro mineiro, c/ sal	802	686	2,5
+Arroz com frango, c/ arroz polido, c/ sal	213	184	1,1
+Arroz com frango, c/ arroz polido, c/ sal	213	184	1,1
+Arroz com frango, c/ arroz polido, c/ sal	213	184	1,1
+Arroz com frango e pequi, c/ arroz polido, c/ sal	339	420	2,2
+Moqueca, de peixe, baiana, c/ sal	498	44	22,5
+Moqueca de camarão, c/ sal	2879	44	40,4
+Moqueca de frutos do mar, c/ sal	1513	47	35,1
+Moqueca de lagosta, c/ sal	5201	44	40,4
+Moqueca, de peixe, baiana, c/ sal	498	44	22,5
+Moqueca, de peixe, baiana, c/ sal	498	44	22,5
+Omelete, c/ ovo de galinha, c/ queijo muçarela, c/ sal	474	426	2,7
+Tortilha, c/ sal	208	195	1,3
+Omelete, carne bovina, c/ sal	1327	924	6,0
+Omelete, vegetais, c/ sal	323	242	1,7
+Omelete, frios, c/ sal	559	482	2,6
+Ovos Benedict, c/ presunto, c/ sal	421	334	2,5
+Pirão, c/ caldo de peixe, c/ sal	137	37	1,1
+Pirão de leite, c/ sal	155	141	1,2
+Quibebe, c/ sal	1154	1065	0,9
+Quiche, alho-poró, assado, c/ sal	452	330	3,2
+Suflê, cenoura, c/ molho branco, c/ sal	203	157	1,1
+Tutu de feijão	468	431	1,5
+Maniçoba, c/ sal	1507	1034	3,9
+Caldo verde, c/ sal	394	368	1,3
+Arroz de cuxá, c/ arroz polido, c/ sal	650	81	7,4
+Angu a baiana, polenta, c/ molho de carne bovina, c/ sal	889	383	3,7
+Polenta, c/ molho à bolonhesa (carne bovina - patinho moído, tomate, cebola, alho, c/ óleo), c/ sal	447	307	1,8
+Polenta, c/ molho à bolonhesa (carne bovina - patinho moído, tomate, cebola, alho, c/ óleo), c/ sal	447	307	1,8
+Chocolate, ao leite (média de diferentes marcas)	233	3099	4,6
+Quindim	330	59	0,4
+Açaí, polpa, c/ xarope de guaraná, glucose, c/ granola caseira (aveia em flocos, flocos de milho, semente de chia e linhaça, coco, mel, oleagionosas - noz, castanha de caju e Brasil, amêndoa e avelã, damasco seco, uva passa, c/ óleo de milho, c/ canela)	197	213	0,6
+Açaí, polpa, c/ xarope de guaraná, glucose, c/ granola caseira (aveia em flocos, flocos de milho, semente de chia e linhaça, coco, mel, oleagionosas - noz, castanha de caju e Brasil, amêndoa e avelã, damasco seco, uva passa, c/ óleo de milho, c/ canela)	197	213	0,6
+Lasanha, frango com ricota, light, caseira (massa lasanha fresca, c/ peito de frango, c/ ricota, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ sal)	240	184	1,1
+Vaca atolada, c/ sal	1356	860	5,5
+Escondidinho de carne bovina, c/ sal	1170	771	5,4
+Carne, boi, costela, assada, c/ mandioca (aipim, macaxeira) e cebola, c/ sal	3107	1992	12,3
+Carne, boi, costela, assada, c/ batata e cebola, s/ óleo, c/ sal	3116	1996	12,1
+Escondidinho, c/ carne seca (carne seca, carne de sol, jaba) , c/ sal	1406	1272	2,2
+Escondidinho, c/ carne seca (carne seca, carne de sol, jaba) , c/ sal	1406	1272	2,2
+Salada, vegetais crus, s/ óleo, s/ sal	58	30	0,1
+Pastel de forno, recheado c/ carne, assado	1348	890	8,1
+Pastel de forno integral, recheado c/ carne, caseiro, assado	1344	869	8,0
+Sanduíche, cachorro quente (c/ pão hot dog e salsicha), c/ catchup, mostarda, maionese, milho, ervilha, purê de batata, molho vinagrete e batata palha	227	311	2,1
+Sanduíche, peito de frango grelhado (c/ pão de hambúrguer) ,  c/ queijo prato, alface, tomate e maionese	331	314	2,3
+Sanduíche, cheese salad, hambúrguer bovino grelhado (c/ pão hambúrguer), c/ queijo prato, alface, tomate e maionese	784	484	3,3
+Salada, Caesar	361	374	2,6
+Salada, Waldorf	112	267	1,0
+Salada, vegetais crus, c/ óleo de soja, c/ sal	63	49	0,3
+Salada, c/ arroz polido, c/ azeite de oliva, c/ sal	97	156	0,7
+Salada, atum, c/ azeite de oliva, c/ sal	339	126	2,4
+Salada, bacalhau com batata, c/ azeite de oliva, c/ sal	218	169	10,7
+Salada, batata com atum, c/ azeite de oliva, c/ sal	408	166	3,2
+Salada, feijão fradinho, c/ azeite de oliva, c/ sal	62	103	0,4
+Salada, grão-de-bico, c/ azeite de oliva, c/ sal	132	235	0,6
+Salada, folhas, c/ óleo de soja, c/ sal	46	92	0,4
+Salada, folhas e vegetais, c/ óleo de soja e c/ sal	121	163	1,0
+Salada de legumes, cozidos no vapor	109	89	0,7
+Salada, lentilha, c/ azeite de oliva, c/ sal	86	120	0,4
+Salada, tomate, c/ óleo de soja, c/ sal	81	62	0,3
+Tabule, c/ trigo para quibe, c/ sal	39	71	1,0
+Salada, trigo em grão, c/ azeite de oliva, c/ sal	49	75	0,8
+Salada, legumes cozidos, c/ óleo de soja, c/ sal	79	103	0,8
+Lasanha, berinjela, c/ frios, caseira, c/ sal	334	294	1,0
+Lasanha, berinjela, c/ molho bolonhesa, caseira, c/ sal	592	423	2,2
+Lasanha, frutos do mar, caseira	614	187	8,6
+Lasanha, peito de frango, caseira	355	265	1,5
+Lasanha, vegetais, caseira	147	70	0,5
+Lasanha, frios, caseira	355	258	1,1
+Lasanha, queijos, c/ molho branco, c/ sal, caseira	413	283	1,9
+Canelone, c/ peito de frango refogado, s/ molho, caseiro, c/ sal	335	407	2,4
+Canelone, c/ muçarela, s/ molho, caseiro	590	457	2,3
+Canelone, frios, s/ molho, caseiro	549	461	1,8
+Canelone, c/ ricota, s/ molho, caseiro, c/ sal	275	186	1,0
+Arroz, c/ feijão, c/ sal	91	93	0,3
+Sanduíche, pão francês, c/ manteiga	350	195	3,8
+Sanduíche, pão francês, c/ margarina	84	171	2,2
+Sanduíche, pão francês, c/ ovo frito	246	224	1,5
+Sanduíche, pão forma tradicional, c/ alface, ovo mexido, muçarela, c/ sal	382	314	1,9
+Carne, boi, acém, s/ gordura, cozida, c/ batata, c/ sal	2798	1874	11,5
+Carne, boi, acém moída, cozida, c/ vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	2822	1880	11,8
+Carne, frango, peito, c/ batata, c/ óleo, cebola e alho, c/ sal	328	407	2,3
+Carne, frango, peito, c/ vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	332	388	2,5
+Abóbora, cabotian (japonesa), c/ quiabo, refogado (c/ óleo, cebola e alho), c/ salsa, c/ sal	82	99	0,2
+Arroz carreteiro, c/ sal	2062	1846	1,6
+Arroz carreteiro, c/ sal	2062	1846	1,6
+Arroz de leite	110	76	0,5
+Arroz, c/ mandioca (aipim, macaxeira) cozida, c/ sal	83	67	0,7
+Arroz, c/ ovo frito, c/ sal	243	200	1,4
+Carne, boi, acém moída, cozida, c/ vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	2822	1880	11,8
+Carne, boi, costela, assada, c/ batata e cebola, s/ óleo, c/ sal	3116	1996	12,1
+Carne, boi, acém moída, cozida, c/ vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	2804	1880	11,8
+Carne, boi, acém moída, cozida, c/ vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	2822	1880	11,8
+Carne, boi, acém moída, cozida, c/ vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	2822	1880	11,8
+Carne, frango, peito, c/ vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	332	388	2,5
+Carne, frango, peito, c/ vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	332	388	2,5
+Arroz ao molho pardo (arroz de cabidela), c/ arroz polido, c/ sal	294	281	2,3
+Arroz caipira, c/ arroz polido, c/ sal	294	259	1,5
+Arroz chop suey, c/ arroz integral, c/ molho shoyu	204	159	0,8
+Arroz com frango e pequi, c/ arroz polido, c/ sal	339	420	2,2
+Arroz com frutos do mar, c/ arroz polido, c/ sal	1007	52	21,6
+Arroz com legumes, c/ arroz polido, c/ sal	159	95	0,4
+Arroz com lentilha, c/ arroz polido, c/ sal	342	272	1,0
+Arroz com linguiça, c/ arroz polido, c/ sal	608	505	1,9
+Arroz com macarrão (aletria, cabelo de anjo),  c/ arroz polido, c/ sal	141	86	0,9
+Arroz com nozes, c/ arroz polido, c/ sal	130	342	0,9
+Arroz com pequi, c/ arroz polido, c/ sal	113	160	0,4
+Arroz com salsicha, c/ arros polido, c/ sal	149	255	1,2
+Arroz com brócolis, c/ arroz polido, c/ sal	101	71	0,4
+Arroz com coco, c/ arroz polido, c/ sal	267	170	1,0
+Arroz de forno, c/ arroz polido, c/ sal	169	153	0,6
+Arroz com frango, c/ arroz polido, c/ sal	213	184	1,1
+Arroz piamontese, c/ arroz polido, c/ sal	263	186	1,4
+Bacalhoada, c/ vegetais, c/ sal	332	107	12,5
+Batata, inglesa, cozida, c/ muçarela, c/ molho branco (farinha de trigo, manteiga e leite), c/ sal	265	229	1,3
+Batata recheada, c/ requeijão e toucinho defumado (bacon), assada, with salt	232	186	0,8
+Batata suíça, c/ peito de frango, c/ sal	274	266	1,6
+Vegetais, cozidos, c/ sal	87	113	0,3
+Berinjela recheada, c/ muçarela, c/ vegetais, c/ sal	200	243	0,7
+Berinjela recheada, c/ carne bovina, c/ sal	1321	933	5,4
+Bife à parmegiana, c/ sal	2684	1835	11,4
+Filé de frango à parmegiana	445	526	3,2
+Bolinha de queijo, caseira	516	396	2,2
+Bolinho de arroz, frito, c/ sal	166	145	1,0
+Torta de batata com carne, c/ sal	1183	783	4,9
+Torta de batata com frango, c/ sal	292	268	1,7
+Bolo de batata doce com frango, c/ sal	291	260	2,1
+Bruschetta, c/ mussarela de búfala, c/ sal	216	265	1,1
+Carne, boi, quarto traseiro, s/ gordura, cozida, c/ batata e vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	3059	2028	12,6
+Carne, boi, quarto traseiro, s/ gordura, cozida, c/ batata e vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	3041	2028	12,6
+Carne, boi, quarto traseiro, s/ gordura, cozida, c/ batata e vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	3059	2028	12,6
+Carne, boi, quarto traseiro, s/ gordura, cozida, c/ batata e vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	3041	2028	12,6
+Carne, boi, quarto traseiro, s/ gordura, cozida, c/ batata e vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	3041	2028	12,6
+Caldeirada de peixe e frutos do mar, c/ sal	1066	22	25,3
+Sopa, mandioca (aipim, macaxeira), c/ peito de frango, csal	188	145	1,0
+Camarão com requeijão, c/ sal	2206	111	29,3
+Camarão com molho branco, c/ sal	2184	93	29,4
+Camarão com chuchu, s/ sal	2119	63	28,8
+Camarão na moranga, c/ sal	1606	121	20,9
+Canapé, cream cheese e presunto parma	600	456	2,9
+Canjica de milho com costela de porco, c/ linguiça calabresa, tomate, cheiro verde, pimenta do reino, c/ óleo, cebola e alho, c/ sal	488	545	2,4
+Caponata de berinjela, conserva de berinjela, c/ sal	149	227	1,5
+Carne, boi, charque (carne seca, carne de sol, jaba), c/ mandioca (aipim, macaxeira), extrato de tomate, pimentão, cebolinha, c/ óleo, cebola e alho, c/ sal	2822	2627	2,3
+Carne, boi, maminha, s/ gordura, assada, recheado - cebola, pimentão, tomate, linguiça calabresa, c/ pimenta-do-reino, c/ sal	4000	2640	16,0
+Lagarto recheado com cenoura, c/ sal	3353	2220	13,7
+Carne, porco, cozida, c/ batata e vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	319	506	2,6
+Carne, porco, cozida, c/ batata e vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	319	506	2,6
+Carne, boi, charque (carne seca, carne de sol, jaba), c/ batata e vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	2844	2636	2,4
+Carne, boi, charque (carne seca, carne de sol, jaba), c/ abóbora cabotian (japonesa), salsa, c/ óleo, cebola e alho, c/ sal	2809	2629	2,1
+Carne, boi, charque (carne seca, carne de sol, jaba), c/ batata e vegetais - cenoura, chuchu, vagem, c/ óleo, cebola e alho, c/ sal	2844	2636	2,4
+Carne, boi, charque (carne seca, carne de sol, jaba), c/ mandioca (aipim, macaxeira), extrato de tomate, pimentão, cebolinha, c/ óleo, cebola e alho, c/ sal	2822	2627	2,3
+Carne desfiada (carne louca), c/ sal	2622	1732	10,7
+Carne desfiada (carne louca), c/ sal	2622	1732	10,7
+Casquinha de siri, c/ sal	1062	83	32,1
+Creme, abóbora, cabotian (japonesa), c/ carne bovina, c/ sal	975	588	3,6
+Sopa/creme, cenoura, c/ sal	127	83	0,4
+Sopa/creme, espinafre, c/ sal	126	89	0,5
+Dobradinha, c/ feijão branco, bucho bovino, c/ óleo, cebola e alho, c/ sal	552	120	3,9
+Vegetais, cozidos, c/ sal	87	113	0,3
+Jardineira de legumes, c/ sal	125	110	0,3
+Ensopado, c/ linguiça calabresa e batata, c/ sal	1067	889	3,0
+Ensopado, c/ linguiça calabresa e legumes, c/ sal	1086	890	3,2
+Entrevero de pinhão, c/ sal	1320	1437	5,4
+Peixe à parmegiana	568	142	21,7
+Peixe, água salgada, pescada, branca, assado/grelhado, c/ creme de leite, requeijão e cogumelo paris, c/ sal	553	106	21,4
+Carne, frango, caipira, inteiro, c/ pele, cozida, salsa, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ pimenta-do-reino, c/ sal	439	479	2,8
+Carne, frango, inteiro, ensopado, c/ tomate, pimentão, salsa, c/ óleo, cebola e alho, c/ pimenta-do-reino, c/ sal	423	481	2,8
+Carne, frango, inteiro, ensopada, c/ pequi, pimentão, tomate, salsa, noz moscada, c/ óleo, cebola e alho, c/ pimenta-do-reino, c/ sal	386	481	2,5
+Frango ao molho pardo (frango de cabidela)	446	487	3,6
+Frango ao molho pardo (frango de cabidela)	446	487	3,6
+Carne, frango, inteiro, ensopado, c/ quiabo, salsa, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ pimenta-do-reino, c/ sal	398	430	2,5
+Carne, frango, assada, c/ tucupi, pimenta-de-cheiro, jambu, chicória (coentro bravo), cebola, alho, c/ sal	428	500	2,9
+Frango xadrez, c/ molho shoyu	390	419	2,3
+Fricassé de carne moída, c/ sal	2758	1844	11,7
+Fricassé de frango, c/ sal	490	469	3,5
+Frigideira de peixe, c/ sal	345	144	11,4
+Hot Filadélfia (Hot Roll)	239	169	4,4
+Jardineira de legumes, c/ sal	125	110	0,3
+Lagarto recheado com cenoura, c/ sal	3353	2220	13,7
+Lagarto recheado com calabresa, c/ sal	3515	2368	14,2
+Legumes gratinados, c/ molho branco, c/ queijo parmesão, c/ sal	255	176	1,3
+Pimentão recheado, c/ carne bovina, c/ sal	1268	859	5,1
+Lentilha, cozida, c/ toucinho defumado (bacon), c/ óleo, cebola e alho, c/ sal	190	202	0,4
+Lentilha, cozida, c/ linguiça calabresa, c/ óleo, cebola e alho, c/ sal	428	425	1,2
+Carne, boi, lingua, cozida, recheada, c/ cenoura, pimentão vermelho, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ sal	905	140	6,5
+Carne, porco, lombo, assada, recheada - cebola, cenoura, pimentão vermelho, c/ sal	623	792	3,6
+Carne, porco, lombo, assada, recheada, c/ linguiça calabresa, c/ sal	986	1184	5,1
+Carne, carne, paleta, s/ gordura, refogada (c/ óleo, cebola e alho), c/ sal	4021	2694	16,7
+Mariscada, c/ sal	1196	47	32,0
+Carne, boi, maminha, s/ gordura, assada, recheado - cebola, pimentão, tomate, linguiça calabresa, c/ pimenta-do-reino, c/ sal	4000	2640	16,0
+Missoshiro	120	57	0,1
+Mousse de camarão	1842	118	24,6
+Mujica/mojica de peixe (pirão de peixe)	207	66	6,7
+Carne, caça, paca, assada	565	1645	12,6
+Paçoca de pinhão, c/ sal	1061	1576	4,7
+Carne, pato, assada, c/ tucupi, pimenta-de-cheiro, jambu, chicória (coentro bravo), cebola, alho, c/ sal	406	500	2,9
+Moqueca, de peixe, baiana, c/ sal	498	44	22,5
+Peixe à parmegiana	568	142	21,7
+Peixe, água salgada, pescada, branca, assado/grelhado, c/ batata e vegetais - cebola, cenoura, abobrinha, tomate, c/ óleo, c/ sal	524	30	21,4
+Peixe, água salgada, pescada, branca, ensopado (c/ cebola, tomate e pimentão), c/ batata, c/ sal	455	34	21,2
+Peixe, água salgada, pescada, branca, ensopado (c/ cebola, tomate e pimentão), c/ batata e legumes - cenoura, abobrinha, brócolis, c/ sal	492	34	21,2
+Peixe, água salgada, pescada, branca, ensopado (c/ cebola, tomate e pimentão), c/ leite de coco, c/ sal	498	49	24,4
+Peixe, água salgada, pescada, branca, assado/grelhado, recheado, c/ farofa de banana, c/ sal	527	34	25,5
+Peixe, água salgada, pescada, cozido, c/ molho branco (farinha de trigo, manteiga e leite), c/ sal	557	37	25,7
+Peixe, água salgada, pescada, branca, cozido, c/ camarão, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ sal	1018	1	29,8
+Carne, boi, quarto traseiro, s/ gordura, grelhada, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ sal	3818	2527	15,7
+Pimentão recheado, c/ carne bovina, c/ sal	1268	859	5,1
+Almôndega, ao sugo	1932	1293	8,1
+Suflê, cenoura, c/ molho branco, c/ sal	203	157	1,1
+Quibe, bovino, assado	2316	1495	9,4
+Quibe, bovino, cru, s/ sal	2694	1814	11,2
+Quibe vegetariano com tomate e pimentão, c/ sal	151	50	0,2
+Quiche, alho-poró, assado, c/ sal	452	330	3,2
+Quiche, salmão, assado, c/ sal	537	296	8,4
+Rabada bovina com batata e agrião, c/ molho de tomate (tomate, c/ óleo, cebola e alho), pimentão, c/ óleo, cebola e alho, c/ pimenta do reino, c/ sal	2358	1502	9,1
+Ratatouille, vegetais assados, c/ sal	135	114	0,6
+Legumes refogados, c/ sal	115	88	0,3
+Risoto de camarão, c/ arroz polido, c/ sal	1642	85	21,9
+Risoto de frutos do mar, c/ arroz polido, c/ sal	1041	78	21,9
+Risoto de cogumelos, c/ arroz polido, c/ sal	188	122	1,0
+Risoto de legumes, c/ arroz polido, c/ sal	203	127	1,4
+Rolinho primavera, frito, c/ sal	379	322	1,8
+Harumaki (rolinho primavera), peixe, frito, c/ sal	471	149	12,0
+Rondele, c/ carne moída refogada, c/ molho de tomate, caseiro, c/ sal	1829	1189	7,4
+Rondele, frios, c/ molho de tomate, caseiro, c/ sal	447	342	1,4
+Rondele, c/ camarão, refogado,  c/ molho de tomate, caseiro, c/ sal	1624	40	22,0
+Rondele, frios, c/ molho de tomate, caseiro, c/ sal	447	342	1,4
+Sagu, mandioca, preparado c/ vinho tinto, c/ açúcar	28	50	0,3
+Suflê, camarão, c/ molho branco, c/ sal	1717	130	22,7
+Suflê, frango, c/ molho branco, c/ queijo parmesão, c/ sal	409	382	2,6
+Temaki	249	107	5,0
+Tempurá de camarão	2673	75	37,8
+Tempurá de legumes, frito,  c/ sal	158	132	1,0
+Rosca, salgada, recheada c/ presunto e queijo muçarela, caseira	363	283	2,1
+Virado de feijão	205	184	0,6
+Xinxim de bofe, c/ sal	1213	287	11,6
+Prato de comida brasileiro	549	364	2,1
+Mexido	843	555	3,5
+Cuscuz de milho, cozido, c/ sal	426	252	1,5
+Salada, folhas, vegetais e frutas, c/ azeite de oliva, c/ sal	47	100	0,7
+Pão, francês, c/ linguiça, frita	1389	1280	4,3
+Pão francês, c/ tucumã	343	305	1,2
+Lanche brasileiro (pão francês, c/ margarina, c/ sal, c/ café, infusão 10%)	21	47	0,4
+Lanche brasileiro (bolo trigo, s/ cobertura e s/ recheio, c/ café, infusão 10%, c/ açúcar)	126	77	1,0
+Lanche brasileiro (leite integral, c/ pão francês)	112	145	0,8
+Sopa instantânea, c/ macarrão	58	102	0,6
+Macarrão, trigo, cozido, com ovo mexido, c/ toucinho defumado (bacon), c/ sal	257	167	1,0
+Macarrão, trigo, c/ molho de tomate (tomate, c/ óleo, cebola e alho) e frutos do mar (camarão, lula e mexilhão), c/ óleo, cebola e alho, c/ sal	421	60	7,7
+Macarrão, trigo, c/ molho de tomate (tomate, c/ óleo, cebola e alho) e frutos do mar (camarão, lula e mexilhão), c/ óleo, cebola e alho, c/ sal	421	60	7,7
+Macarrão, trigo, c/ ovos, c/ molho branco (leite, manteiga e farinha de trigo), c/ sal	108	97	0,7
+Macarrão, trigo, c/ ovos, c/ alho e óleo, c/ sal	92	105	0,6
+Macarrão, trigo, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ peito de frango, c/ óleo, cebola e alho, c/ sal	171	135	0,8
+Macarrão, trigo, c/ vegetais, c/ sal	137	79	0,4
+Macarrão, trigo, c/ linguiça calabresa, salsa, cebolinha, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ sal	468	378	1,4
+Macarrão, trigo, c/ ovos, c/ molho branco (leite, manteiga e farinha de trigo), c/ sal	108	97	0,7
+Macarrão, trigo, c/ ovos, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ sal	99	69	0,4
+Macarrão, trigo, c/ ovos, c/ molho branco (leite, manteiga e farinha de trigo), c/ sal	108	97	0,7
+Macarrão, trigo, c/ salsicha, salsa, cebolinha, c/ molho de tomate (tomate, c/ óleo, cebola e alho), c/ sal	149	221	1,0
+Strogonoff de camarão	2587	128	35,5
+Estrogonoffe de carne, c/ sal	2303	1554	10,2
+Strogonoff de soja	157	87	0,5
+Estrogonoffe de frango, c/ sal	463	444	3,2
+Yakisoba, c/ sal	487	328	2,3
+Yakisoba, c/ sal	487	328	2,3
+Yakisoba, c/ sal	487	328	2,3
+Yakisoba, c/ sal	487	328	2,3
+Feijão, preto, cozido (50% grão e 50% caldo), c/ carne de boi, músculo, s/ gordura, c/ óleo, cebola e alho, c/ sal	1245	886	5,1
+Lentilha, cozida, c/ toucinho defumado (bacon), c/ óleo, cebola e alho, c/ sal	190	202	0,4
+Lentilha, cozida, c/ linguiça calabresa, c/ óleo, cebola e alho, c/ sal	428	425	1,2
+Feijoada de frutos do mar	1138	86	22,0
+Feijoada vegetariana	166	119	0,4
+Maionese, molho, tradicional	156	43	3,4
+Torta de batata com frango, c/ sal	292	268	1,7
+Torta de batata com frango, c/ sal	292	268	1,7
+Torta de batata com carne, c/ sal	1183	783	4,9
+Torta de batata com carne, c/ sal	1183	783	4,9
+Torta de batata com carne, c/ sal	1183	783	4,9
+Torta de batata com carne, c/ sal	1183	783	4,9
+Suflê, bacalhau, c/ molho branco, c/ sal	332	134	10,8
+Suflê, camarão, c/ molho branco, c/ sal	1717	130	22,7
+Quiche, salmão, assado, c/ sal	537	296	8,4
+Torta, vegetais, c/ cenoura, vagem e abobrinha, c/ sal	212	198	1,4
+Torta, frios	360	173	1,1
+Lasanha, queijos, c/ molho branco, c/ sal, caseira	391	283	1,9
+Suflê, bacalhau, c/ molho branco, c/ sal	332	134	10,8
+Bolo de mandioca (aipim, macaxeira) com carne, c/ sal	1182	780	5,3
+Bolo de mandioca (aipim, macaxeira) com carne, c/ sal	1182	780	5,3
+Bolo de mandioca (aipim, macaxeira) com frango, c/ sal	292	264	2,1
+Chuchu, s/ casca, cozida, drenada, s/ óleo, s/ sal	73	158	0,3
