@@ -33,7 +33,7 @@ def verificar_quantidade_dietas(caminho_arquivo):
 
 
 # nome_do_arquivo = "dietas-vegana.json" 
-nome_do_arquivo = "dietas-vegetariana.json" 
-# nome_do_arquivo = "dietas-regular.json" 
+# nome_do_arquivo = "dietas-vegetariana.json" 
+nome_do_arquivo = "dietas-regular.json" 
 
 quantidade_total = verificar_quantidade_dietas(nome_do_arquivo)
