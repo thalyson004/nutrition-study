@@ -1,10 +1,11 @@
 def calcular_tmb(sexo, peso, altura, idade):
-    if sexo.lower() == 'masculino':
+    if sexo.lower() == "masculino":
         return (10 * peso) + (6.25 * altura) - (5 * idade) + 5
-    elif sexo.lower() in ['feminino', 'feminina']:
+    elif sexo.lower() in ["feminino", "feminina"]:
         return (10 * peso) + (6.25 * altura) - (5 * idade) - 161
     else:
         raise ValueError("Sexo deve ser 'Masculino' ou 'Feminino'.")
+
 
 def calcular_get(tmb, nivel_atividade):
     fatores = {
@@ -12,9 +13,10 @@ def calcular_get(tmb, nivel_atividade):
         "Levemente ativo": 1.375,
         "Moderadamente ativo": 1.55,
         "Muito ativo": 1.725,
-        "Extremamente ativo": 1.9
+        "Extremamente ativo": 1.9,
     }
     return round(tmb * fatores.get(nivel_atividade, 1.2))
+
 
 def gerar_prompt_dieta(
     sexo="Feminino",
@@ -25,7 +27,7 @@ def gerar_prompt_dieta(
     tmb=None,
     get=None,
     qtd_deficit=0,
-    tipo_dieta="Vegetariana"
+    tipo_dieta="Vegetariana",
 ):
     if tmb is None:
         tmb = round(calcular_tmb(sexo, peso, altura, idade))
@@ -47,7 +49,7 @@ def gerar_prompt_dieta(
     else:
         regra_restricao = "DIETA REGULAR: Não há restrições de grupos alimentares. Utilize qualquer combinação de alimentos (carnes, vegetais, grãos, laticínios), desde que constem EXATAMENTE no arquivo anexo."
 
-    prompt = f"""Atue como um nutricionista clínico especialista em modelagem computacional. 
+    prompt = f"""Atue como um nutricionista clínico especialista em modelagem computacional.
 Sua tarefa é criar um cardápio teórico de 5 dias, distribuído em 6 refeições diárias.
 
 **Parâmetros do Perfil Alvo:**
@@ -109,12 +111,15 @@ Sua tarefa é criar um cardápio teórico de 5 dias, distribuído em 6 refeiçõ
       ]
     }}
 }}"""
-    
+
     return prompt
+
 
 # Teste de Geração
 # vegana
 # vegetariana
 # regular
+
 prompt_teste = gerar_prompt_dieta(tipo_dieta="regular", qtd_deficit=0)
+
 print(prompt_teste)
