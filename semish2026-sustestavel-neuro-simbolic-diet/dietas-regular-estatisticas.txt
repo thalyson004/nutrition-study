@@ -11,10 +11,9 @@ Taxa de presença de Arroz e Feijão no Almoço: 46.4%
 >> MÉDIA DIÁRIA
    [GERAL]
     Energia..................  1916.31 ± 276.29 kcal
-    Pegada de Carbono........  6638.01 ± 2430.13 
-    Pegada Hídrica...........  5357.01 ± 1815.89 
-    Pegada Ecológica.........    43.31 ± 14.85  
-    Carboidrato disponível...   197.64 ± 37.76  g
+    Pegada de Carbono........   663.80 ± 243.01 
+    Pegada Hídrica...........   535.70 ± 181.59 
+    Pegada Ecológica.........     4.33 ± 1.49   
     Carboidrato total........   226.32 ± 39.46  g
     Proteína.................   123.35 ± 22.72  g
     Lipídios.................    63.88 ± 23.64  g
@@ -22,6 +21,7 @@ Taxa de presença de Arroz e Feijão no Almoço: 46.4%
     Sódio....................  2125.99 ± 583.57 mg
     Alfa-tocoferol (Vitamina E)     6.90 ± 2.64   g
     Açúcar de adição.........    11.04 ± 18.62  g
+    Carboidrato disponível...   197.64 ± 37.76  g
     Cinzas...................    17.54 ± 2.04   g
     Cobre....................     1.42 ± 0.40   g
     Colesterol...............   481.88 ± 205.08 g
@@ -56,10 +56,9 @@ Taxa de presença de Arroz e Feijão no Almoço: 46.4%
 >> MÉDIA POR REFEIÇÃO
    [CAFÉ DA MANHÃ]
     Energia..................   379.00 ± 92.62  kcal
-    Pegada de Carbono........   558.20 ± 220.48 
-    Pegada Hídrica...........   456.60 ± 151.79 
-    Pegada Ecológica.........     3.77 ± 1.44   
-    Carboidrato disponível...    43.06 ± 28.47  g
+    Pegada de Carbono........    55.82 ± 22.05  
+    Pegada Hídrica...........    45.66 ± 15.18  
+    Pegada Ecológica.........     0.38 ± 0.14   
     Carboidrato total........    45.39 ± 29.26  g
     Proteína.................    15.71 ± 5.11   g
     Lipídios.................    15.48 ± 7.38   g
@@ -67,6 +66,7 @@ Taxa de presença de Arroz e Feijão no Almoço: 46.4%
     Sódio....................   389.63 ± 211.15 mg
     Alfa-tocoferol (Vitamina E)     0.78 ± 0.52   g
     Açúcar de adição.........     7.83 ± 17.77  g
+    Carboidrato disponível...    43.06 ± 28.47  g
     Cinzas...................     3.00 ± 0.83   g
     Cobre....................     0.11 ± 0.09   g
     Colesterol...............   175.34 ± 162.07 g
@@ -98,10 +98,9 @@ Taxa de presença de Arroz e Feijão no Almoço: 46.4%
     Ácidos graxos trans......     0.38 ± 0.30   g
    [LANCHE DA MANHÃ]
     Energia..................   169.09 ± 51.29  kcal
-    Pegada de Carbono........   224.63 ± 142.63 
-    Pegada Hídrica...........   320.11 ± 262.56 
-    Pegada Ecológica.........     1.47 ± 0.78   
-    Carboidrato disponível...    23.82 ± 10.63  g
+    Pegada de Carbono........    22.46 ± 14.26  
+    Pegada Hídrica...........    32.01 ± 26.26  
+    Pegada Ecológica.........     0.15 ± 0.08   
     Carboidrato total........    27.16 ± 10.91  g
     Proteína.................     5.01 ± 2.59   g
     Lipídios.................     5.31 ± 3.96   g
@@ -109,6 +108,7 @@ Taxa de presença de Arroz e Feijão no Almoço: 46.4%
     Sódio....................    53.66 ± 79.60  mg
     Alfa-tocoferol (Vitamina E)     0.42 ± 0.55   g
     Açúcar de adição.........     0.21 ± 1.69   g
+    Carboidrato disponível...    23.82 ± 10.63  g
     Cinzas...................     1.35 ± 0.57   g
     Cobre....................     0.20 ± 0.12   g
     Colesterol...............     3.64 ± 7.89   g
@@ -136,10 +136,9 @@ Taxa de presença de Arroz e Feijão no Almoço: 46.4%
     Ácidos graxos saturados..     1.32 ± 1.07   g
    [ALMOÇO]
     Energia..................   557.63 ± 108.87 kcal
-    Pegada de Carbono........  3504.37 ± 2232.62 
-    Pegada Hídrica...........  2572.54 ± 1475.81 
-    Pegada Ecológica.........    20.88 ± 11.83  
-    Carboidrato disponível...    45.41 ± 10.99  g
+    Pegada de Carbono........   350.44 ± 223.26 
+    Pegada Hídrica...........   257.25 ± 147.58 
+    Pegada Ecológica.........     2.09 ± 1.18   
     Carboidrato total........    57.50 ± 11.77  g
     Proteína.................    48.76 ± 10.98  g
     Lipídios.................    17.45 ± 8.87   g
@@ -147,6 +146,7 @@ Taxa de presença de Arroz e Feijão no Almoço: 46.4%
     Sódio....................   673.59 ± 304.88 mg
     Alfa-tocoferol (Vitamina E)     2.57 ± 1.46   g
     Açúcar de adição.........     0.28 ± 1.65   g
+    Carboidrato disponível...    45.41 ± 10.99  g
     Cinzas...................     5.24 ± 1.03   g
     Cobre....................     0.53 ± 0.21   g
     Colesterol...............   125.16 ± 48.86  g
@@ -179,10 +179,9 @@ Taxa de presença de Arroz e Feijão no Almoço: 46.4%
     Ácidos graxos trans......     0.21 ± 0.18   g
    [LANCHE DA TARDE]
     Energia..................   266.58 ± 115.73 kcal
-    Pegada de Carbono........   340.59 ± 133.15 
-    Pegada Hídrica...........   346.03 ± 170.60 
-    Pegada Ecológica.........     2.24 ± 0.93   
-    Carboidrato disponível...    37.33 ± 20.35  g
+    Pegada de Carbono........    34.06 ± 13.31  
+    Pegada Hídrica...........    34.60 ± 17.06  
+    Pegada Ecológica.........     0.22 ± 0.09   
     Carboidrato total........    40.28 ± 20.83  g
     Proteína.................     9.41 ± 3.97   g
     Lipídios.................     8.20 ± 6.09   g
@@ -190,6 +189,7 @@ Taxa de presença de Arroz e Feijão no Almoço: 46.4%
     Sódio....................   208.80 ± 235.40 mg
     Alfa-tocoferol (Vitamina E)     0.52 ± 0.59   g
     Açúcar de adição.........     2.75 ± 4.93   g
+    Carboidrato disponível...    37.33 ± 20.35  g
     Cinzas...................     2.16 ± 0.70   g
     Cobre....................     0.17 ± 0.12   g
     Colesterol...............    16.81 ± 17.43  g
@@ -220,16 +220,16 @@ Taxa de presença de Arroz e Feijão no Almoço: 46.4%
     Ácidos graxos trans......     0.21 ± 0.30   g
    [JANTAR]
     Energia..................   436.94 ± 139.28 kcal
-    Pegada de Carbono........  1806.39 ± 1918.09 
-    Pegada Hídrica...........  1422.07 ± 1311.71 
-    Pegada Ecológica.........    12.76 ± 11.95  
-    Carboidrato disponível...    35.29 ± 12.63  g
+    Pegada de Carbono........   180.64 ± 191.81 
+    Pegada Hídrica...........   142.21 ± 131.17 
+    Pegada Ecológica.........     1.28 ± 1.20   
     Carboidrato total........    42.29 ± 13.50  g
     Proteína.................    39.12 ± 13.33  g
     Lipídios.................    13.89 ± 16.10  g
     Fibra alimentar..........     7.10 ± 2.93   g
     Sódio....................   719.05 ± 268.08 mg
     Alfa-tocoferol (Vitamina E)     2.42 ± 1.83   g
+    Carboidrato disponível...    35.29 ± 12.63  g
     Cinzas...................     4.43 ± 1.03   g
     Cobre....................     0.35 ± 0.30   g
     Colesterol...............   151.49 ± 131.03 g
@@ -262,10 +262,9 @@ Taxa de presença de Arroz e Feijão no Almoço: 46.4%
     Ácidos graxos trans......     0.27 ± 0.54   g
    [CEIA]
     Energia..................   107.06 ± 44.28  kcal
-    Pegada de Carbono........   203.83 ± 105.00 
-    Pegada Hídrica...........   239.67 ± 102.51 
-    Pegada Ecológica.........     2.18 ± 1.26   
-    Carboidrato disponível...    12.73 ± 7.98   g
+    Pegada de Carbono........    20.38 ± 10.50  
+    Pegada Hídrica...........    23.97 ± 10.25  
+    Pegada Ecológica.........     0.22 ± 0.13   
     Carboidrato total........    13.69 ± 8.24   g
     Proteína.................     5.34 ± 2.70   g
     Lipídios.................     3.77 ± 4.06   g
@@ -273,6 +272,7 @@ Taxa de presença de Arroz e Feijão no Almoço: 46.4%
     Sódio....................   109.10 ± 47.15  mg
     Alfa-tocoferol (Vitamina E)     0.21 ± 0.40   g
     Açúcar de adição.........     0.15 ± 1.28   g
+    Carboidrato disponível...    12.73 ± 7.98   g
     Cinzas...................     1.36 ± 0.56   g
     Colesterol...............     9.43 ± 9.82   g
     Cálcio...................   190.72 ± 124.18 g
