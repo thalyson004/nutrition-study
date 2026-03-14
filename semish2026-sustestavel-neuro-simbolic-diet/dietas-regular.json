@@ -73,7 +73,7 @@
             ],
             "Ceia": [
                 {
-                    "alimento": "Leite, vaca, desnatado, fluído (média de differentes amostras)",
+                    "alimento": "Leite, vaca, desnatado, fluído (média de diferentes amostras)",
                     "quantidade": "200"
                 }
             ]
@@ -205,7 +205,7 @@
                     "quantidade": "170"
                 },
                 {
-                    "alimento": "Cereais, barra (média de differentes sabores)",
+                    "alimento": "Cereais, barra (média de diferentes sabores)",
                     "quantidade": "20"
                 }
             ],
@@ -1669,7 +1669,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "80"
                 },
                 {
@@ -2075,7 +2075,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -2149,7 +2149,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Granola, caseira",
+                    "alimento": "Cereais, granola, caseira",
                     "quantidade": "30"
                 }
             ],
@@ -2295,7 +2295,7 @@
             ],
             "Jantar": [
                 {
-                    "alimento": "Batata, baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
+                    "alimento": "Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "180"
                 },
                 {
@@ -2429,7 +2429,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Peixe, pescada, amarela, posta, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -2453,7 +2453,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, porco, lombo, s/ gordura, assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -2503,7 +2503,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, frango, sobrecoxa, s/ pele, assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, frango, coxa, c/ pele, assada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -2581,7 +2581,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, boi, acém, moído, refogado (c/ óleo, cebola e alho), c/ sal",
+                    "alimento": "Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -2609,7 +2609,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Carne, boi, maminha, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, maminha, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -2681,7 +2681,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Presunto, cozido, s/ capa de gordura",
+                    "alimento": "Presunto, porco, cozido, s/ capa de gordura",
                     "quantidade": "30"
                 },
                 {
@@ -2699,7 +2699,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, boi, contra-filé, s/ gordura, grelhado, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, contrafilé, s/ gordura, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -3061,7 +3061,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Aveia, crua (média de differentes tipos)",
+                    "alimento": "Aveia, crua (média de diferentes tipos)",
                     "quantidade": "15"
                 }
             ],
@@ -3961,7 +3961,7 @@
                     "quantidade": "130"
                 },
                 {
-                    "alimento": "Castanha de caju, torrada, c/ sal",
+                    "alimento": "Castanha de caju, crua, s/ sal",
                     "quantidade": "20"
                 }
             ],
@@ -4039,7 +4039,7 @@
                     "quantidade": "170"
                 },
                 {
-                    "alimento": "Granola, caseira",
+                    "alimento": "Cereais, granola, caseira",
                     "quantidade": "30"
                 }
             ],
@@ -4049,7 +4049,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Peixe, filé, grelhado/assado, s/ óleo, c/ sal (média de 7 espécies)",
+                    "alimento": "Peixe, água doce, filé, grelhado/assado, s/ óleo, c/ sal (média de 7 espécies)",
                     "quantidade": "150"
                 },
                 {
@@ -4109,11 +4109,11 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Suco, uva, tinto, integral",
+                    "alimento": "Torrada, trigo, integral",
                     "quantidade": "150"
                 }
             ],
@@ -4123,7 +4123,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Peixe, pescada, filé, grelhado, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -4201,7 +4201,7 @@
             ],
             "Jantar": [
                 {
-                    "alimento": "Batata, baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
+                    "alimento": "Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -4299,7 +4299,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Pimentão, amarelo, cru",
+                    "alimento": "Pimentão, cru",
                     "quantidade": "30"
                 }
             ],
@@ -4453,7 +4453,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Peixe, pescada, amarela, posta, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -4479,7 +4479,7 @@
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Suco, uva, s/ açúcar",
+                    "alimento": "Suco, laranja, s/ açúcar",
                     "quantidade": "200"
                 }
             ],
@@ -4503,7 +4503,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, boi, acém, moído, refogado (c/ óleo, cebola e alho), c/ sal",
+                    "alimento": "Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -4573,7 +4573,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, frango, sobrecoxa, s/ pele, assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, frango, coxa, c/ pele, assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -4601,11 +4601,11 @@
                     "quantidade": "300"
                 },
                 {
-                    "alimento": "Carne, boi, maminha, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, maminha, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Repolho, branco, cru",
+                    "alimento": "Repolho, roxo, cru",
                     "quantidade": "50"
                 }
             ],
@@ -4647,7 +4647,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, porco, lombo, s/ gordura, assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -4679,7 +4679,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, boi, contra-filé, s/ gordura, grelhado, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, contrafilé, s/ gordura, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -5067,7 +5067,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -5265,7 +5265,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -5463,7 +5463,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, boi, alcatra, grelhada/assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, miolo de alcatra, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -6069,7 +6069,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Peixe, pescada, filé, grelhado, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -6105,7 +6105,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Castanha de caju, torrada, c/ sal",
+                    "alimento": "Castanha de caju, crua, s/ sal",
                     "quantidade": "15"
                 }
             ],
@@ -6133,11 +6133,11 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Suco, uva, tinto, integral",
+                    "alimento": "Torrada, trigo, integral",
                     "quantidade": "150"
                 }
             ],
@@ -6251,7 +6251,7 @@
         "5": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de differentes amostras)",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "50"
                 },
                 {
@@ -6269,7 +6269,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Granola, caseira",
+                    "alimento": "Cereais, granola, caseira",
                     "quantidade": "20"
                 }
             ],
@@ -6311,7 +6311,7 @@
             ],
             "Jantar": [
                 {
-                    "alimento": "Batata, baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
+                    "alimento": "Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "180"
                 },
                 {
@@ -6473,7 +6473,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Peixe, pescada, amarela, posta, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -6523,7 +6523,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, boi, acém, moído, refogado (c/ óleo, cebola e alho), c/ sal",
+                    "alimento": "Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -6597,7 +6597,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, frango, sobrecoxa, s/ pele, assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, frango, coxa, c/ pele, assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -6625,11 +6625,11 @@
                     "quantidade": "300"
                 },
                 {
-                    "alimento": "Carne, boi, maminha, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, maminha, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Repolho, branco, cru",
+                    "alimento": "Repolho, roxo, cru",
                     "quantidade": "50"
                 }
             ],
@@ -6675,7 +6675,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, porco, lombo, s/ gordura, assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -6693,7 +6693,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Presunto, cozido, s/ capa de gordura",
+                    "alimento": "Presunto, porco, cozido, s/ capa de gordura",
                     "quantidade": "30"
                 },
                 {
@@ -6707,7 +6707,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, boi, contra-filé, s/ gordura, grelhado, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, contrafilé, s/ gordura, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -6889,7 +6889,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Vagem, cozida, drenada, s/ óleo, c/ sal (média de differentes amostras)",
+                    "alimento": "Vagem, cozida, drenada, s/ óleo, c/ sal (média de diferentes amostras)",
                     "quantidade": "100"
                 },
                 {
@@ -7025,7 +7025,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -7301,7 +7301,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -8087,7 +8087,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -8101,7 +8101,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Peixe, pescada, filé, grelhado, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -8161,7 +8161,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Granola, caseira",
+                    "alimento": "Cereais, granola, caseira",
                     "quantidade": "30"
                 }
             ],
@@ -8327,7 +8327,7 @@
             ],
             "Jantar": [
                 {
-                    "alimento": "Batata, baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
+                    "alimento": "Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "180"
                 },
                 {
@@ -8485,7 +8485,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Peixe, pescada, amarela, posta, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -8535,7 +8535,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, boi, acém, moído, refogado (c/ óleo, cebola e alho), c/ sal",
+                    "alimento": "Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -8609,7 +8609,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, frango, sobrecoxa, s/ pele, assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, frango, coxa, c/ pele, assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -8637,11 +8637,11 @@
                     "quantidade": "300"
                 },
                 {
-                    "alimento": "Carne, boi, maminha, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, maminha, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Repolho, branco, cru",
+                    "alimento": "Repolho, roxo, cru",
                     "quantidade": "50"
                 }
             ],
@@ -8687,7 +8687,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, porco, lombo, s/ gordura, assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -8705,7 +8705,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Presunto, cozido, s/ capa de gordura",
+                    "alimento": "Presunto, porco, cozido, s/ capa de gordura",
                     "quantidade": "30"
                 },
                 {
@@ -8719,7 +8719,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, boi, contra-filé, s/ gordura, grelhado, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, contrafilé, s/ gordura, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -8845,7 +8845,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -9533,7 +9533,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Aveia, crua (média de differentes tipos)",
+                    "alimento": "Aveia, crua (média de diferentes tipos)",
                     "quantidade": "30"
                 }
             ],
@@ -9851,7 +9851,7 @@
         "5": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de differentes amostras)",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "50"
                 },
                 {
@@ -10067,7 +10067,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -10081,7 +10081,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Peixe, pescada, filé, grelhado, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -10141,7 +10141,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Granola, caseira",
+                    "alimento": "Cereais, granola, caseira",
                     "quantidade": "30"
                 }
             ],
@@ -10307,7 +10307,7 @@
             ],
             "Jantar": [
                 {
-                    "alimento": "Batata, baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
+                    "alimento": "Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "180"
                 },
                 {
@@ -10465,7 +10465,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Peixe, pescada, amarela, posta, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -10515,7 +10515,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, boi, acém, moído, refogado (c/ óleo, cebola e alho), c/ sal",
+                    "alimento": "Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -10589,7 +10589,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, frango, sobrecoxa, s/ pele, assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, frango, coxa, c/ pele, assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -10617,11 +10617,11 @@
                     "quantidade": "300"
                 },
                 {
-                    "alimento": "Carne, boi, maminha, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, maminha, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Repolho, branco, cru",
+                    "alimento": "Repolho, roxo, cru",
                     "quantidade": "50"
                 }
             ],
@@ -10667,7 +10667,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, porco, lombo, s/ gordura, assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -10685,7 +10685,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Presunto, cozido, s/ capa de gordura",
+                    "alimento": "Presunto, porco, cozido, s/ capa de gordura",
                     "quantidade": "30"
                 },
                 {
@@ -10699,7 +10699,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, boi, contra-filé, s/ gordura, grelhado, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, contrafilé, s/ gordura, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -10829,7 +10829,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -11285,7 +11285,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -12049,7 +12049,7 @@
             ],
             "Almoço": [
                 {
-                    "alimento": "Arroz, integral, cozido, c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -12071,7 +12071,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -12205,7 +12205,7 @@
             ],
             "Almoço": [
                 {
-                    "alimento": "Arroz, integral, cozido, c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal",
                     "quantidade": "180"
                 },
                 {
@@ -12305,7 +12305,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -12477,7 +12477,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Peixe, pescada, amarela, posta, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -12527,7 +12527,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, boi, acém, moído, refogado (c/ óleo, cebola e alho), c/ sal",
+                    "alimento": "Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -12601,7 +12601,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, frango, sobrecoxa, s/ pele, assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, frango, coxa, c/ pele, assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -12629,11 +12629,11 @@
                     "quantidade": "300"
                 },
                 {
-                    "alimento": "Carne, boi, maminha, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, maminha, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Repolho, branco, cru",
+                    "alimento": "Repolho, roxo, cru",
                     "quantidade": "50"
                 }
             ],
@@ -12679,7 +12679,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, porco, lombo, s/ gordura, assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -12697,7 +12697,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Presunto, cozido, s/ capa de gordura",
+                    "alimento": "Presunto, porco, cozido, s/ capa de gordura",
                     "quantidade": "30"
                 },
                 {
@@ -12711,7 +12711,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, boi, contra-filé, s/ gordura, grelhado, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, contrafilé, s/ gordura, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -13017,7 +13017,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -13301,7 +13301,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -14093,7 +14093,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Peixe, pescada, amarela, posta, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -14143,7 +14143,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, boi, acém, moído, refogado (c/ óleo, cebola e alho), c/ sal",
+                    "alimento": "Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -14217,7 +14217,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, frango, sobrecoxa, s/ pele, assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, frango, coxa, c/ pele, assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -14245,11 +14245,11 @@
                     "quantidade": "300"
                 },
                 {
-                    "alimento": "Carne, boi, maminha, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, maminha, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Repolho, branco, cru",
+                    "alimento": "Repolho, roxo, cru",
                     "quantidade": "50"
                 }
             ],
@@ -14295,7 +14295,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, porco, lombo, s/ gordura, assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -14313,7 +14313,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Presunto, cozido, s/ capa de gordura",
+                    "alimento": "Presunto, porco, cozido, s/ capa de gordura",
                     "quantidade": "30"
                 },
                 {
@@ -14327,7 +14327,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, boi, contra-filé, s/ gordura, grelhado, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, contrafilé, s/ gordura, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -14811,7 +14811,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Carne, frango, peito, s/ pele, grelhado, s/ gordura, s/ óleo, c/ sal",
+                    "alimento": "Carne, frango, peito, s/ pele, grelhada, s/ gordura, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -14829,7 +14829,7 @@
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 }
             ],
@@ -14839,7 +14839,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Carne, boi, patinho, s/ gordura, grelhado/assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, patinho, s/ gordura, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -14881,11 +14881,11 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Carne, boi, alcatra, grelhada/assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, miolo de alcatra, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -14893,13 +14893,13 @@
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Beterraba, s/ casca, cozida, drenada, s/ óleo, c/ sal",
+                    "alimento": "Beterraba, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "60"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Biscoito, cream cracker",
+                    "alimento": "Biscoito, salgado, cream cracker",
                     "quantidade": "40"
                 },
                 {
@@ -14909,7 +14909,7 @@
             ],
             "Jantar": [
                 {
-                    "alimento": "Batata, inglesa, purê, c/ leite, margarina e sal",
+                    "alimento": "Batata, inglesa, sauté (c/ margarina e salsa), c/ sal",
                     "quantidade": "200"
                 },
                 {
@@ -14923,7 +14923,7 @@
             ],
             "Ceia": [
                 {
-                    "alimento": "Castanha-do-Brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "15"
                 }
             ]
@@ -14955,11 +14955,11 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Carne, boi, moída, cozida (patinho), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Carne, boi, acém moída, cozida, c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Molho, tomate, industrializado",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "60"
                 },
                 {
@@ -14983,11 +14983,11 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Grão-de-bico, cozido, drenado, s/ óleo, c/ sal",
+                    "alimento": "Grão de bico, cozido, dreando, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Omelete, queijo e tomate, c/ sal",
+                    "alimento": "Omelete, frios, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -14997,7 +14997,7 @@
             ],
             "Ceia": [
                 {
-                    "alimento": "Nozes, cruas",
+                    "alimento": "Noz, crua",
                     "quantidade": "15"
                 }
             ]
@@ -15009,7 +15009,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Queijo, coalho, grelhado",
+                    "alimento": "Queijo, coalho",
                     "quantidade": "40"
                 },
                 {
@@ -15029,7 +15029,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Carne, frango, sobrecoxa, s/ pele, assada, s/ gordura, s/ óleo, c/ sal",
+                    "alimento": "Carne, frango, peito, s/ pele, grelhada, s/ gordura, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -15037,7 +15037,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Salada, legumes, cozidos no vapor",
+                    "alimento": "Salada de legumes, cozidos no vapor",
                     "quantidade": "100"
                 }
             ],
@@ -15047,13 +15047,13 @@
                     "quantidade": "170"
                 },
                 {
-                    "alimento": "Castanha-de-caju, torrada, c/ sal",
+                    "alimento": "Castanha de caju, crua, s/ sal",
                     "quantidade": "20"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Sopa, legumes, c/ carne, c/ sal",
+                    "alimento": "Sopa, legumes, c/ sal",
                     "quantidade": "400"
                 },
                 {
@@ -15071,17 +15071,17 @@
         "5": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão de queijo, assado",
+                    "alimento": "Pão de alho, assado",
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Suco, uva, s/ açúcar",
+                    "alimento": "Suco, laranja, s/ açúcar",
                     "quantidade": "200"
                 }
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Banana, prata, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 },
                 {
@@ -15099,7 +15099,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, porco, lombo, grelhado/assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -15123,15 +15123,15 @@
             ],
             "Jantar": [
                 {
-                    "alimento": "Sanduíche: Pão integral",
+                    "alimento": "Sanduíche, pão francês, c/ manteiga",
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Peixe, atum, em conserva, c/ óleo",
+                    "alimento": "Peixe, água salgada, atum, sólido, conserva, light",
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Maionese, industrializada",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "10"
                 },
                 {
@@ -15299,7 +15299,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -15553,7 +15553,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "40"
                 },
                 {
@@ -15643,13 +15643,13 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 },
                 {
@@ -15709,7 +15709,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, boi, miolo de alcatra, s/ gordura, grelhado/assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, miolo de alcatra, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -15717,7 +15717,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "12"
                 }
             ],
@@ -15727,13 +15727,13 @@
                     "quantidade": "170"
                 },
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "150"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Batata, doce, cozida, s/ casca, s/ óleo, c/ sal",
+                    "alimento": "Batata, doce, s/ casca, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "200"
                 },
                 {
@@ -15745,7 +15745,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Abóbora, cabotiá, cozida",
+                    "alimento": "Sopa, abóbora, cabotian (japonesa), c/ sal",
                     "quantidade": "150"
                 }
             ],
@@ -15767,7 +15767,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 }
             ],
@@ -15795,7 +15795,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 }
             ],
@@ -15853,11 +15853,11 @@
             ],
             "Almoço": [
                 {
-                    "alimento": "Batata, doce, cozida, s/ casca, s/ óleo, c/ sal",
+                    "alimento": "Batata, doce, s/ casca, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "250"
                 },
                 {
-                    "alimento": "Carne, boi, miolo de alcatra, s/ gordura, grelhado/assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, miolo de alcatra, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -15865,7 +15865,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "15"
                 }
             ],
@@ -15879,7 +15879,7 @@
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "50"
                 }
             ],
@@ -15935,21 +15935,21 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Peixe, pescada, amarela, filé, assado, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Brocolis, flor, cozido, drenado, s/ óleo, c/ sal",
+                    "alimento": "Brócolos, flor, cozido, drenado, s/ óleo, c/ sal",
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "15"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "150"
                 },
                 {
@@ -16031,17 +16031,17 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Castanha-do-Brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "20"
                 }
             ],
@@ -16097,7 +16097,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, boi, miolo de alcatra, s/ gordura, grelhado/assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, miolo de alcatra, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -16105,7 +16105,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "12"
                 }
             ],
@@ -16115,13 +16115,13 @@
                     "quantidade": "170"
                 },
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "150"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Batata, doce, cozida, s/ casca, s/ óleo, c/ sal",
+                    "alimento": "Batata, doce, s/ casca, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "200"
                 },
                 {
@@ -16133,13 +16133,13 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Abóbora, cabotiá, cozida",
+                    "alimento": "Sopa, abóbora, cabotian (japonesa), c/ sal",
                     "quantidade": "150"
                 }
             ],
             "Ceia": [
                 {
-                    "alimento": "Castanha-do-Brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "15"
                 }
             ]
@@ -16155,7 +16155,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 }
             ],
@@ -16183,7 +16183,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 }
             ],
@@ -16235,17 +16235,17 @@
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Castanha-do-Brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "30"
                 }
             ],
             "Almoço": [
                 {
-                    "alimento": "Batata, doce, cozida, s/ casca, s/ óleo, c/ sal",
+                    "alimento": "Batata, doce, s/ casca, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "250"
                 },
                 {
-                    "alimento": "Carne, boi, miolo de alcatra, s/ gordura, grelhado/assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, miolo de alcatra, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -16253,7 +16253,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "15"
                 }
             ],
@@ -16267,7 +16267,7 @@
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "50"
                 }
             ],
@@ -16323,7 +16323,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Peixe, pescada, amarela, filé, assado, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "200"
                 },
                 {
@@ -16331,17 +16331,17 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "15"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Castanha-do-Brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "20"
                 }
             ],
@@ -16417,7 +16417,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "120"
                 },
                 {
@@ -16431,7 +16431,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Carne, frango, peito, s/ pele, grelhado, s/ gordura, s/ óleo, c/ sal",
+                    "alimento": "Carne, frango, peito, s/ pele, grelhada, s/ gordura, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -16473,7 +16473,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -16485,7 +16485,7 @@
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Beterraba, s/ casca, cozida, drenada, s/ óleo, c/ sal",
+                    "alimento": "Beterraba, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "60"
                 }
             ],
@@ -16501,11 +16501,11 @@
             ],
             "Jantar": [
                 {
-                    "alimento": "Batata, inglesa, purê, c/ leite, margarina e sal",
+                    "alimento": "Batata, inglesa, sauté (c/ margarina e salsa), c/ sal",
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Carne, boi, alcatra, grelhada/assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, miolo de alcatra, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -16515,7 +16515,7 @@
             ],
             "Ceia": [
                 {
-                    "alimento": "Castanha-do-Brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "15"
                 }
             ]
@@ -16541,7 +16541,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Nozes, cruas",
+                    "alimento": "Noz, crua",
                     "quantidade": "15"
                 }
             ],
@@ -16551,11 +16551,11 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Grão-de-bico, cozido, drenado, s/ óleo, c/ sal",
+                    "alimento": "Grão de bico, cozido, dreando, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, frango, peito, s/ pele, grelhado, s/ gordura, s/ óleo, c/ sal",
+                    "alimento": "Carne, frango, peito, s/ pele, grelhada, s/ gordura, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -16565,7 +16565,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Salada, de frutas, c/ açúcar",
+                    "alimento": "Salada de frutas, c/ açúcar",
                     "quantidade": "200"
                 },
                 {
@@ -16575,7 +16575,7 @@
             ],
             "Jantar": [
                 {
-                    "alimento": "Sopa, legumes, c/ carne, c/ sal",
+                    "alimento": "Sopa, legumes, c/ sal",
                     "quantidade": "400"
                 },
                 {
@@ -16597,7 +16597,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Queijo, coalho, grelhado",
+                    "alimento": "Queijo, coalho",
                     "quantidade": "50"
                 },
                 {
@@ -16621,11 +16621,11 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, porco, lombo, grelhado/assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Salada, legumes, cozidos no vapor",
+                    "alimento": "Salada de legumes, cozidos no vapor",
                     "quantidade": "100"
                 }
             ],
@@ -16641,11 +16641,11 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Carne, boi, moída, cozida (patinho), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Carne, boi, acém moída, cozida, c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Molho, tomate, industrializado",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "60"
                 }
             ],
@@ -16659,11 +16659,11 @@
         "5": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão de queijo, assado",
+                    "alimento": "Pão de alho, assado",
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Suco, uva, s/ açúcar",
+                    "alimento": "Suco, laranja, s/ açúcar",
                     "quantidade": "200"
                 }
             ],
@@ -16701,11 +16701,11 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Peixe, atum, em conserva, c/ óleo",
+                    "alimento": "Peixe, água salgada, atum, sólido, conserva, light",
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Maionese, industrializada",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "10"
                 }
             ],
@@ -16767,7 +16767,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 },
                 {
@@ -16799,7 +16799,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 },
                 {
@@ -16817,11 +16817,11 @@
         "2": {
             "Café da Manhã": [
                 {
-                    "alimento": "Cuscuz, de milho, cozido, c/ sal",
+                    "alimento": "Cuscuz de milho, cozido, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Ovo, galinha, inteiro, cozido",
+                    "alimento": "Ovo, galinha, inteiro, cozido, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -16831,17 +16831,17 @@
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Castanha-do-brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "10"
                 }
             ],
             "Almoço": [
                 {
-                    "alimento": "Mandioca, cozida",
+                    "alimento": "Mandioca, farinha, crua",
                     "quantidade": "150"
                 },
                 {
@@ -16849,25 +16849,25 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, porco, lombo, assado",
+                    "alimento": "Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Couve-manteiga, refogada",
+                    "alimento": "Couve, manteiga, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "100"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão, trigo, integral, de forma",
+                    "alimento": "Pão, trigo, integral, caseiro",
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Requeijão, cremoso",
+                    "alimento": "Queijo, coalho",
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Suco, uva, concentrado, s/ açúcar",
+                    "alimento": "Suco natural, acerola, s/ açúcar",
                     "quantidade": "200"
                 }
             ],
@@ -16877,17 +16877,17 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Carne, boi, acém, moído, cozido",
+                    "alimento": "Carne, boi, seca, cozida, s/ óleo",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Abobrinha, italiana, cozida",
+                    "alimento": "Abobrinha, italiana, c/ casca, crua",
                     "quantidade": "100"
                 }
             ],
             "Ceia": [
                 {
-                    "alimento": "Iogurte, natural, integral",
+                    "alimento": "Iogurte, natural, desnatado",
                     "quantidade": "170"
                 }
             ]
@@ -16909,21 +16909,21 @@
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Laranja, pera, in natura",
+                    "alimento": "Laranja, in natura",
                     "quantidade": "150"
                 }
             ],
             "Almoço": [
                 {
-                    "alimento": "Batata, doce, cozida",
+                    "alimento": "Baba de moça",
                     "quantidade": "250"
                 },
                 {
-                    "alimento": "Peixe, pescada, amarela, filé, grelhado",
+                    "alimento": "Peixe, água salgada, sardinha, filé, conserva, em óleo",
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "15"
                 },
                 {
@@ -16955,17 +16955,17 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Brócolis, cozido",
+                    "alimento": "Arroz com brócolis, c/ arroz polido, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 }
             ],
             "Ceia": [
                 {
-                    "alimento": "Castanha-do-brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "30"
                 }
             ]
@@ -16973,7 +16973,7 @@
         "4": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão, trigo, integral, de forma",
+                    "alimento": "Pão, trigo, integral, caseiro",
                     "quantidade": "50"
                 },
                 {
@@ -16987,7 +16987,7 @@
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Melancia, in natura",
+                    "alimento": "Melancia, polpa, in natura",
                     "quantidade": "250"
                 }
             ],
@@ -17009,13 +17009,13 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 },
                 {
@@ -17025,7 +17025,7 @@
             ],
             "Jantar": [
                 {
-                    "alimento": "Mandioca, cozida",
+                    "alimento": "Mandioca, farinha, crua",
                     "quantidade": "150"
                 },
                 {
@@ -17033,11 +17033,11 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Couve-manteiga, refogada",
+                    "alimento": "Couve, manteiga, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 }
             ],
@@ -17051,15 +17051,15 @@
         "5": {
             "Café da Manhã": [
                 {
-                    "alimento": "Cuscuz, de milho, cozido, c/ sal",
+                    "alimento": "Cuscuz de milho, cozido, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Ovo, galinha, inteiro, cozido",
+                    "alimento": "Ovo, galinha, inteiro, cozido, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Suco, uva, concentrado, s/ açúcar",
+                    "alimento": "Suco natural, acerola, s/ açúcar",
                     "quantidade": "200"
                 }
             ],
@@ -17075,25 +17075,25 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Carne, boi, acém, moído, cozido",
+                    "alimento": "Carne, boi, seca, cozida, s/ óleo",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Abobrinha, italiana, cozida",
+                    "alimento": "Abobrinha, italiana, c/ casca, crua",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Iogurte, natural, integral",
+                    "alimento": "Iogurte, natural, desnatado",
                     "quantidade": "170"
                 },
                 {
-                    "alimento": "Castanha-do-brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "20"
                 }
             ],
@@ -17107,7 +17107,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Peixe, pescada, amarela, filé, grelhado",
+                    "alimento": "Peixe, água salgada, sardinha, filé, conserva, em óleo",
                     "quantidade": "150"
                 },
                 {
@@ -17119,7 +17119,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 }
             ],
@@ -17269,7 +17269,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Peixe, pescada, amarela, posta, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "180"
                 },
                 {
@@ -17319,7 +17319,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Carne, boi, acém, moído, refogado (c/ óleo, cebola e alho), c/ sal",
+                    "alimento": "Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -17393,7 +17393,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, frango, sobrecoxa, s/ pele, assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, frango, coxa, c/ pele, assada, s/ óleo, c/ sal",
                     "quantidade": "180"
                 },
                 {
@@ -17421,11 +17421,11 @@
                     "quantidade": "350"
                 },
                 {
-                    "alimento": "Carne, boi, maminha, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, maminha, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Repolho, branco, cru",
+                    "alimento": "Repolho, roxo, cru",
                     "quantidade": "100"
                 }
             ],
@@ -17471,7 +17471,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, porco, lombo, s/ gordura, assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "180"
                 },
                 {
@@ -17489,7 +17489,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Presunto, cozido, s/ capa de gordura",
+                    "alimento": "Presunto, porco, cozido, s/ capa de gordura",
                     "quantidade": "40"
                 },
                 {
@@ -17503,7 +17503,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Carne, boi, contra-filé, s/ gordura, grelhado, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, contrafilé, s/ gordura, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -17523,7 +17523,7 @@
         "1": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de differentes amostras)",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "50"
                 },
                 {
@@ -17659,7 +17659,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -17737,13 +17737,13 @@
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Suco, uva, tinto, integral",
+                    "alimento": "Torrada, trigo, integral",
                     "quantidade": "200"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Batata, baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
+                    "alimento": "Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "200"
                 },
                 {
@@ -17847,7 +17847,7 @@
         "5": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de differentes amostras)",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "50"
                 },
                 {
@@ -17893,11 +17893,11 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Suco, uva, tinto, integral",
+                    "alimento": "Torrada, trigo, integral",
                     "quantidade": "200"
                 }
             ],
@@ -18049,7 +18049,7 @@
             ],
             "Almoço": [
                 {
-                    "alimento": "Arroz, integral, cozido, c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -18071,7 +18071,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -18157,13 +18157,13 @@
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Suco, uva, tinto, integral",
+                    "alimento": "Torrada, trigo, integral",
                     "quantidade": "200"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Batata, baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
+                    "alimento": "Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "130"
                 },
                 {
@@ -18209,7 +18209,7 @@
             ],
             "Almoço": [
                 {
-                    "alimento": "Arroz, integral, cozido, c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -18313,11 +18313,11 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Suco, uva, tinto, integral",
+                    "alimento": "Torrada, trigo, integral",
                     "quantidade": "200"
                 }
             ],
@@ -18501,7 +18501,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Peixe, pescada, amarela, posta, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "180"
                 },
                 {
@@ -18531,7 +18531,7 @@
                     "quantidade": "40"
                 },
                 {
-                    "alimento": "Suco, uva, s/ açúcar",
+                    "alimento": "Suco, laranja, s/ açúcar",
                     "quantidade": "200"
                 }
             ],
@@ -18555,7 +18555,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Carne, boi, acém, moído, refogado (c/ óleo, cebola e alho), c/ sal",
+                    "alimento": "Carne, boi, acém, moída, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -18641,7 +18641,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, frango, sobrecoxa, s/ pele, assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, frango, coxa, c/ pele, assada, s/ óleo, c/ sal",
                     "quantidade": "180"
                 },
                 {
@@ -18669,11 +18669,11 @@
                     "quantidade": "350"
                 },
                 {
-                    "alimento": "Carne, boi, maminha, grelhada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, maminha, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Repolho, branco, cru",
+                    "alimento": "Repolho, roxo, cru",
                     "quantidade": "100"
                 }
             ],
@@ -18723,7 +18723,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, porco, lombo, s/ gordura, assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "180"
                 },
                 {
@@ -18741,7 +18741,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Presunto, cozido, s/ capa de gordura",
+                    "alimento": "Presunto, porco, cozido, s/ capa de gordura",
                     "quantidade": "40"
                 },
                 {
@@ -18759,7 +18759,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Carne, boi, contra-filé, s/ gordura, grelhado, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, contrafilé, s/ gordura, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -18861,11 +18861,11 @@
         "2": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão, trigo, integral, de forma",
+                    "alimento": "Pão, trigo, integral, caseiro",
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Ovo, galinha, inteiro, cozido",
+                    "alimento": "Ovo, galinha, inteiro, cozido, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -18875,7 +18875,7 @@
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 },
                 {
@@ -18917,7 +18917,7 @@
             ],
             "Jantar": [
                 {
-                    "alimento": "Batata, doce, cozida",
+                    "alimento": "Baba de moça",
                     "quantidade": "200"
                 },
                 {
@@ -18957,7 +18957,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Castanha-do-brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "10"
                 }
             ],
@@ -19031,7 +19031,7 @@
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 },
                 {
@@ -19067,7 +19067,7 @@
                     "quantidade": "130"
                 },
                 {
-                    "alimento": "Aveia, crua (média de differentes tipos)",
+                    "alimento": "Aveia, crua (média de diferentes tipos)",
                     "quantidade": "30"
                 }
             ],
@@ -19141,7 +19141,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 },
                 {
@@ -19151,7 +19151,7 @@
             ],
             "Jantar": [
                 {
-                    "alimento": "Batata, doce, cozida",
+                    "alimento": "Baba de moça",
                     "quantidade": "200"
                 },
                 {
@@ -19271,7 +19271,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Castanha-do-Brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "15"
                 }
             ],
@@ -19281,11 +19281,11 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, boi, alcatra, sem gordura, grelhada/assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, contrafilé, s/ gordura, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -19299,7 +19299,7 @@
                     "quantidade": "170"
                 },
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 },
                 {
@@ -19313,7 +19313,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Peixe, pescada, branca, filé, assado, s/ óleo, c/ sal",
+                    "alimento": "Cebola, branca, assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -19327,7 +19327,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Biscoito, cream cracker",
+                    "alimento": "Biscoito, salgado, cream cracker",
                     "quantidade": "30"
                 }
             ]
@@ -19343,7 +19343,7 @@
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Suco, uva, s/ açúcar",
+                    "alimento": "Suco, laranja, s/ açúcar",
                     "quantidade": "200"
                 }
             ],
@@ -19359,7 +19359,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Carne, boi, moída, cozida (patinho), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Carne, boi, acém moída, cozida, c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -19377,7 +19377,7 @@
                     "quantidade": "170"
                 },
                 {
-                    "alimento": "Castanha-de-caju, torrada, c/ sal",
+                    "alimento": "Castanha de caju, crua, s/ sal",
                     "quantidade": "30"
                 }
             ],
@@ -19391,7 +19391,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, frango, sobrecoxa, s/ pele, assada, s/ gordura, s/ óleo, c/ sal",
+                    "alimento": "Carne, frango, peito, s/ pele, grelhada, s/ gordura, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -19413,7 +19413,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Queijo, coalho, grelhado",
+                    "alimento": "Queijo, coalho",
                     "quantidade": "40"
                 },
                 {
@@ -19427,7 +19427,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Castanha-do-Brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "15"
                 }
             ],
@@ -19445,7 +19445,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Salada, legumes, cozidos no vapor",
+                    "alimento": "Salada de legumes, cozidos no vapor",
                     "quantidade": "120"
                 }
             ],
@@ -19455,7 +19455,7 @@
                     "quantidade": "170"
                 },
                 {
-                    "alimento": "Banana, prata, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 }
             ],
@@ -19519,7 +19519,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Carne, porco, lombo, grelhado/assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, porco, lombo, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -19571,7 +19571,7 @@
         "1": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de differentes amostras)",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "50"
                 },
                 {
@@ -19619,17 +19619,17 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Castanha-do-Brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "20"
                 }
             ],
@@ -19677,7 +19677,7 @@
             ],
             "Almoço": [
                 {
-                    "alimento": "Arroz, integral, cozido, c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -19685,7 +19685,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Carne, boi, miolo de alcatra, s/ gordura, grelhado/assado, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, miolo de alcatra, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -19693,7 +19693,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "12"
                 }
             ],
@@ -19703,13 +19703,13 @@
                     "quantidade": "170"
                 },
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "150"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Batata, doce, cozida, s/ casca, s/ óleo, c/ sal",
+                    "alimento": "Batata, doce, s/ casca, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "200"
                 },
                 {
@@ -19721,13 +19721,13 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Abóbora, cabotiá, cozida",
+                    "alimento": "Sopa, abóbora, cabotian (japonesa), c/ sal",
                     "quantidade": "150"
                 }
             ],
             "Ceia": [
                 {
-                    "alimento": "Castanha-do-Brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "15"
                 }
             ]
@@ -19743,7 +19743,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 }
             ],
@@ -19771,7 +19771,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 }
             ],
@@ -19823,17 +19823,17 @@
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Castanha-do-Brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "30"
                 }
             ],
             "Almoço": [
                 {
-                    "alimento": "Batata, doce, cozida, s/ casca, s/ óleo, c/ sal",
+                    "alimento": "Batata, doce, s/ casca, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "250"
                 },
                 {
-                    "alimento": "Carne, boi, miolo de alcatra, s/ gordura, grelhado/assada, s/ óleo, c/ sal",
+                    "alimento": "Carne, boi, miolo de alcatra, grelhada/assada, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -19841,7 +19841,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "15"
                 }
             ],
@@ -19855,13 +19855,13 @@
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "50"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Arroz, integral, cozido, c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal",
                     "quantidade": "150"
                 },
                 {
@@ -19911,25 +19911,25 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Peixe, pescada, amarela, filé, assado, s/ óleo, c/ sal",
+                    "alimento": "Peixe, água salgada, atum, assado/grelhado, s/ óleo, c/ sal",
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Brocolis, flor, cozido, drenado, s/ óleo, c/ sal",
+                    "alimento": "Brócolos, flor, cozido, drenado, s/ óleo, c/ sal",
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Azeite, de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "15"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Banana, nanica, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Castanha-do-Brasil, crua",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "20"
                 }
             ],

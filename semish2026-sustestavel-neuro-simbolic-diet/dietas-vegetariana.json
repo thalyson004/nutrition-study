@@ -1407,7 +1407,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Abóbora, moranga, cozida, drenada, s/ óleo, c/ sal",
+                    "alimento": "Taioba, folha, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -1449,7 +1449,7 @@
         "4": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "80"
                 },
                 {
@@ -1463,7 +1463,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Amêndoas, torrada, c/ sal",
+                    "alimento": "Amêndoa, torrada, c/ sal",
                     "quantidade": "15"
                 }
             ],
@@ -1735,7 +1735,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Granola, caseira",
+                    "alimento": "Cereais, granola, caseira",
                     "quantidade": "30"
                 }
             ],
@@ -1805,7 +1805,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "80"
                 },
                 {
@@ -2249,7 +2249,7 @@
         "4": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão, trigo, integral, forma (média de differentes marcas)",
+                    "alimento": "Pão, trigo, integral, forma (média de diferentes marcas)",
                     "quantidade": "50"
                 },
                 {
@@ -2361,7 +2361,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -3143,7 +3143,7 @@
             ],
             "Ceia": [
                 {
-                    "alimento": "Leite, vaca, desnatado, fluído (média de differentes amostras)",
+                    "alimento": "Leite, vaca, desnatado, fluído (média de diferentes amostras)",
                     "quantidade": "200"
                 }
             ]
@@ -3531,7 +3531,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Requeijão (média de diferentes amostras)",
+                    "alimento": "Queijo, requeijão (média de diferentes amostras)",
                     "quantidade": "30"
                 },
                 {
@@ -3631,7 +3631,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Molho, tomate, industrializado",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "60"
                 },
                 {
@@ -3719,7 +3719,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Molho, tomate, industrializado",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "100"
                 },
                 {
@@ -4035,7 +4035,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Molho, tomate, industrializado",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "100"
                 },
                 {
@@ -4183,7 +4183,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "80"
                 },
                 {
@@ -4319,7 +4319,7 @@
                     "quantidade": "170"
                 },
                 {
-                    "alimento": "Granola, caseira",
+                    "alimento": "Cereais, granola, caseira",
                     "quantidade": "30"
                 }
             ],
@@ -4439,7 +4439,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Molho, tomate, industrializado",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "100"
                 },
                 {
@@ -4823,7 +4823,7 @@
         "5": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de differentes amostras)",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "50"
                 },
                 {
@@ -5207,7 +5207,7 @@
         "5": {
             "Café da Manhã": [
                 {
-                    "alimento": "Bolo, milho, forma",
+                    "alimento": "Pão, milho, forma",
                     "quantidade": "60"
                 },
                 {
@@ -5933,7 +5933,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Granola, caseira",
+                    "alimento": "Cereais, granola, caseira",
                     "quantidade": "30"
                 }
             ],
@@ -6095,7 +6095,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Molho, tomate, industrializado",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "80"
                 },
                 {
@@ -6477,7 +6477,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -6707,7 +6707,7 @@
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Bebida, café - infusão 8% - médio, s/ açúcar",
+                    "alimento": "Bebida, café, infusão 8% - médio, s/ açúcar",
                     "quantidade": "150"
                 }
             ],
@@ -7671,7 +7671,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Requeijão (média de diferentes amostras)",
+                    "alimento": "Queijo, requeijão (média de diferentes amostras)",
                     "quantidade": "30"
                 },
                 {
@@ -7771,7 +7771,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Molho, tomate, industrializado",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "60"
                 },
                 {
@@ -8557,7 +8557,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -8645,7 +8645,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão, trigo, integral, forma (média de differentes marcas)",
+                    "alimento": "Pão, trigo, integral, forma (média de diferentes marcas)",
                     "quantidade": "50"
                 },
                 {
@@ -8787,7 +8787,7 @@
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Bebida, café - infusão 8% - médio, s/ açúcar",
+                    "alimento": "Bebida, café, infusão 8% - médio, s/ açúcar",
                     "quantidade": "150"
                 }
             ],
@@ -8967,7 +8967,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Queijo, pasteurizado (média de differentes amostras)",
+                    "alimento": "Queijo, pasteurizado (média de diferentes amostras)",
                     "quantidade": "40"
                 },
                 {
@@ -9051,77 +9051,77 @@
         "1": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras) ",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Queijo, minas, frescal, light ",
+                    "alimento": "Queijo, minas, frescal, light",
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Suco, laranja, s/ açúcar ",
+                    "alimento": "Suco, laranja, s/ açúcar",
                     "quantidade": "200"
                 }
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Iogurte, natural, desnatado ",
+                    "alimento": "Iogurte, natural, desnatado",
                     "quantidade": "170"
                 },
                 {
-                    "alimento": "Aveia, crua (média de diferentes tipos) ",
+                    "alimento": "Aveia, crua (média de diferentes tipos)",
                     "quantidade": "30"
                 }
             ],
             "Almoço": [
                 {
-                    "alimento": "Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal ",
+                    "alimento": "Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal ",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Omelete, vegetais, c/ sal ",
+                    "alimento": "Omelete, vegetais, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Alface, crua ",
+                    "alimento": "Alface, crua",
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Tomate, in natura ",
+                    "alimento": "Tomate, in natura",
                     "quantidade": "80"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Maçã, c/ casca, in natura ",
+                    "alimento": "Maçã, c/ casca, in natura",
                     "quantidade": "130"
                 },
                 {
-                    "alimento": "Castanha do Brasil, crua ",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "15"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Macarrão, trigo, integral, cozido, drenado, s/ óleo, c/ sal ",
+                    "alimento": "Macarrão, trigo, integral, cozido, drenado, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal ",
+                    "alimento": "Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Brócolos, flor, cozido, drenado, s/ óleo, c/ sal ",
+                    "alimento": "Brócolos, flor, cozido, drenado, s/ óleo, c/ sal",
                     "quantidade": "100"
                 }
             ],
             "Ceia": [
                 {
-                    "alimento": "Leite, vaca, desnatado, fluído (média de diferentes amostras) ",
+                    "alimento": "Leite, vaca, desnatado, fluído (média de diferentes amostras)",
                     "quantidade": "200"
                 }
             ]
@@ -9129,77 +9129,77 @@
         "2": {
             "Café da Manhã": [
                 {
-                    "alimento": "Tapioca, sem manteiga, sem recheio ",
+                    "alimento": "Tapioca, sem manteiga, sem recheio",
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Ovo, galinha, mexido, c/ margarina, c/ sal ",
+                    "alimento": "Ovo, galinha, mexido, c/ margarina, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Mamão, Papaia, polpa, in natura ",
+                    "alimento": "Mamão, Papaia, polpa, in natura",
                     "quantidade": "150"
                 }
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Biscoito, arroz ",
+                    "alimento": "Biscoito, arroz",
                     "quantidade": "20"
                 },
                 {
-                    "alimento": "Queijo, ricota, light ",
+                    "alimento": "Queijo, ricota, light",
                     "quantidade": "50"
                 }
             ],
             "Almoço": [
                 {
-                    "alimento": "Quinoa, grão, cozida, s/ óleo, s/ sal ",
+                    "alimento": "Quinoa, grão, cozida, s/ óleo, s/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Lentilha, cozida, drenada, c/ óleo, cebola e alho, c/ sal ",
+                    "alimento": "Lentilha, cozida, drenada, c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Batata, doce, s/ casca, cozida, drenada, s/ óleo, c/ sal ",
+                    "alimento": "Batata, doce, s/ casca, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Cenoura, s/ casca, crua ",
+                    "alimento": "Cenoura, s/ casca, crua",
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Espinafre, folha, refogada (c/ óleo, cebola e alho), c/ sal ",
+                    "alimento": "Espinafre, folha, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "80"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Banana, in natura ",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Iogurte, natural ",
+                    "alimento": "Iogurte, natural",
                     "quantidade": "170"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Sopa, legumes, c/ sal ",
+                    "alimento": "Sopa, legumes, c/ sal",
                     "quantidade": "300"
                 },
                 {
-                    "alimento": "Torrada, trigo, integral ",
+                    "alimento": "Torrada, trigo, integral",
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Ovo, galinha, inteiro, cozido, c/ sal ",
+                    "alimento": "Ovo, galinha, inteiro, cozido, c/ sal",
                     "quantidade": "50"
                 }
             ],
             "Ceia": [
                 {
-                    "alimento": "Leite, vaca, desnatado, fluído (média de diferentes amostras) ",
+                    "alimento": "Leite, vaca, desnatado, fluído (média de diferentes amostras)",
                     "quantidade": "200"
                 }
             ]
@@ -9207,73 +9207,73 @@
         "3": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão, trigo, integral, forma (média de diferentes marcas) ",
+                    "alimento": "Pão, trigo, integral, forma (média de diferentes marcas)",
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Queijo, muçarela, light ",
+                    "alimento": "Queijo, muçarela, light",
                     "quantidade": "40"
                 },
                 {
-                    "alimento": "Suco natural, laranja, mamão, pera e maçã, s/ açúcar ",
+                    "alimento": "Suco natural, laranja, mamão, pera e maçã, s/ açúcar",
                     "quantidade": "200"
                 }
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Tangerina, Ponkã, in natura ",
+                    "alimento": "Tangerina, Ponkã, in natura",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Amêndoa, torrada, c/ sal ",
+                    "alimento": "Amêndoa, torrada, c/ sal",
                     "quantidade": "15"
                 }
             ],
             "Almoço": [
                 {
-                    "alimento": "Arroz, polido, cozido, c/ óleo, cebola e alho, c/ sal ",
+                    "alimento": "Arroz, polido, cozido, c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Grão de bico, cozido, dreando, s/ óleo, c/ sal ",
+                    "alimento": "Grão de bico, cozido, dreando, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Abóbora, moranga, refogada (c/ óleo, cebolha e alho), c/ sal ",
+                    "alimento": "Abóbora, moranga, refogada (c/ óleo, cebolha e alho), c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Repolho, cru ",
+                    "alimento": "Repolho, cru",
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Pepino, c/ casca, cru ",
+                    "alimento": "Pepino, c/ casca, cru",
                     "quantidade": "50"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Vitamina, leite de vaca integral c/ abacate, c/ açúcar ",
+                    "alimento": "Vitamina, leite de vaca integral c/ abacate, c/ açúcar",
                     "quantidade": "250"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Macarrão, trigo, c/ vegetais, c/ sal ",
+                    "alimento": "Macarrão, trigo, c/ vegetais, c/ sal",
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Soja, tofu ",
+                    "alimento": "Soja, tofu",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Salada, palmito, c/ óleo de soja, c/ sal ",
+                    "alimento": "Salada, palmito, c/ óleo de soja, c/ sal",
                     "quantidade": "50"
                 }
             ],
             "Ceia": [
                 {
-                    "alimento": "Biscoito, doce, maisena ",
+                    "alimento": "Biscoito, doce, maisena",
                     "quantidade": "30"
                 }
             ]
@@ -9281,69 +9281,69 @@
         "4": {
             "Café da Manhã": [
                 {
-                    "alimento": "Cuscuz de milho, cozido, c/ sal ",
+                    "alimento": "Cuscuz de milho, cozido, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Ovo, galinha, mexido, c/ margarina, c/ sal ",
+                    "alimento": "Ovo, galinha, mexido, c/ margarina, c/ sal",
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Bebida, café, infusão 10%, s/ açúcar ",
+                    "alimento": "Bebida, café, infusão 10%, s/ açúcar",
                     "quantidade": "150"
                 }
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Melão, polpa, in natura ",
+                    "alimento": "Melão, polpa, in natura",
                     "quantidade": "200"
                 }
             ],
             "Almoço": [
                 {
-                    "alimento": "Arroz com brócolis, c/ arroz polido, c/ sal ",
+                    "alimento": "Arroz com brócolis, c/ arroz polido, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal ",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Berinjela recheada, c/ muçarela, c/ vegetais, c/ sal ",
+                    "alimento": "Berinjela recheada, c/ muçarela, c/ vegetais, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Cenoura, s/ casca, cozida, drenada, s/ óleo, c/ sal ",
+                    "alimento": "Cenoura, s/ casca, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "60"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão, sírio, branco ",
+                    "alimento": "Pão, sírio, branco",
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Cream cheese (média de diferentes sabores) ",
+                    "alimento": "Cream cheese (média de diferentes sabores)",
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Suco natural, melancia, c/ açúcar ",
+                    "alimento": "Suco natural, melancia, c/ açúcar",
                     "quantidade": "200"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Pizza, muçarela, caseira ",
+                    "alimento": "Pizza, muçarela, caseira",
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Salada, folhas e vegetais, c/ óleo de soja e c/ sal ",
+                    "alimento": "Salada, folhas e vegetais, c/ óleo de soja e c/ sal",
                     "quantidade": "100"
                 }
             ],
             "Ceia": [
                 {
-                    "alimento": "Maçã, c/ casca, in natura ",
+                    "alimento": "Maçã, c/ casca, in natura",
                     "quantidade": "130"
                 }
             ]
@@ -9351,81 +9351,81 @@
         "5": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão, milho, forma ",
+                    "alimento": "Pão, milho, forma",
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Leite, vaca, integral, fluído ",
+                    "alimento": "Leite, vaca, integral, fluído",
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Pera, in natura ",
+                    "alimento": "Pera, in natura",
                     "quantidade": "130"
                 }
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Iogurte, natural, desnatado ",
+                    "alimento": "Iogurte, natural, desnatado",
                     "quantidade": "170"
                 },
                 {
-                    "alimento": "Semente de girassol, torrada, s/ óleo, s/ sal ",
+                    "alimento": "Semente de girassol, torrada, s/ óleo, s/ sal",
                     "quantidade": "15"
                 }
             ],
             "Almoço": [
                 {
-                    "alimento": "Macarrão, trigo, cozido, drenado, s/ óleo, c/ sal ",
+                    "alimento": "Macarrão, trigo, cozido, drenado, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Ervilha, enlatada, drenada ",
+                    "alimento": "Ervilha, enlatada, drenada",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Omelete, vegetais, c/ sal ",
+                    "alimento": "Omelete, vegetais, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Couve, crua ",
+                    "alimento": "Couve, crua",
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Beterraba, s/ casca, crua ",
+                    "alimento": "Beterraba, s/ casca, crua",
                     "quantidade": "50"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras) ",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Queijo, minas, padrão (média de diferentes amostras) ",
+                    "alimento": "Queijo, minas, padrão (média de diferentes amostras)",
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Suco, laranja, s/ açúcar ",
+                    "alimento": "Suco, laranja, s/ açúcar",
                     "quantidade": "200"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Sopa, abóbora, cabotian (japonesa), c/ sal ",
+                    "alimento": "Sopa, abóbora, cabotian (japonesa), c/ sal",
                     "quantidade": "300"
                 },
                 {
-                    "alimento": "Queijo, parmesão, ralado ",
+                    "alimento": "Queijo, parmesão, ralado",
                     "quantidade": "15"
                 },
                 {
-                    "alimento": "Ovo, galinha, inteiro, cozido, c/ sal ",
+                    "alimento": "Ovo, galinha, inteiro, cozido, c/ sal",
                     "quantidade": "50"
                 }
             ],
             "Ceia": [
                 {
-                    "alimento": "Banana, da terra, assada, s/ adição de ingredientes ",
+                    "alimento": "Banana, da terra, assada, s/ adição de ingredientes",
                     "quantidade": "100"
                 }
             ]
@@ -9863,7 +9863,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Molho, tomate, industrializado",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "60"
                 },
                 {
@@ -10015,7 +10015,7 @@
                     "quantidade": "170"
                 },
                 {
-                    "alimento": "Granola, caseira",
+                    "alimento": "Cereais, granola, caseira",
                     "quantidade": "30"
                 }
             ],
@@ -10637,7 +10637,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -10867,7 +10867,7 @@
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Bebida, café - infusão 8% - médio, s/ açúcar",
+                    "alimento": "Bebida, café, infusão 8% - médio, s/ açúcar",
                     "quantidade": "150"
                 }
             ],
@@ -11043,7 +11043,7 @@
         "5": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de differentes amostras)",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "50"
                 },
                 {
@@ -11943,7 +11943,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Molho, tomate, industrializado",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "60"
                 },
                 {
@@ -12749,7 +12749,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -13507,7 +13507,7 @@
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Morangos, in natura",
+                    "alimento": "Morango, in natura",
                     "quantidade": "100"
                 }
             ],
@@ -14035,7 +14035,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Molho, tomate, industrializado",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "80"
                 },
                 {
@@ -14309,7 +14309,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Cream cheese (média de differentes sabores)",
+                    "alimento": "Cream cheese (média de diferentes sabores)",
                     "quantidade": "30"
                 },
                 {
@@ -14631,7 +14631,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Bebida, café - infusão 8% - médio, s/ açúcar",
+                    "alimento": "Bebida, café, infusão 8% - médio, s/ açúcar",
                     "quantidade": "150"
                 }
             ],
@@ -14715,7 +14715,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Granola, caseira",
+                    "alimento": "Cereais, granola, caseira",
                     "quantidade": "20"
                 }
             ],
@@ -14739,7 +14739,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "80"
                 },
                 {
@@ -15125,7 +15125,7 @@
         "4": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de differentes amostras)",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "50"
                 },
                 {
@@ -15189,7 +15189,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Berinjela, c/ casca, cozida, drenada, s/ óleo, c/ sal",
+                    "alimento": "Beringela, c/ casca, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -15257,7 +15257,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de differentes amostras)",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "50"
                 },
                 {
@@ -15579,7 +15579,7 @@
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Morangos, in natura",
+                    "alimento": "Morango, in natura",
                     "quantidade": "100"
                 }
             ],
@@ -16107,7 +16107,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Molho, tomate, industrializado",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "60"
                 },
                 {
@@ -16691,7 +16691,7 @@
         "3": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de differentes amostras)",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "50"
                 },
                 {
@@ -16699,7 +16699,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Bebida, café - infusão 8% - médio, s/ açúcar",
+                    "alimento": "Bebida, café, infusão 8% - médio, s/ açúcar",
                     "quantidade": "150"
                 }
             ],
@@ -16889,7 +16889,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -16913,7 +16913,7 @@
             ],
             "Ceia": [
                 {
-                    "alimento": "Leite, vaca, desnatado, fluído (média de differentes amostras)",
+                    "alimento": "Leite, vaca, desnatado, fluído (média de diferentes amostras)",
                     "quantidade": "200"
                 },
                 {
@@ -17119,7 +17119,7 @@
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Bebida, café - infusão 8% - médio, s/ açúcar",
+                    "alimento": "Bebida, café, infusão 8% - médio, s/ açúcar",
                     "quantidade": "150"
                 }
             ],
@@ -17295,7 +17295,7 @@
         "5": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de differentes amostras)",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "50"
                 },
                 {
@@ -18187,7 +18187,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Molho, tomate, industrializado",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "80"
                 },
                 {
@@ -18293,7 +18293,7 @@
             ],
             "Ceia": [
                 {
-                    "alimento": "Leite, vaca, desnatado, fluído (média de differentes amostras)",
+                    "alimento": "Leite, vaca, desnatado, fluído (média de diferentes amostras)",
                     "quantidade": "200"
                 }
             ]
@@ -18337,7 +18337,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Salada, couve-flor, cozida, drenada, s/ óleo, c/ sal",
+                    "alimento": "Couve-flor, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -18519,7 +18519,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 }
             ],
@@ -18803,7 +18803,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Bebida, café - infusão 8% - médio, s/ açúcar",
+                    "alimento": "Bebida, café, infusão 8% - médio, s/ açúcar",
                     "quantidade": "150"
                 }
             ],
@@ -18993,7 +18993,7 @@
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Pão de queijo, industrializado, assado",
+                    "alimento": "Pão, de queijo, industrializado, assado",
                     "quantidade": "60"
                 },
                 {
@@ -19133,7 +19133,7 @@
                     "quantidade": "40"
                 },
                 {
-                    "alimento": "Bebida, café - infusão 8% - médio, s/ açúcar",
+                    "alimento": "Bebida, café, infusão 8% - médio, s/ açúcar",
                     "quantidade": "150"
                 }
             ],
@@ -19227,7 +19227,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Bebida, café - infusão 8% - médio, s/ açúcar",
+                    "alimento": "Bebida, café, infusão 8% - médio, s/ açúcar",
                     "quantidade": "200"
                 }
             ],
@@ -20287,7 +20287,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Molho, tomate, industrializado",
+                    "alimento": "Tomate, molho, industrializado",
                     "quantidade": "80"
                 },
                 {

@@ -557,7 +557,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, fradinho, cozido (50% grão e 50% caldo), c/ óleo, cebola e 1",
+                    "alimento": "Feijão, fradinho, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -623,7 +623,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Soja, leite",
+                    "alimento": "Coco, leite",
                     "quantidade": "250"
                 },
                 {
@@ -1663,7 +1663,7 @@
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Manjerona, in natura",
+                    "alimento": "Banana, in natura",
                     "quantidade": "5"
                 },
                 {
@@ -1907,7 +1907,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Tofu, soja",
+                    "alimento": "Óleo, soja",
                     "quantidade": "100"
                 },
                 {
@@ -2743,7 +2743,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Soja, leite",
+                    "alimento": "Coco, leite",
                     "quantidade": "250"
                 },
                 {
@@ -2883,7 +2883,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Avelã, crua, s/ sal",
+                    "alimento": "Avelã , crua, s/ sal",
                     "quantidade": "15"
                 }
             ],
@@ -3011,81 +3011,81 @@
         "1": {
             "Café da Manhã": [
                 {
-                    "alimento": "Tapioca, sem manteiga, sem recheio ",
+                    "alimento": "Tapioca, sem manteiga, sem recheio",
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Soja, extrato, bebida, natural (média de diferentes amostras) ",
+                    "alimento": "Soja, extrato, bebida, natural (média de diferentes amostras)",
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Banana, in natura ",
+                    "alimento": "Banana, in natura",
                     "quantidade": "100"
                 }
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Mamão, polpa, in natura ",
+                    "alimento": "Mamão, polpa, in natura",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Chia, semente, seca ",
+                    "alimento": "Chia, semente, seca",
                     "quantidade": "15"
                 }
             ],
             "Almoço": [
                 {
-                    "alimento": "Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal ",
+                    "alimento": "Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal ",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal ",
+                    "alimento": "Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Alface, crua ",
+                    "alimento": "Alface, crua",
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Tomate, in natura ",
+                    "alimento": "Tomate, in natura",
                     "quantidade": "80"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Amendoim, grão, cru ",
+                    "alimento": "Amendoim, grão, cru",
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Suco natural, abacaxi, s/ açúcar ",
+                    "alimento": "Suco natural, abacaxi, s/ açúcar",
                     "quantidade": "200"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Macarrão, trigo, integral, cozido, drenado, s/ óleo, c/ sal ",
+                    "alimento": "Macarrão, trigo, integral, cozido, drenado, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Lentilha, cozida, drenada, c/ óleo, cebola e alho, c/ sal ",
+                    "alimento": "Lentilha, cozida, drenada, c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Brócolos, flor, cozido, drenado, s/ óleo, c/ sal ",
+                    "alimento": "Brócolos, flor, cozido, drenado, s/ óleo, c/ sal",
                     "quantidade": "100"
                 }
             ],
             "Ceia": [
                 {
-                    "alimento": "Castanha do Brasil, crua ",
+                    "alimento": "Castanha do Brasil, crua",
                     "quantidade": "20"
                 },
                 {
-                    "alimento": "Bebida, chá, infusão, s/ açúcar (média de várias ervas) ",
+                    "alimento": "Bebida, chá, infusão, s/ açúcar (média de várias ervas)",
                     "quantidade": "200"
                 }
             ]
@@ -3093,81 +3093,81 @@
         "2": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão, sírio, branco ",
+                    "alimento": "Pão, sírio, branco",
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Tahini (pasta de gergelim) ",
+                    "alimento": "Tahini (pasta de gergelim)",
                     "quantidade": "20"
                 },
                 {
-                    "alimento": "Suco, laranja, s/ açúcar ",
+                    "alimento": "Suco, laranja, s/ açúcar",
                     "quantidade": "200"
                 }
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Maçã, c/ casca, in natura ",
+                    "alimento": "Maçã, c/ casca, in natura",
                     "quantidade": "130"
                 },
                 {
-                    "alimento": "Semente de girassol, torrada, s/ óleo, s/ sal ",
+                    "alimento": "Semente de girassol, torrada, s/ óleo, s/ sal",
                     "quantidade": "15"
                 }
             ],
             "Almoço": [
                 {
-                    "alimento": "Quinoa, grão, cozida, s/ óleo, s/ sal ",
+                    "alimento": "Quinoa, grão, cozida, s/ óleo, s/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Grão de bico, cozido, dreando, s/ óleo, c/ sal ",
+                    "alimento": "Grão de bico, cozido, dreando, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Batata, doce, s/ casca, cozida, drenada, s/ óleo, c/ sal ",
+                    "alimento": "Batata, doce, s/ casca, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Abobrinha, italiana, c/ casca, refogada (c/ óleo, cebola e alho), c/ sal ",
+                    "alimento": "Abobrinha, italiana, c/ casca, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Rúcula, crua ",
+                    "alimento": "Rúcula, crua",
                     "quantidade": "40"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Cereais, granola, caseira ",
+                    "alimento": "Cereais, granola, caseira",
                     "quantidade": "40"
                 },
                 {
-                    "alimento": "Soja, extrato, bebida (média de diferentes sabores) ",
+                    "alimento": "Soja, extrato, bebida (média de diferentes sabores)",
                     "quantidade": "200"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Arroz, polido, cozido, c/ óleo, cebola e alho, c/ sal ",
+                    "alimento": "Arroz, polido, cozido, c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Ervilha, grão, seca, partida, cozida, drenada, s/ óleo, c/ sal ",
+                    "alimento": "Ervilha, grão, seca, partida, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Abóbora, moranga, refogada (c/ óleo, cebolha e alho), c/ sal ",
+                    "alimento": "Abóbora, moranga, refogada (c/ óleo, cebolha e alho), c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Repolho, roxo, cru ",
+                    "alimento": "Repolho, roxo, cru",
                     "quantidade": "50"
                 }
             ],
             "Ceia": [
                 {
-                    "alimento": "Noz, crua ",
+                    "alimento": "Noz, crua",
                     "quantidade": "20"
                 }
             ]
@@ -3175,73 +3175,73 @@
         "3": {
             "Café da Manhã": [
                 {
-                    "alimento": "Cuscuz de milho, cozido, c/ sal ",
+                    "alimento": "Cuscuz de milho, cozido, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Soja, tofu ",
+                    "alimento": "Soja, tofu",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Coco, água ",
+                    "alimento": "Coco, água",
                     "quantidade": "200"
                 }
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Melão, polpa, in natura ",
+                    "alimento": "Melão, polpa, in natura",
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Linhaça, semente ",
+                    "alimento": "Linhaça, semente",
                     "quantidade": "10"
                 }
             ],
             "Almoço": [
                 {
-                    "alimento": "Macarrão, trigo, c/ vegetais, c/ sal ",
+                    "alimento": "Macarrão, trigo, c/ vegetais, c/ sal",
                     "quantidade": "250"
                 },
                 {
-                    "alimento": "Feijão, fradinho, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal ",
+                    "alimento": "Feijão, fradinho, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Cenoura, s/ casca, cozida, drenada, s/ óleo, c/ sal ",
+                    "alimento": "Cenoura, s/ casca, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Cebolinha, verde, crua ",
+                    "alimento": "Cebolinha, verde, crua",
                     "quantidade": "10"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Banana, da terra, assada, s/ adição de ingredientes ",
+                    "alimento": "Banana, da terra, assada, s/ adição de ingredientes",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Suco natural, melancia, c/ açúcar ",
+                    "alimento": "Suco natural, melancia, c/ açúcar",
                     "quantidade": "200"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Risoto de legumes, c/ arroz polido, c/ sal ",
+                    "alimento": "Risoto de legumes, c/ arroz polido, c/ sal",
                     "quantidade": "300"
                 },
                 {
-                    "alimento": "Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal ",
+                    "alimento": "Soja, proteína, texturizada, hidratada (c/ caldo de legumes), refogada, c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Espinafre, folha, refogada (c/ óleo, cebola e alho), c/ sal ",
+                    "alimento": "Espinafre, folha, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "60"
                 }
             ],
             "Ceia": [
                 {
-                    "alimento": "Pistache, cru, s/ sal ",
+                    "alimento": "Pistache, cru, s/ sal",
                     "quantidade": "15"
                 }
             ]
@@ -3249,77 +3249,77 @@
         "4": {
             "Café da Manhã": [
                 {
-                    "alimento": "Biscoito, arroz ",
+                    "alimento": "Biscoito, arroz",
                     "quantidade": "40"
                 },
                 {
-                    "alimento": "Abacate, polpa, in natura ",
+                    "alimento": "Abacate, polpa, in natura",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Soja, extrato, bebida, natural (média de diferentes amostras) ",
+                    "alimento": "Soja, extrato, bebida, natural (média de diferentes amostras)",
                     "quantidade": "200"
                 }
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Pera, in natura ",
+                    "alimento": "Pera, in natura",
                     "quantidade": "130"
                 },
                 {
-                    "alimento": "Semente de abóbora, inteira, torrada, s/ óleo, s/ sal ",
+                    "alimento": "Semente de abóbora, inteira, torrada, s/ óleo, s/ sal",
                     "quantidade": "15"
                 }
             ],
             "Almoço": [
                 {
-                    "alimento": "Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal ",
+                    "alimento": "Arroz, integral, cozido, c/ óleo, cebolha e alho, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Lentilha, cozida, drenada, c/ óleo, cebola e alho, c/ sal ",
+                    "alimento": "Lentilha, cozida, drenada, c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Mandioca (aipim, macaxeira), s/ casca, cozida, drenada, s/ óleo, c/ sal ",
+                    "alimento": "Mandioca (aipim, macaxeira), s/ casca, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Couve, manteiga, refogada (c/ óleo, cebola e alho), c/ sal ",
+                    "alimento": "Couve, manteiga, refogada (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Beterraba, s/ casca, crua ",
+                    "alimento": "Beterraba, s/ casca, crua",
                     "quantidade": "50"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Salada de frutas, c/ açúcar ",
+                    "alimento": "Salada de frutas, c/ açúcar",
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Aveia, crua (média de diferentes tipos) ",
+                    "alimento": "Aveia, crua (média de diferentes tipos)",
                     "quantidade": "20"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Sopa, feijão, preto, c/ sal ",
+                    "alimento": "Sopa, feijão, preto, c/ sal",
                     "quantidade": "350"
                 },
                 {
-                    "alimento": "Inhame, s/ casca, cozido, drenado, s/ óleo, c/ sal ",
+                    "alimento": "Inhame, s/ casca, cozido, drenado, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Salada, legumes cozidos, c/ óleo de soja, c/ sal ",
+                    "alimento": "Salada, legumes cozidos, c/ óleo de soja, c/ sal",
                     "quantidade": "100"
                 }
             ],
             "Ceia": [
                 {
-                    "alimento": "Avelã , crua, s/ sal ",
+                    "alimento": "Avelã , crua, s/ sal",
                     "quantidade": "15"
                 }
             ]
@@ -3327,77 +3327,77 @@
         "5": {
             "Café da Manhã": [
                 {
-                    "alimento": "Tapioca, sem manteiga, sem recheio ",
+                    "alimento": "Tapioca, sem manteiga, sem recheio",
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Soja, tofu ",
+                    "alimento": "Soja, tofu",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Suco natural, melancia, c/ açúcar ",
+                    "alimento": "Suco natural, melancia, c/ açúcar",
                     "quantidade": "200"
                 }
             ],
             "Lanche da Manhã": [
                 {
-                    "alimento": "Tangerina, Ponkã, in natura ",
+                    "alimento": "Tangerina, Ponkã, in natura",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Chia, semente, seca ",
+                    "alimento": "Chia, semente, seca",
                     "quantidade": "10"
                 }
             ],
             "Almoço": [
                 {
-                    "alimento": "Arroz, polido, cozido, c/ óleo, cebola e alho, c/ sal ",
+                    "alimento": "Arroz, polido, cozido, c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Grão de bico, cozido, dreando, s/ óleo, c/ sal ",
+                    "alimento": "Grão de bico, cozido, dreando, s/ óleo, c/ sal",
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal ",
+                    "alimento": "Batata baroa (mandioquinha, batata salsa), cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Salada, alface crespa, c/ óleo de soja, c/ sal ",
+                    "alimento": "Salada, alface crespa, c/ óleo de soja, c/ sal",
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Tomate, in natura ",
+                    "alimento": "Tomate, in natura",
                     "quantidade": "60"
                 }
             ],
             "Lanche da Tarde": [
                 {
-                    "alimento": "Amendoim, grão, cru ",
+                    "alimento": "Amendoim, grão, cru",
                     "quantidade": "30"
                 },
                 {
-                    "alimento": "Suco natural, goiaba, vermelha, s/ açúcar ",
+                    "alimento": "Suco natural, goiaba, vermelha, s/ açúcar",
                     "quantidade": "200"
                 }
             ],
             "Jantar": [
                 {
-                    "alimento": "Macarrão, trigo, integral, cozido, drenado, s/ óleo, c/ sal ",
+                    "alimento": "Macarrão, trigo, integral, cozido, drenado, s/ óleo, c/ sal",
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Ervilha, grão, seca, partida, cozida, drenada, s/ óleo, c/ sal ",
+                    "alimento": "Ervilha, grão, seca, partida, cozida, drenada, s/ óleo, c/ sal",
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Brócolos, flor, cozido, drenado, s/ óleo, c/ sal ",
+                    "alimento": "Brócolos, flor, cozido, drenado, s/ óleo, c/ sal",
                     "quantidade": "100"
                 }
             ],
             "Ceia": [
                 {
-                    "alimento": "Castanha de caju, crua, s/ sal ",
+                    "alimento": "Castanha de caju, crua, s/ sal",
                     "quantidade": "20"
                 }
             ]
@@ -3517,7 +3517,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, fradinho, cozido (50% grão e 50% caldo), c/ óleo, cebola e 1",
+                    "alimento": "Feijão, fradinho, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -3583,7 +3583,7 @@
                     "quantidade": "75"
                 },
                 {
-                    "alimento": "Geleia, s/ açúcar (média de differentes sabores)",
+                    "alimento": "Geleia, s/ açúcar (média de diferentes sabores)",
                     "quantidade": "30"
                 },
                 {
@@ -3987,7 +3987,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Geleia, fruta, s/ açúcar",
+                    "alimento": "Salada de frutas, c/ açúcar",
                     "quantidade": "30"
                 },
                 {
@@ -4195,7 +4195,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Chichória, crua",
+                    "alimento": "Chicória, crua",
                     "quantidade": "50"
                 },
                 {
@@ -4477,7 +4477,7 @@
         "4": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de differentes amostras)",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "50"
                 },
                 {
@@ -4839,7 +4839,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Soja, leite",
+                    "alimento": "Coco, leite",
                     "quantidade": "250"
                 },
                 {
@@ -4979,7 +4979,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Avelã, crua, s/ sal",
+                    "alimento": "Avelã , crua, s/ sal",
                     "quantidade": "15"
                 }
             ],
@@ -6083,7 +6083,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Geleia, fruta, s/ açúcar",
+                    "alimento": "Salada de frutas, c/ açúcar",
                     "quantidade": "30"
                 },
                 {
@@ -6291,7 +6291,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Chichória, crua",
+                    "alimento": "Chicória, crua",
                     "quantidade": "50"
                 },
                 {
@@ -7071,7 +7071,7 @@
                     "quantidade": "250"
                 },
                 {
-                    "alimento": "Avelã, crua, s/ sal",
+                    "alimento": "Avelã , crua, s/ sal",
                     "quantidade": "15"
                 }
             ],
@@ -7449,7 +7449,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Soja, extrato, bebida, natural (média de differentes amostras)",
+                    "alimento": "Soja, extrato, bebida, natural (média de diferentes amostras)",
                     "quantidade": "200"
                 }
             ],
@@ -7709,7 +7709,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -7731,7 +7731,7 @@
                     "quantidade": "60"
                 },
                 {
-                    "alimento": "Azeite de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 },
                 {
@@ -7853,7 +7853,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Leite de coco",
+                    "alimento": "Leite, vaca, c/ chocolate",
                     "quantidade": "50"
                 },
                 {
@@ -7935,7 +7935,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Milho, verde, cozido, s/ sal",
+                    "alimento": "Milho, verde, grão, cozido, drenado, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -7991,7 +7991,7 @@
                     "quantidade": "120"
                 },
                 {
-                    "alimento": "Brócolos, flor, refogado (c/ óleo, cebola e alho), c/ sal",
+                    "alimento": "Brócolis, flor, refogado (c/ óleo, cebola e alho), c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -8383,7 +8383,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Chichória, crua",
+                    "alimento": "Chicória, crua",
                     "quantidade": "50"
                 },
                 {
@@ -9105,7 +9105,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Avelã, crua, s/ sal",
+                    "alimento": "Avelã , crua, s/ sal",
                     "quantidade": "15"
                 },
                 {
@@ -9463,7 +9463,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, guandu, grão, seco, cozido (50% grão e 50% caldo), s/ óleo",
+                    "alimento": "Feijão, guandu, grão, seco, cozido (50% grão e 50% caldo), s/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -9513,7 +9513,7 @@
                     "quantidade": "50"
                 },
                 {
-                    "alimento": "Geleia, fruta (média de diferentes sabores)",
+                    "alimento": "Geleia, s/ açúcar (média de diferentes sabores)",
                     "quantidade": "20"
                 },
                 {
@@ -9565,7 +9565,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -9587,7 +9587,7 @@
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Melado, de cana",
+                    "alimento": "Melado, cana",
                     "quantidade": "20"
                 },
                 {
@@ -9777,7 +9777,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -9925,7 +9925,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Leite de coco",
+                    "alimento": "Leite, vaca, c/ chocolate",
                     "quantidade": "60"
                 },
                 {
@@ -10007,7 +10007,7 @@
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Milho, verde, cozido, s/ sal",
+                    "alimento": "Milho, verde, grão, cozido, drenado, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -10455,7 +10455,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Chichória, crua",
+                    "alimento": "Chicória, crua",
                     "quantidade": "50"
                 },
                 {
@@ -11181,7 +11181,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Avelã, crua, s/ sal",
+                    "alimento": "Avelã , crua, s/ sal",
                     "quantidade": "15"
                 },
                 {
@@ -11493,7 +11493,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Feijão, guandu, grão, seco, cozido (50% grão e 50% caldo), s/ óleo",
+                    "alimento": "Feijão, guandu, grão, seco, cozido (50% grão e 50% caldo), s/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -11757,7 +11757,7 @@
                     "quantidade": "200"
                 },
                 {
-                    "alimento": "Aveia, crua (média de differentes tipos)",
+                    "alimento": "Aveia, crua (média de diferentes tipos)",
                     "quantidade": "40"
                 }
             ],
@@ -11853,7 +11853,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -12083,7 +12083,7 @@
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Milho, verde, cozido, s/ sal",
+                    "alimento": "Milho, verde, grão, cozido, drenado, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -12535,7 +12535,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Chichória, crua",
+                    "alimento": "Chicória, crua",
                     "quantidade": "50"
                 },
                 {
@@ -13261,7 +13261,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Avelã, crua, s/ sal",
+                    "alimento": "Avelã , crua, s/ sal",
                     "quantidade": "15"
                 },
                 {
@@ -13949,7 +13949,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -13971,7 +13971,7 @@
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Azeite de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "10"
                 },
                 {
@@ -14097,7 +14097,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Leite de coco",
+                    "alimento": "Leite, vaca, c/ chocolate",
                     "quantidade": "60"
                 },
                 {
@@ -14179,7 +14179,7 @@
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Milho, verde, cozido, s/ sal",
+                    "alimento": "Milho, verde, grão, cozido, drenado, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -15353,7 +15353,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Avelã, crua, s/ sal",
+                    "alimento": "Avelã , crua, s/ sal",
                     "quantidade": "15"
                 },
                 {
@@ -16037,7 +16037,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -16181,7 +16181,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Leite de coco",
+                    "alimento": "Leite, vaca, c/ chocolate",
                     "quantidade": "50"
                 },
                 {
@@ -16263,7 +16263,7 @@
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Milho, verde, cozido, s/ sal",
+                    "alimento": "Milho, verde, grão, cozido, drenado, c/ sal",
                     "quantidade": "100"
                 },
                 {
@@ -16499,7 +16499,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Geleia, fruta, s/ açúcar",
+                    "alimento": "Salada de frutas, c/ açúcar",
                     "quantidade": "30"
                 },
                 {
@@ -16707,7 +16707,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Chichória, crua",
+                    "alimento": "Chicória, crua",
                     "quantidade": "50"
                 },
                 {
@@ -17511,7 +17511,7 @@
             ],
             "Ceia": [
                 {
-                    "alimento": "Avelã, crua, s/ sal",
+                    "alimento": "Avelã , crua, s/ sal",
                     "quantidade": "15"
                 },
                 {
@@ -17853,7 +17853,7 @@
                     "quantidade": "40"
                 },
                 {
-                    "alimento": "Geleia, fruta (média de diferentes sabores)",
+                    "alimento": "Geleia, s/ açúcar (média de diferentes sabores)",
                     "quantidade": "30"
                 },
                 {
@@ -18147,7 +18147,7 @@
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Azeite de oliva, extra virgem",
+                    "alimento": "Azeite, oliva",
                     "quantidade": "15"
                 },
                 {
@@ -18355,7 +18355,7 @@
                     "quantidade": "100"
                 },
                 {
-                    "alimento": "Milho, verde, cozido, s/ sal",
+                    "alimento": "Milho, verde, grão, cozido, drenado, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -18743,7 +18743,7 @@
         "5": {
             "Café da Manhã": [
                 {
-                    "alimento": "Pão francês, trigo, branco, de padaria (médias de differentes amostras)",
+                    "alimento": "Pão francês, trigo, branco, de padaria (médias de diferentes amostras)",
                     "quantidade": "100"
                 },
                 {
@@ -18803,7 +18803,7 @@
                     "quantidade": "180"
                 },
                 {
-                    "alimento": "Chichória, crua",
+                    "alimento": "Chicória, crua",
                     "quantidade": "50"
                 },
                 {
@@ -20197,7 +20197,7 @@
                     "quantidade": "150"
                 },
                 {
-                    "alimento": "Feijão, preto, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
+                    "alimento": "Feijão, carioca, cozido (50% grão e 50% caldo), c/ óleo, cebola e alho, c/ sal",
                     "quantidade": "120"
                 },
                 {
@@ -20403,7 +20403,7 @@
                     "quantidade": "80"
                 },
                 {
-                    "alimento": "Milho, verde, cozido, s/ sal",
+                    "alimento": "Milho, verde, grão, cozido, drenado, c/ sal",
                     "quantidade": "100"
                 },
                 {
