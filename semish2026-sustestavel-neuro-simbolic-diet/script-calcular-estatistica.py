@@ -478,6 +478,9 @@ arquivos_para_analisar = [
     "dietas-regular.json",
     "dietas-vegetariana.json",
     "dietas-vegana.json",
+    #     "otimizada-dietas-regular.json",
+    #     "otimizada-dietas-vegetariana.json",
+    #     "otimizada-dietas-vegana.json",
 ]
 
 processar_tudo(
